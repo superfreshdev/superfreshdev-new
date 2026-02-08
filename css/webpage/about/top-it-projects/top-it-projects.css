@@ -1,0 +1,43 @@
+/* --------------------------------------------------------------- */
+/* > top-it-projects.css
+/*
+/* : styles about top it projects
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Top IT Projects Container
+/* ---------------------------------------------------------------- */
+
+#about-top-it-projects-container {
+
+  width: 100%;
+  padding: 2em 0;
+  background-color: grey;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Top IT Projects Content Container
+/* ---------------------------------------------------------------- */
+
+#about-it-projects-content-container {
+
+  display: grid;
+  row-gap: 2em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Top IT Projects Content List
+/* ---------------------------------------------------------------- */
+
+#about-it-projects-content-list {
+
+  display: grid;
+  justify-items: center;
+
+  row-gap: 1em;
+  column-gap: 1em;
+
+}

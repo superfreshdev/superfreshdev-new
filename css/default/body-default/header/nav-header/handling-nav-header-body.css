@@ -1,0 +1,34 @@
+/* --------------------------------------------------------------- */
+/* > handlingnav-header-body.css
+/*
+/* : styles handling of nav header body
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Handling
+/* --------------------------------------------------------------- */
+
+/* radios default unshown */
+input[name="name-radio-nav-header-body"] {
+
+  display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Radio Checked | Styling
+/* --------------------------------------------------------------- */
+
+#radio-about:checked ~ #header-fixed-body label[for="radio-about"],
+#radio-more-it:checked ~ #header-fixed-body label[for="radio-more-it"],
+#radio-private:checked ~ #header-fixed-body label[for="radio-private"] {
+
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+
+  border: 1px solid rgb(157, 200, 216);
+  opacity: 1;
+
+  color:black;
+
+}

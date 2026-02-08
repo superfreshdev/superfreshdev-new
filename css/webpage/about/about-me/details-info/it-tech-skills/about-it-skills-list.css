@@ -1,0 +1,90 @@
+/* --------------------------------------------------------------- */
+/* > about-header-it-skills-list.css
+/*
+/* : styles about header it skills list
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* IT Skills List | About IT Skills Content
+/* ---------------------------------------------------------------- */
+
+.about-it-skills-list {
+
+  padding: 0 .8em;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .6em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* All | About IT Skill Link | strong, in use
+/* ---------------------------------------------------------------- */
+
+.about-it-skill-link-strong,
+.about-it-skill-link-in-use {
+
+  height: 2em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+  border-radius: .6em;
+  /* font-weight: bold; */
+  /* background-color: rgb(240, 240, 240); */
+
+  border: 1px solid rgb(232, 232, 232);
+  color: rgb(145, 145, 145);
+
+
+  text-decoration: none;
+  user-select: none;
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+.about-it-skill-link-strong > div,
+.about-it-skill-link-in-use > div {
+
+  font-size: 14.5px;
+}
+
+.about-it-skill-link-strong:hover,
+.about-it-skill-link-in-use:hover {
+
+  background-color: rgb(231, 231, 231);
+
+}
+
+.about-it-skill-link-strong:visited,
+.about-it-skill-link-in-use:visited {
+
+  color: rgb(145, 145, 145);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* About IT Skill Link Strong
+/* ---------------------------------------------------------------- */
+
+.about-it-skill-link-strong {
+
+
+}
+
+/* ---------------------------------------------------------------- */
+/* About IT Skill Link In Use
+/* ---------------------------------------------------------------- */
+
+.about-it-skill-link-in-use {
+
+  opacity: .5;
+  /* background-color: blue; */
+
+}

@@ -1,0 +1,91 @@
+/* -------------------------------------------------------------- */
+/* > custom-radio.css
+/*
+/* : styles custom radio css
+/* -------------------------------------------------------------- */
+
+
+/* ------------------------------------------------- */
+/* Custom Radio | Small, Default, Big
+/* ------------------------------------------------- */
+
+.custom-radio-small,
+.custom-radio-default,
+.custom-radio-big {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    border: 2px solid black;
+
+    background-color: rgb(214, 214, 214);
+
+
+}
+
+/* ------------------------------------------------- */
+/* Custom Radio | Small
+/* ------------------------------------------------- */
+
+.custom-radio-small {
+
+    min-height: .7em;
+    min-width: .7em;
+
+    max-height: .7em;
+    max-width: .7em;
+}
+
+.custom-radio-small > img:nth-of-type(1) {
+
+    height: 1.1em;
+
+    padding-bottom: .2em;
+    display: none;
+}
+
+
+/* ------------------------------------------------- */
+/* Custom Radio | Default
+/* ------------------------------------------------- */
+
+.custom-radio-default {
+
+    min-height: 1em;
+    min-width: 1em;
+
+    max-height: 1em;
+    max-width: 1em;
+
+}
+.custom-radio-default > img:nth-of-type(1) {
+
+    height: 1.5em;
+
+    padding-bottom: .23em;
+    display: none;
+}
+
+/* ------------------------------------------------- */
+/* Custom Radio | Big
+/* ------------------------------------------------- */
+
+.custom-radio-big {
+
+    min-height: 1.2em;
+    min-width: 1.2em;
+
+    max-height: 1.2em;
+    max-width: 1.2em;
+
+}
+
+.custom-radio-big > img:nth-of-type(1) {
+
+    height: 1.7em;
+
+    padding-bottom: .2em;
+    display: none;
+}

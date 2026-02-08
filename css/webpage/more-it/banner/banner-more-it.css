@@ -1,0 +1,54 @@
+/* --------------------------------------------------------------- */
+/* > banner-more-it.css
+/*
+/* : styles banner more it
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Banner Container
+/* ---------------------------------------------------------------- */
+
+#banner-container-more-it {
+
+  width: 100%;
+  height: 100%;
+
+  box-sizing: border-box;
+
+  padding: 2em 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2.3em;
+
+  background-color: rgb(255, 255, 255);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Img Banner More It
+/* ---------------------------------------------------------------- */
+
+#img-banner-more-it {
+
+  height: 8em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Title Banner More It
+/* ---------------------------------------------------------------- */
+
+#title-banner-more-it {
+
+  font-size: 26px;
+
+  line-height: 1.6em;
+
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+
+}

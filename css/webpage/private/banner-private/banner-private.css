@@ -1,0 +1,54 @@
+/* --------------------------------------------------------------- */
+/* > banner-private.css
+/*
+/* : styles banner private
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Banner Container
+/* ---------------------------------------------------------------- */
+
+#banner-container-private {
+
+  width: 100%;
+  height: 100%;
+
+  box-sizing: border-box;
+
+  padding: 2em 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2.3em;
+
+  background-color: rgb(255, 255, 255);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Img Banner Private
+/* ---------------------------------------------------------------- */
+
+#img-banner-private {
+
+  height: 8em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Title Banner Private
+/* ---------------------------------------------------------------- */
+
+#title-banner-private {
+
+  font-size: 26px;
+
+  line-height: 1.6em;
+
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+
+}

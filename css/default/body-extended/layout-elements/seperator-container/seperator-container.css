@@ -1,0 +1,57 @@
+/* --------------------------------------------------------------- */
+/* > seperator-container.css
+/*
+/* : default layouts to add seperator container between content
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* All | Seperator Img Container
+/* ---------------------------------------------------------------- */
+
+.seperator-img-container-center,
+.seperator-img-container-center-op-0-6,
+.seperator-img-container-left,
+.seperator-img-container-right {
+
+  display: flex;
+  align-items: center;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Center
+/* ---------------------------------------------------------------- */
+
+.seperator-img-container-center,
+.seperator-img-container-center-op-0-6 {
+
+  justify-content: center;
+
+}
+
+.seperator-img-container-center-op-0-6 {
+
+  opacity: .6;
+}
+
+/* ---------------------------------------------------------------- */
+/* Left
+/* ---------------------------------------------------------------- */
+
+.seperator-img-container-left {
+
+  justify-content: left;
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Right
+/* ---------------------------------------------------------------- */
+
+.seperator-img-container-right {
+
+  justify-content:right;
+
+}

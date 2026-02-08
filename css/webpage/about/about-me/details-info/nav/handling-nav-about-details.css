@@ -1,0 +1,54 @@
+/* --------------------------------------------------------------- */
+/* > handling-nav-about-details.css
+/*
+/* : styles handling of show more
+/* --------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------- */
+/* Handling Styles
+/* ---------------------------------------------------------------- */
+
+/* default unshow checkbox */
+input[name="name-radio-about-details"] {
+
+  display: none;
+
+}
+
+
+
+/* set background red */
+#radio-nav-about-details-it-skills:checked ~ #nav-about-details label[for="radio-nav-about-details-it-skills"],
+#radio-nav-about-details-hobbys:checked ~ #nav-about-details label[for="radio-nav-about-details-hobbys"],
+#radio-nav-about-details-story-behind-sd:checked ~ #nav-about-details label[for="radio-nav-about-details-story-behind-sd"],
+#radio-nav-about-details-mindset:checked ~ #nav-about-details label[for="radio-nav-about-details-mindset"] {
+
+  background-color: rgb(219, 114, 114);
+
+}
+
+
+/* change img custom radio */
+#radio-nav-about-details-it-skills:checked ~ #nav-about-details label[for="radio-nav-about-details-it-skills"] > .custom-radio-small > img,
+#radio-nav-about-details-hobbys:checked ~ #nav-about-details label[for="radio-nav-about-details-hobbys"] > .custom-radio-small > img,
+#radio-nav-about-details-story-behind-sd:checked ~ #nav-about-details label[for="radio-nav-about-details-story-behind-sd"] > .custom-radio-small > img,
+#radio-nav-about-details-mindset:checked ~ #nav-about-details label[for="radio-nav-about-details-mindset"] > .custom-radio-small > img {
+
+ display: flex;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Handling Action
+/* ---------------------------------------------------------------- */
+
+#radio-nav-about-details-it-skills:checked ~ #about-it-skills-content-container,
+#radio-nav-about-details-hobbys:checked ~ #about-hobbys-container,
+#radio-nav-about-details-story-behind-sd:checked ~ #about-story-behind-sd-container,
+#radio-nav-about-details-mindset:checked ~ #about-mindset-container {
+
+  display: grid;
+
+}

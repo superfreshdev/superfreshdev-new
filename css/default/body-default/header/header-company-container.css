@@ -1,0 +1,77 @@
+/* --------------------------------------------------------------- */
+/* > header-company-container.css
+/*
+/* : styles header company container
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Header Company Container
+/* --------------------------------------------------------------- */
+
+#header-company-container {
+
+  display: flex;
+  align-items: center;
+  column-gap: .8em;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Img |
+/* --------------------------------------------------------------- */
+
+#img-header-company {
+
+  height: 2.3em;
+  width: 2.3em;
+
+  border-radius: .4em;
+
+  /* border: 3px solid rgb(59, 59, 59);
+  border: 3px solid rgb(82, 82, 82);
+  border: 3px solid rgba(203, 203, 203, .3); */
+  /* border: 3px solid green; */
+
+  /* Very Small Mobile | unshown */
+  display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header Company Title Container |
+/* --------------------------------------------------------------- */
+
+#header-company-title-container {
+
+  line-height: 1.2em;
+
+  font-weight: bold;
+  font-style: italic;
+
+  /* ⚠️ Universal gestalten */
+  color: rgb(155, 155, 155);
+
+  /* small mobile default unshown */
+  display: none;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Div 1 | Header Company Title
+/* --------------------------------------------------------------- */
+
+#header-company-title {
+
+  font-weight: bold;
+
+}
+
+/* --------------------------------------------------------------- */
+/* Div 2 | Header Company Sub Title
+/* --------------------------------------------------------------- */
+
+#header-company-sub-title {
+
+
+}

@@ -1,0 +1,107 @@
+/* ----------------------------------------------------------------------- */
+/* resp-glass-containers.css
+/*
+/* > responsive sets of all glass containers
+/* > small, medium, large
+/* ----------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* All | Resp Glass Containers
+/* ------------------------------------------------------- */
+
+.resp-glass-container-small,
+.resp-glass-container-medium,
+.resp-glass-container-large  {
+
+    /* layout should be over background img */
+    z-index: 2;
+
+    padding: 0 .8em;
+    box-sizing: border-box;
+
+    /* important to stretch max height for content */
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    justify-items: center;
+
+    border-right: 1px solid rgb(63, 63, 63);
+    border-left: 1px solid rgb(63, 63, 63);
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+                rgba(0, 0, 0, 0.12) 0px -12px 30px,
+                rgba(0, 0, 0, 0.12) 0px 4px 6px,
+                rgba(0, 0, 0, 0.17) 0px 12px 13px,
+                rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+}
+
+/* ------------------------------------------------------- */
+/* Medium, Large
+/* Min Width >= 600px
+/* ------------------------------------------------------- */
+
+@media (min-width: 600px) {
+
+    .resp-glass-container-medium,
+    .resp-glass-container-large  {
+
+        width: 90%;
+        /* background-color: rgb(201, 126, 126); */
+
+    }
+
+}
+
+/* ------------------------------------------------------- */
+/* Small
+/* Min Width >= 800px
+/* ------------------------------------------------------- */
+
+
+@media (min-width: 800px) {
+
+    .resp-glass-container-small {
+
+      width: 35em;
+      /* background-color: rgb(201, 126, 126); */
+
+    }
+
+}
+
+/* ------------------------------------------------------- */
+/* Medium, Large
+/* Min Width >= 1000px
+/* ------------------------------------------------------- */
+
+@media (min-width: 1000px) {
+
+    .resp-glass-container-medium,
+    .resp-glass-container-large  {
+
+        width: 55em;
+        /* background-color: rgb(39, 65, 39); */
+
+    }
+
+}
+
+/* ------------------------------------------------------- */
+/* Large
+/* Min Width >= 1000px
+/* ------------------------------------------------------- */
+
+@media (min-width: 1200px) {
+
+    .resp-glass-container-large {
+
+        width: 65em;
+        /* background-color: magenta; */
+
+    }
+
+}

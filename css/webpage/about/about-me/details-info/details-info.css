@@ -1,0 +1,29 @@
+/* --------------------------------------------------------------- */
+/* > details-info.css
+/*
+/* : styles about details info
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Smooth Open Close | About Details Info Container
+/* ---------------------------------------------------------------- */
+
+#smooth-open-close-about-details-info-container {
+
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 0.3s ease-out;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Details Info Container
+/* ---------------------------------------------------------------- */
+
+#about-details-info-container {
+
+  color:yellow;
+
+}

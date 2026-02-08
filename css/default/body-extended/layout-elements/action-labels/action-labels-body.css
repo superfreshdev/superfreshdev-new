@@ -1,0 +1,99 @@
+/* ----------------------------------------------------------------------- */
+/* action-labels-body.css
+/*
+/* > styles custom action labels body, small, medium, large, big
+/* ----------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* All | Action Labels Body
+/* ------------------------------------------------------- */
+
+.action-label-body-small,
+.action-label-body-medium,
+.action-label-body-large,
+.action-label-body-big {
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .6em;
+
+  font-weight: bold;
+
+  border: 1px solid black;
+
+  background-color: rgb(157, 200, 216);;
+  color: #5d5d5d;
+
+  transition: all .4s;
+  cursor: pointer;
+  user-select: none;
+
+}
+
+/* hover */
+.action-label-body-small:hover,
+.action-label-body-medium:hover,
+.action-label-body-large:hover,
+.action-label-body-big:hover {
+
+  background-color: rgb(219, 114, 114);
+}
+
+/* important: this img is default little bit upper to text direction */
+.img-arrow-clap-pos-fix {
+
+  padding-top: 2px;
+
+}
+
+/* ------------------------------------------------------- */
+/* Small
+/* ------------------------------------------------------- */
+
+.action-label-body-small {
+
+  height: 1.6em;
+  padding: 0 .6em;
+  border-radius: .6em;
+
+
+}
+
+/* ------------------------------------------------------- */
+/* Medium
+/* ------------------------------------------------------- */
+
+.action-label-body-medium {
+
+  height: 2em;
+  padding: 0 .6em;
+  border-radius: .6em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Large
+/* ------------------------------------------------------- */
+
+.action-label-body-large {
+
+  height: 2.5em;
+  padding: 0 .6em;
+  border-radius: .6em;
+
+}
+
+
+/* ------------------------------------------------------- */
+/* Big
+/* ------------------------------------------------------- */
+
+.action-label-body-big {
+
+  height: 3em;
+  padding: 0 .6em;
+  border-radius: .6em;
+
+}

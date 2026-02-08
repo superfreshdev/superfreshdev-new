@@ -1,0 +1,59 @@
+/* --------------------------------------------------------------- */
+/* > header-body.css
+/*
+/* : default sets for body header
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Header Fixed Body
+/* --------------------------------------------------------------- */
+
+#header-fixed-body {
+
+  z-index: 100;
+
+  height: 4.5em;
+  width: 100%;
+
+  /* more space than in main */
+  padding-left: .8em;
+  padding-right: .8em;
+  box-sizing: border-box;
+
+  position: fixed;
+  left:0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-bottom: 3px solid rgb(36, 36, 36);
+
+  background-color: rgb(28, 28, 28);
+  color:white;
+
+  border-bottom: 4px solid rgb(157, 200, 216);
+
+
+}
+
+/* --------------------------------------------------------------- */
+/* Header Content Body
+/* --------------------------------------------------------------- */
+
+#header-content-body {
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    /* very small mobile */
+    justify-content: center;
+
+    /* background-color: red; */
+
+}

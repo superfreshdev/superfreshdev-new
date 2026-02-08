@@ -1,0 +1,79 @@
+/* --------------------------------------------------------------- */
+/* > about-header-it-skills.css
+/*
+/* : styles about header it skills
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Header | About IT Skills
+/* ---------------------------------------------------------------- */
+
+.header-about-it-skills {
+
+  height: 2.3em;
+  /* min-width: 13em; */
+
+  display: flex;
+  align-items: center;
+
+  border-radius: .6em;
+
+  font-weight: bold;
+
+  background-color: #e4e4e4;;
+  color: rgb(32, 32, 32);
+
+  opacity: .8;
+
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Div 1 | Nr
+/* ---------------------------------------------------------------- */
+
+.header-about-it-skills > div:nth-of-type(1) {
+
+  height: 100%;
+  width: 2.3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .6em 0 0 .6em;
+
+  background-color: rgb(206, 206, 206);
+  color:rgb(54, 54, 54);
+
+  /* display: none; */
+
+}
+
+.header-about-it-skills > div:nth-of-type(1) > span {
+
+  font-size: 14.5px;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Div 2 | Img + Title
+/* ---------------------------------------------------------------- */
+
+.header-about-it-skills > div:nth-of-type(2) {
+
+  padding: 0 1em 0 .8em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+}
+
+/* title */
+.header-about-it-skills > div:nth-of-type(2) > div {
+
+  font-size: 14.5px;
+
+}

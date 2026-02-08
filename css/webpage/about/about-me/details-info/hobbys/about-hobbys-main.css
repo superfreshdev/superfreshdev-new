@@ -1,0 +1,32 @@
+/* --------------------------------------------------------------- */
+/* > about-hobbys-main.css
+/*
+/* : styles about hobby main - the hobby items
+/* --------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* About Hobbys Main
+/* ------------------------------------------------------- */
+
+.about-hobbys-main {
+
+  width: 100%;
+  padding: 0 .8em;
+
+  display: grid;
+  align-items: flex-start;
+  justify-items: center;
+
+  /* mobile */
+  grid: 1fr / 1fr;
+
+  /* desktop */
+  /* grid: 1fr / 1fr 1fr; */
+
+  row-gap: 1.3em;
+  column-gap: 1.3em;
+
+  /* background-color: red; */
+
+}

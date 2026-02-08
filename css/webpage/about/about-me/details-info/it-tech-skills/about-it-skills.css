@@ -1,0 +1,77 @@
+/* --------------------------------------------------------------- */
+/* > about-it-skills.css
+/*
+/* : styles about it tech skills
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* About IT Skills | Content Container
+/* ---------------------------------------------------------------- */
+
+#about-it-skills-content-container {
+
+  width: 100%;
+  padding: 3.5em 0;
+
+  display: grid;
+  row-gap: 2em;
+
+  /* default unshown */
+  display: none;
+
+
+  background-color: white;
+
+}
+
+/* seperator img container | ⚠️ dont understand why 2 because its only 1 but it works only with 2*/
+#about-it-skills-content-container > .seperator-img-container-center:nth-of-type(2) {
+
+  padding: .5em 0 0 0;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* About IT Skills | List Content
+/* ---------------------------------------------------------------- */
+
+#about-it-skills-list-content {
+
+  display: grid;
+  /* justify-items: flex-start; */
+  justify-items: center;
+  row-gap: 2em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* About IT Skills | Content
+/* ---------------------------------------------------------------- */
+
+.about-it-skills-content {
+
+  display: grid;
+  /* justify-items: flex-start; */
+  justify-items: center;
+  row-gap: 2em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* About It Skills Quote Container
+/* ---------------------------------------------------------------- */
+
+#about-it-skills-quote-container {
+
+  padding: 0 .8em;
+
+  font-size: 14.5px;
+
+  text-align: center;
+
+  font-style: italic;
+
+  color: rgb(182, 182, 182);
+
+}

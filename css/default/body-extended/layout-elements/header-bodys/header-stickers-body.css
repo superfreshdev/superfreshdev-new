@@ -1,0 +1,62 @@
+/* ----------------------------------------------------------------------- */
+/* header-sticker-body.css
+/*
+/* > styles custom header stickers body, small, medium, big
+/* ----------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* All | header stickers
+/* ------------------------------------------------------- */
+
+.header-sticker-body-small,
+.header-sticker-body-medium,
+.header-sticker-body-big {
+
+  display: inline-flex;
+  align-items: center;
+  column-gap: .6em;
+
+  font-weight: bold;
+
+  background-color: #eeeeee;
+  color: #5d5d5d;
+
+}
+
+/* ------------------------------------------------------- */
+/* Small
+/* ------------------------------------------------------- */
+
+.header-sticker-body-small {
+
+  height: 1.6em;
+  padding: 0 .6em;
+  border-radius: .6em;
+
+
+}
+
+/* ------------------------------------------------------- */
+/* Medium
+/* ------------------------------------------------------- */
+
+.header-sticker-body-medium {
+
+  height: 2em;
+  padding: 0 .6em;
+  border-radius: .6em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Big
+/* ------------------------------------------------------- */
+
+.header-sticker-body-big {
+
+  height: 2.5em;
+  padding: 0 .6em;
+  border-radius: .6em;
+
+}

@@ -1,0 +1,121 @@
+/* --------------------------------------------------------------- */
+/* > nav-more-it.css
+/*
+/* : styles nav more it
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Nav Container
+/* ---------------------------------------------------------------- */
+
+#nav-container-more-it {
+
+  width: 100%;
+  padding: 1.5em 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap:.4em;
+  align-items: center;
+  justify-content: flex-end;
+
+  /* background-color: yellow; */
+  background-color: white;
+
+}
+
+/* ⚠️ Universal */
+/* ---------------------------------------------------------------- */
+/* Label Switch Content
+/* ---------------------------------------------------------------- */
+
+/*
+  medium, small, large
+*/
+
+.lbl-switch-content {
+
+  height: 2.1em;
+  padding: 0em .6em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .6em;
+  /* border-radius: 1.3em; */
+
+
+  border: 1px solid rgb(130, 130, 130);
+
+  opacity: .3;
+
+  color: rgb(203, 203, 203);
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+              rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+  user-select: none;
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+/* all first 2 divs = 14.5px , 3th div = custom radio */
+.lbl-switch-content > div:nth-of-type(1),
+.lbl-switch-content > div:nth-of-type(2) {
+
+  font-size: .90625em;
+  font-weight: bold;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Nr
+/* ---------------------------------------------------------------- */
+
+.nr-lbl-switch-content {
+
+  color:magenta;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Img Seperator
+/* ---------------------------------------------------------------- */
+
+.img-seperator-lbl-switch-content {
+
+  height: .9em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Label Switch Content Title Container
+/* ---------------------------------------------------------------- */
+
+.title-container-lbl-swtich-content {
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+}
+
+/* Title Label Switch Content */
+.title-lbl-switch-content {
+
+  color:green
+
+}
+
+/* Count Label Switch Content */
+.count-lbl-switch-content {
+
+  color:red;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Custom Radio
+/* ---------------------------------------------------------------- */

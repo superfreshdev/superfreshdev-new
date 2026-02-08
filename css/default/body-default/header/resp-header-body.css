@@ -1,0 +1,121 @@
+/* --------------------------------------------------------------- */
+/* > resp-header-body.css
+/*
+/* : set responsive styles of header body
+/* --------------------------------------------------------------- */
+
+
+/* --------------------------------------------------------------- */
+/* Min Width >= 400px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 400px) {
+
+  /* ----------------------------------------------------- */
+  /* Add Hover Effect | Nav Header Body
+  /* ----------------------------------------------------- */
+
+    /* default show all white imgs */
+    .lbl-nav-header-body > img:nth-of-type(1) {
+
+      display: flex;
+
+    }
+
+    /* default unshown all black imgs */
+    .lbl-nav-header-body > img:nth-of-type(2) {
+
+      display: none;
+
+    }
+
+    /* hover | unshown white img */
+    .lbl-nav-header-body:hover img:nth-of-type(1) {
+
+      display: none;
+
+    }
+
+    /* hover | show black img */
+    .lbl-nav-header-body:hover img:nth-of-type(2) {
+
+      display: flex;
+
+    }
+
+
+  /* ----------------------------------------------------- */
+  /* Add Radio Checked Handlings | Nav Header Body
+  /* ----------------------------------------------------- */
+
+    /* checked -> unshown white img  */
+    #radio-about:checked ~ #header-fixed-body label[for="radio-about"] > img:nth-of-type(1),
+    #radio-more-it:checked ~ #header-fixed-body label[for="radio-more-it"] > img:nth-of-type(1),
+    #radio-private:checked ~ #header-fixed-body label[for="radio-private"] > img:nth-of-type(1) {
+
+      display: none;
+
+    }
+
+    /* checked -> show black img */
+    #radio-about:checked ~ #header-fixed-body label[for="radio-about"] > img:nth-of-type(2),
+    #radio-more-it:checked ~ #header-fixed-body label[for="radio-more-it"] > img:nth-of-type(2),
+    #radio-private:checked ~ #header-fixed-body label[for="radio-private"] > img:nth-of-type(2) {
+
+      display: flex;
+
+    }
+
+}
+
+/* --------------------------------------------------------------- */
+/* Min Width >= 500px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 500px) {
+
+  #header-content-body {
+
+    justify-content: space-between;
+
+  }
+
+  #header-company-title-container  {
+
+    display: block;
+
+  }
+
+}
+
+/* --------------------------------------------------------------- */
+/* Min Width >= 560px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 560px) {
+
+
+  #img-header-company {
+
+    /* show img */
+    display: flex;
+
+  }
+
+}
+
+/* --------------------------------------------------------------- */
+/* Min Width >= 600px
+/* --------------------------------------------------------------- */
+
+@media (min-width: 600px) {
+
+  #header-fixed-body  {
+
+   /* delete padding which only important in mobile */
+   padding-left: 0;
+   padding-right: 0;
+
+  }
+
+}
