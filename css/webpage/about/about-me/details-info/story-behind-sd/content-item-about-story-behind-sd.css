@@ -1,0 +1,51 @@
+/* --------------------------------------------------------------- */
+/* > content-item-about-story-behind-sd.css
+/*
+/* : styles content item of about story behind sd
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Content Item | About Story Behind SD
+/* ---------------------------------------------------------------- */
+
+.content-item-about-story-behind-sd {
+
+  display: grid;
+  justify-items: center;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Header | About Story Behind SD
+/* ---------------------------------------------------------------- */
+
+.content-item-about-story-behind-sd > header {
+
+  height: 4.5em;
+
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+
+  font-weight: bold;
+  color:green;
+
+}
+
+.content-item-about-story-behind-sd > header > div {
+
+  font-size: 18px;
+  letter-spacing: .5px;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Main (Story) | About Story Behind SD
+/* ---------------------------------------------------------------- */
+
+.content-item-about-story-behind-sd > main {
+
+
+
+}

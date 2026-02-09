@@ -11,20 +11,71 @@
 
 #about-story-behind-sd-container {
 
-  width: 100%;
-  padding: 2em 0;
-  background-color: rgb(227, 46, 227);
+  padding: 3em .8em;
+
+  display: grid;
+  justify-items: center;
+  row-gap: 1.5em;
+
+  background-color: white;
+  color: black;
 
   /* default unshown */
   display: none;
 
 }
 
+
 /* ---------------------------------------------------------------- */
-/* About Story behind SD Content
+/* Info Container | About Story behind SD
 /* ---------------------------------------------------------------- */
 
-#about-story-behind-sd-content {
+#info-container-about-story-behind-sd {
 
+  display: grid;
+  row-gap: 1.5em;
+
+  background-color: grey;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Question Container | About Story behind SD
+/* ---------------------------------------------------------------- */
+
+#question-container-about-story-behind-sd {
+
+  display: grid;
+  row-gap: 0em;
+
+  font-weight: bold;
+  font-style: italic;
+
+  color: rgb(145, 145, 145);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Audio Container | About Story behind SD
+/* ---------------------------------------------------------------- */
+
+#audio-container-about-story-behind-sd {
+
+  display: grid;
+  row-gap: 1.5em;
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Content List | About Story behind SD
+/* ---------------------------------------------------------------- */
+
+#content-list-about-story-behind-sd {
+
+  display: grid;
+  row-gap: 2.5em;
+
+  background-color: rgb(206, 206, 206);
 
 }
