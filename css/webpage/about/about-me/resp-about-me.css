@@ -30,16 +30,6 @@
 
 
   /* -------------------------------------------------- */
-  /* Hobbys | Audio Container */
-  /* -------------------------------------------------- */
-  .about-hobbys-item-audio-container {
-
-    /* desktop */
-    width: 20em;
-
-  }
-
-  /* -------------------------------------------------- */
   /* Hobbys | Header | Audio Container */
   /* -------------------------------------------------- */
   .about-hobbys-item-audio-container > header {
@@ -53,8 +43,11 @@
   /* -------------------------------------------------- */
   .about-hobbys-item-audio-container > audio {
 
+    width: 100%;
+
     /* mobile, show audio */
     display: grid;
+
 
   }
 
