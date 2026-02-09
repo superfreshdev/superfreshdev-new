@@ -25,7 +25,6 @@
 
 }
 
-
 /* ---------------------------------------------------------------- */
 /* Info Container | About Story behind SD
 /* ---------------------------------------------------------------- */
@@ -33,9 +32,10 @@
 #info-container-about-story-behind-sd {
 
   display: grid;
+  justify-items: center;
   row-gap: 1.5em;
 
-  background-color: grey;
+  /* background-color: grey; */
 
 }
 
@@ -45,8 +45,7 @@
 
 #question-container-about-story-behind-sd {
 
-  display: grid;
-  row-gap: 0em;
+  text-align: center;
 
   font-weight: bold;
   font-style: italic;
@@ -56,16 +55,15 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Audio Container | About Story behind SD
+/* Audio | About Story behind SD
 /* ---------------------------------------------------------------- */
 
-#audio-container-about-story-behind-sd {
+#info-container-about-story-behind-sd > audio {
 
-  display: grid;
-  row-gap: 1.5em;
+  /* small mobile */
+  display: none;
 
 }
-
 
 /* ---------------------------------------------------------------- */
 /* Content List | About Story behind SD
@@ -74,8 +72,7 @@
 #content-list-about-story-behind-sd {
 
   display: grid;
-  row-gap: 2.5em;
-
-  background-color: rgb(206, 206, 206);
+  /* row-gap: .5em; */
+  /* background-color: red; */
 
 }

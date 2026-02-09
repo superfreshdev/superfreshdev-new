@@ -14,6 +14,51 @@
   display: grid;
   justify-items: center;
 
+  border-radius: .8em;
+  /* border: 1px solid black; */
+
+  /* background-color: rgb(218, 218, 218); */
+  color: rgb(75, 75, 75);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Imgs | About Story Behind SD
+/* ---------------------------------------------------------------- */
+
+#img-about-cold-shower {
+
+  height: 4em;
+
+  float: right;
+  padding: 0 0 .4em .4em;
+  height: 7.5em;
+
+}
+
+#img-about-viking {
+
+  float: left;
+  margin: .6em 1em .4em 0em;
+  height: 6em;
+  border-radius: .4em;
+
+}
+
+#img-about-freaky {
+
+  float: right;
+  padding: .4em 0 .4em .4em;
+  height: 8em;
+
+}
+
+#img-about-wave-rocket {
+
+  float: left;
+  padding: .4em .8em .4em 0;
+  height: 4em;
+
 }
 
 /* ---------------------------------------------------------------- */
@@ -28,15 +73,27 @@
   align-items: center;
   /* justify-content: center; */
 
-  font-weight: bold;
-  color:green;
+
+  color:rgb(97, 97, 97);
 
 }
 
 .content-item-about-story-behind-sd > header > div {
 
-  font-size: 18px;
+  height: 2em;
+  padding: 0 .8em;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 14.5px;
   letter-spacing: .5px;
+
+  font-weight: bold;
+
+  border-radius: .6em;
+
+  background-color: rgb(237, 237, 237);
 
 }
 
@@ -46,6 +103,11 @@
 
 .content-item-about-story-behind-sd > main {
 
+  padding: .8em;
 
+  border-radius: .8em;
+  border: 1px solid rgb(211, 211, 211);
+  background-color: rgb(237, 237, 237);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }
