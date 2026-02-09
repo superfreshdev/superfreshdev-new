@@ -93,7 +93,8 @@
 
   border-radius: .6em;
 
-  background-color: rgb(237, 237, 237);
+  background-color: #f3f3f3;
+  color:rgb(144, 144, 144);
 
 }
 
@@ -107,7 +108,7 @@
 
   border-radius: .8em;
   border: 1px solid rgb(211, 211, 211);
-  background-color: rgb(237, 237, 237);
+  background-color: #f3f3f3;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
 }

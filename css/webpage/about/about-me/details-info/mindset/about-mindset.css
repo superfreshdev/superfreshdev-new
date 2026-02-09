@@ -12,19 +12,15 @@
 #about-mindset-container {
 
   width: 100%;
-  padding: 2em 0;
-  background-color: rgb(67, 67, 199);
+  padding: 3.5em 0;
+
+  display: grid;
+  justify-items: center;
+  row-gap: 2em;
+
+  background-color: white;
 
   /* default unshown */
   display: none;
-
-}
-
-/* ---------------------------------------------------------------- */
-/* About Mindset Content
-/* ---------------------------------------------------------------- */
-
-#about-mindset-content {
-
 
 }

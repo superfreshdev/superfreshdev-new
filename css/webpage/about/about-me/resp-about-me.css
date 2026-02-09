@@ -73,11 +73,58 @@
   /* ------------------------------------ */
   /* Quick Info | Img About Me  */
   /* ------------------------------------ */
+
   #img-about-me {
 
     width: 14.5em;
 
   }
+
+  /* ---------------------------------------------------------------- */
+  /* Mindset | 3 Quote Word Container
+  /* ---------------------------------------------------------------- */
+
+  #about-mindset-3-quote-word-container {
+
+    display: flex;
+    justify-items: center;
+    column-gap: .4em;
+
+  }
+
+  /* ---------------------------------------------------------------- */
+  /* Mindset | Imgs | Brace left, right
+  /* ---------------------------------------------------------------- */
+
+  /* left */
+  #img-brace-left-3-quote-word {
+
+    /* mobile */
+    transform: rotate(-180deg);
+
+  }
+
+  /* right */
+  #img-brace-right-3-quote-word {
+
+    /* mobile */
+    transform: rotate(0deg);
+
+  }
+
+  /* ---------------------------------------------------------------- */
+  /* Mindset | 3 Quote Word Content
+  /* ---------------------------------------------------------------- */
+
+  #about-mindset-3-quote-word-content {
+
+    display: flex;
+    align-items: center;
+    column-gap: .4em;
+
+  }
+
+
 
 }
 
@@ -155,6 +202,17 @@
   #content-list-about-story-behind-sd {
 
     width: 40em;
+  }
+
+  /* ---------------------------------------------------------------- */
+  /* Mindset | About Mindset Video Container
+  /* ---------------------------------------------------------------- */
+
+  #about-mindset-video-container {
+
+    width: 42em;
+    grid: 1fr / 1fr 1fr;
+
   }
 
 
