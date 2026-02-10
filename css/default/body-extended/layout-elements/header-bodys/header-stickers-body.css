@@ -15,13 +15,19 @@
 
   display: inline-flex;
   align-items: center;
-  column-gap: .6em;
 
   font-weight: bold;
 
   background-color: #eeeeee;
   color: #5d5d5d;
 
+}
+
+.header-sticker-body-small > div,
+.header-sticker-body-medium > div,
+.header-sticker-body-big > div {
+
+  font-size: 14.5px;
 }
 
 /* ------------------------------------------------------- */
@@ -34,7 +40,6 @@
   padding: 0 .6em;
   border-radius: .6em;
 
-
 }
 
 /* ------------------------------------------------------- */
@@ -46,6 +51,8 @@
   height: 2em;
   padding: 0 .6em;
   border-radius: .6em;
+
+  column-gap: .4em;
 
 }
 

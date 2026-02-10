@@ -156,7 +156,7 @@
   /* ------------------------------------ */
   /* Quick Info | Img Seperaotr  */
   /* ------------------------------------ */
-  #img-about-quick-info-seperator {
+  #img-seperator-about-quick-info {
 
     display: flex;
 
@@ -165,7 +165,7 @@
   /* ------------------------------------ */
   /* Quick Info | Container  */
   /* ------------------------------------ */
-  #about-quick-info-container {
+  #quick-info-about-container {
 
     row-gap: 0em;
 

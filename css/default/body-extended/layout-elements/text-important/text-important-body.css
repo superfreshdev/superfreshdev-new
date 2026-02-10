@@ -29,6 +29,19 @@
 .txt-b-sfd {
 
   font-weight: bold;
-  color:rgb(74, 130, 220);
+  color: rgba(0, 242, 254, .6);
+
+}
+
+
+/* ------------------------------------------------------- */
+/* SFD Styles Gradient Style ( with color )
+/* ------------------------------------------------------- */
+
+.gradient-text-sfd-blue {
+
+  background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
 }

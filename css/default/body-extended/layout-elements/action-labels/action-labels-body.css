@@ -21,14 +21,25 @@
 
   font-weight: bold;
 
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
-  background-color: rgb(157, 200, 216);;
-  color: #5d5d5d;
+  background-color: rgb(157, 200, 216);
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+
+  color: #1e1e1e;
 
   transition: all .4s;
   cursor: pointer;
   user-select: none;
+
+}
+
+.action-label-body-small > div,
+.action-label-body-medium > div,
+.action-label-body-large > div,
+.action-label-body-big > div {
+
+  font-size: 14.5px;
 
 }
 
@@ -38,7 +49,8 @@
 .action-label-body-large:hover,
 .action-label-body-big:hover {
 
-  background-color: rgb(219, 114, 114);
+  /* background-color: #db7272; */
+  background-image: linear-gradient(to right, #db7272, #da9292);
 }
 
 /* important: this img is default little bit upper to text direction */
@@ -79,7 +91,7 @@
 
 .action-label-body-large {
 
-  height: 2.5em;
+  height: 2.3em;
   padding: 0 .6em;
   border-radius: .6em;
 

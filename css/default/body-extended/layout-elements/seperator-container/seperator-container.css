@@ -6,14 +6,42 @@
 
 
 /* ---------------------------------------------------------------- */
+/* All | Seperator Background Container
+/* ---------------------------------------------------------------- */
+
+.seperator-background-container-light-grey-padd-0-5-0 {
+
+  width: 100%;
+  padding: .5em 0;
+
+  display: flex;
+  align-items: center;
+
+  background-color: rgb(250, 250, 250);
+
+}
+
+/* ---------------------------------------------------------------- */
 /* All | Seperator Img Container
 /* ---------------------------------------------------------------- */
 
 .seperator-img-container-center,
-.seperator-img-container-center-op-0-6,
+.seperator-img-container-center-padd-0-5-0,
+.seperator-img-container-center-padd-1-0,
+.seperator-img-container-center-img-op-0-6,
+.seperator-img-container-center-img-op-0-6-padd-0-5-0,
+.seperator-img-container-center-img-op-0-6-padd-1-0  {
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+}
+
 .seperator-img-container-left,
 .seperator-img-container-right {
 
+  width: 100%;
   display: flex;
   align-items: center;
 
@@ -24,15 +52,37 @@
 /* ---------------------------------------------------------------- */
 
 .seperator-img-container-center,
-.seperator-img-container-center-op-0-6 {
+.seperator-img-container-center-padd-0-5-0,
+.seperator-img-container-center-padd-1-0,
+.seperator-img-container-center-img-op-0-6,
+.seperator-img-container-center-img-op-0-6-padd-0-5-0,
+.seperator-img-container-center-img-op-0-6-padd-1-0  {
 
   justify-content: center;
 
 }
 
-.seperator-img-container-center-op-0-6 {
+/* img opacity */
+.seperator-img-container-center-img-op-0-6 > img,
+.seperator-img-container-center-img-op-0-6-padd-0-5-0 > img,
+.seperator-img-container-center-img-op-0-6-padd-1-0 > img {
 
   opacity: .6;
+
+}
+
+/* img opacity + padding 0.5 0 */
+.seperator-img-container-center-img-op-0-6-padd-0-5-0,
+.seperator-img-container-center-padd-0-5-0 {
+
+  padding: .5em 0;
+
+}
+
+.seperator-img-container-center-img-op-0-6-padd-1-0,
+.seperator-img-container-center-padd-1-0 {
+
+  padding: 1em 0;
 }
 
 /* ---------------------------------------------------------------- */

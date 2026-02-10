@@ -17,8 +17,6 @@ input[name="name-radio-about-details"] {
 
 }
 
-
-
 /* set background red */
 #radio-nav-about-details-it-skills:checked ~ #nav-about-details label[for="radio-nav-about-details-it-skills"],
 #radio-nav-about-details-hobbys:checked ~ #nav-about-details label[for="radio-nav-about-details-hobbys"],
@@ -26,9 +24,9 @@ input[name="name-radio-about-details"] {
 #radio-nav-about-details-mindset:checked ~ #nav-about-details label[for="radio-nav-about-details-mindset"] {
 
   background-color: rgb(219, 114, 114);
+  background-image: linear-gradient(to right, #db7272, #da9292);
 
 }
-
 
 /* change img custom radio */
 #radio-nav-about-details-it-skills:checked ~ #nav-about-details label[for="radio-nav-about-details-it-skills"] > .custom-radio-small > img,

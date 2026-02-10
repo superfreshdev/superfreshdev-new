@@ -20,17 +20,10 @@
   /* default unshown */
   display: none;
 
-
   background-color: white;
 
 }
 
-/* seperator img container | ⚠️ dont understand why 2 because its only 1 but it works only with 2*/
-#about-it-skills-content-container > .seperator-img-container-center:nth-of-type(2) {
-
-  padding: .5em 0 0 0;
-
-}
 
 /* ---------------------------------------------------------------- */
 /* About IT Skills | List Content
