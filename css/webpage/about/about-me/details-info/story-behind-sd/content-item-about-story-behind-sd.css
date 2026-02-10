@@ -73,9 +73,6 @@
   align-items: center;
   /* justify-content: center; */
 
-
-  color:rgb(97, 97, 97);
-
 }
 
 .content-item-about-story-behind-sd > header > div {
@@ -89,12 +86,15 @@
   font-size: 14.5px;
   letter-spacing: .5px;
 
+  font-style: italic;
   font-weight: bold;
 
   border-radius: .6em;
 
+  border: 1px solid rgb(211, 211, 211);
+
   background-color: #f3f3f3;
-  color:rgb(144, 144, 144);
+  color: rgb(158, 158, 158);
 
 }
 
@@ -108,6 +108,7 @@
 
   border-radius: .8em;
   border: 1px solid rgb(211, 211, 211);
+
   background-color: #f3f3f3;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
