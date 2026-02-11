@@ -38,9 +38,6 @@
   /* because of fixed header height 5em default */
   padding-top: 4.5em;
 
-  /* padding-left: .4em;
-  padding-right: .4em; */
-
   /* important to let resp content areas correct work */
   width: 100%;
   height: 100%;

@@ -12,7 +12,19 @@
 #about-top-it-projects-container {
 
   width: 100%;
-  /* background-color: rgb(245, 245, 245); */
+
+  background-color: rgb(245, 245, 245);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Row Container 1 (overwrite) | Top IT Projects Container
+/* ---------------------------------------------------------------- */
+
+/* overwerite bg-color "row container" */
+#about-top-it-projects-container > .row-container:nth-of-type(1) {
+
+  background-color: rgb(245, 245, 245);
 
 }
 
@@ -20,13 +32,15 @@
 /* Top IT Projects Content Container
 /* ---------------------------------------------------------------- */
 
-#about-it-projects-content-container {
+#about-top-it-projects-content-container {
 
   width: 100%;
-  padding: 2em 0;
+  padding: 2.5em 0;
 
   display: grid;
   row-gap: 3.5em;
+
+  /* background-color: red; */
 
 }
 

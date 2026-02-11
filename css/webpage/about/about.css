@@ -23,9 +23,12 @@
   /* row-gap: 1em; */
   grid: auto auto 1fr / 1fr;
 
-  row-gap: 1em;
 
-  /* background-color: green; */
+  /* align-items: flex-start; */
+
+  /* row-gap: 1.5em; */
+
+  /* background-color: rgb(128, 0, 105); */
 
 }
 
