@@ -13,8 +13,18 @@
 
   width: 100%;
 
-  padding: 2em 0;
-  background-color: lightblue;
+}
+
+/* ---------------------------------------------------------------- */
+/* Header Content Body | Contact Me Container
+/* ---------------------------------------------------------------- */
+
+#about-contact-me-container .header-content-body:nth-of-type(1) {
+
+  justify-self: flex-start;
+  justify-self: flex-end;
+
+  background-color: red;
 
 }
 
@@ -24,16 +34,59 @@
 
 #about-contact-me-content-container {
 
+  width: 100%;
+  padding: 2em 0;
 
+  /* background-color: rgb(245, 245, 245); */
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Img Clipart | Contact Me
+/* ---------------------------------------------------------------- */
+
+#img-clipart-contact-me {
 
 
 }
 
 /* ---------------------------------------------------------------- */
-/* Contact Me Info Container
+/* Info Email Container | About Contact Me
 /* ---------------------------------------------------------------- */
 
-#contact-me-info-container {
+#info-email-container-about-contact-me {
 
+  padding: 2em 0;
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  background-color: grey;
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Info Email Container | About Contact Me
+/* ---------------------------------------------------------------- */
+
+#email-about-contact-me {
+
+  text-decoration: none;
+
+}
+
+/* hover */
+#email-about-contact-me:hover {
+
+  text-decoration: none;
+
+}
+
+/* visited */
+#email-about-contact-me:visited {
+
+  text-decoration: none;
 
 }

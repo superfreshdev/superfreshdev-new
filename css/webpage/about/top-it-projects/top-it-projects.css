@@ -12,8 +12,7 @@
 #about-top-it-projects-container {
 
   width: 100%;
-  padding: 2em 0;
-  background-color: grey;
+  /* background-color: rgb(245, 245, 245); */
 
 }
 
@@ -23,8 +22,11 @@
 
 #about-it-projects-content-container {
 
+  width: 100%;
+  padding: 2em 0;
+
   display: grid;
-  row-gap: 2em;
+  row-gap: 3.5em;
 
 }
 

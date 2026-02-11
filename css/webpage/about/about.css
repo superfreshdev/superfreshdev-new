@@ -23,6 +23,8 @@
   /* row-gap: 1em; */
   grid: auto auto 1fr / 1fr;
 
+  row-gap: 1em;
+
   /* background-color: green; */
 
 }

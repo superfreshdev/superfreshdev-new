@@ -72,7 +72,7 @@
 
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 
-  border: 1px solid rgb(157, 200, 216);
+  /* border: 1px solid rgb(157, 200, 216); */
   opacity: 1;
 
 }

@@ -1,55 +1,49 @@
 /* ----------------------------------------------------------------------- */
-/* resp-glass-containers.css
+/* ⚠️ resp-content-page-containers.css
 /*
-/* > responsive sets of all glass containers
-/* > small, medium, large
+/* > responsive sets of all content page containers
+/* > small, medium, big
 /* ----------------------------------------------------------------------- */
 
 
-/* ------------------------------------------------------- */
-/* All | Resp Glass Containers
-/* ------------------------------------------------------- */
+/* --------------------------------------------------------------------- */
+/* All | Resp Content Page Containers (small,medium,big)
+/* --------------------------------------------------------------------- */
 
-.resp-glass-container-small,
-.resp-glass-container-medium,
-.resp-glass-container-large  {
+.resp-content-page-container-small,
+.resp-content-page-container-medium,
+.resp-content-page-container-big {
 
     /* layout should be over background img */
     z-index: 2;
-
-    padding: 0 .8em;
-    box-sizing: border-box;
 
     /* important to stretch max height for content */
     height: 100%;
     width: 100%;
 
+    box-sizing: border-box;
+
+    padding: 0 .8em;
+
     display: grid;
     justify-items: center;
 
-    border-right: 1px solid rgb(63, 63, 63);
-    border-left: 1px solid rgb(63, 63, 63);
-
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-                rgba(0, 0, 0, 0.12) 0px -12px 30px,
-                rgba(0, 0, 0, 0.12) 0px 4px 6px,
-                rgba(0, 0, 0, 0.17) 0px 12px 13px,
-                rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+    /* background-color: red; */
 
 }
 
 /* ------------------------------------------------------- */
-/* Medium, Large
+/* Medium, Big
 /* Min Width >= 600px
 /* ------------------------------------------------------- */
 
 @media (min-width: 600px) {
 
-    .resp-glass-container-medium,
-    .resp-glass-container-large  {
+   .resp-content-page-container-medium,
+   .resp-content-page-container-big  {
 
-        width: 90%;
+        width: 85%;
+        padding: 0 0;
         /* background-color: rgb(201, 126, 126); */
 
     }
@@ -64,7 +58,7 @@
 
 @media (min-width: 800px) {
 
-    .resp-glass-container-small {
+    .resp-content-page-container-small {
 
       width: 35em;
       /* background-color: rgb(201, 126, 126); */
@@ -74,14 +68,15 @@
 }
 
 /* ------------------------------------------------------- */
-/* Medium, Large
+/* Medium, Big
 /* Min Width >= 1000px
 /* ------------------------------------------------------- */
 
 @media (min-width: 1000px) {
 
-    .resp-glass-container-medium,
-    .resp-glass-container-large  {
+
+   .resp-content-page-container-medium,
+   .resp-content-page-container-big  {
 
         width: 55em;
         /* background-color: rgb(39, 65, 39); */
@@ -91,13 +86,14 @@
 }
 
 /* ------------------------------------------------------- */
-/* Large
+/* Big
 /* Min Width >= 1000px
 /* ------------------------------------------------------- */
 
 @media (min-width: 1200px) {
 
-    .resp-glass-container-large {
+
+    .resp-content-page-container-big  {
 
         width: 65em;
         /* background-color: magenta; */

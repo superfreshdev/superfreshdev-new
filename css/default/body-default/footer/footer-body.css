@@ -23,7 +23,7 @@
   background-color: rgb(28, 28, 28);
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 
-  border-top: 3px solid rgb(157, 200, 216);
+  border-top: 4px solid rgba(0, 242, 254, .3);
 
 }
 
@@ -36,16 +36,15 @@
   width: 100%;
   height: 3.5em;
 
+  box-sizing: border-box;
+
   /* more space than in main */
   padding-left: .8em;
   padding-right: .8em;
-  box-sizing: border-box;
-
 
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  /* justify-content: center; */
+  justify-content: center;
 
 }
 
@@ -82,7 +81,7 @@
 /* slash */
 #footer-body-title-slash {
 
-  color:rgb(157, 200, 216);
+  color:rgba(0, 242, 254, .6);
   opacity: .8;
 
 }
@@ -90,7 +89,7 @@
 /* year */
 #footer-body-title-year {
 
-  color:rgb(157, 200, 216);
+  color: rgba(0, 242, 254, .6);
   opacity: .8;
 
 }

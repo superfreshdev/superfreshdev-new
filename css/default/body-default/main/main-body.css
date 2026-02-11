@@ -11,6 +11,8 @@
 
 #main-body {
 
+  position: relative;
+
   /* important: to go by max height of parent element */
   height: 100%;
 
@@ -21,8 +23,6 @@
   /* it calcs the width & height sizes togehter and we get
   /* an useless scrollbar & that destorys an clean layout
   */
-
-  /* position: relative; */
 
   display: grid;
   /* background-color: rgb(196, 182, 182); */
