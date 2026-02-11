@@ -38,9 +38,20 @@
   padding: 2.5em 0;
 
   display: grid;
+  justify-items: center;
   row-gap: 3.5em;
 
   /* background-color: red; */
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Header Content Body | Top IT Projects Content Container
+/* ---------------------------------------------------------------- */
+
+#about-top-it-projects-content-container .header-content-body:nth-last-of-type(1) {
+
+  justify-self: flex-start;
 
 }
 
@@ -50,10 +61,13 @@
 
 #about-it-projects-content-list {
 
+  width: 100%;
+
   display: grid;
   justify-items: center;
+  align-items: flex-start;
 
-  row-gap: 1em;
-  column-gap: 1em;
+  row-gap: 3em;
+  column-gap: 1.5em;
 
 }
