@@ -46,7 +46,7 @@
 
 #about-contact-me-content-container .header-content-body:nth-of-type(1) {
 
-  justify-self: flex-start;
+  justify-self: center;
   /* background-color: red; */
 
 }

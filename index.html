@@ -26,7 +26,7 @@
       <!-- ------------------------------------------------------------------------------- -->
 
         <!-- -------------------------------------------- -->
-        <!-- 🟩 [1/3] | sets -->
+        <!-- 🟩 [1/?] | sets -->
         <!-- -------------------------------------------- -->
 
           <!-- img sizes -->
@@ -40,7 +40,7 @@
 
 
         <!-- -------------------------------------------- -->
-        <!-- 🟥 [2/3] | Layout Elements -->
+        <!-- 🟥 [2/?] | Layout Elements -->
         <!-- -------------------------------------------- -->
 
           <!-- ➡️🟥 action labels ( up/down | radio | nav radio ) -->
@@ -69,10 +69,17 @@
           <link rel="stylesheet" href="css/default/css-framework/layout-elements/text-styles/text-styles.css">
 
         <!-- -------------------------------------------- -->
-        <!-- [3/3] | Page Slider -->
+        <!-- [3/?] | Page Slider -->
         <!-- -------------------------------------------- -->
 
           <link rel="stylesheet" href="css/default/css-framework/page-slider/page-slider.css">
+
+        <!-- -------------------------------------------- -->
+        <!-- [4/?] | Img Slider -->
+        <!-- -------------------------------------------- -->
+
+          <link rel="stylesheet" href="css/default/css-framework/img-slider/img-slider.css">
+          <link rel="stylesheet" href="css/default/css-framework/img-slider/img-fullsize-slider.css">
 
 
       <!-- ------------------------------------------------------------------------------- -->
@@ -2037,6 +2044,29 @@
 
                   </div>
 
+                  <!--
+
+                       ⚠️ to Do's ( 2x2h )
+
+                       - Top IT - Projects
+                        1. in progress | in planing |
+                        2. img-slider (universal) + fullsize mode & js ( read img url from json )
+                        3. detail view - top it project
+                        ~. js dynamic
+
+                       - More IT + Private
+                        1. Nav + IMG - Welcome to my More IT Content | Welcome to my Private World
+
+                      -> Unit + Mock komplett alle 3 Doku in Anki zusammenfassen + Doku
+
+                      -> Buzz Words - Java, SB , Unit - Mock - Intergration Test
+
+                      -> Bewerbungsvorlage erstellen (authentisch)
+
+                      -> 4 x 2 Java Grundlagen Aufgaben + TDD
+
+                  -->
+
                   <!-- --------------------------------------------------------------------------- -->
                   <!-- ➡️🟥 [2/3] | Top IT Projects Container                                        -->
                   <!-- --------------------------------------------------------------------------- -->
@@ -2084,10 +2114,74 @@
                               <!-- ----------------------------------------------------- -->
                               <div class="img-container-top-it-project-card">
 
+                                <!-- 🟥 oldschool -->
                                 <!-- img -->
                                 <img src="media/imgs/content/04-it-projects/01-top-3-3-projects/01-web-design/project-1/project-1-sass-dashboard.png"
                                      alt="img"
-                                     class="img-top-it-project-card">
+                                     class="img-top-it-project-card" style="display: none;">
+
+                                <!-- --------------------------------------------------------------- -->
+                                <!-- Img Slide Container ( js dynamic ) -->
+                                <!-- --------------------------------------------------------------- -->
+                                <div class="img-slide-container">
+
+                                  <!-- ----------------------------------------------------------------- -->
+                                  <!-- Prev | Img Slide -->
+                                  <!-- ----------------------------------------------------------------- -->
+                                   <!-- img -->
+
+                                  <!-- ----------------------------------------------------------------- -->
+                                  <!-- Active Img Slide -->
+                                  <!-- ----------------------------------------------------------------- -->
+                                  <img src="media/imgs/content/04-it-projects/01-top-3-3-projects/01-web-design/project-1/project-1-sass-dashboard.png"
+                                     alt="img"
+                                     class="img-slide">
+
+                                  <!-- ----------------------------------------------------------------- -->
+                                  <!-- Next | Img Slide -->
+                                  <!-- ----------------------------------------------------------------- -->
+                                   <!-- img -->
+
+                                  <!-- ----------------------------------------------------------------- -->
+                                  <!-- Click Prev Element -->
+                                  <!-- ----------------------------------------------------------------- -->
+                                  <div class="prev-img-slider">
+                                    <div>P</div>
+                                  </div>
+
+                                  <!-- ----------------------------------------------------------------- -->
+                                  <!-- Click Next Element -->
+                                  <!-- ----------------------------------------------------------------- -->
+                                  <div class="next-img-slider">
+                                    <div>N</div>
+                                  </div>
+
+                                  <!-- ----------------------------------------------------------------- -->
+                                  <!-- Nr Img Panel | Img Slider -->
+                                  <!-- ----------------------------------------------------------------- -->
+                                  <div class="nr-img-panel-img-slider">
+
+                                    <!-- ---------------------------------- -->
+                                    <!-- Nr Item -->
+                                    <!-- ---------------------------------- -->
+                                    <div class="nr-item-panel-img-slider">
+
+                                      <!-- active -->
+                                      <div>01</div>
+
+                                      <!-- seperator -->
+                                      <div>/</div>
+
+                                      <!-- max -->
+                                      <div>04</div>
+
+                                    </div>
+
+
+                                  </div>
+
+
+                                </div>
 
                                 <!-- nr -->
                                 <div class="nr-top-it-project-card">
@@ -2429,10 +2523,7 @@
 
                             </div>
 
-
-
                         </div>
-
 
                       </div>
 

@@ -12,8 +12,7 @@
 #about-top-it-projects-container {
 
   width: 100%;
-
-  background-color: rgb(245, 245, 245);
+  /* background-color: rgb(245, 245, 245); */
 
 }
 
@@ -37,9 +36,10 @@
   width: 100%;
   padding: 2.5em 0;
 
+  /* mobile */
   display: grid;
   justify-items: center;
-  row-gap: 3.5em;
+  row-gap: 2.3em;
 
   /* background-color: red; */
 
@@ -51,7 +51,8 @@
 
 #about-top-it-projects-content-container .header-content-body:nth-last-of-type(1) {
 
-  justify-self: flex-start;
+  /* mobile */
+  /* justify-self: flex-start; */
 
 }
 

@@ -1,0 +1,131 @@
+/* --------------------------------------------------------------- */
+/* > img-slider.css
+/*
+/* : styles img slider
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Img Slide Container
+/* ---------------------------------------------------------------- */
+
+.img-slide-container {
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  align-items: center;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Img Slide
+/* ---------------------------------------------------------------- */
+
+.img-slide {
+
+  width: 100%;
+  height: 100%;
+
+}
+
+/* Active Img Slide */
+
+/* ---------------------------------------------------------------- */
+/* Prev / Next | Img Slider
+/* ---------------------------------------------------------------- */
+
+.prev-img-slider,
+.next-img-slider {
+
+  position: absolute;
+
+  width: 2em;
+  height: 4em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+   background-color: rgb(43, 43, 43);
+   color:white;
+
+   transition: all .4s;
+   cursor: pointer;
+   user-select: none;
+
+}
+
+.prev-img-slider:hover,
+.next-img-slider:hover {
+
+  background-color: rgb(87, 87, 87);
+
+}
+
+/* prev */
+.prev-img-slider {
+
+ border-radius: 0 .6em .6em 0;
+
+}
+
+/* next */
+.next-img-slider {
+
+  right:0;
+  border-radius: .6em 0em 0em .6em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Img Nr Panel | Img Slider
+/* ---------------------------------------------------------------- */
+
+.nr-img-panel-img-slider {
+
+  position: absolute;
+  left:0;
+  right: 0;
+  bottom: .3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .2em;
+
+  background-color: rgba(201, 201, 201, 0.4);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Nr Item | Panel Img Slider
+/* ---------------------------------------------------------------- */
+
+.nr-item-panel-img-slider {
+
+  height: 1.6em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .2em;
+
+  border-radius: .2em;
+
+  background-color: rgb(43, 43, 43);
+  color:rgb(118, 118, 118);
+
+}
+
+.nr-item-panel-img-slider > div {
+
+  font-size: 14.5px;
+
+  font-style: italic;
+
+  /* font-weight: bold; */
+
+}

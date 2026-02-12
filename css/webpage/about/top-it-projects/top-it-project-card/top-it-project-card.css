@@ -33,7 +33,7 @@
   display: grid;
   justify-items: center;
 
-  border: 1px solid black;
+  border: 1px solid rgb(176, 176, 176);
   border-radius: .6em;
 
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -51,6 +51,12 @@
 
 }
 
+/* img */
+.img-container-top-it-project-card > img:nth-of-type(1) {
+
+
+}
+
 /* ---------------------------------------------------------------- */
 /* Nr | Top IT Project Card
 /* ---------------------------------------------------------------- */
@@ -60,8 +66,8 @@
   position: absolute;
   right:0;
 
-  width: 2.3em;
-  height: 2.3em;
+  width: 2em;
+  height: 2em;
 
   display: flex;
   align-items: center;
@@ -84,9 +90,23 @@
 .img-top-it-project-card {
 
   width: 100%;
-  /* height: 16em; */
+
+  opacity: .4;
 
   border-radius: .6em;
+
+  transition: all .4s;
+
+}
+
+.img-top-it-project-card:hover {
+
+  opacity: 1;
+}
+
+.img-top-it-project-card:hover ~ .nr-top-it-project-card {
+
+  opacity: .6;
 
 }
 
@@ -100,11 +120,11 @@
   font-size: 16px;
   padding: 0em .4em;
 
-  font-weight: bold;
+  /* font-weight: bold; */
 
   line-height: 1.6em;
 
-  color:rgb(99, 99, 99);
+  color:#616161;
 
 
 
@@ -154,11 +174,11 @@
 
   font-weight: bold;
 
-  border-radius: .4em;
+  border-radius: .6em;
 
 
-  background-color: rgb(221, 221, 221);
-  color:black;
+  background-color: #e3e3e3;
+  color:rgb(91, 91, 91);
 
 
   text-decoration: none;
@@ -190,11 +210,11 @@
 
   font-weight: bold;
 
-  border-radius: .4em;
+  border-radius: .6em;
 
 
-  background-color: rgb(221, 221, 221);
-  color:black;
+  background-color: #e3e3e3;
+  color:rgb(91, 91, 91);
 
 
   text-decoration: none;
