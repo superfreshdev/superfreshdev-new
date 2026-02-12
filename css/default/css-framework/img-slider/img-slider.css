@@ -106,14 +106,15 @@
 
 .nr-item-panel-img-slider {
 
-  height: 1.6em;
+  height: 1.4em;
   padding: 0 .4em;
 
   display: flex;
   align-items: center;
+  justify-content: center;
   column-gap: .2em;
 
-  border-radius: .2em;
+  border-radius: .4em;
 
   background-color: rgb(43, 43, 43);
   color:rgb(118, 118, 118);
@@ -122,9 +123,10 @@
 
 .nr-item-panel-img-slider > div {
 
-  font-size: 14.5px;
+  font-size: 12.5px;
+  font-weight: bold;
 
-  font-style: italic;
+  /* font-style: italic; */
 
   /* font-weight: bold; */
 

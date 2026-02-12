@@ -1,18 +1,17 @@
 /* ----------------------------------------------------------------------- */
-/* action-labels-body.css
+/* labels-radio.css
 /*
-/* > styles custom action labels body, small, medium, large, big
+/* > styles custom label with img & text + custom radio
 /* ----------------------------------------------------------------------- */
 
 
 /* ------------------------------------------------------- */
-/* All | Action Labels Body
+/* All | Label Radio
 /* ------------------------------------------------------- */
 
-.action-label-body-small,
-.action-label-body-medium,
-.action-label-body-large,
-.action-label-body-big {
+.label-radio-small,
+.label-radio-medium,
+.label-radio-big {
 
   display: inline-flex;
   align-items: center;
@@ -34,23 +33,28 @@
 
 }
 
-.action-label-body-small > div,
-.action-label-body-medium > div,
-.action-label-body-large > div,
-.action-label-body-big > div {
+/* hover */
+.label-radio-small:hover,
+.label-radio-medium:hover,
+.label-radio-big:hover {
+
+  background-image: linear-gradient(to right, #db7272, #da9292);
+}
+
+/* ------------------------------------------------------- */
+/* Div 1 | Label Radio
+/* ------------------------------------------------------- */
+
+.label-radio-small > div:nth-of-type(1),
+.label-radio-medium > div:nth-of-type(1),
+.label-radio-big > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
 
   font-size: 14.5px;
 
-}
-
-/* hover */
-.action-label-body-small:hover,
-.action-label-body-medium:hover,
-.action-label-body-large:hover,
-.action-label-body-big:hover {
-
-  /* background-color: #db7272; */
-  background-image: linear-gradient(to right, #db7272, #da9292);
 }
 
 /* important: this img is default little bit upper to text direction */
@@ -64,12 +68,11 @@
 /* Small
 /* ------------------------------------------------------- */
 
-.action-label-body-small {
+.label-radio-small {
 
   height: 1.6em;
   padding: 0 .6em;
   border-radius: .6em;
-
 
 }
 
@@ -77,7 +80,7 @@
 /* Medium
 /* ------------------------------------------------------- */
 
-.action-label-body-medium {
+.label-radio-medium {
 
   height: 2em;
   padding: 0 .6em;
@@ -86,25 +89,12 @@
 }
 
 /* ------------------------------------------------------- */
-/* Large
+/* big
 /* ------------------------------------------------------- */
 
-.action-label-body-large {
+.label-radio-big {
 
   height: 2.3em;
-  padding: 0 .6em;
-  border-radius: .6em;
-
-}
-
-
-/* ------------------------------------------------------- */
-/* Big
-/* ------------------------------------------------------- */
-
-.action-label-body-big {
-
-  height: 3em;
   padding: 0 .6em;
   border-radius: .6em;
 

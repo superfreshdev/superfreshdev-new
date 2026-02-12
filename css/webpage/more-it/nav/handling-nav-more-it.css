@@ -1,0 +1,50 @@
+/* --------------------------------------------------------------- */
+/* > handling-nav-more-it.css
+/*
+/* : styles handling nav more it
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Handlings Styles
+/* ---------------------------------------------------------------- */
+
+/* default unshown */
+input[name="name-radio-nav-more-it"] {
+
+  display: none;
+
+}
+
+/* set background red | ⚠️ dont understand why 2 because it should be 1 */
+#radio-nav-more-it-mini-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-projects"],
+#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"],
+#radio-nav-more-it-coding-taskschecked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-coding-tasks"],
+#radio-nav-more-it-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-it-docs"] {
+
+  background-image: linear-gradient(to right, #db7272, #da9292);
+
+}
+
+/* change img custom radio */
+#radio-nav-more-it-mini-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-projects"] > .custom-radio-small > img,
+#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"] > .custom-radio-small > img,
+#radio-nav-more-it-coding-tasks:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-coding-tasks"] > .custom-radio-small > img,
+#radio-nav-more-it-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-it-docs"] > .custom-radio-small > img {
+
+   display: flex;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Handling Action
+/* ---------------------------------------------------------------- */
+
+#radio-nav-more-it-mini-projects:checked ~ .row-container:nth-of-type(3) #mini-projects-container-more-it,
+#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(3) #mini-games-container-more-it,
+#radio-nav-more-it-coding-tasks:checked ~ .row-container:nth-of-type(3) #coding-task-container-more-it,
+#radio-nav-more-it-it-docs:checked ~ .row-container:nth-of-type(3) #it-docs-container-more-it {
+
+  display: grid;
+
+}

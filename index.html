@@ -43,17 +43,13 @@
         <!-- 🟥 [2/?] | Layout Elements -->
         <!-- -------------------------------------------- -->
 
-          <!-- ➡️🟥 action labels ( up/down | radio | nav radio ) -->
 
-            <!-- 🟥 up/down -->
-            <link rel="stylesheet" href="css/default/css-framework/layout-elements/action-labels/action-labels-up-down-body.css">
-
-            <!-- 🟥 radio -->
-            <link rel="stylesheet" href="css/default/css-framework/layout-elements/action-labels/action-labels-radio-body.css">
-
-            <!-- 🟥 nav radio -->
-            <link rel="stylesheet" href="css/default/css-framework/layout-elements/action-labels/nav-action-labels-radio/nav-action-labels-body.css">
-            <link rel="stylesheet" href="css/default/css-framework/layout-elements/action-labels/nav-action-labels-radio/nav-action-labels-radio-body.css">
+          <!-- 🟩 label | up/down -->
+          <link rel="stylesheet" href="css/default/css-framework/layout-elements/labels/labels-up-down.css">
+          <!-- 🟩 label | radio -->
+          <link rel="stylesheet" href="css/default/css-framework/layout-elements/labels/labels-radio.css">
+          <!-- 🟩 label | nav radio -->
+          <link rel="stylesheet" href="css/default/css-framework/layout-elements/labels/nav-labels-radio.css">
 
           <!-- 🟩 Custom Radio -->
           <link rel="stylesheet" href="css/default/css-framework/layout-elements/custom-radio/custom-radio.css">
@@ -197,10 +193,25 @@
 
         <link rel="stylesheet" href="css/webpage/more-it/more-it.css">
 
+        <!-- nav -->
         <link rel="stylesheet" href="css/webpage/more-it/nav/nav-more-it.css">
+        <link rel="stylesheet" href="css/webpage/more-it/nav/handling-nav-more-it.css">
 
-        <link rel="stylesheet" href="css/webpage/more-it/content/content-more-it.css">
-        <link rel="stylesheet" href="css/webpage/more-it/banner/banner-more-it.css">
+        <!-- mini projects -->
+        <link rel="stylesheet" href="css/webpage/more-it/mini-projects/mini-projects-more-it.css">
+
+        <!-- mini games -->
+        <link rel="stylesheet" href="css/webpage/more-it/mini-games/mini-games-more-it.css">
+
+        <!-- coding tasks -->
+        <link rel="stylesheet" href="css/webpage/more-it/coding-tasks/coding-tasks-more-it.css">
+
+        <!-- it docs -->
+        <link rel="stylesheet" href="css/webpage/more-it/it-docs/it-docs-more-it.css">
+
+        <!-- 🟥delete | oder banner verwenden und leicht grau symbol  -->
+        <!-- <link rel="stylesheet" href="css/webpage/more-it/content/content-more-it.css">
+        <link rel="stylesheet" href="css/webpage/more-it/banner/banner-more-it.css"> -->
 
       <!-- ----------------------------------------------------------------- -->
       <!-- 🟥 Private -->
@@ -224,7 +235,7 @@
   <!-- Radios ( Nav Header Body ) -->
   <!-- ----------------------------------------------------- -->
   <input type="radio" id="radio-about" name="name-radio-nav-header-body">
-  <input type="radio" id="radio-more-it" name="name-radio-nav-header-body">
+  <input checked type="radio" id="radio-more-it" name="name-radio-nav-header-body">
   <input type="radio" id="radio-private" name="name-radio-nav-header-body">
 
   <!-- ---------------------------------------------------------------------------------- -->
@@ -328,22 +339,22 @@
   </header>
 
   <!-- ---------------------------------------------------------------------------------- -->
-  <!-- ➡️🟥 Main Body (parent layout) -->
+  <!-- 🟥 Main Body (parent layout) -->
   <!-- ---------------------------------------------------------------------------------- -->
   <main id="main-body">
 
     <!-- --------------------------------------------------------------- -->
-    <!-- ➡️🟥 Main Body Container (child layout)                        -->
+    <!-- 🟥 Main Body Container (child layout)                        -->
     <!-- --------------------------------------------------------------- -->
     <div id="main-body-container">
 
       <!-- ---------------------------------------------------------------------------- -->
-      <!-- ➡️🟥 Push Slider -->
+      <!-- 🟥 Push Slider -->
       <!-- ---------------------------------------------------------------------------- -->
       <div class="push-slider">
 
         <!-- ---------------------------------------------------------------------------- -->
-        <!-- ➡️🟥 [1/3] | About | Page Slide #1 | -->
+        <!-- 🟥 [1/3] | About | Page Slide #1 | -->
         <!-- ---------------------------------------------------------------------------- -->
         <div class="push-content-slide-no-anim">
 
@@ -358,7 +369,7 @@
             <div class="resp-content-page-container-big">
 
                 <!-- --------------------------------------------------------------------------- -->
-                <!-- ➡️🟥 About Page Container                                                          -->
+                <!-- 🟥 About Page Container                                                          -->
                 <!-- --------------------------------------------------------------------------- -->
                 <div id="about-page-container">
 
@@ -376,7 +387,7 @@
                     <div class="row-container">
 
                       <!-- --------------------------------------------------------------- -->
-                      <!-- 🟩🟨 📐[1/2] | Quick Info Container  | (small)                 -->
+                      <!-- 🟩 📐[1/2] | Quick Info Container  | (small)                 -->
                       <!-- --------------------------------------------------------------- -->
                       <div class="resp-row-content-container-small">
 
@@ -430,7 +441,7 @@
                               <!-- --------------------------------------------- -->
                               <!-- 🟩 [3/3] | Show More -->
                               <!-- --------------------------------------------- -->
-                              <label for="chk-show-more-about-quick-info" class="action-label-body-large">
+                              <label for="chk-show-more-about-quick-info" class="label-up-down-big">
 
                                   <div>
                                     <span>Show</span>
@@ -482,7 +493,7 @@
                               <!-- [1/4] | IT Skills -->
                               <!-- ------------------------------------------------ -->
                               <label for="radio-nav-about-details-it-skills"
-                                    class="nav-action-label-radio-body-medium">
+                                    class="label-radio-big">
 
                                 <!-- img + title -->
                                 <div>
@@ -504,7 +515,7 @@
                               <!-- [2/4] | Hobbys -->
                               <!-- ------------------------------------------------ -->
                               <label for="radio-nav-about-details-hobbys"
-                                    class="nav-action-label-radio-body-medium">
+                                    class="label-radio-big">
 
                                 <!-- img + title -->
                                 <div>
@@ -526,7 +537,7 @@
                               <!-- [3/4] | Story behind SD -->
                               <!-- ------------------------------------------------ -->
                               <label for="radio-nav-about-details-story-behind-sd"
-                                    class="nav-action-label-radio-body-medium">
+                                    class="label-radio-big">
 
                                 <!-- img + title -->
                                 <div>
@@ -548,7 +559,7 @@
                               <!-- [4/4] | Mindset -->
                               <!-- ------------------------------------------------ -->
                               <label for="radio-nav-about-details-mindset"
-                                    class="nav-action-label-radio-body-medium">
+                                    class="label-radio-big">
 
                                 <!-- img + title -->
                                 <div>
@@ -2044,29 +2055,6 @@
 
                   </div>
 
-                  <!--
-
-                       ⚠️ to Do's ( 2x2h )
-
-                       - Top IT - Projects
-                        1. in progress | in planing |
-                        2. img-slider (universal) + fullsize mode & js ( read img url from json )
-                        3. detail view - top it project
-                        ~. js dynamic
-
-                       - More IT + Private
-                        1. Nav + IMG - Welcome to my More IT Content | Welcome to my Private World
-
-                      -> Unit + Mock komplett alle 3 Doku in Anki zusammenfassen + Doku
-
-                      -> Buzz Words - Java, SB , Unit - Mock - Intergration Test
-
-                      -> Bewerbungsvorlage erstellen (authentisch)
-
-                      -> 4 x 2 Java Grundlagen Aufgaben + TDD
-
-                  -->
-
                   <!-- --------------------------------------------------------------------------- -->
                   <!-- ➡️🟥 [2/3] | Top IT Projects Container                                        -->
                   <!-- --------------------------------------------------------------------------- -->
@@ -2608,7 +2596,7 @@
         </div>
 
         <!-- ---------------------------------------------------------------------------- -->
-        <!-- 🟥 [2/3] | More IT | Page Slide #2 | -->
+        <!-- ➡️🟥 [2/3] | More IT | Page Slide #2 | -->
         <!-- ---------------------------------------------------------------------------- -->
         <div class="push-content-slide-no-anim">
 
@@ -2623,164 +2611,196 @@
             <div class="resp-content-page-container-big">
 
               <!-- -------------------------------------------------------------- -->
-              <!-- 🟨 More IT "Page" Container -->
+              <!-- ➡️🟥 More IT "Page" Container -->
               <!-- -------------------------------------------------------------- -->
               <div id="more-it-container">
 
                 <!-- ------------------------------------------------------------------------- -->
-                <!-- 🟥 [1/3] | Nav Container | Row Content Container (max) -->
+                <!-- 🟨 [1/3] | Welcome Info Content Container  | Row Content Container (max) -->
                 <!-- ------------------------------------------------------------------------- -->
-                <div class="row-content-container">
+                <div class="row-container">
 
-                  <!-- ------------------------------------------------ -->
-                  <!-- ➡️🟥 [1/3] | Nav Container -->
-                  <!-- ------------------------------------------------ -->
+                  <!-- -------------------------------------------------------------- -->
+                  <!-- 🟨 [1/3] | Welcome Info Content Container                   -->
+                  <!-- -------------------------------------------------------------- -->
+                  <div class="welcome-info-content-container">
+
+                    <img src="media/imgs/icons/03-emojies/03-smileys/Hand-Whats-Up.png"
+                         class="img-h-1-4"
+                         alt="img">
+
+                    <div> Welcome to my <span class="txt-u">More IT</span> Content </div>
+
+                  </div>
+
+                </div>
+
+                <!-- --------------------------------------------------- -->
+                <!-- 🟩 Radios Nav More It -->
+                <!-- --------------------------------------------------- -->
+                <input type="radio" id="radio-nav-more-it-mini-projects" name="name-radio-nav-more-it">
+                <input type="radio" id="radio-nav-more-it-mini-games" name="name-radio-nav-more-it">
+                <input type="radio" id="radio-nav-more-it-coding-tasks" name="name-radio-nav-more-it">
+                <input type="radio" id="radio-nav-more-it-it-docs" name="name-radio-nav-more-it">
+
+                <!-- ------------------------------------------------------------------------- -->
+                <!-- 🟥 [2/3] | Nav Container | Row Content Container (max) -->
+                <!-- ------------------------------------------------------------------------- -->
+                <div class="row-container">
+
+                  <!-- -------------------------------------------------------------- -->
+                  <!-- ➡️🟥 Nav Container -->
+                  <!-- -------------------------------------------------------------- -->
                   <div id="nav-container-more-it">
 
 
-                    <!-- ----------------------------------------------------- -->
-                    <!-- [1/4] | Label | Mini Projects (XXX) -->
-                    <!-- ----------------------------------------------------- -->
-                    <label for="" class="lbl-switch-content">
+                    <!-- ------------------------------------------------------------------- -->
+                    <!-- 🟥 [1/4] | Mini Projects | Nav Label Radio Medium (🟣)             -->
+                    <!-- ------------------------------------------------------------------- -->
+                    <label for="radio-nav-more-it-mini-projects" class="nav-label-radio-medium">
 
                       <!-- --------------------------------------------- -->
-                      <!-- Nr -->
+                      <!-- [1/4] | Nr -->
                       <!-- --------------------------------------------- -->
-                      <div class="nr-lbl-switch-content">
+                      <div class="nr-nav-label-radio">
                         01
                       </div>
 
                       <!-- --------------------------------------------- -->
-                      <!-- Img Seperator -->
+                      <!-- [2/4] | Img Seperator -->
                       <!-- --------------------------------------------- -->
                       <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
                             class="img-seperator-lbl-switch-content"
                             alt="img" >
 
                       <!-- --------------------------------------------- -->
-                      <!-- Title -->
+                      <!-- [3/4] | Title -->
                       <!-- --------------------------------------------- -->
-                      <div class="title-container-lbl-swtich-content">
-                        <div class="title-lbl-switch-content"> Mini Projects</div>
-                        <div class="count-lbl-switch-content">(XXX)</div>
+                      <div class="title-container-nav-label-radio">
+                        <div> Mini Projects</div>
+                        <div> 123</div>
                       </div>
 
                       <!-- --------------------------------------------- -->
-                      <!-- Custom Radio -->
+                      <!-- [4/4] | Custom Radio -->
                       <!-- --------------------------------------------- -->
-                      <div>
-                        R.
+                      <div class="custom-radio-small">
+                        <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                            alt="img">
                       </div>
 
 
                     </label>
 
-                    <!-- ----------------------------------------------------- -->
-                    <!-- [2/4] | Label | Mini Games (XXX) -->
-                    <!-- ----------------------------------------------------- -->
-                    <label for="" class="lbl-switch-content">
+                    <!-- ------------------------------------------------------------------- -->
+                    <!-- 🟥 [2/4] | Mini Games | Nav Label Radio Medium (🟣) -->
+                    <!-- ------------------------------------------------------------------- -->
+                    <label for="radio-nav-more-it-mini-games" class="nav-label-radio-medium">
 
                       <!-- --------------------------------------------- -->
-                      <!-- Nr -->
+                      <!-- [1/4] | Nr -->
                       <!-- --------------------------------------------- -->
-                      <div class="nr-lbl-switch-content">
+                      <div class="nr-nav-label-radio">
                         02
                       </div>
 
                       <!-- --------------------------------------------- -->
-                      <!-- Img Seperator -->
+                      <!-- [2/4] | Img Seperator -->
                       <!-- --------------------------------------------- -->
                       <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
                             class="img-seperator-lbl-switch-content"
                             alt="img" >
 
                       <!-- --------------------------------------------- -->
-                      <!-- Title -->
+                      <!-- [3/4] | Title -->
                       <!-- --------------------------------------------- -->
-                      <div class="title-container-lbl-swtich-content">
-                        <div class="title-lbl-switch-content"> Mini Games</div>
-                        <div class="count-lbl-switch-content">(XXX)</div>
+                      <div class="title-container-nav-label-radio">
+                        <div> Mini Games</div>
+                        <div> 12</div>
                       </div>
 
                       <!-- --------------------------------------------- -->
-                      <!-- Custom Radio -->
+                      <!-- [4/4] | Custom Radio -->
                       <!-- --------------------------------------------- -->
-                      <div>
-                        R.
+                      <div class="custom-radio-small">
+                        <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                            alt="img">
                       </div>
 
 
                     </label>
 
-                    <!-- ----------------------------------------------------- -->
-                    <!-- [3/4] | Label | Coding Exercices (XXXX) -->
-                    <!-- ----------------------------------------------------- -->
-                    <label for="" class="lbl-switch-content">
+                    <!-- ------------------------------------------------------------------- -->
+                    <!-- 🟥 [3/4] | Coding Tasks | Nav Label Radio Medium (🟣) -->
+                    <!-- ------------------------------------------------------------------- -->
+                    <label for="radio-nav-more-it-coding-tasks" class="nav-label-radio-medium">
 
                       <!-- --------------------------------------------- -->
-                      <!-- Nr -->
+                      <!-- [1/4] | Nr -->
                       <!-- --------------------------------------------- -->
-                      <div class="nr-lbl-switch-content">
+                      <div class="nr-nav-label-radio">
                         03
                       </div>
 
                       <!-- --------------------------------------------- -->
-                      <!-- Img Seperator -->
+                      <!-- [2/4] | Img Seperator -->
                       <!-- --------------------------------------------- -->
                       <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
                             class="img-seperator-lbl-switch-content"
                             alt="img" >
 
                       <!-- --------------------------------------------- -->
-                      <!-- Title -->
+                      <!-- [3/4] | Title -->
                       <!-- --------------------------------------------- -->
-                      <div class="title-container-lbl-swtich-content">
-                        <div class="title-lbl-switch-content"> Coding Exercices</div>
-                        <div class="count-lbl-switch-content">(XXX)</div>
+                      <div class="title-container-nav-label-radio">
+                        <div> Coding Tasks</div>
+                        <div> 312</div>
                       </div>
 
                       <!-- --------------------------------------------- -->
-                      <!-- Custom Radio -->
+                      <!-- [4/4] | Custom Radio -->
                       <!-- --------------------------------------------- -->
-                      <div>
-                        R.
+                      <div class="custom-radio-small">
+                        <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                            alt="img">
                       </div>
 
 
                     </label>
 
-                    <!-- ----------------------------------------------------- -->
-                    <!-- [4/4] | Label | IT-Docs (XXX) -->
-                    <!-- ----------------------------------------------------- -->
-                      <label for="" class="lbl-switch-content">
+                    <!-- ------------------------------------------------------------------- -->
+                    <!-- 🟥 [4/4] | IT-Docs | Nav Label Radio Medium (🟣) -->
+                    <!-- ------------------------------------------------------------------- -->
+                    <label for="radio-nav-more-it-it-docs" class="nav-label-radio-medium">
 
                       <!-- --------------------------------------------- -->
-                      <!-- Nr -->
+                      <!-- [1/4] | Nr -->
                       <!-- --------------------------------------------- -->
-                      <div class="nr-lbl-switch-content">
+                      <div class="nr-nav-label-radio">
                         04
                       </div>
 
                       <!-- --------------------------------------------- -->
-                      <!-- Img Seperator -->
+                      <!-- [2/4] | Img Seperator -->
                       <!-- --------------------------------------------- -->
                       <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
                             class="img-seperator-lbl-switch-content"
                             alt="img" >
 
                       <!-- --------------------------------------------- -->
-                      <!-- Title -->
+                      <!-- [3/4] | Title -->
                       <!-- --------------------------------------------- -->
-                      <div class="title-container-lbl-swtich-content">
-                        <div class="title-lbl-switch-content"> IT-Doc's</div>
-                        <div class="count-lbl-switch-content">(XXX)</div>
+                      <div class="title-container-nav-label-radio">
+                        <div> IT-Docs</div>
+                        <div> 123</div>
                       </div>
 
                       <!-- --------------------------------------------- -->
-                      <!-- Custom Radio -->
+                      <!-- [4/4] | Custom Radio -->
                       <!-- --------------------------------------------- -->
-                      <div>
-                        R.
+                      <div class="custom-radio-small">
+                        <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                            alt="img">
                       </div>
 
 
@@ -2791,15 +2811,36 @@
                 </div>
 
                 <!-- ------------------------------------------------------------------------- -->
-                <!-- 🟥 [2/3] | Content Container | Row Content Container (max)                -->
+                <!-- 🟥 [2/3] | Row Container | Row Content Container (max)                -->
                 <!-- ------------------------------------------------------------------------- -->
-                <div class="row-content-container">
+                <div class="row-container">
 
-                  <!-- ------------------------------------------------ -->
-                  <!-- ➡️🟥 [1/3] | About Me -->
-                  <!-- ------------------------------------------------ -->
-                  <div id="content-container-more-it">
-                      Content Container | More IT
+                  <!-- ------------------------------------------------------------------------ -->
+                  <!-- 🟥 [1/4] | Mini Projects Container  -->
+                  <!-- ------------------------------------------------------------------------ -->
+                  <div id="mini-projects-container-more-it">
+                      Mini Projects | Container More IT
+                  </div>
+
+                  <!-- ------------------------------------------------------------------------ -->
+                  <!-- 🟥 [2/4] | Mini Projects Container  -->
+                  <!-- ------------------------------------------------------------------------ -->
+                  <div id="mini-games-container-more-it">
+                      Mini Games | Container More IT
+                  </div>
+
+                  <!-- ------------------------------------------------------------------------ -->
+                  <!-- 🟥 [3/4] | Coding Task Container  -->
+                  <!-- ------------------------------------------------------------------------ -->
+                  <div id="coding-task-container-more-it">
+                      Coding Task | Container
+                  </div>
+
+                  <!-- ------------------------------------------------------------------------ -->
+                  <!-- 🟥 [4/4] | IT Docs Container  -->
+                  <!-- ------------------------------------------------------------------------ -->
+                  <div id="it-docs-container-more-it">
+                      IT Docs | Container More IT
                   </div>
 
                 </div>

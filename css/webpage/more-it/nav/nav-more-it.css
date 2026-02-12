@@ -12,16 +12,13 @@
 #nav-container-more-it {
 
   width: 100%;
-  padding: 1.5em 0;
+  padding: 1em 0;
 
   display: flex;
   flex-wrap: wrap;
   gap:.4em;
   align-items: center;
-  justify-content: flex-end;
-
-  /* background-color: yellow; */
-  background-color: white;
+  justify-content: center;
 
 }
 

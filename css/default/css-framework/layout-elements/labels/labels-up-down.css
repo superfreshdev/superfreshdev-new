@@ -1,18 +1,17 @@
 /* ----------------------------------------------------------------------- */
-/* action-labels-body.css
+/* labels-up-down.css
 /*
-/* > styles custom action labels body, small, medium, large, big
+/* > styles custom label with img & text + img(up/down)
 /* ----------------------------------------------------------------------- */
 
 
 /* ------------------------------------------------------- */
-/* All | Action Labels Body
+/* All | Label Up Down
 /* ------------------------------------------------------- */
 
-.action-label-body-small,
-.action-label-body-medium,
-.action-label-body-large,
-.action-label-body-big {
+.label-up-down-small-small,
+.label-up-down-medium,
+.label-up-down-big {
 
   display: inline-flex;
   align-items: center;
@@ -34,20 +33,22 @@
 
 }
 
-.action-label-body-small > div,
-.action-label-body-medium > div,
-.action-label-body-large > div,
-.action-label-body-big > div {
+/* ------------------------------------------------------- */
+/* Divs | Label Up Down
+/* ------------------------------------------------------- */
+
+.label-up-down-small-small > div,
+.label-up-down-medium > div,
+.label-up-down-big > div{
 
   font-size: 14.5px;
 
 }
 
 /* hover */
-.action-label-body-small:hover,
-.action-label-body-medium:hover,
-.action-label-body-large:hover,
-.action-label-body-big:hover {
+.label-up-down-small-small:hover,
+.label-up-down-medium:hover,
+.label-up-down-big:hover  {
 
   /* background-color: #db7272; */
   background-image: linear-gradient(to right, #db7272, #da9292);
@@ -64,12 +65,11 @@
 /* Small
 /* ------------------------------------------------------- */
 
-.action-label-body-small {
+.label-up-down-small-small {
 
   height: 1.6em;
   padding: 0 .6em;
   border-radius: .6em;
-
 
 }
 
@@ -77,7 +77,7 @@
 /* Medium
 /* ------------------------------------------------------- */
 
-.action-label-body-medium {
+.label-up-down-medium {
 
   height: 2em;
   padding: 0 .6em;
@@ -86,25 +86,12 @@
 }
 
 /* ------------------------------------------------------- */
-/* Large
-/* ------------------------------------------------------- */
-
-.action-label-body-large {
-
-  height: 2.3em;
-  padding: 0 .6em;
-  border-radius: .6em;
-
-}
-
-
-/* ------------------------------------------------------- */
 /* Big
 /* ------------------------------------------------------- */
 
-.action-label-body-big {
+.label-up-down-big {
 
-  height: 3em;
+  height: 2.3em;
   padding: 0 .6em;
   border-radius: .6em;
 
