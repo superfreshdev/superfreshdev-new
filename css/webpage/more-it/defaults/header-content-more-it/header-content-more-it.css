@@ -1,0 +1,91 @@
+/* --------------------------------------------------------------- */
+/* > header-content-more-it.css
+/*
+/* : style ...
+/* --------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* Header Content More IT
+/* ------------------------------------------------------- */
+
+.header-content-more-it {
+
+  width: 100%;
+  /* padding: 1.5em 5em; */
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* background-color: red; */
+
+}
+
+/* ------------------------------------------------------- */
+/* Title Container | Header Content More IT
+/* ------------------------------------------------------- */
+
+.title-container-header-content-more-it {
+
+  display: grid;
+  align-content: flex-start;
+  /* row-gap: .4em; */
+
+
+}
+
+/* ------------------------------------------------------- */
+/* Title | Title Container
+/* ------------------------------------------------------- */
+
+.title-header-content-more-it {
+
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+/* ------------------------------------------------------- */
+/* Sub Title Container | Title Container
+/* ------------------------------------------------------- */
+
+.sub-title-container-header-content-more-it {
+
+  line-height: 1.6em;
+  color:grey;
+
+}
+
+/* ------------------------------------------------------- */
+/* [1/2] | Sub Title Container | Title Container
+/* ------------------------------------------------------- */
+
+.timer-info-header-content-more-it {
+
+  padding-top: .5em;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+
+  column-gap: .4em;
+
+  font-style: italic;
+
+  /* font-weight: bold; */
+
+}
+
+/* ------------------------------------------------------- */
+/* [2/2] | Sub Title Container | Title Container
+/* ------------------------------------------------------- */
+
+.sub-info-header-content-more-it {
+
+  font-style: italic;
+  /* font-weight: bold; */
+
+}
