@@ -4,6 +4,42 @@
 /* : styles resp nav more it
 /* --------------------------------------------------------------- */
 
+/* ------------------------------------------------------- */
+/* Min Width >= 455px
+/* ------------------------------------------------------- */
+
+@media (min-width: 455px) {
+
+  #nav-container-more-it {
+
+    grid: 1fr / 1fr 1fr;
+
+  }
+
+}
+
+/* ------------------------------------------------------- */
+/* Min Width >= 650px
+/* ------------------------------------------------------- */
+
+@media (min-width: 650px) {
+
+  #nav-container-more-it {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+   #nav-container-more-it > label {
+
+    width: 11.1em;
+
+  }
+
+}
 
 /* ------------------------------------------------------- */
 /* Min Width >= 1000px
@@ -11,10 +47,10 @@
 
 @media (min-width: 1000px) {
 
-  #nav-container-more-it > label {
 
-      min-width: auto;
-      max-width: auto;
+   #nav-container-more-it > label {
+
+    width: auto;
 
   }
 
