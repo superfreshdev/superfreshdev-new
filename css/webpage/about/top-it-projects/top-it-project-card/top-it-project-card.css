@@ -165,7 +165,7 @@
 
   font-size: 14.5px;
 
-  height: 2.3em;
+  height: 2.1em;
   padding: 0 .6em;
 
   display: flex;
@@ -180,6 +180,8 @@
   background-color: #e3e3e3;
   color:rgb(91, 91, 91);
 
+  opacity: .4;
+
 
   text-decoration: none;
   transition: all .4s;
@@ -188,6 +190,7 @@
 
 .github-zip-container-top-it-project-card > a:hover {
 
+  opacity: 1;
   background-color: rgb(251, 133, 133);
 
 }
@@ -201,7 +204,7 @@
 
   font-size: 14.5px;
 
-  height: 2.3em;
+  height: 2.1em;
   padding: 0 .6em;
 
   display: flex;
@@ -216,6 +219,8 @@
   background-color: #e3e3e3;
   color:rgb(91, 91, 91);
 
+  opacity: .4;
+
 
   text-decoration: none;
   transition: all .4s;
@@ -224,6 +229,7 @@
 
 .link-details-top-it-project-card:hover {
 
+  opacity: 1;
   background-color: rgb(251, 133, 133);
 
 }

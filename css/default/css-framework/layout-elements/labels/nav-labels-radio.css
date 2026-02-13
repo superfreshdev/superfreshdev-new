@@ -13,20 +13,19 @@
 .nav-label-radio-medium,
 .nav-label-radio-big {
 
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-    column-gap: .4em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .4em;
 
+  /* border: 1px solid black; */
 
-    /* border: 1px solid black; */
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  color: #1e1e1e;
 
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-    color: #1e1e1e;
-
-    transition: all .4s;
-    cursor: pointer;
-    user-select: none;
+  transition: all .4s;
+  cursor: pointer;
+  user-select: none;
 
 }
 
@@ -63,24 +62,10 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Nr | Nav Label Radio
+/* Title Content | Nav Label Radio
 /* ---------------------------------------------------------------- */
 
-.nav-label-radio-medium .nr-nav-label-radio,
-.nav-label-radio-big .nr-nav-label-radio {
-
-  font-size: 14.5px;
-
-  font-weight: bold;
-
-}
-
-/* ---------------------------------------------------------------- */
-/* Title Container | Nav Label Radio
-/* ---------------------------------------------------------------- */
-
-.nav-label-radio-medium .title-container-nav-label-radio,
-.nav-label-radio-big .title-container-nav-label-radio {
+.title-content-nav-label-radio {
 
   display: flex;
   align-items: center;
@@ -91,28 +76,55 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Div 1 (title) | Title Container
+/* Nr | Nav Label Radio
 /* ---------------------------------------------------------------- */
 
-.nav-label-radio-medium .title-container-nav-label-radio > div:nth-of-type(1),
-.nav-label-radio-big .title-container-nav-label-radio > div:nth-of-type(1) {
+.title-content-nav-label-radio .nr-nav-label-radio {
+
+  font-size: 14.5px;
 
   font-weight: bold;
 
 }
 
 /* ---------------------------------------------------------------- */
-/* Div 2 (counter) | Title Container
+/* Title | Nav Label Radio
 /* ---------------------------------------------------------------- */
 
-.nav-label-radio-medium .title-container-nav-label-radio > div:nth-of-type(2),
-.nav-label-radio-big .title-container-nav-label-radio > div:nth-of-type(2) {
+.title-nav-label-radio {
+
+  font-weight: bold;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Counter Custom Radio | Nav Label Radio
+/* ---------------------------------------------------------------- */
+
+.counter-custom-radio-nav-label-radio {
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Counter | Nav Label Radio
+/* ---------------------------------------------------------------- */
+
+.counter-nav-label-radio {
 
   font-size: 12.5px;
 
   /* width: 2.5em; */
   height: 1.5em;
-  padding: 0 .3em;
+
+  /* layout optimal pos fix */
+  padding-top: .1em;
+
+  padding-left: .3em;
+  padding-right: .3em;
 
   display: flex;
   align-items: center;
@@ -125,7 +137,5 @@
   background-color: #74abc2;
   background-color: white;
   color:#424242;
-
-
 
 }

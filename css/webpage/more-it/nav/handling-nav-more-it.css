@@ -27,10 +27,10 @@ input[name="name-radio-nav-more-it"] {
 }
 
 /* change img custom radio */
-#radio-nav-more-it-mini-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-projects"] > .custom-radio-small > img,
-#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"] > .custom-radio-small > img,
-#radio-nav-more-it-coding-tasks:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-coding-tasks"] > .custom-radio-small > img,
-#radio-nav-more-it-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-it-docs"] > .custom-radio-small > img {
+#radio-nav-more-it-mini-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-projects"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-nav-more-it-coding-tasks:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-coding-tasks"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-nav-more-it-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-it-docs"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img {
 
    display: flex;
 

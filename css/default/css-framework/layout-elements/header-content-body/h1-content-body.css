@@ -5,23 +5,12 @@
 /* ----------------------------------------------------------------------- */
 
 
-/* ------------------------------------------------------- */
-/* h1 content body
-/* ------------------------------------------------------- */
-
-.h1-content-body {
-
-
-}
-
-
-
-/* 🟣 Header Content Body  */
 /* ---------------------------------------------------------------- */
-/* Header Content Body
+/* All | Header Content Body
 /* ---------------------------------------------------------------- */
 
-.header-content-body {
+.header-content-body,
+.header-light-content-body {
 
   display: flex;
   align-items: center;
@@ -52,13 +41,44 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Div 2 | Header Content Body Title Container
+/* Light | Header Content Body Title Container
 /* ---------------------------------------------------------------- */
 
-.header-content-body-title-container > div:nth-of-type(2) {
+.header-light-content-body .header-content-body-title-container > div:nth-of-type(1) {
+
+  color:rgb(240, 240, 240);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Div 2 | All | Header Content Body Title Container
+/* ---------------------------------------------------------------- */
+
+.header-content-body .header-content-body-title-container > div:nth-of-type(2),
+.header-light-content-body .header-content-body-title-container > div:nth-of-type(2) {
 
   font-size: 14.5px;
 
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Default | Header Content Body Title Container
+/* ---------------------------------------------------------------- */
+
+.header-content-body .header-content-body-title-container > div:nth-of-type(2) {
+
   color:rgb(110, 110, 110);
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Light | Header Content Body Title Container
+/* ---------------------------------------------------------------- */
+
+.header-light-content-body .header-content-body-title-container > div:nth-of-type(2) {
+
+  color:rgb(129, 129, 129)
 
 }
