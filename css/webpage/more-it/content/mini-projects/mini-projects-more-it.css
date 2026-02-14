@@ -6,7 +6,7 @@
 
 
 /* ---------------------------------------------------------------- */
-/* ...
+/* Mini Projects Container More IT
 /* ---------------------------------------------------------------- */
 
 #mini-projects-container-more-it {
@@ -20,5 +20,16 @@
   display: none;
 
   background-color: rgb(165, 138, 42);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Row Container (overwerite)
+/* ---------------------------------------------------------------- */
+
+/* white */
+#mini-projects-container-more-it > .list-rows-content-container > .row-container:nth-child(odd) {
+
+  background-color: rgb(169, 169, 169);
 
 }

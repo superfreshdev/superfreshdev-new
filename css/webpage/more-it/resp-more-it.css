@@ -1,0 +1,67 @@
+/* --------------------------------------------------------------- */
+/* > resp-more-it.css
+/*
+/* styles resp more it
+/*
+/* --------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* Min Width >= 600px
+/* ------------------------------------------------------- */
+
+@media (min-width: 600px) {
+
+  /* -------------------------------------------------- */
+  /* More IT | Mini Project Card
+  /* -------------------------------------------------- */
+
+    #mini-projects-container-more-it .list-rows-content-container .mini-project-card {
+
+      grid-template-areas:
+
+        '. img-mpc'
+        'github-zip-mpc github-zip-mpc'
+        'text-skills-mpc text-skills-mpc'
+
+        ;
+
+    }
+
+  /* -------------------------------------------------- */
+  /* More IT | Img | Mini Project Card
+  /* -------------------------------------------------- */
+
+    #mini-projects-container-more-it .list-rows-content-container .img-container-mini-project-card > img {
+
+      width: auto;
+      height: 14em;
+      border: 3px solid red;
+
+    }
+
+}
+
+/* ------------------------------------------------------- */
+/* Min Width >= 700px
+/* ------------------------------------------------------- */
+
+@media (min-width: 700px) {
+
+  /* -------------------------------------------------- */
+  /* More IT | Mini Project Card
+  /* -------------------------------------------------- */
+
+    #mini-projects-container-more-it .list-rows-content-container .mini-project-card {
+
+      /* Desktop */
+      grid-template-areas:
+
+        'text-skills-mpc img-mpc'
+        'text-skills-mpc github-zip-mpc'
+        'text-skills-mpc .'
+      ;
+
+    }
+
+}

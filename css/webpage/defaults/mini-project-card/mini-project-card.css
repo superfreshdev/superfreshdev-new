@@ -1,0 +1,243 @@
+/* --------------------------------------------------------------- */
+/* > mini-project-card.css
+/*
+/* : styles default mini project card for row layouts
+/*   e.g in more-it, it comes with img, title, skills
+/*   and github, zip links
+/*
+/* --------------------------------------------------------------- */
+
+/* ❇️❇️❇️ */
+/* ------------------------------------------------------- */
+/* Mini IT Project Card
+/* ------------------------------------------------------- */
+
+.mini-project-card {
+
+  position: relative;
+
+  width: 100%;
+  padding: 2.5em 0;
+
+  display: grid;
+
+  column-gap: 1em;
+
+
+  /* desktop */
+  /* grid-template-areas:
+
+    'text-skills-mpc img-mpc'
+    'text-skills-mpc github-zip-mpc'
+    'text-skills-mpc .'
+  ; */
+
+  /* mobile */
+  grid-template-areas:
+
+    '. img-mpc'
+    '. github-zip-mpc'
+    'text-skills-mpc text-skills-mpc'
+  ;
+
+  /* small mobile */
+   grid-template-areas:
+
+    'img-mpc img-mpc'
+    'github-zip-mpc github-zip-mpc'
+    'text-skills-mpc text-skills-mpc'
+  ;
+
+}
+
+/* ------------------------------------------------------- */
+/* [1/3] | Img Container | Mini IT Project Card
+/* ------------------------------------------------------- */
+
+.img-container-mini-project-card {
+
+  grid-area: img-mpc;
+
+  position: relative;
+  width: 100%;
+
+  display: grid;
+  justify-items: center;
+}
+
+/* ------------------------------------------------------- */
+/* Img | Img Container
+/* ------------------------------------------------------- */
+
+.img-container-mini-project-card > img {
+
+  /* desktop */
+  /* height: 12em; */
+  /* mobile */
+  width: 100%;
+
+  border-radius: .8em;
+  border: 3px solid black;
+
+}
+
+/* ------------------------------------------------------- */
+/* Nr | Img Container
+/* ------------------------------------------------------- */
+
+.img-container-mini-project-card > div:nth-of-type(1) {
+
+  position: absolute;
+  top:0;
+  right:0;
+
+  word-spacing: 3px;
+
+  width: 2.3em;
+  height: 2.3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+  border-radius: 0 .8em 0 .8em;
+
+  background-color: rgb(43, 43, 43);
+  color: rgb(236, 236, 236);
+
+}
+
+/* ------------------------------------------------------- */
+/* [2/3] | Title Skills Container | Mini IT Project Card
+/* ------------------------------------------------------- */
+
+.title-skills-container-mini-project-card {
+
+  grid-area: text-skills-mpc;
+
+  padding: .8em 0;
+
+  display: grid;
+
+  align-content: flex-start;
+
+  row-gap: .8em;
+
+  /* background-color: green; */
+
+}
+
+/* ------------------------------------------------------- */
+/* Title | Mini Project Card
+/* ------------------------------------------------------- */
+
+.title-mini-project-card {
+
+  line-height: 1.6em;
+  font-weight: bold;
+
+}
+
+/* ------------------------------------------------------- */
+/* Skills Container | Mini Project Card
+/* ------------------------------------------------------- */
+
+.skills-container-mini-project-card {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .3em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Divs | Skills Container | Mini Project Card
+/* ------------------------------------------------------- */
+
+.skills-container-mini-project-card > div {
+
+  height: 1.6em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .6em;
+
+  background-color: rgb(214, 214, 214);
+
+}
+
+.skills-container-mini-project-card > div > div {
+
+  font-size: 12.5px;
+
+}
+
+/* ------------------------------------------------------------------- */
+/* [3/3] | Github Zip Link Container | Mini IT Project Card
+/* ------------------------------------------------------------------- */
+
+.github-zip-link-container-mini-project-card {
+
+  grid-area: github-zip-mpc;
+
+  padding: 1em .3em;
+
+  background-color: blue;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: .3em;
+
+  color:green;
+  font-weight: bold;
+
+}
+
+/* 🟣 universsell verschiedene Typen */
+/* ------------------------------------------------------- */
+/* Link | GitHub, Zip
+/* ------------------------------------------------------- */
+
+.github-zip-link-container-mini-project-card > a {
+
+  font-size: 14.5px;
+
+  height: 2em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+  font-weight: bold;
+  border-radius: .6em;
+
+  background-color: #e3e3e3;
+  color: rgb(91, 91, 91);
+
+  /* opacity: .4; */
+
+  text-decoration: none;
+  user-select: none;
+  transition: all .4s;
+
+}
+
+.github-zip-link-container-mini-project-card > a:hover {
+
+  background-color: red;
+
+}
+
+.github-zip-link-container-mini-project-card > a:visited {
+
+  color:black;
+
+}
