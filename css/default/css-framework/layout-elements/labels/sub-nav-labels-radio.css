@@ -1,0 +1,65 @@
+/* --------------------------------------------------------------- */
+/* > sub-nav-labels-radio.css
+/*
+/* : styles sub nav labels with radio in light grey edtion
+/* : why ? we dont like everytime blue labels
+/* : reminder: the counter style comes from "nav-labels-radio.css"
+/* : because we dont want to replicate
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* All | Sub Nav Labels Radio
+/* ---------------------------------------------------------------- */
+
+.sub-nav-label-radio-medium,
+.sub-nav-label-radio-big {
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .4em;
+
+  /* border: 1px solid black; */
+
+  background-color: rgb(208, 208, 208);
+  color: #1e1e1e;
+
+  transition: all .4s;
+  cursor: pointer;
+  user-select: none;
+
+}
+
+/* hover */
+.sub-nav-label-radio-medium:hover,
+.sub-nav-label-radio-big:hover {
+
+  background-color: rgb(251, 133, 133);
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Medium
+/* ---------------------------------------------------------------- */
+
+.sub-nav-label-radio-medium {
+
+  height: 2.5em;
+  padding: 0 .6em;
+
+  border-radius: .6em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Big
+/* ---------------------------------------------------------------- */
+
+.sub-nav-label-radio-big {
+
+  height: 2.8em;
+  padding: 0 .6em;
+
+}

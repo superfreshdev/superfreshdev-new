@@ -1,0 +1,146 @@
+/* --------------------------------------------------------------- */
+/* > header-coding-task-item.css
+/*
+/* : styles ...
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Header | Coding Task Item | More IT
+/* ---------------------------------------------------------------- */
+
+.coding-task-item-more-it > header {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .8em;
+  row-gap: .4em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Category Info Coding Task | Header
+/* ---------------------------------------------------------------- */
+
+.category-info-coding-task {
+
+  height: 1.5em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  /* font-weight: bold; */
+
+  background-color: rgb(243, 243, 243);
+  color:rgb(115, 115, 115);
+
+  /* font-weight: bold; */
+
+}
+
+/* div */
+.category-info-coding-task > div {
+
+  font-size: 14.5px;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Time Level Info Coding Task | Header
+/* ---------------------------------------------------------------- */
+
+.time-level-info-coding-task {
+
+  display: flex;
+  align-items: center;
+  column-gap: .2em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Time Info |
+/* ---------------------------------------------------------------- */
+
+.time-info-coding-task {
+
+  height: 1.5em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  /* font-weight: bold; */
+
+  background-color: rgb(243, 243, 243);
+  color:rgb(115, 115, 115);
+
+  /* font-weight: bold; */
+
+}
+
+/* div */
+.time-info-coding-task > div {
+
+  font-size: 14.5px;
+}
+
+/* ---------------------------------------------------------------- */
+/* Level Info Coding Task | Easy, Medium, Hard
+/* ---------------------------------------------------------------- */
+
+.level-info-coding-task-easy,
+.level-info-coding-task-medium,
+.level-info-coding-task-hard {
+
+  height: 1.5em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  font-weight: bold;
+
+  color:rgb(72, 72, 72);
+
+}
+
+.level-info-coding-task-easy > div,
+.level-info-coding-task-medium > div,
+.level-info-coding-task-hard > div {
+
+  font-size: 14.5px;
+
+}
+
+/* easy */
+.level-info-coding-task-easy {
+
+  background-color: rgb(153, 251, 153);
+
+}
+
+/* medium */
+.level-info-coding-task-medium {
+
+  background-color: rgb(255, 227, 86);
+
+}
+
+/* hard */
+.level-info-coding-task-hard {
+
+  background-color: rgb(251, 133, 133);
+
+}

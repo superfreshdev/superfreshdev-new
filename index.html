@@ -49,6 +49,8 @@
           <link rel="stylesheet" href="css/default/css-framework/layout-elements/labels/labels-radio.css">
           <!-- 🟩 label | nav radio -->
           <link rel="stylesheet" href="css/default/css-framework/layout-elements/labels/nav-labels-radio.css">
+          <!-- 🟩 label | sub nav radio -->
+          <link rel="stylesheet" href="css/default/css-framework/layout-elements/labels/sub-nav-labels-radio.css">
 
           <!-- 🟩 Custom Radio -->
           <link rel="stylesheet" href="css/default/css-framework/layout-elements/custom-radio/custom-radio.css">
@@ -226,13 +228,29 @@
 
           <!-- coding tasks -->
           <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/coding-tasks-more-it.css">
+          <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/coding-task-item-more-it.css">
 
             <!-- nav-->
             <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/nav/nav-coding-tasks-more-it.css">
             <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/nav/handling-nav-coding-tasks-more-it.css">
 
+            <!-- coding task item -->
+            <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/coding-task-item/coding-task-item-more-it.css">
+            <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/coding-task-item/header-coding-task-item.css">
+            <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/coding-task-item/main-coding-task-item.css">
+            <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/coding-task-item/footer-coding-task-item.css">
+
           <!-- it docs -->
           <link rel="stylesheet" href="css/webpage/more-it/content/it-docs/it-docs-more-it.css">
+
+            <!-- nav-->
+            <link rel="stylesheet" href="css/webpage/more-it/content/it-docs/nav/nav-it-docs-more-it.css">
+            <link rel="stylesheet" href="css/webpage/more-it/content/it-docs/nav/handling-nav-it-docs-more-it.css">
+
+            <!-- sub nav -->
+            <link rel="stylesheet" href="css/webpage/more-it/content/it-docs/nav/sub-nav/sub-nav-it-docs-more-it.css">
+            <link rel="stylesheet" href="css/webpage/more-it/content/it-docs/nav/sub-nav/handling-sub-nav-it-docs-more-it.css">
+
 
         <!-- resp -->
         <link rel="stylesheet" href="css/webpage/more-it/resp-more-it.css">
@@ -2673,8 +2691,8 @@
                 <!-- --------------------------------------------------- -->
                 <input type="radio" id="radio-nav-more-it-mini-projects" name="name-radio-nav-more-it">
                 <input type="radio" id="radio-nav-more-it-mini-games" name="name-radio-nav-more-it">
-                <input checked type="radio" id="radio-nav-more-it-coding-tasks" name="name-radio-nav-more-it">
-                <input type="radio" id="radio-nav-more-it-it-docs" name="name-radio-nav-more-it">
+                <input type="radio" id="radio-nav-more-it-coding-tasks" name="name-radio-nav-more-it">
+                <input checked type="radio" id="radio-nav-more-it-it-docs" name="name-radio-nav-more-it">
 
                 <!-- ------------------------------------------------------------------------- -->
                 <!-- 🟨 [2/3] | Nav Container | Row Content Container (max) -->
@@ -5555,7 +5573,7 @@
                   <div id="coding-task-container-more-it">
 
                     <!-- ---------------------------------------------------------------------- -->
-                    <!-- ➡️🟥 [1/4] | Header Content | Coding Tasks -->
+                    <!-- 🟨 [1/3] | Header Content | Coding Tasks -->
                     <!-- ---------------------------------------------------------------------- -->
                     <div class="row-container">
 
@@ -5640,23 +5658,29 @@
 
                     </div>
 
+                    <!-- ---------------------------------------- -->
+                    <!-- 🟩 Radios | Coding Tasks -->
+                    <!-- ---------------------------------------- -->
+                    <input type="radio" id="radio-nav-coding-tasks-leetcode" name="name-radio-nav-coding-tasks">
+                    <input type="radio" id="radio-nav-coding-tasks-others" name="name-radio-nav-coding-tasks">
+
                     <!-- ---------------------------------------------------------------------- -->
-                    <!-- ➡️🟥 [2/4] | Nav Coding Tasks -->
+                    <!-- 🟩 [2/3] | Nav Coding Tasks -->
                     <!-- ---------------------------------------------------------------------- -->
                     <div class="row-container">
 
                       <!-- --------------------------------------------------------------- -->
-                      <!-- ➡️🟥 Nav Coding Tasks | (small)                 -->
+                      <!-- 🟩 Nav Coding Tasks | (small)                 -->
                       <!-- --------------------------------------------------------------- -->
                       <div class="resp-row-content-container-small">
 
                         <!-- ---------------------------------------------------------------- -->
-                        <!-- 🟥 Nav Coding Tasks  -->
+                        <!-- 🟩 Nav Coding Tasks  -->
                         <!-- ---------------------------------------------------------------- -->
                         <nav id="nav-coding-tasks-more-it">
 
                           <!-- -------------------------------------------------- -->
-                          <!-- 🟥 [1/2] | LeetCode | Label -->
+                          <!-- 🟩 [1/2] | LeetCode | Label -->
                           <!-- -------------------------------------------------- -->
                           <label for="radio-nav-coding-tasks-leetcode" class="nav-label-radio-small">
 
@@ -5706,9 +5730,9 @@
                           </label>
 
                           <!-- -------------------------------------------------- -->
-                          <!-- 🟥 [2/2] | Others | Label -->
+                          <!-- 🟩 [2/2] | Others | Label -->
                           <!-- -------------------------------------------------- -->
-                          <label for="radio-nav-coding-tasks-leetcode" class="nav-label-radio-small">
+                          <label for="radio-nav-coding-tasks-others" class="nav-label-radio-small">
 
                             <!-- ----------------------------------------------------------- -->
                             <!-- [1/2] | Title Content | Nav Label Radio                     -->
@@ -5761,6 +5785,600 @@
 
                     </div>
 
+                    <!-- ---------------------------------------------------------------------- -->
+                    <!-- ➡️🟥 [3/3] | Coding Task Content Container More It -->
+                    <!-- ---------------------------------------------------------------------- -->
+                    <div id="coding-task-content-container-more-it">
+
+                      <!-- --------------------------------------------------------------- -->
+                      <!-- ➡️🟥 Task 1/4 | Row Container              -->
+                      <!-- --------------------------------------------------------------- -->
+                      <div class="row-container">
+
+                        <!-- --------------------------------------------------------------- -->
+                        <!-- ➡️🟥 Coding Task Content Container | (small)                 -->
+                        <!-- --------------------------------------------------------------- -->
+                        <div class="resp-row-content-container-small">
+
+                          <!-- ------------------------------------------------------- -->
+                          <!-- 🟥 1 | Coding Task Item More IT -->
+                          <!-- ------------------------------------------------------- -->
+                          <div class="coding-task-item-more-it">
+
+                            <!-- -------------------------------------------------- -->
+                            <!-- 🟨 Header -->
+                            <!-- -------------------------------------------------- -->
+                            <header>
+
+                              <!-- ------------------------------------------------ -->
+                              <!-- 🟨 [1/2] | Category Info Coding Task -->
+                              <!-- ------------------------------------------------ -->
+                              <div class="category-info-coding-task">
+                                <div>Algorithmic & Datastructure</div>
+                              </div>
+
+                              <!-- ------------------------------------------------ -->
+                              <!-- 🟨 [2/2] | Time Level Info Coding Task -->
+                              <!-- ------------------------------------------------ -->
+                              <div class="time-level-info-coding-task">
+
+                                <!-- --------------------------------- -->
+                                <!-- 🟨 Time Info Coding Task -->
+                                <!-- --------------------------------- -->
+                                <div class="time-info-coding-task">
+                                  <div>60 Min.</div>
+                                </div>
+
+                                <!-- --------------------------------- -->
+                                <!-- 🟨 Level Info Coding Task -->
+                                <!-- --------------------------------- -->
+                                <div class="level-info-coding-task-easy">
+                                  <div>Easy</div>
+                                </div>
+
+                                <div class="level-info-coding-task-medium" style="display: none;">
+                                  <div>Medium</div>
+                                </div>
+
+                                 <div class="level-info-coding-task-hard" style="display: none;">
+                                  <div>Hard</div>
+                                </div>
+
+                              </div>
+
+                            </header>
+
+                            <!-- -------------------------------------------------- -->
+                            <!-- 🟨 Main -->
+                            <!-- -------------------------------------------------- -->
+                            <main>
+
+                              <!-- ---------------------------------------------- -->
+                              <!-- NR (float) -->
+                              <!-- ---------------------------------------------- -->
+                              <div>
+                                <div>01/04</div>
+                              </div>
+
+                              <!-- ---------------------------------------------- -->
+                              <!-- Title -->
+                              <!-- ---------------------------------------------- -->
+                              <div>
+                                <div>Title here can be a longer text that describe this task.
+                                  So be warned if you know what i am talking about and if
+                                  you like this is only a longer text to test anything
+                                  what you know to do. But remeber its goind deep and
+                                  you can understand what i mean.
+                                </div>
+                              </div>
+
+                            </main>
+
+                            <!-- -------------------------------------------------- -->
+                            <!-- 🟥 Footer -->
+                            <!-- -------------------------------------------------- -->
+                            <footer>
+
+                              <!-- ------------------------------------------------------- -->
+                              <!-- Link Task -->
+                              <!-- ------------------------------------------------------- -->
+                              <a href="" target="_blank" class="link-task-coding-task">
+
+                                <div>Task</div>
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-external-link.png"
+                                      alt="img"
+                                      class="img-h-0-7">
+
+                              </a>
+
+                              <!-- ------------------------------------------------------- -->
+                              <!-- External Link Container Coding Task -->
+                              <!-- ------------------------------------------------------- -->
+                              <div class="external-link-container-coding-task">
+
+                                <!-- pdf -->
+                                <a href="" target="_blank" class="link-external-coding-task">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-pdf.png"
+                                       alt="img"
+                                       class="img-h-0-9">
+                                  <div>PDF</div>
+
+                                </a>
+
+                                <!-- .zip -->
+                                <a href="" target="_blank" class="link-external-coding-task">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-download-arrow.png"
+                                       alt="img"
+                                       class="img-h-0-8">
+                                  <div>.zip</div>
+
+                                </a>
+
+                                <!-- github -->
+                                <a href="" target="_blank" class="link-external-coding-task">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                       alt="img"
+                                       class="img-h-0-9">
+                                  <div>GitHub</div>
+
+                                </a>
+
+                              </div>
+
+                            </footer>
+
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                      <!-- --------------------------------------------------------------- -->
+                      <!-- ➡️🟥 Task 2/4 | Row Container              -->
+                      <!-- --------------------------------------------------------------- -->
+                      <div class="row-container">
+
+                        <!-- --------------------------------------------------------------- -->
+                        <!-- ➡️🟥 Coding Task Content Container | (small)                 -->
+                        <!-- --------------------------------------------------------------- -->
+                        <div class="resp-row-content-container-small">
+
+                          <!-- ------------------------------------------------------- -->
+                          <!-- 🟥 1 | Coding Task Item More IT -->
+                          <!-- ------------------------------------------------------- -->
+                          <div class="coding-task-item-more-it">
+
+                            <!-- -------------------------------------------------- -->
+                            <!-- 🟨 Header -->
+                            <!-- -------------------------------------------------- -->
+                            <header>
+
+                              <!-- ------------------------------------------------ -->
+                              <!-- 🟨 [1/2] | Category Info Coding Task -->
+                              <!-- ------------------------------------------------ -->
+                              <div class="category-info-coding-task">
+                                <div>String & List</div>
+                              </div>
+
+                              <!-- ------------------------------------------------ -->
+                              <!-- 🟨 [2/2] | Time Level Info Coding Task -->
+                              <!-- ------------------------------------------------ -->
+                              <div class="time-level-info-coding-task">
+
+                                <!-- --------------------------------- -->
+                                <!-- 🟨 Time Info Coding Task -->
+                                <!-- --------------------------------- -->
+                                <div class="time-info-coding-task">
+                                  <div>30 Min.</div>
+                                </div>
+
+                                <!-- --------------------------------- -->
+                                <!-- 🟨 Level Info Coding Task -->
+                                <!-- --------------------------------- -->
+                                <div class="level-info-coding-task-easy" style="display: none;">
+                                  <div>Easy</div>
+                                </div>
+
+                                <div class="level-info-coding-task-medium">
+                                  <div>Medium</div>
+                                </div>
+
+                                 <div class="level-info-coding-task-hard" style="display: none;">
+                                  <div>Hard</div>
+                                </div>
+
+                              </div>
+
+                            </header>
+
+                            <!-- -------------------------------------------------- -->
+                            <!-- 🟨 Main -->
+                            <!-- -------------------------------------------------- -->
+                            <main>
+
+                              <!-- ---------------------------------------------- -->
+                              <!-- NR (float) -->
+                              <!-- ---------------------------------------------- -->
+                              <div>
+                                <div>02/04</div>
+                              </div>
+
+                              <!-- ---------------------------------------------- -->
+                              <!-- Title -->
+                              <!-- ---------------------------------------------- -->
+                              <div>
+                                <div>Title here can be a longer text that describe this task.
+                                  So be warned if you know what i am talking about and if
+                                  you like this is only a longer text to test anything
+                                  what you know to do. But remeber its goind deep and
+                                  you can understand what i mean.
+                                </div>
+                              </div>
+
+                            </main>
+
+                            <!-- -------------------------------------------------- -->
+                            <!-- 🟥 Footer -->
+                            <!-- -------------------------------------------------- -->
+                            <footer>
+
+                              <!-- ------------------------------------------------------- -->
+                              <!-- Link Task -->
+                              <!-- ------------------------------------------------------- -->
+                              <a href="" target="_blank" class="link-task-coding-task">
+
+                                <div>Task</div>
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-external-link.png"
+                                      alt="img"
+                                      class="img-h-0-7">
+
+                              </a>
+
+                              <!-- ------------------------------------------------------- -->
+                              <!-- External Link Container Coding Task -->
+                              <!-- ------------------------------------------------------- -->
+                              <div class="external-link-container-coding-task">
+
+                                <!-- pdf -->
+                                <a href="" target="_blank" class="link-external-coding-task">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-pdf.png"
+                                       alt="img"
+                                       class="img-h-0-9">
+                                  <div>PDF</div>
+
+                                </a>
+
+                                <!-- .zip -->
+                                <a href="" target="_blank" class="link-external-coding-task">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-download-arrow.png"
+                                       alt="img"
+                                       class="img-h-0-8">
+                                  <div>.zip</div>
+
+                                </a>
+
+                                <!-- github -->
+                                <a href="" target="_blank" class="link-external-coding-task">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                       alt="img"
+                                       class="img-h-0-9">
+                                  <div>GitHub</div>
+
+                                </a>
+
+                              </div>
+
+                            </footer>
+
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                      <!-- --------------------------------------------------------------- -->
+                      <!-- ➡️🟥 Task 3/4 | Row Container              -->
+                      <!-- --------------------------------------------------------------- -->
+                      <div class="row-container">
+
+                        <!-- --------------------------------------------------------------- -->
+                        <!-- ➡️🟥 Coding Task Content Container | (small)                 -->
+                        <!-- --------------------------------------------------------------- -->
+                        <div class="resp-row-content-container-small">
+
+                          <!-- ------------------------------------------------------- -->
+                          <!-- 🟥 1 | Coding Task Item More IT -->
+                          <!-- ------------------------------------------------------- -->
+                          <div class="coding-task-item-more-it">
+
+                            <!-- -------------------------------------------------- -->
+                            <!-- 🟨 Header -->
+                            <!-- -------------------------------------------------- -->
+                            <header>
+
+                              <!-- ------------------------------------------------ -->
+                              <!-- 🟨 [1/2] | Category Info Coding Task -->
+                              <!-- ------------------------------------------------ -->
+                              <div class="category-info-coding-task">
+                                <div>Math & Sort</div>
+                              </div>
+
+                              <!-- ------------------------------------------------ -->
+                              <!-- 🟨 [2/2] | Time Level Info Coding Task -->
+                              <!-- ------------------------------------------------ -->
+                              <div class="time-level-info-coding-task">
+
+                                <!-- --------------------------------- -->
+                                <!-- 🟨 Time Info Coding Task -->
+                                <!-- --------------------------------- -->
+                                <div class="time-info-coding-task">
+                                  <div>60 Min.</div>
+                                </div>
+
+                                <!-- --------------------------------- -->
+                                <!-- 🟨 Level Info Coding Task -->
+                                <!-- --------------------------------- -->
+                                <div class="level-info-coding-task-easy" style="display: none;">
+                                  <div>Easy</div>
+                                </div>
+
+                                <div class="level-info-coding-task-medium" style="display: none;">
+                                  <div>Medium</div>
+                                </div>
+
+                                 <div class="level-info-coding-task-hard">
+                                  <div>Hard</div>
+                                </div>
+
+                              </div>
+
+                            </header>
+
+                            <!-- -------------------------------------------------- -->
+                            <!-- 🟨 Main -->
+                            <!-- -------------------------------------------------- -->
+                            <main>
+
+                              <!-- ---------------------------------------------- -->
+                              <!-- NR (float) -->
+                              <!-- ---------------------------------------------- -->
+                              <div>
+                                <div>03/04</div>
+                              </div>
+
+                              <!-- ---------------------------------------------- -->
+                              <!-- Title -->
+                              <!-- ---------------------------------------------- -->
+                              <div>
+                                <div>Title here can be a longer text that describe this task.
+                                  So be warned if you know what i am talking about and if
+                                  you like this is only a longer text to test anything
+                                  what you know to do. But remeber its goind deep and
+                                  you can understand what i mean.
+                                </div>
+                              </div>
+
+                            </main>
+
+                            <!-- -------------------------------------------------- -->
+                            <!-- 🟥 Footer -->
+                            <!-- -------------------------------------------------- -->
+                            <footer>
+
+                              <!-- ------------------------------------------------------- -->
+                              <!-- Link Task -->
+                              <!-- ------------------------------------------------------- -->
+                              <a href="" target="_blank" class="link-task-coding-task">
+
+                                <div>Task</div>
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-external-link.png"
+                                      alt="img"
+                                      class="img-h-0-7">
+
+                              </a>
+
+                              <!-- ------------------------------------------------------- -->
+                              <!-- External Link Container Coding Task -->
+                              <!-- ------------------------------------------------------- -->
+                              <div class="external-link-container-coding-task">
+
+                                <!-- pdf -->
+                                <a href="" target="_blank" class="link-external-coding-task">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-pdf.png"
+                                       alt="img"
+                                       class="img-h-0-9">
+                                  <div>PDF</div>
+
+                                </a>
+
+                                <!-- .zip -->
+                                <a href="" target="_blank" class="link-external-coding-task">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-download-arrow.png"
+                                       alt="img"
+                                       class="img-h-0-8">
+                                  <div>.zip</div>
+
+                                </a>
+
+                                <!-- github -->
+                                <a href="" target="_blank" class="link-external-coding-task">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                       alt="img"
+                                       class="img-h-0-9">
+                                  <div>GitHub</div>
+
+                                </a>
+
+                              </div>
+
+                            </footer>
+
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                      <!-- --------------------------------------------------------------- -->
+                      <!-- ➡️🟥 Task 4/4 | Row Container              -->
+                      <!-- --------------------------------------------------------------- -->
+                      <div class="row-container">
+
+                        <!-- --------------------------------------------------------------- -->
+                        <!-- ➡️🟥 Coding Task Content Container | (small)                 -->
+                        <!-- --------------------------------------------------------------- -->
+                        <div class="resp-row-content-container-small">
+
+                          <!-- ------------------------------------------------------- -->
+                          <!-- 🟥 1 | Coding Task Item More IT -->
+                          <!-- ------------------------------------------------------- -->
+                          <div class="coding-task-item-more-it">
+
+                            <!-- -------------------------------------------------- -->
+                            <!-- 🟨 Header -->
+                            <!-- -------------------------------------------------- -->
+                            <header>
+
+                              <!-- ------------------------------------------------ -->
+                              <!-- 🟨 [1/2] | Category Info Coding Task -->
+                              <!-- ------------------------------------------------ -->
+                              <div class="category-info-coding-task">
+                                <div>Crypto & DB</div>
+                              </div>
+
+                              <!-- ------------------------------------------------ -->
+                              <!-- 🟨 [2/2] | Time Level Info Coding Task -->
+                              <!-- ------------------------------------------------ -->
+                              <div class="time-level-info-coding-task">
+
+                                <!-- --------------------------------- -->
+                                <!-- 🟨 Time Info Coding Task -->
+                                <!-- --------------------------------- -->
+                                <div class="time-info-coding-task">
+                                  <div>60 Min.</div>
+                                </div>
+
+                                <!-- --------------------------------- -->
+                                <!-- 🟨 Level Info Coding Task -->
+                                <!-- --------------------------------- -->
+                                <div class="level-info-coding-task-easy" style="display: none;">
+                                  <div>Easy</div>
+                                </div>
+
+                                <div class="level-info-coding-task-medium" style="display: none;">
+                                  <div>Medium</div>
+                                </div>
+
+                                 <div class="level-info-coding-task-hard">
+                                  <div>Hard</div>
+                                </div>
+
+                              </div>
+
+                            </header>
+
+                            <!-- -------------------------------------------------- -->
+                            <!-- 🟨 Main -->
+                            <!-- -------------------------------------------------- -->
+                            <main>
+
+                              <!-- ---------------------------------------------- -->
+                              <!-- NR (float) -->
+                              <!-- ---------------------------------------------- -->
+                              <div>
+                                <div>04/04</div>
+                              </div>
+
+                              <!-- ---------------------------------------------- -->
+                              <!-- Title -->
+                              <!-- ---------------------------------------------- -->
+                              <div>
+                                <div>Title here can be a longer text that describe this task.
+                                  So be warned if you know what i am talking about and if
+                                  you like this is only a longer text to test anything
+                                  what you know to do. But remeber its goind deep and
+                                  you can understand what i mean.
+                                </div>
+                              </div>
+
+                            </main>
+
+                            <!-- -------------------------------------------------- -->
+                            <!-- 🟥 Footer -->
+                            <!-- -------------------------------------------------- -->
+                            <footer>
+
+                              <!-- ------------------------------------------------------- -->
+                              <!-- Link Task -->
+                              <!-- ------------------------------------------------------- -->
+                              <a href="" target="_blank" class="link-task-coding-task">
+
+                                <div>Task</div>
+
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-external-link.png"
+                                      alt="img"
+                                      class="img-h-0-7">
+
+                              </a>
+
+                              <!-- ------------------------------------------------------- -->
+                              <!-- External Link Container Coding Task -->
+                              <!-- ------------------------------------------------------- -->
+                              <div class="external-link-container-coding-task">
+
+                                <!-- pdf -->
+                                <a href="" target="_blank" class="link-external-coding-task">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-pdf.png"
+                                       alt="img"
+                                       class="img-h-0-9">
+                                  <div>PDF</div>
+
+                                </a>
+
+                                <!-- .zip -->
+                                <a href="" target="_blank" class="link-external-coding-task">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-download-arrow.png"
+                                       alt="img"
+                                       class="img-h-0-8">
+                                  <div>.zip</div>
+
+                                </a>
+
+                                <!-- github -->
+                                <a href="" target="_blank" class="link-external-coding-task">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
+                                       alt="img"
+                                       class="img-h-0-9">
+                                  <div>GitHub</div>
+
+                                </a>
+
+                              </div>
+
+                            </footer>
+
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
 
                   </div>
 
@@ -5821,14 +6439,514 @@
 
                     </div>
 
-                    <!-- ---------------------------------------------------------------------- -->
-                    <!-- ➡️🟥 [2/2] | Nav IT Docs More IT -->
-                    <!-- ---------------------------------------------------------------------- -->
-                    <nav id="nav-it-docs-more-it">
 
-                      nav-it-docs-more-it | Frontend - Backend - AI + sub nav
+                    <!-- ---------------------------------------------------- -->
+                    <!-- 🟥 Radios | Nav IT Docs (frontend,backend, ai) -->
+                    <!-- ---------------------------------------------------- -->
+                    <input type="radio" id="radio-nav-it-docs-frontend" name="name-radio-nav-it-docs">
+                    <input type="radio" id="radio-nav-it-docs-backend" name="name-radio-nav-it-docs">
+                    <input type="radio" id="radio-nav-it-docs-ai" name="name-radio-nav-it-docs">
 
-                    </nav>
+                    <!-- ---------------------------------------- -->
+                    <!-- 🟥 Radios | Sub Nav IT Docs -->
+                    <!-- ---------------------------------------- -->
+
+                      <!-- ⚠️ frontend -->
+                      <input type="radio" id="radio-sub-nav-it-docs-dev-basic" name="name-radio-sub-nav-it-docs">
+                      <input type="radio" id="radio-sub-nav-it-docs-web-basic" name="name-radio-sub-nav-it-docs">
+                      <input type="radio" id="radio-sub-nav-it-docs-web-dev" name="name-radio-sub-nav-it-docs">
+
+                      <!-- ⚠️ backend -->
+
+                      <!-- ⚠️ ai -->
+
+                    <!-- ---------------------------------------------------------------------- -->
+                    <!-- ➡️🟥 [2/3] | Nav IT Docs -->
+                    <!-- ---------------------------------------------------------------------- -->
+                    <div class="row-container">
+
+                      <!-- --------------------------------------------------------------- -->
+                      <!-- 🟥 Nav IT Docs | (small)                 -->
+                      <!-- --------------------------------------------------------------- -->
+                      <div class="resp-row-content-container-small">
+
+                        <!-- ---------------------------------------------------------------- -->
+                        <!-- 🟥 Nav Coding Tasks  -->
+                        <!-- ---------------------------------------------------------------- -->
+                        <nav id="nav-it-docs-more-it">
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [1/3] | Frontend | Label -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-nav-it-docs-frontend" class="nav-label-radio-small">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title Content | Nav Label Radio                     -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-content-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/3] | Img -->
+                              <!-- --------------------------------------------- -->
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-eye.png"
+                                   class="img-h-0-8" alt="img">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/4] | Img Seperator -->
+                              <!-- --------------------------------------------- -->
+                              <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png" class="img-h-0-8" alt="img"> -->
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/4] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div class="title-nav-label-radio">Frontend</div>
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/3] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 50</div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/3] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png" alt="img">
+                              </div>
+
+                            </div>
+
+                          </label>
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [2/3] | Backend | Label -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-nav-it-docs-backend" class="nav-label-radio-small">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title Content | Nav Label Radio                     -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-content-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/3] | Img -->
+                              <!-- --------------------------------------------- -->
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-cloud-server.png"
+                                   class="img-h-1-1" alt="img">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/4] | Img Seperator -->
+                              <!-- --------------------------------------------- -->
+                              <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png" class="img-h-0-8" alt="img"> -->
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/4] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div class="title-nav-label-radio">Backend</div>
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/3] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 05</div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/3] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png" alt="img">
+                              </div>
+
+                            </div>
+
+                          </label>
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [2/3] | AI | Label -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-nav-it-docs-ai" class="nav-label-radio-small">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title Content | Nav Label Radio                     -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-content-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/3] | Img -->
+                              <!-- --------------------------------------------- -->
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-tornado.png"
+                                   class="img-h-1-1" alt="img">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/4] | Img Seperator -->
+                              <!-- --------------------------------------------- -->
+                              <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png" class="img-h-0-8" alt="img"> -->
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/4] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div class="title-nav-label-radio">AI</div>
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/3] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 05</div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/3] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png" alt="img">
+                              </div>
+
+                            </div>
+
+                          </label>
+
+                        </nav>
+
+                        <!-- -------------------------------------------------------------- -->
+                        <!-- 🟥 [1/2] | Frontend Sub Nav It Docs -->
+                        <!-- -------------------------------------------------------------- -->
+                        <div id="frontend-sub-nav-it-docs">
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [1/3] | Dev-Basic | Frontend  -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-it-docs-dev-basic" class="sub-nav-label-radio-medium">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title Content | Nav Label Radio                     -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-content-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/3] | Img -->
+                              <!-- --------------------------------------------- -->
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-leetcode.png"
+                                   class="img-h-1-1" alt="img">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/4] | Img Seperator -->
+                              <!-- --------------------------------------------- -->
+                              <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png" class="img-h-0-8" alt="img"> -->
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/4] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div class="title-nav-label-radio">Dev-Basic</div>
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/3] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 12</div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/3] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png" alt="img">
+                              </div>
+
+                            </div>
+
+                          </label>
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [2/3] | Web-Basic | Frontend  -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-it-docs-web-basic" class="sub-nav-label-radio-medium">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title Content | Nav Label Radio                     -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-content-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/3] | Img -->
+                              <!-- --------------------------------------------- -->
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-earth.png"
+                                   class="img-h-1-1" alt="img">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/4] | Img Seperator -->
+                              <!-- --------------------------------------------- -->
+                              <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png" class="img-h-0-8" alt="img"> -->
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/4] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div class="title-nav-label-radio">Web-Basic</div>
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/3] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 8</div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/3] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png" alt="img">
+                              </div>
+
+                            </div>
+
+                          </label>
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [1/3] | Web-Dev | Frontend  -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-it-docs-web-dev" class="sub-nav-label-radio-medium">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title Content | Nav Label Radio                     -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-content-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/3] | Img -->
+                              <!-- --------------------------------------------- -->
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-web-coding.png"
+                                   class="img-h-1-1" alt="img">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/4] | Img Seperator -->
+                              <!-- --------------------------------------------- -->
+                              <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png" class="img-h-0-8" alt="img"> -->
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/4] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div class="title-nav-label-radio">Web-Basic</div>
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/3] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 8</div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/3] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png" alt="img">
+                              </div>
+
+                            </div>
+
+                          </label>
+
+                        </div>
+
+                        <!-- -------------------------------------------------------------- -->
+                        <!-- 🟥 [2/2] | Backend Sub Nav It Docs -->
+                        <!-- -------------------------------------------------------------- -->
+                        <div id="backend-sub-nav-it-docs">
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [1/3] | Software-Dev | Backend -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-it-docs-dev-basic" class="sub-nav-label-radio-medium">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title Content | Nav Label Radio                     -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-content-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/3] | Img -->
+                              <!-- --------------------------------------------- -->
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-leetcode.png"
+                                   class="img-h-1-1" alt="img">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/4] | Img Seperator -->
+                              <!-- --------------------------------------------- -->
+                              <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png" class="img-h-0-8" alt="img"> -->
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/4] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div class="title-nav-label-radio">Software-Dev</div>
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/3] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 12</div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/3] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png" alt="img">
+                              </div>
+
+                            </div>
+
+                          </label>
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [2/3] | IT-Architecture | Backend -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-it-docs-dev-basic" class="sub-nav-label-radio-medium">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title Content | Nav Label Radio                     -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-content-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/3] | Img -->
+                              <!-- --------------------------------------------- -->
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-leetcode.png"
+                                   class="img-h-1-1" alt="img">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/4] | Img Seperator -->
+                              <!-- --------------------------------------------- -->
+                              <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png" class="img-h-0-8" alt="img"> -->
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/4] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div class="title-nav-label-radio">IT-Architecture</div>
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/3] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 12</div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/3] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png" alt="img">
+                              </div>
+
+                            </div>
+
+                          </label>
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [3/3] | Backend-Tools | Backend -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-it-docs-dev-basic" class="sub-nav-label-radio-medium">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title Content | Nav Label Radio                     -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-content-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/3] | Img -->
+                              <!-- --------------------------------------------- -->
+                              <img src="media/imgs/icons/02-icon-colors/01-black/black-leetcode.png"
+                                   class="img-h-1-1" alt="img">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/4] | Img Seperator -->
+                              <!-- --------------------------------------------- -->
+                              <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png" class="img-h-0-8" alt="img"> -->
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/4] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div class="title-nav-label-radio">Backend-Tools</div>
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/3] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 6</div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [3/3] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png" alt="img">
+                              </div>
+
+                            </div>
+
+                          </label>
+
+                        </div>
+
+
+                      </div>
+
+                    </div>
+
+
 
                   </div>
 

@@ -1,0 +1,28 @@
+/* --------------------------------------------------------------- */
+/* > sub-nav-it-docs-more-it.css
+/*
+/* : styles ...
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Frontend, Backend | Sub Nav IT Docs More IT
+/* ---------------------------------------------------------------- */
+
+#frontend-sub-nav-it-docs,
+#backend-sub-nav-it-docs {
+
+  width: 100%;
+  padding: .5em 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: .3em;
+  row-gap: .3em;
+
+  /* default unshown, by checked will be shown */
+  display: none;
+
+}

@@ -1,0 +1,25 @@
+/* --------------------------------------------------------------- */
+/* > handling-nav-it-docs-more-it.css
+/*
+/* : styles ...
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Handlings Styles
+/* ---------------------------------------------------------------- */
+
+#nav-it-docs-more-it {
+
+  padding: .5em 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: .4em;
+  row-gap: .4em;
+
+  background-color: green;
+
+}

@@ -1,0 +1,70 @@
+/* --------------------------------------------------------------- */
+/* > main-coding-task-item.css
+/*
+/* : styles ...
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Main | Coding Task Item | More IT
+/* ---------------------------------------------------------------- */
+
+.coding-task-item-more-it > main {
+
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Nr (Div1) | Main
+/* ---------------------------------------------------------------- */
+
+.coding-task-item-more-it > main > div:nth-of-type(1) {
+
+  float: left;
+  margin-right: .4em;
+
+  height: 1.8em;
+  padding: 0em .4em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  letter-spacing: 1px;
+
+
+  font-weight: bold;
+
+  background-color: rgb(243, 243, 243);
+  background-color: rgb(49, 49, 49);
+  color:rgb(233, 233, 233);
+
+}
+
+/* div */
+.coding-task-item-more-it > main > div:nth-of-type(1) > div {
+
+  font-size: 12.5px;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Title (Div2) | Main
+/* ---------------------------------------------------------------- */
+
+.coding-task-item-more-it > main > div:nth-of-type(2) {
+
+  line-height: 1.5em;
+
+  color:#454545;
+
+}
+
+/* div */
+.coding-task-item-more-it > main > div:nth-of-type(2) > div {
+
+  font-size: 14.5px;
+
+}

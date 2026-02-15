@@ -1,0 +1,46 @@
+/* --------------------------------------------------------------- */
+/* > handling-nav-it-docs-more-it.css
+/*
+/* : styles ...
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Handlings Styles
+/* ---------------------------------------------------------------- */
+
+/* default unshown */
+input[name="name-radio-nav-it-docs"] {
+
+  display: none;
+
+}
+
+/* set background red | ⚠️ dont understand why 2 because it should be 1 */
+#radio-nav-it-docs-frontend:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-it-docs-frontend"],
+#radio-nav-it-docs-backend:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-it-docs-backend"],
+#radio-nav-it-docs-ai:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-it-docs-ai"] {
+
+  background-image: linear-gradient(to right, #db7272, #da9292);
+
+}
+
+/* change img custom radio */
+#radio-nav-it-docs-frontend:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-it-docs-frontend"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-nav-it-docs-backend:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-it-docs-backend"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-nav-it-docs-ai:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-it-docs-ai"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img {
+
+   display: flex;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Handlings Action
+/* ---------------------------------------------------------------- */
+
+#radio-nav-it-docs-frontend:checked ~ .row-container:nth-of-type(2) #frontend-sub-nav-it-docs,
+#radio-nav-it-docs-backend:checked  ~ .row-container:nth-of-type(2) #backend-sub-nav-it-docs {
+
+  display: flex;
+
+}

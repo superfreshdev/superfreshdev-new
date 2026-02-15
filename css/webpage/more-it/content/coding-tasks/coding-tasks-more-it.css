@@ -19,3 +19,25 @@
   background-color: rgb(115, 119, 114);
 
 }
+
+/* ---------------------------------------------------------------- */
+/* Coding Task Content Container | More IT
+/* ---------------------------------------------------------------- */
+
+#coding-task-content-container-more-it {
+
+  width: 100%;
+  padding: 1.5em 0;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Row Container (overwrite) | Coding Task Content Container
+/* ---------------------------------------------------------------- */
+
+/* white */
+#coding-task-content-container-more-it > .row-container:nth-child(odd) {
+
+  background-color: rgb(169, 169, 169);
+
+}
