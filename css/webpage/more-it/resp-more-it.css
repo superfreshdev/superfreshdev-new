@@ -7,16 +7,34 @@
 
 
 /* ------------------------------------------------------- */
+/* Min Width >= 480px
+/* ------------------------------------------------------- */
+
+@media (min-width: 480px) {
+
+  /* -------------------------------------------------- */
+  /* More IT | Header Content More IT | Img
+  /* -------------------------------------------------- */
+  .header-content-more-it > img:nth-of-type(1) {
+
+    display: flex;
+  }
+
+}
+
+
+/* ------------------------------------------------------- */
 /* Min Width >= 600px
 /* ------------------------------------------------------- */
 
 @media (min-width: 600px) {
 
   /* -------------------------------------------------- */
-  /* More IT | Mini Project Card
+  /* More IT | Mini Project & Mini Games
   /* -------------------------------------------------- */
 
-    #mini-projects-container-more-it .list-rows-content-container .mini-project-card {
+    #mini-projects-container-more-it .list-rows-content-container .mini-project-card,
+    #mini-games-container-more-it .list-rows-content-container .mini-project-card {
 
       grid-template-areas:
 
@@ -29,10 +47,11 @@
     }
 
   /* -------------------------------------------------- */
-  /* More IT | Img | Mini Project Card
+  /* More IT | Img | Mini Project & Mini Games
   /* -------------------------------------------------- */
 
-    #mini-projects-container-more-it .list-rows-content-container .img-container-mini-project-card > img {
+    #mini-projects-container-more-it .list-rows-content-container .img-container-mini-project-card > img,
+    #mini-games-container-more-it .list-rows-content-container .img-container-mini-project-card > img {
 
       width: auto;
       height: 14em;
@@ -49,10 +68,11 @@
 @media (min-width: 700px) {
 
   /* -------------------------------------------------- */
-  /* More IT | Mini Project Card
+  /* More IT | Mini Project & Mini Games
   /* -------------------------------------------------- */
 
-    #mini-projects-container-more-it .list-rows-content-container .mini-project-card {
+    #mini-projects-container-more-it .list-rows-content-container .mini-project-card,
+    #mini-games-container-more-it .list-rows-content-container .mini-project-card {
 
       /* Desktop */
       grid-template-areas:

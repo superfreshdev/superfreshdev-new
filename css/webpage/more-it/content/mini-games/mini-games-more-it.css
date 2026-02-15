@@ -6,7 +6,7 @@
 
 
 /* ---------------------------------------------------------------- */
-/* ...
+/* Mini Games Container | More IT
 /* ---------------------------------------------------------------- */
 
 #mini-games-container-more-it {
@@ -17,5 +17,16 @@
   display: none;
 
   background-color: rgb(165, 42, 144);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Row Container (overwerite)
+/* ---------------------------------------------------------------- */
+
+/* white */
+#mini-games-container-more-it > .list-rows-content-container > .row-container:nth-child(odd) {
+
+  background-color: rgb(169, 169, 169);
 
 }
