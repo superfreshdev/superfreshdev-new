@@ -10,6 +10,7 @@
 /* All | Nav Label Radios
 /* ---------------------------------------------------------------- */
 
+.nav-label-radio-small,
 .nav-label-radio-medium,
 .nav-label-radio-big {
 
@@ -30,10 +31,24 @@
 }
 
 /* hover */
+.nav-label-radio-small:hover,
 .nav-label-radio-medium:hover,
 .nav-label-radio-big:hover {
 
   background-image: linear-gradient(to right, #db7272, #da9292);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Small |
+/* ---------------------------------------------------------------- */
+
+.nav-label-radio-small {
+
+  height: 2.3em;
+  padding: 0 .6em;
+
+  border-radius: .6em;
 
 }
 
@@ -118,7 +133,7 @@
   font-size: 12.5px;
 
   /* width: 2.5em; */
-  height: 1.5em;
+  height: 1.3em;
 
   /* layout optimal pos fix */
   padding-top: .1em;

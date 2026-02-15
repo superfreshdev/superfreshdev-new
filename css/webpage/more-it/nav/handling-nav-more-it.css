@@ -19,7 +19,7 @@ input[name="name-radio-nav-more-it"] {
 /* set background red | ⚠️ dont understand why 2 because it should be 1 */
 #radio-nav-more-it-mini-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-projects"],
 #radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"],
-#radio-nav-more-it-coding-taskschecked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-coding-tasks"],
+#radio-nav-more-it-coding-tasks:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-coding-tasks"],
 #radio-nav-more-it-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-it-docs"] {
 
   background-image: linear-gradient(to right, #db7272, #da9292);

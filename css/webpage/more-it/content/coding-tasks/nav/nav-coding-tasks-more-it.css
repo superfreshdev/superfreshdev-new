@@ -1,21 +1,25 @@
 /* --------------------------------------------------------------- */
-/* > coding-tasks-more-it.css
+/* > nav-coding-tasks-more-it.css
 /*
 /* : styles ...
 /* --------------------------------------------------------------- */
 
 
 /* ---------------------------------------------------------------- */
-/* Coding Task Container More IT
+/* Nav Coding Tasks | More IT
 /* ---------------------------------------------------------------- */
 
-#coding-task-container-more-it {
+#nav-coding-tasks-more-it {
 
-  width: 100%;
-  padding: 2.5em 0;
+  padding: .5em 0;
 
-  display: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: .4em;
+  row-gap: .4em;
 
-  background-color: rgb(115, 119, 114);
+  background-color: green;
 
 }
