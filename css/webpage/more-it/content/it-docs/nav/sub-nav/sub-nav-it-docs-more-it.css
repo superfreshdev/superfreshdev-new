@@ -26,3 +26,15 @@
   display: none;
 
 }
+
+/* ---------------------------------------------------------------- */
+/* Labels | Handlings Styles
+/* ---------------------------------------------------------------- */
+
+/* mobile */
+#frontend-sub-nav-it-docs > label,
+#backend-sub-nav-it-docs > label {
+
+  width: 100%;
+
+}

@@ -6,7 +6,7 @@
 
 
 /* ---------------------------------------------------------------- */
-/* ...
+/* It Docs Container More IT
 /* ---------------------------------------------------------------- */
 
 #it-docs-container-more-it {
@@ -17,5 +17,20 @@
   display: none;
 
   background-color: brown;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* It Docs Content Container More IT
+/* ---------------------------------------------------------------- */
+
+#it-docs-content-container-more-it {
+
+  width: 100%;
+  padding: 2.5em 0;
+
+  display: none;
+
+  background-color: yellow;
 
 }

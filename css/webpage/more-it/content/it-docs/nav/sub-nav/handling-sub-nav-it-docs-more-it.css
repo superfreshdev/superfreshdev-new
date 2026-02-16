@@ -10,24 +10,72 @@
 /* ---------------------------------------------------------------- */
 
 /* default unshown */
-input[name="name-radio-nav-coding-tasks"] {
+input[name="name-radio-sub-nav-it-docs"] {
 
   display: none;
 
 }
 
-/* set background red | ⚠️ dont understand why 2 because it should be 1 */
-#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-leetcode"],
-#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-others"] {
+/* Frontend | set background red | ⚠️ dont understand why 2 because it should be 1 */
+#radio-sub-nav-it-docs-dev-basic:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-dev-basic"],
+#radio-sub-nav-it-docs-web-basic:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-web-basic"],
+#radio-sub-nav-it-docs-web-dev:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-web-dev"] {
 
-  background-image: linear-gradient(to right, #db7272, #da9292);
+  background-color: rgb(251, 133, 133);
 
 }
 
-/* change img custom radio */
-#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-leetcode"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
-#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-others"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img {
+/* Backend | set background red | ⚠️ dont understand why 2 because it should be 1 */
+#radio-sub-nav-it-docs-software-dev:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-software-dev"],
+#radio-sub-nav-it-docs-it-architecture:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-it-architecture"],
+#radio-sub-nav-it-docs-backend-tools:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-backend-tools"] {
 
-   display: flex;
+  background-color: rgb(251, 133, 133);
 
+}
+
+/* Frontend | change img custom radio */
+#radio-sub-nav-it-docs-dev-basic:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-dev-basic"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-sub-nav-it-docs-web-basic:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-web-basic"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-sub-nav-it-docs-web-dev:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-web-dev"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img {
+
+  display: flex;
+
+}
+
+/* Backend | change img custom radio */
+#radio-sub-nav-it-docs-software-dev:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-software-dev"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-sub-nav-it-docs-it-architecture:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-it-architecture"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-sub-nav-it-docs-backend-tools:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-backend-tools"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img {
+
+  display: flex;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Handlings Action (js generated)
+/* ---------------------------------------------------------------- */
+
+/* Frontend: dev-basic, web-basic, web-dev */
+#radio-sub-nav-it-docs-dev-basic:checked ~ #it-docs-content-container-more-it,
+#radio-sub-nav-it-docs-web-basic:checked ~ #it-docs-content-container-more-it,
+#radio-sub-nav-it-docs-web-dev:checked ~  #it-docs-content-container-more-it {
+
+  display: grid;
+
+}
+
+/* Backend: software-dev, it-architecture, backend-tools */
+#radio-sub-nav-it-docs-software-dev:checked ~ #it-docs-content-container-more-it,
+#radio-sub-nav-it-docs-it-architecture:checked ~ #it-docs-content-container-more-it,
+#radio-sub-nav-it-docs-backend-tools:checked ~ #it-docs-content-container-more-it {
+
+  display: grid;
+
+}
+
+/* Ai */
+#radio-nav-it-docs-ai:checked ~ #it-docs-content-container-more-it {
+
+  display: grid;
 }
