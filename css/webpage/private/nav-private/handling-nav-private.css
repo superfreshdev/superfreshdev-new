@@ -39,13 +39,14 @@ input[name="name-radio-nav-private"] {
 }
 
 /* ---------------------------------------------------------------- */
-/* 🟥Handling Action ( Sub Nav )
+/* 🟥 Handling Action ( Sub Nav )
 /* ---------------------------------------------------------------- */
 
-#radio-nav-more-it-mini-projects:checked ~ #more-it-content-container #mini-projects-container-more-it,
-#radio-nav-more-it-mini-games:checked ~ #more-it-content-container #mini-games-container-more-it,
-#radio-nav-more-it-coding-tasks:checked ~ #more-it-content-container #coding-task-container-more-it,
-#radio-nav-more-it-it-docs:checked ~ #more-it-content-container #it-docs-container-more-it {
+#radio-nav-private-sport:checked ~ .row-container:nth-of-type(1) #nav-sport-private,
+#radio-nav-private-meals:checked ~ .row-container:nth-of-type(1) #nav-meals-private,
+#radio-nav-private-brain:checked ~ .row-container:nth-of-type(1) #nav-brain-trainer-private,
+#radio-nav-private-language:checked ~ .row-container:nth-of-type(1) #nav-language-trainer-private,
+#radio-nav-private-books:checked ~ .row-container:nth-of-type(1) #nav-books-private {
 
   display: grid;
 

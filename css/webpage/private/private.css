@@ -14,14 +14,14 @@
   z-index: 2;
 
   /* important to allow child elements to use max content area */
-  height: 100%;
   width: 100%;
+  height: 100%;
 
   display: grid;
   align-items: flex-start;
 
   /* row-gap: 1em; */
-  grid: auto auto 1fr / 1fr;
+  grid: auto 1fr / 1fr;
 
   background-color: rgb(128, 0, 0);
 
@@ -65,5 +65,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+}
+
+/* ------------------------------------------------------------------- */
+/* Private Content Container
+/* ------------------------------------------------------------------- */
+
+#private-content-container {
+
+  height: 100%;
+  display: grid;
 
 }

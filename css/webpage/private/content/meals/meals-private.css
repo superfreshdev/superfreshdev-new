@@ -12,6 +12,9 @@
 #meals-container-private {
 
   padding: 1.5em 0;
+  height: 100%;
+
+  display: none;
 
   background-color: green;
 

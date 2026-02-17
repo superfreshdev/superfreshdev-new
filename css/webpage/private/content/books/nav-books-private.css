@@ -1,19 +1,18 @@
 /* --------------------------------------------------------------- */
-/* > sport-lifestyle-private.css
+/* > nav-books-private.css
 /*
-/* : styles book private
+/* : styles sub nav private
 /* --------------------------------------------------------------- */
 
 
 /* ---------------------------------------------------------------- */
-/* Sport Lifestyle | Container Private
+/* Sub Nav Books | Private
 /* ---------------------------------------------------------------- */
 
-#sport-lifestyle-container-private {
+#nav-books-private {
 
-  padding: 1.5em 0;
-  height: 100%;
+  display: none;
 
-  background-color: rgb(128, 0, 70);
+  color:rgb(86, 1, 1);
 
 }
