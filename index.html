@@ -265,10 +265,29 @@
 
         <link rel="stylesheet" href="css/webpage/private/private.css">
 
+        <!-- nav & sub nav-->
         <link rel="stylesheet" href="css/webpage/private/nav-private/nav-private.css">
+        <link rel="stylesheet" href="css/webpage/private/nav-private/sub-nav-private.css">
+        <link rel="stylesheet" href="css/webpage/private/nav-private/handling-nav-private.css">
 
-        <link rel="stylesheet" href="css/webpage/private/content-private/content-private.css">
-        <link rel="stylesheet" href="css/webpage/private/banner-private/banner-private.css">
+        <!-- ---------------------------------------------- -->
+        <!-- Content -->
+        <!-- ---------------------------------------------- -->
+
+        <!-- sport lifestyle -->
+        <link rel="stylesheet" href="css/webpage/private/content/sport-lifestyle/sport-lifestyle-private.css">
+
+        <!-- meals -->
+        <link rel="stylesheet" href="css/webpage/private/content/meals/meals-private.css">
+
+        <!-- brain trainer -->
+        <link rel="stylesheet" href="css/webpage/private/content/language-trainer/language-trainer-private.css">
+
+        <!-- language trainer -->
+        <link rel="stylesheet" href="css/webpage/private/content/brain-trainer/brain-trainer-private.css">
+
+         <!-- books -->
+        <link rel="stylesheet" href="css/webpage/private/content/books/books-private.css">
 
 
   <title>⚠️ SuperfreshDEV </title>
@@ -281,8 +300,8 @@
   <!-- Radios ( Nav Header Body ) -->
   <!-- ----------------------------------------------------- -->
   <input type="radio" id="radio-about" name="name-radio-nav-header-body">
-  <input checked type="radio" id="radio-more-it" name="name-radio-nav-header-body">
-  <input type="radio" id="radio-private" name="name-radio-nav-header-body">
+  <input  type="radio" id="radio-more-it" name="name-radio-nav-header-body">
+  <input checked type="radio" id="radio-private" name="name-radio-nav-header-body">
 
   <!-- ---------------------------------------------------------------------------------- -->
   <!-- 🟨 Header Fixed Body  -->
@@ -7522,34 +7541,6 @@
 
                 </div>
 
-                <!-- ------------------------------------------------------------------------- -->
-                <!-- 🟥 [3/3] | Banner Container | Row Content Container (max)     -->
-                <!-- ------------------------------------------------------------------------- -->
-                <div class="row-content-container" style="display: none;">
-
-                  <!-- ------------------------------------------------ -->
-                  <!-- ➡️🟥 [1/3] | Banner Container -->
-                  <!-- ------------------------------------------------ -->
-                  <div id="banner-container-more-it">
-
-                    <!-- Img Banner More It -->
-                    <img src="media/imgs/icons/02-icon-colors/01-black/black-open-close-brackets.png"
-                          alt="img"
-                          id="img-banner-more-it">
-
-                    <!-- Title Banner More It -->
-                    <div id="title-banner-more-it">
-
-                      <div>Welcome to</div>
-                      <div>More IT</div>
-
-                    </div>
-
-
-
-                  </div>
-
-                </div>
 
               </div>
 
@@ -7573,287 +7564,388 @@
             <div class="resp-content-page-container-big">
 
               <!-- -------------------------------------------------------------- -->
-              <!-- 🟨 Private "Page" Container -->
+              <!-- 🟥 Private "Page" Container -->
               <!-- -------------------------------------------------------------- -->
               <div id="private-container">
 
-              <!-- ------------------------------------------------------------------------- -->
-              <!-- 🟥 [1/3] | Nav Container | Row Content Container (max) -->
-              <!-- ------------------------------------------------------------------------- -->
-              <div class="row-content-container">
+                <!-- ---------------------------------------------------- -->
+                <!-- 🟥 Radios | Nav Private (sport,meals,...) -->
+                <!-- ---------------------------------------------------- -->
+                <input type="radio" id="radio-nav-private-sport" name="name-radio-nav-private">
+                <input type="radio" id="radio-nav-private-meals" name="name-radio-nav-private">
+                <input type="radio" id="radio-nav-private-brain" name="name-radio-nav-private">
+                <input type="radio" id="radio-nav-private-language" name="name-radio-nav-private">
+                <input type="radio" id="radio-nav-private-books" name="name-radio-nav-private">
 
-                <!-- ------------------------------------------------ -->
-                <!-- ➡️🟥 [1/3] | Nav Container -->
-                <!-- ------------------------------------------------ -->
-                <div id="nav-container-more-it">
+                <!-- ---------------------------------------------------- -->
+                <!-- 🟥 Radios | Sub Nav Private (...) -->
+                <!-- ---------------------------------------------------- -->
 
-                  <!-- ----------------------------------------------------- -->
-                  <!-- [0/0] | Label | Close View -->
-                  <!-- ----------------------------------------------------- -->
-                  <label for="" class="lbl-switch-content">
+                <!-- ------------------------------------------------------------------------- -->
+                <!-- ➡️🟥 [1/2] | Nav & Sub Container | Private (max) -->
+                <!-- ------------------------------------------------------------------------- -->
+                <div class="row-container">
 
-                    <!-- --------------------------------------------- -->
-                    <!-- Nr -->
-                    <!-- --------------------------------------------- -->
-                    <div class="nr-lbl-switch-content">
-                      X
+                  <!-- --------------------------------------------------------------- -->
+                  <!-- 🟨 Nav IT Docs | (small)                 -->
+                  <!-- --------------------------------------------------------------- -->
+                  <div class="resp-row-content-container-small">
+
+                    <!-- ------------------------------------------------ -->
+                    <!-- ➡️🟥 [1/2] | Nav Private Container -->
+                    <!-- ------------------------------------------------ -->
+                    <div id="nav-private-container">
+
+
+                      <!-- ----------------------------------------------------- -->
+                      <!-- [1/5] | Label | Sport  -->
+                      <!-- ----------------------------------------------------- -->
+                      <label for="radio-nav-private-sport" class="nav-label-radio-medium">
+
+                        <!-- ----------------------------------------------------------- -->
+                        <!-- [1/2] | Title Content | Nav Label Radio                     -->
+                        <!-- ----------------------------------------------------------- -->
+                        <div class="title-content-nav-label-radio">
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [1/3] | Nr -->
+                          <!-- --------------------------------------------- -->
+                          <div class="nr-nav-label-radio"> 01 </div>
+
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [2/4] | Img Seperator -->
+                          <!-- --------------------------------------------- -->
+                          <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
+                                class="img-h-0-8"
+                                alt="img" >
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [3/4] | Title -->
+                          <!-- --------------------------------------------- -->
+                          <div class="title-nav-label-radio">Sport
+
+
+                          </div>
+
+
+                        </div>
+
+                        <!-- ----------------------------------------------------------- -->
+                        <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                        <!-- ----------------------------------------------------------- -->
+                        <div class="counter-custom-radio-nav-label-radio">
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [2/3] | Counter | Nav Label Radio -->
+                          <!-- --------------------------------------------- -->
+                          <div class="counter-nav-label-radio"> 09</div>
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [3/3] | Custom Radio -->
+                          <!-- --------------------------------------------- -->
+                          <div class="custom-radio-small">
+                            <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                alt="img">
+                          </div>
+
+                        </div>
+
+
+                      </label>
+
+                      <!-- ----------------------------------------------------- -->
+                      <!-- [2/5] | Label | Meals -->
+                      <!-- ----------------------------------------------------- -->
+                      <label for="radio-nav-private-meals" class="nav-label-radio-medium">
+
+                        <!-- ----------------------------------------------------------- -->
+                        <!-- [1/2] | Title Content | Nav Label Radio                     -->
+                        <!-- ----------------------------------------------------------- -->
+                        <div class="title-content-nav-label-radio">
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [1/3] | Nr -->
+                          <!-- --------------------------------------------- -->
+                          <div class="nr-nav-label-radio"> 02 </div>
+
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [2/4] | Img Seperator -->
+                          <!-- --------------------------------------------- -->
+                          <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
+                                class="img-h-0-8"
+                                alt="img" >
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [3/4] | Title -->
+                          <!-- --------------------------------------------- -->
+                          <div class="title-nav-label-radio">Meals
+
+
+                          </div>
+
+
+                        </div>
+
+                        <!-- ----------------------------------------------------------- -->
+                        <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                        <!-- ----------------------------------------------------------- -->
+                        <div class="counter-custom-radio-nav-label-radio">
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [2/3] | Counter | Nav Label Radio -->
+                          <!-- --------------------------------------------- -->
+                          <div class="counter-nav-label-radio"> 09</div>
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [3/3] | Custom Radio -->
+                          <!-- --------------------------------------------- -->
+                          <div class="custom-radio-small">
+                            <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                alt="img">
+                          </div>
+
+                        </div>
+
+
+                      </label>
+
+                      <!-- ----------------------------------------------------- -->
+                      <!-- [3/5] | Label | Brain -->
+                      <!-- ----------------------------------------------------- -->
+                      <label for="radio-nav-private-brain" class="nav-label-radio-medium">
+
+                        <!-- ----------------------------------------------------------- -->
+                        <!-- [1/2] | Title Content | Nav Label Radio                     -->
+                        <!-- ----------------------------------------------------------- -->
+                        <div class="title-content-nav-label-radio">
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [1/3] | Nr -->
+                          <!-- --------------------------------------------- -->
+                          <div class="nr-nav-label-radio"> 03 </div>
+
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [2/4] | Img Seperator -->
+                          <!-- --------------------------------------------- -->
+                          <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
+                                class="img-h-0-8"
+                                alt="img" >
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [3/4] | Title -->
+                          <!-- --------------------------------------------- -->
+                          <div class="title-nav-label-radio">Brain
+
+
+                          </div>
+
+
+                        </div>
+
+                        <!-- ----------------------------------------------------------- -->
+                        <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                        <!-- ----------------------------------------------------------- -->
+                        <div class="counter-custom-radio-nav-label-radio">
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [2/3] | Counter | Nav Label Radio -->
+                          <!-- --------------------------------------------- -->
+                          <div class="counter-nav-label-radio"> 09</div>
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [3/3] | Custom Radio -->
+                          <!-- --------------------------------------------- -->
+                          <div class="custom-radio-small">
+                            <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                alt="img">
+                          </div>
+
+                        </div>
+
+
+                      </label>
+
+                      <!-- ----------------------------------------------------- -->
+                      <!-- [4/5] | Label | Language -->
+                      <!-- ----------------------------------------------------- -->
+                      <label for="radio-nav-private-language" class="nav-label-radio-medium">
+
+                        <!-- ----------------------------------------------------------- -->
+                        <!-- [1/2] | Title Content | Nav Label Radio                     -->
+                        <!-- ----------------------------------------------------------- -->
+                        <div class="title-content-nav-label-radio">
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [1/3] | Nr -->
+                          <!-- --------------------------------------------- -->
+                          <div class="nr-nav-label-radio"> 04 </div>
+
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [2/4] | Img Seperator -->
+                          <!-- --------------------------------------------- -->
+                          <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
+                                class="img-h-0-8"
+                                alt="img" >
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [3/4] | Title -->
+                          <!-- --------------------------------------------- -->
+                          <div class="title-nav-label-radio">Language
+
+
+                          </div>
+
+
+                        </div>
+
+                        <!-- ----------------------------------------------------------- -->
+                        <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                        <!-- ----------------------------------------------------------- -->
+                        <div class="counter-custom-radio-nav-label-radio">
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [2/3] | Counter | Nav Label Radio -->
+                          <!-- --------------------------------------------- -->
+                          <div class="counter-nav-label-radio"> 09</div>
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [3/3] | Custom Radio -->
+                          <!-- --------------------------------------------- -->
+                          <div class="custom-radio-small">
+                            <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                alt="img">
+                          </div>
+
+                        </div>
+
+
+                      </label>
+
+                      <!-- ----------------------------------------------------- -->
+                      <!-- [5/5] | Label | Book  -->
+                      <!-- ----------------------------------------------------- -->
+                      <label for="radio-nav-private-books" class="nav-label-radio-medium">
+
+                        <!-- ----------------------------------------------------------- -->
+                        <!-- [1/2] | Title Content | Nav Label Radio                     -->
+                        <!-- ----------------------------------------------------------- -->
+                        <div class="title-content-nav-label-radio">
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [1/3] | Nr -->
+                          <!-- --------------------------------------------- -->
+                          <div class="nr-nav-label-radio"> 05 </div>
+
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [2/4] | Img Seperator -->
+                          <!-- --------------------------------------------- -->
+                          <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
+                                class="img-h-0-8"
+                                alt="img" >
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [3/4] | Title -->
+                          <!-- --------------------------------------------- -->
+                          <div class="title-nav-label-radio">Books
+
+
+                          </div>
+
+
+                        </div>
+
+                        <!-- ----------------------------------------------------------- -->
+                        <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                        <!-- ----------------------------------------------------------- -->
+                        <div class="counter-custom-radio-nav-label-radio">
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [2/3] | Counter | Nav Label Radio -->
+                          <!-- --------------------------------------------- -->
+                          <div class="counter-nav-label-radio"> 09</div>
+
+                          <!-- --------------------------------------------- -->
+                          <!-- [3/3] | Custom Radio -->
+                          <!-- --------------------------------------------- -->
+                          <div class="custom-radio-small">
+                            <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                alt="img">
+                          </div>
+
+                        </div>
+
+
+                      </label>
+
                     </div>
 
-                    <!-- --------------------------------------------- -->
-                    <!-- Img Seperator -->
-                    <!-- --------------------------------------------- -->
-                    <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
-                         class="img-seperator-lbl-switch-content"
-                         alt="img" >
+                    <!-- ------------------------------------------------ -->
+                    <!-- ➡️🟥 21/2] | Sub Nav Private Container -->
+                    <!-- ------------------------------------------------ -->
+                    <div id="sub-nav-private-container">
 
-                    <!-- --------------------------------------------- -->
-                    <!-- Title -->
-                    <!-- --------------------------------------------- -->
-                    <div class="title-container-lbl-swtich-content">
-                      <div class="title-lbl-switch-content"> Close View</div>
+                      Sub Nav Private Container
+
                     </div>
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Custom Radio -->
-                    <!-- --------------------------------------------- -->
-                    <div>
-                      R.
-                    </div>
-
-
-                  </label>
-
-                  <!-- ----------------------------------------------------- -->
-                  <!-- [1/5] | Label | My Sport Lifestyle (2) -->
-                  <!-- ----------------------------------------------------- -->
-                  <label for="" class="lbl-switch-content">
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Nr -->
-                    <!-- --------------------------------------------- -->
-                    <div class="nr-lbl-switch-content">
-                      01
-                    </div>
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Img Seperator -->
-                    <!-- --------------------------------------------- -->
-                    <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
-                         class="img-seperator-lbl-switch-content"
-                         alt="img" >
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Title -->
-                    <!-- --------------------------------------------- -->
-                    <div class="title-container-lbl-swtich-content">
-                      <div class="title-lbl-switch-content"> My Sport Lifestyle</div>
-                      <div class="count-lbl-switch-content">(XXX)</div>
-                    </div>
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Custom Radio -->
-                    <!-- --------------------------------------------- -->
-                    <div>
-                      R.
-                    </div>
-
-
-                  </label>
-
-                  <!-- ----------------------------------------------------- -->
-                  <!-- [2/5] | Label | My Meals (XXX) -->
-                  <!-- ----------------------------------------------------- -->
-                   <label for="" class="lbl-switch-content">
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Nr -->
-                    <!-- --------------------------------------------- -->
-                    <div class="nr-lbl-switch-content">
-                      02
-                    </div>
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Img Seperator -->
-                    <!-- --------------------------------------------- -->
-                    <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
-                         class="img-seperator-lbl-switch-content"
-                         alt="img" >
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Title -->
-                    <!-- --------------------------------------------- -->
-                    <div class="title-container-lbl-swtich-content">
-                      <div class="title-lbl-switch-content"> My Meals</div>
-                      <div class="count-lbl-switch-content">(XXX)</div>
-                    </div>
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Custom Radio -->
-                    <!-- --------------------------------------------- -->
-                    <div>
-                      R.
-                    </div>
-
-
-                  </label>
-
-                  <!-- ----------------------------------------------------- -->
-                  <!-- [3/5] | Label | My Brain Trainer (XXX) -->
-                  <!-- ----------------------------------------------------- -->
-                   <label for="" class="lbl-switch-content">
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Nr -->
-                    <!-- --------------------------------------------- -->
-                    <div class="nr-lbl-switch-content">
-                      03
-                    </div>
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Img Seperator -->
-                    <!-- --------------------------------------------- -->
-                    <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
-                         class="img-seperator-lbl-switch-content"
-                         alt="img" >
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Title -->
-                    <!-- --------------------------------------------- -->
-                    <div class="title-container-lbl-swtich-content">
-                      <div class="title-lbl-switch-content"> My Brain Trainer</div>
-                      <div class="count-lbl-switch-content">(XXX)</div>
-                    </div>
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Custom Radio -->
-                    <!-- --------------------------------------------- -->
-                    <div>
-                      R.
-                    </div>
-
-
-                  </label>
-
-                  <!-- ----------------------------------------------------- -->
-                  <!-- [4/5] | Label | My Language Trainer (XXX) -->
-                  <!-- ----------------------------------------------------- -->
-                  <label for="" class="lbl-switch-content">
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Nr -->
-                    <!-- --------------------------------------------- -->
-                    <div class="nr-lbl-switch-content">
-                      04
-                    </div>
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Img Seperator -->
-                    <!-- --------------------------------------------- -->
-                    <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
-                         class="img-seperator-lbl-switch-content"
-                         alt="img" >
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Title -->
-                    <!-- --------------------------------------------- -->
-                    <div class="title-container-lbl-swtich-content">
-                      <div class="title-lbl-switch-content"> My Language Trainer</div>
-                      <div class="count-lbl-switch-content">(XXX)</div>
-                    </div>
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Custom Radio -->
-                    <!-- --------------------------------------------- -->
-                    <div>
-                      R.
-                    </div>
-
-
-                  </label>
-
-                  <!-- ----------------------------------------------------- -->
-                  <!-- [5/5] | Label | My Book Sum ups (XXX) -->
-                  <!-- ----------------------------------------------------- -->
-                  <label for="" class="lbl-switch-content">
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Nr -->
-                    <!-- --------------------------------------------- -->
-                    <div class="nr-lbl-switch-content">
-                      05
-                    </div>
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Img Seperator -->
-                    <!-- --------------------------------------------- -->
-                    <img src="media/imgs/icons/02-icon-colors/01-black/black-line.png"
-                         class="img-seperator-lbl-switch-content"
-                         alt="img" >
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Title -->
-                    <!-- --------------------------------------------- -->
-                    <div class="title-container-lbl-swtich-content">
-                      <div class="title-lbl-switch-content"> My Books Sum ups</div>
-                      <div class="count-lbl-switch-content">(XXX)</div>
-                    </div>
-
-                    <!-- --------------------------------------------- -->
-                    <!-- Custom Radio -->
-                    <!-- --------------------------------------------- -->
-                    <div>
-                      R.
-                    </div>
-
-
-                  </label>
-
-                </div>
-
-              </div>
-
-              <!-- ------------------------------------------------------------------------- -->
-              <!-- 🟥 [2/3] | Content Container | Row Content Container (max)                -->
-              <!-- ------------------------------------------------------------------------- -->
-              <div class="row-content-container">
-
-                <!-- ------------------------------------------------ -->
-                <!-- ➡️🟥 [1/3] | Content Container -->
-                <!-- ------------------------------------------------ -->
-                <div id="content-container-private">
-                   Content Container | Private
-                </div>
-
-              </div>
-
-              <!-- ------------------------------------------------------------------------- -->
-              <!-- 🟥 [3/3] | Banner Container | Row Content Container (max)     -->
-              <!-- ------------------------------------------------------------------------- -->
-              <div class="row-content-container">
-
-                <!-- ------------------------------------------------ -->
-                <!-- ➡️🟥 [1/3] | Banner Container -->
-                <!-- ------------------------------------------------ -->
-                <div id="banner-container-private">
-
-                  <!-- Img Banner Private -->
-                  <img src="media/imgs/icons/02-icon-colors/01-black/black-3-shining-stars.png"
-                       alt="img"
-                       id="img-banner-private">
-
-                  <!-- Title Banner Private -->
-                  <div id="title-banner-private">
-
-                    <div>Welcome to</div>
-                    <div>My Private World</div>
 
                   </div>
 
+                </div>
 
+                <!-- ------------------------------------------------------------------------- -->
+                <!-- 🟥 [2/2] | Private Content Container               -->
+                <!-- ------------------------------------------------------------------------- -->
+                <div class="row-container">
+
+                  <!-- --------------------------------------------------------------- -->
+                  <!-- 🟨 Private Content Container | (small)                 -->
+                  <!-- --------------------------------------------------------------- -->
+                  <div class="resp-row-content-container-small">
+
+                    <!-- -------------------------------------------------------------- -->
+                    <!-- 🟥 [1/5] | Sport Lifestyle | Private                          -->
+                    <!-- -------------------------------------------------------------- -->
+                    <div id="sport-lifestyle-container-private">
+                      My Sport Lifestyle
+                    </div>
+
+                    <!-- -------------------------------------------------------------- -->
+                    <!-- 🟥 [2/5] | Meals Container | Private                           -->
+                    <!-- -------------------------------------------------------------- -->
+                    <div id="meals-container-private">
+                      My Meals Container
+                    </div>
+
+                    <!-- -------------------------------------------------------------- -->
+                    <!-- 🟥 [3/5] | Brain Trainer Container | Private                       -->
+                    <!-- -------------------------------------------------------------- -->
+                    <div id="brain-trainer-container-private">
+                      My Brain Trainer Container
+                    </div>
+
+                    <!-- -------------------------------------------------------------- -->
+                    <!-- 🟥 [4/5] | Language Trainer Container | Private                       -->
+                    <!-- -------------------------------------------------------------- -->
+                    <div id="language-trainer-container-private">
+                      My Language Trainer
+                    </div>
+
+                    <!-- -------------------------------------------------------------- -->
+                    <!-- 🟥 [5/5] | Books Container | Private                           -->
+                    <!-- -------------------------------------------------------------- -->
+                    <div id="books-container-private">
+                      My Books Container
+                    </div>
+
+                  </div>
 
                 </div>
 
-              </div>
 
               </div>
 

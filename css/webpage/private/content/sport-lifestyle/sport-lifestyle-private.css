@@ -1,26 +1,19 @@
 /* --------------------------------------------------------------- */
-/* > nav-private.css
+/* > sport-lifestyle-private.css
 /*
-/* : styles nav more it
+/* : styles book private
 /* --------------------------------------------------------------- */
 
 
 /* ---------------------------------------------------------------- */
-/* Nav Private Container
+/* Sport Lifestyle | Container Private
 /* ---------------------------------------------------------------- */
 
-#nav-private-container {
+#sport-lifestyle-container-private {
 
   padding: 1.5em 0;
 
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
 
-  row-gap: .4em;
-  column-gap: .4em;
-
-  background-color: green;
+  background-color: rgb(128, 0, 70);
 
 }

@@ -1,15 +1,15 @@
 /* --------------------------------------------------------------- */
-/* > nav-private.css
+/* > sub-nav-private.css
 /*
-/* : styles nav more it
+/* : styles sub nav private
 /* --------------------------------------------------------------- */
 
 
 /* ---------------------------------------------------------------- */
-/* Nav Private Container
+/* Sub Nav Private Container
 /* ---------------------------------------------------------------- */
 
-#nav-private-container {
+#sub-nav-private-container {
 
   padding: 1.5em 0;
 
@@ -21,6 +21,6 @@
   row-gap: .4em;
   column-gap: .4em;
 
-  background-color: green;
+  background-color: rgb(169, 169, 169);
 
 }
