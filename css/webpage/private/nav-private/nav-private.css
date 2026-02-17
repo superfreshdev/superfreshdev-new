@@ -11,16 +11,27 @@
 
 #nav-private-container {
 
-  padding: 1.5em 0;
+  width: 100%;
+  padding: .5em 0;
 
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
 
   row-gap: .4em;
   column-gap: .4em;
 
-  background-color: green;
+  /* background-color: green; */
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Labels | Nav Private Container
+/* ---------------------------------------------------------------- */
+
+#nav-private-container > label {
+
+  width: 100%;
 
 }

@@ -21,9 +21,19 @@
   align-items: flex-start;
 
   /* row-gap: 1em; */
-  grid: auto 1fr / 1fr;
+  grid: auto auto auto 1fr / 1fr;
 
   background-color: rgb(128, 0, 0);
+
+}
+
+/* ------------------------------------------------------- */
+/* Row Container (overwrite) | Private Container
+/* ------------------------------------------------------- */
+
+#private-container > .row-container:nth-of-type(2) {
+
+  background-color: rgb(28, 28, 28);
 
 }
 
@@ -74,6 +84,7 @@
 
 #private-content-container {
 
+  width: 100%;
   height: 100%;
   display: grid;
 
