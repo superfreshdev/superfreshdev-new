@@ -14,6 +14,65 @@
 .link-light-grey-medium,
 .link-light-grey-big {
 
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+  font-weight: bold;
+
+  border-radius: .6em;
+
+  background-color: #e3e3e3;
+  border: 1px solid rgb(185, 185, 185);
+  color:rgb(91, 91, 91);
+
+  opacity: .8;
+
+  text-decoration: none;
+  transition: all .4s;
+
+}
+
+/* ------------------------------------------------------- */
+/* Div | Link Light Grey
+/* ------------------------------------------------------- */
+
+.link-light-grey-small > div,
+.link-light-grey-medium > div,
+.link-light-grey-big > div {
+
+  font-size: 14.5px;
+
+}
+
+/* ------------------------------------------------------- */
+/* Img (opacity) | Link Light Grey
+/* ------------------------------------------------------- */
+
+.link-light-grey-small > img,
+.link-light-grey-medium  > img,
+.link-light-grey-big  > img´{
+
+  opacity: .8;
+
+}
+
+/* hover */
+.link-light-grey-small:hover,
+.link-light-grey-medium:hover,
+.link-light-grey-big:hover {
+
+  opacity: 1;
+  background-color: rgb(251, 133, 133);
+
+}
+
+/* visited */
+.link-light-grey-small:visited,
+.link-light-grey-medium:visited,
+.link-light-grey-big:visited {
+
+  color:rgb(91, 91, 91);
 
 }
 
@@ -23,6 +82,8 @@
 
 .link-light-grey-small {
 
+  height: 1.8em;
+  padding: 0 .6em;
 
 }
 
@@ -32,6 +93,8 @@
 
 .link-light-grey-medium {
 
+  height: 2em;
+  padding: 0 .6em;
 
 }
 
@@ -41,5 +104,7 @@
 
 .link-light-grey-big {
 
+  height: 2.5em;
+  padding: 0 .6em;
 
 }

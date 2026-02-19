@@ -5,7 +5,6 @@
 /* --------------------------------------------------------------- */
 
 
-
 /* ---------------------------------------------------------------- */
 /* Handling Styles
 /* ---------------------------------------------------------------- */
@@ -23,7 +22,6 @@ input[name="name-radio-about-details"] {
 #radio-nav-about-details-story-behind-sd:checked ~ #nav-about-details label[for="radio-nav-about-details-story-behind-sd"],
 #radio-nav-about-details-mindset:checked ~ #nav-about-details label[for="radio-nav-about-details-mindset"] {
 
-  background-color: rgb(219, 114, 114);
   background-image: linear-gradient(to right, #db7272, #da9292);
 
 }

@@ -36,24 +36,34 @@
   border: 1px solid rgb(176, 176, 176);
   border-radius: .6em;
 
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
-
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
 }
 
-/* img */
-.img-container-top-it-project-card > img:nth-of-type(1) {
+/* ---------------------------------------------------------------- */
+/* Img | Img Container
+/* ---------------------------------------------------------------- */
 
+.img-top-it-project-card {
+
+  width: 100%;
+
+  opacity: .4;
+
+  border-radius: .6em;
+
+  transition: all .4s;
+
+}
+
+.img-top-it-project-card:hover {
+
+  opacity: 1;
+}
+
+.img-top-it-project-card:hover ~ .nr-top-it-project-card {
+
+  opacity: .6;
 
 }
 
@@ -82,40 +92,11 @@
 
 }
 
-
-/* ---------------------------------------------------------------- */
-/* Img | Top IT Project Card
-/* ---------------------------------------------------------------- */
-
-.img-top-it-project-card {
-
-  width: 100%;
-
-  opacity: .4;
-
-  border-radius: .6em;
-
-  transition: all .4s;
-
-}
-
-.img-top-it-project-card:hover {
-
-  opacity: 1;
-}
-
-.img-top-it-project-card:hover ~ .nr-top-it-project-card {
-
-  opacity: .6;
-
-}
-
-
 /* ---------------------------------------------------------------- */
 /* Title | Top IT Project Card
 /* ---------------------------------------------------------------- */
 
-.title-container-top-it-project-card {
+.title-top-it-project-card {
 
   font-size: 16px;
   padding: 0em .4em;
@@ -126,10 +107,7 @@
 
   color:#616161;
 
-
-
 }
-
 
 /* ---------------------------------------------------------------- */
 /* Nav | Top IT Project Card
@@ -146,90 +124,13 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Github Zip Container | Nav
+/* Div 1 | Nav
 /* ---------------------------------------------------------------- */
 
-.github-zip-container-top-it-project-card {
+.nav-top-it-project-card > div:nth-of-type(1) {
 
   display: flex;
   align-items: center;
-  column-gap: .6em;
-
-}
-
-/* ---------------------------------------------------------------- */
-/* Link | Github Zip Container | Nav
-/* ---------------------------------------------------------------- */
-
-.github-zip-container-top-it-project-card > a {
-
-  font-size: 14.5px;
-
-  height: 2.1em;
-  padding: 0 .6em;
-
-  display: flex;
-  align-items: center;
-  column-gap: .4em;
-
-  font-weight: bold;
-
-  border-radius: .6em;
-
-
-  background-color: #e3e3e3;
-  color:rgb(91, 91, 91);
-
-  opacity: .4;
-
-
-  text-decoration: none;
-  transition: all .4s;
-
-}
-
-.github-zip-container-top-it-project-card > a:hover {
-
-  opacity: 1;
-  background-color: rgb(251, 133, 133);
-
-}
-
-
-/* ---------------------------------------------------------------- */
-/* Details Button | Nav
-/* ---------------------------------------------------------------- */
-
-.link-details-top-it-project-card {
-
-  font-size: 14.5px;
-
-  height: 2.1em;
-  padding: 0 .6em;
-
-  display: flex;
-  align-items: center;
-  column-gap: .4em;
-
-  font-weight: bold;
-
-  border-radius: .6em;
-
-
-  background-color: #e3e3e3;
-  color:rgb(91, 91, 91);
-
-  opacity: .4;
-
-
-  text-decoration: none;
-  transition: all .4s;
-
-}
-
-.link-details-top-it-project-card:hover {
-
-  opacity: 1;
-  background-color: rgb(251, 133, 133);
+  column-gap: .3em;
 
 }

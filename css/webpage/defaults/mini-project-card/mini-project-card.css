@@ -7,7 +7,7 @@
 /*
 /* --------------------------------------------------------------- */
 
-/* ❇️❇️❇️ */
+
 /* ------------------------------------------------------- */
 /* Mini IT Project Card
 /* ------------------------------------------------------- */
@@ -53,8 +53,6 @@
 
 .img-container-mini-project-card > img {
 
-  /* desktop */
-  /* height: 12em; */
   /* mobile */
   width: 100%;
 
@@ -102,12 +100,9 @@
   padding: .8em 0;
 
   display: grid;
-
-  align-content: flex-start;
-
   row-gap: .8em;
 
-  /* background-color: green; */
+  align-content: flex-start;
 
 }
 
@@ -145,7 +140,6 @@
   background-color: #e8e8e8;
   border: 1px solid rgb(232, 232, 232);
   color:#5f5f5f;
-
 
 }
 
@@ -191,7 +185,6 @@
   border: 1px solid rgb(232, 232, 232);
   color: #5f5f5f;
 
-
 }
 
 .skills-container-mini-project-card > div > div {
@@ -210,56 +203,13 @@
 
   padding: 1em .3em;
 
-  background-color: blue;
-
   display: flex;
   align-items: center;
   justify-content: flex-end;
   column-gap: .3em;
 
-  color:green;
   font-weight: bold;
 
-}
-
-/* 🟣 universsell verschiedene Typen */
-/* ------------------------------------------------------- */
-/* Link | GitHub, Zip
-/* ------------------------------------------------------- */
-
-.github-zip-link-container-mini-project-card > a {
-
-  font-size: 14.5px;
-
-  height: 2em;
-  padding: 0 .6em;
-
-  display: flex;
-  align-items: center;
-  column-gap: .4em;
-
-  font-weight: bold;
-  border-radius: .6em;
-
-  background-color: #e3e3e3;
-  color: rgb(91, 91, 91);
-
-  /* opacity: .4; */
-
-  text-decoration: none;
-  user-select: none;
-  transition: all .4s;
-
-}
-
-.github-zip-link-container-mini-project-card > a:hover {
-
-  background-color: red;
-
-}
-
-.github-zip-link-container-mini-project-card > a:visited {
-
-  color:black;
+  background-color: rgb(239, 239, 239);
 
 }

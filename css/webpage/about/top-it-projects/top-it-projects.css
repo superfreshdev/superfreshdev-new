@@ -12,7 +12,6 @@
 #about-top-it-projects-container {
 
   width: 100%;
-  /* background-color: rgb(245, 245, 245); */
 
 }
 
@@ -20,10 +19,11 @@
 /* Row Container 1 (overwrite) | Top IT Projects Container
 /* ---------------------------------------------------------------- */
 
-/* overwerite bg-color "row container" */
 #about-top-it-projects-container > .row-container:nth-of-type(1) {
 
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(220, 220, 220);
+
+  /* background-color: rgb(152, 152, 152); */
 
 }
 
@@ -42,17 +42,6 @@
   row-gap: 2.3em;
 
   /* background-color: red; */
-
-}
-
-/* ---------------------------------------------------------------- */
-/* Header Content Body | Top IT Projects Content Container
-/* ---------------------------------------------------------------- */
-
-#about-top-it-projects-content-container .header-content-body:nth-last-of-type(1) {
-
-  /* mobile */
-  /* justify-self: flex-start; */
 
 }
 
