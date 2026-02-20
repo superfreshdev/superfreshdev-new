@@ -38,8 +38,8 @@ input[name="name-radio-nav-it-docs"] {
 /* Handlings Action
 /* ---------------------------------------------------------------- */
 
-#radio-nav-it-docs-frontend:checked ~ .row-container:nth-of-type(2) #frontend-sub-nav-it-docs,
-#radio-nav-it-docs-backend:checked  ~ .row-container:nth-of-type(2) #backend-sub-nav-it-docs {
+#radio-nav-it-docs-frontend:checked ~ .row-container:nth-of-type(3) #frontend-sub-nav-it-docs,
+#radio-nav-it-docs-backend:checked  ~ .row-container:nth-of-type(3) #backend-sub-nav-it-docs {
 
   display: flex;
 

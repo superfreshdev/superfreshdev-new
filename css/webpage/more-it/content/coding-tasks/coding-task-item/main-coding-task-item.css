@@ -56,8 +56,8 @@
 
 .coding-task-item-more-it > main > div:nth-of-type(2) {
 
+  padding: .1em 0;
   line-height: 1.5em;
-
   color:#454545;
 
 }

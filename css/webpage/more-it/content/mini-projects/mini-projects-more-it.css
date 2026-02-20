@@ -12,10 +12,7 @@
 #mini-projects-container-more-it {
 
   width: 100%;
-  padding: 2.5em 0;
-
   display: grid;
-  row-gap: 2em;
 
   display: none;
 
@@ -24,13 +21,23 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Row Container (overwerite)
+/* Row Container (overwerite - blue )
+/* ---------------------------------------------------------------- */
+
+#mini-projects-container-more-it > .row-container:nth-of-type(1) {
+
+  /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
+  background-color: rgb(28, 28, 28);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Row Container (overwerite - white, grey )
 /* ---------------------------------------------------------------- */
 
 /* white */
 #mini-projects-container-more-it > .list-rows-content-container > .row-container:nth-child(odd) {
 
-  background-color: rgb(220, 220, 220);
-
+  background-color: rgb(238, 238, 238);
 
 }

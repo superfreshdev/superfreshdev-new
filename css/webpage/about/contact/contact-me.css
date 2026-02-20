@@ -41,7 +41,7 @@
 
   display: grid;
   justify-items: center;
-  row-gap: 2.5em;
+  row-gap: 1.5em;
   grid: auto 1fr / 1fr;
 
   /* background-color: burlywood; */
@@ -73,7 +73,7 @@
 
   align-items: center;
   justify-content: center;
-  column-gap: 1.5em;
+  column-gap: 1em;
   row-gap: .5em;
 
   /* background-color: rgb(158, 158, 158); */

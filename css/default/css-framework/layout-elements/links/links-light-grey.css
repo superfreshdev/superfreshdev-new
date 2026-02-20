@@ -20,7 +20,7 @@
 
   font-weight: bold;
 
-  border-radius: .6em;
+  border-radius: .4em;
 
   background-color: #e3e3e3;
   border: 1px solid rgb(185, 185, 185);
@@ -82,7 +82,7 @@
 
 .link-light-grey-small {
 
-  height: 1.8em;
+  height: 1.6em;
   padding: 0 .6em;
 
 }
@@ -93,7 +93,7 @@
 
 .link-light-grey-medium {
 
-  height: 2em;
+  height: 1.8em;
   padding: 0 .6em;
 
 }
