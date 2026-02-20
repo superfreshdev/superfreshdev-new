@@ -12,7 +12,7 @@
 .header-content-container {
 
   width: 100%;
-  padding: 1em 0em 1.5em 0;
+  padding: 1em .4em 1.5em .4em;
 
   box-sizing: border-box;
 
@@ -57,7 +57,10 @@
 .sub-title-container-header-content {
 
   /* padding-top: .8em; */
-  /* line-height: 1.8em; */
+  line-height: 1.6em;
+
+  display: grid;
+  row-gap: .3em;
 
   color:grey;
 
@@ -80,7 +83,7 @@
 }
 
 /* ------------------------------------------------------- */
-/* Info STicker | Title
+/* Info Sticker | Title
 /* ------------------------------------------------------- */
 
 .info-sticker-title-header-content {

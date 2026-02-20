@@ -20,6 +20,14 @@
 
 }
 
+/* default unshown | img header content container */
+
+#coding-task-container-more-it > .row-container:nth-of-type(1) .header-content-container > img {
+
+  display: none;
+
+}
+
 /* ---------------------------------------------------------------- */
 /* Row Container (overwerite - blue )
 /* ---------------------------------------------------------------- */
