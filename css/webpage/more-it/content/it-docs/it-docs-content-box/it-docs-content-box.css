@@ -22,16 +22,18 @@
 
 .it-docs-content-box-more-it > header {
 
-  height: 2.5em;
+  height: 2.8em;
   padding: 0 0 0 .6em;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 
-  border-radius: .4em;
+  border-radius: .6em;
 
-  background-color: #d0d0d0;
+  /* background-color: #121212; */
+  background-color: rgb(216, 216, 216);
+  border: 1px solid rgb(212, 212, 212);
 
 }
 
@@ -97,6 +99,8 @@
 
   display: grid;
   justify-content: center;
+  justify-items: center;
+
 
   column-gap: 1em;
   row-gap: 1em;

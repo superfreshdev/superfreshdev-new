@@ -9,7 +9,8 @@
 /* All | Resp | Row Content Containers
 /* ---------------------------------------------------------------- */
 
-.resp-row-content-container-small {
+.resp-row-content-container-small,
+.resp-row-content-container-medium {
 
   width: 100%;
 
@@ -17,7 +18,7 @@
 
 
 /* ------------------------------------------------------- */
-/* Small
+/* Small, Medium
 /* Min Width >= 1000px
 /* ------------------------------------------------------- */
 
@@ -27,6 +28,11 @@
 
       width: 45em;
       /* background-color: orange; */
+  }
+
+  .resp-row-content-container-medium {
+
+    width: 55em;
   }
 
 }

@@ -1,18 +1,18 @@
 /* --------------------------------------------------------------- */
-/* > header-content-more-it.css
+/* > header-content-container.css
 /*
 /* : style ...
 /* --------------------------------------------------------------- */
 
 
 /* ------------------------------------------------------- */
-/* Header Content More IT
+/* Header Content Container
 /* ------------------------------------------------------- */
 
-.header-content-more-it {
+.header-content-container {
 
   width: 100%;
-  padding: 1.5em 0em;
+  padding: 1em 0em 1.5em 0;
 
   box-sizing: border-box;
 
@@ -20,21 +20,20 @@
   align-items: center;
   justify-content: space-between;
 
-}
+  /* background-color: red; */
 
-/* small mobile default unshown img */
-.header-content-more-it > img:nth-of-type(1) {
-
-  display: none;
 }
 
 /* ------------------------------------------------------- */
-/* Title Container | Header Content More IT
+/* Title Container | Header Content Container
 /* ------------------------------------------------------- */
 
-.title-container-header-content-more-it {
+.title-container-header-content {
 
-  display: grid;/
+  /* line-height: 1.4em; */
+  display: grid;
+  /* row-gap: .6em; */
+
 
 }
 
@@ -42,68 +41,51 @@
 /* Title | Title Container
 /* ------------------------------------------------------- */
 
-.title-header-content-more-it {
+.title-header-content {
 
   font-size: 18px;
   font-weight: bold;
 
-}
-
-/* ------------------------------------------------------- */
-/* Sub Title Container | Title Container
-/* ------------------------------------------------------- */
-
-.sub-title-container-header-content-more-it {
-
-  line-height: 1.5em;
-  color:rgb(51, 51, 51);
-  font-weight: bold;
+  color:white;
 
 }
 
 /* ------------------------------------------------------- */
-/* [1/2] | Sub Title Container | Title Container
+/* Sub Title Container | Header Content Container
 /* ------------------------------------------------------- */
 
-.timer-info-header-content-more-it {
+.sub-title-container-header-content {
 
-  font-size: 14.5px;
+  /* padding-top: .8em; */
+  /* line-height: 1.8em; */
 
-  padding-top: .5em;
-
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-
-  column-gap: .4em;
-
-  /* font-style: italic; */
-
-  /* font-weight: bold; */
+  color:grey;
 
 }
 
 /* ------------------------------------------------------- */
-/* Div 2 (layout) | Sub Title Container
+/* Sub Info Timer | Header Content
 /* ------------------------------------------------------- */
 
-.timer-info-header-content-more-it > div:nth-of-type(2) {
+.sub-info-timer-header-content {
+
+  padding-top: .6em;
 
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap:.3em;
+  column-gap: .3em;
+  row-gap: .3em;
+
 }
 
 /* ------------------------------------------------------- */
-/* Timer Sticker More IT | Sub Title Container
+/* Info STicker | Title
 /* ------------------------------------------------------- */
 
-.timer-sticker-more-it {
+.info-sticker-title-header-content {
 
-  /* font-size: 12.5px; */
-
-  height: 1.4em;
+  height: 1.5em;
   padding: 0 .4em;
 
   display: flex;
@@ -114,29 +96,23 @@
 
   font-weight: bold;
 
-  background-color: #f7f7f7;
-  color:rgb(112, 112, 112);
+  background-color: #6d6d6d;
+  color:rgb(27, 27, 27);
 
 }
 
-.timer-sticker-more-it  > div {
+.info-sticker-title-header-content > div {
+
+
+}
+
+/* ------------------------------------------------------- */
+/* Img | Header Content Container
+/* ------------------------------------------------------- */
+
+.img-timer-pos-fix {
 
   /* layout pos fix */
   padding-top: 1px;
-
-  font-size: 12.5px;
-
-}
-
-
-/* ------------------------------------------------------- */
-/* [2/2] | Sub Title Container | Title Container
-/* ------------------------------------------------------- */
-
-.sub-info-header-content-more-it {
-
-  font-size: 14.5px;
-  /* font-style: italic; */
-  /* font-weight: bold; */
 
 }

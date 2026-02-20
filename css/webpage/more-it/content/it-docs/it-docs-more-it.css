@@ -39,6 +39,8 @@
 #it-docs-container-more-it > .row-container:nth-of-type(2) {
 
    background-color: rgb(28, 28, 28);
+   background-color: white;
+
 
 }
 
@@ -49,10 +51,20 @@
 #it-docs-content-container-more-it {
 
   width: 100%;
-  padding: 2.5em 0;
+  padding: 3em 0;
 
   display: none;
 
-  /* background-color: yellow; */
+  background-color: rgb(238, 238, 238);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Row Container (overwrite - white) |
+/* ---------------------------------------------------------------- */
+
+#it-docs-content-container-more-it > .row-container {
+
+  background-color: rgb(238, 238, 238);
 
 }
