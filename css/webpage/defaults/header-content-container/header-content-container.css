@@ -88,24 +88,28 @@
 
 .info-sticker-title-header-content {
 
-  height: 1.5em;
+  height: 1.4em;
   padding: 0 .4em;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  border-radius: .3em;
+  border-radius: .6em;
 
   font-weight: bold;
 
   background-color: #6d6d6d;
-  color:rgb(27, 27, 27);
+  /* background-color: #a1a1a1; */
+  color:rgb(37, 37, 37);
 
 }
 
 .info-sticker-title-header-content > div {
 
+  /* layout pos fix */
+  padding-top: 1px;
+  font-size: 14.5px;
 
 }
 
