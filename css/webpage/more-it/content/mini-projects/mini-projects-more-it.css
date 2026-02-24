@@ -49,3 +49,14 @@
   background-color: rgb(238, 238, 238);
 
 }
+
+/* ---------------------------------------------------------------- */
+/* All | Row Container
+/* ---------------------------------------------------------------- */
+
+#mini-projects-container-more-it > .list-rows-content-container > .row-container {
+
+  padding-top: 3em;
+  padding-bottom: 3em;
+
+}

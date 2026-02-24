@@ -50,3 +50,37 @@
   background-color: rgb(238, 238, 238);
 
 }
+
+
+/* ---------------------------------------------------------------- */
+/* All | Row Container
+/* ---------------------------------------------------------------- */
+
+#mini-games-container-more-it > .list-rows-content-container > .row-container {
+
+  padding-top: 3em;
+  padding-bottom: 3em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Two Col Layout Mini Games
+/* ---------------------------------------------------------------- */
+
+.two-col-layout-mini-games {
+
+  width: 100%;
+  display: grid;
+  align-items: flex-start;
+  justify-content: center;
+
+  justify-items: center;
+
+  /* grid: auto / 1fr 1fr; */
+
+  /* column-gap: 2em; */
+  row-gap: 2em;
+
+  /* background-color: red; */
+
+}

@@ -13,6 +13,9 @@
 .resp-row-content-container-medium {
 
   width: 100%;
+  display: grid;
+  /* justify-items: center; */
+  /* justify-content: center; */
 
 }
 
@@ -27,7 +30,7 @@
   .resp-row-content-container-small {
 
       width: 45em;
-      /* background-color: orange; */
+      /* background-color: orange !important; */
   }
 
   .resp-row-content-container-medium {
