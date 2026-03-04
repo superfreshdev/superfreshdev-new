@@ -32,7 +32,7 @@
 
   /* line-height: 1.4em; */
   display: grid;
-  /* row-gap: .6em; */
+  row-gap: .6em;
 
 
 }
@@ -72,7 +72,20 @@
 
 .sub-info-timer-header-content {
 
-  padding-top: .6em;
+  /* padding-top: .6em; */
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: .3em;
+  row-gap: .3em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Sub Info | Header Content
+/* ------------------------------------------------------- */
+.sub-info-header-content {
 
   display: flex;
   flex-wrap: wrap;
@@ -95,13 +108,16 @@
   align-items: center;
   justify-content: center;
 
-  border-radius: .6em;
+  border-radius: .4em;
 
-  font-weight: bold;
+  /* font-weight: bold; */
 
-  background-color: #6d6d6d;
+  /* background-color: #6d6d6d; */
   /* background-color: #a1a1a1; */
+  border: 1px solid grey;
+
   color:rgb(37, 37, 37);
+  color:grey;
 
 }
 

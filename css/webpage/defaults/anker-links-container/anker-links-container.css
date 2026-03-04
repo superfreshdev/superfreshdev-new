@@ -1,0 +1,87 @@
+/* --------------------------------------------------------------- */
+/* > anker-links-container.css
+/*
+/* : styles anker links container
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Anker Links Container
+/* ---------------------------------------------------------------- */
+
+.anker-links-container {
+
+  padding: .6em .6em 1em .6em;
+
+  display: grid;
+  row-gap: .2em;
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Header | Anker Links Container
+/* ---------------------------------------------------------------- */
+
+.anker-links-container > header {
+
+  font-size: 14.5px;
+  font-weight: bold;
+
+  color:rgb(129, 129, 129);
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Main | Anker Links Container
+/* ---------------------------------------------------------------- */
+
+.anker-links-container > main {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Link | Anker Links Container
+/* ---------------------------------------------------------------- */
+
+.anker-links-container > main > a {
+
+  text-decoration: none;
+
+  height: 1.6em;
+  padding: 0em .3em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  /* font-style: italic; */
+
+  border: 1px solid rgb(183, 183, 183);
+
+  color: rgb(156, 156, 156);
+
+  border-radius: .4em;
+
+  transition: all .4s;
+
+}
+
+/* hover */
+.anker-links-container > a:hover {
+
+
+  background-color: rgb(219, 219, 219);
+
+}
+
+/* a > div */
+.anker-links-container > main > a > div {
+
+  font-size: 14.5px;
+}

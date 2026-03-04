@@ -42,6 +42,9 @@
           <!-- value sets -->
           <link rel="stylesheet" href="css/default/css-framework/sets/value-sets.css">
 
+          <!-- text styles -->
+           <link rel="stylesheet" href="css/default/css-framework/sets/text-styles.css">
+
 
         <!-- -------------------------------------------- -->
         <!-- 🟥 [2/?] | Layout Elements -->
@@ -140,6 +143,9 @@
 
         <!-- header content container -->
         <link rel="stylesheet" href="css/webpage/defaults/header-content-container/header-content-container.css">
+
+        <!-- anker links container -->
+        <link rel="stylesheet" href="css/webpage/defaults/anker-links-container/anker-links-container.css">
 
       <!-- ----------------------------------------------------------------- -->
       <!-- 🟥 About -->
@@ -319,8 +325,8 @@
   <!-- ----------------------------------------------------- -->
   <!-- Radios ( Nav Header Body ) -->
   <!-- ----------------------------------------------------- -->
-  <input type="radio" id="radio-about" name="name-radio-nav-header-body">
-  <input checked type="radio" id="radio-more-it" name="name-radio-nav-header-body">
+  <input  type="radio" id="radio-about" name="name-radio-nav-header-body">
+  <input  checked type="radio" id="radio-more-it" name="name-radio-nav-header-body">
   <input type="radio" id="radio-private" name="name-radio-nav-header-body">
 
   <!-- ---------------------------------------------------------------------------------- -->
@@ -2735,8 +2741,8 @@
                 <!-- --------------------------------------------------- -->
                 <!-- 🟩 Radios Nav More It -->
                 <!-- --------------------------------------------------- -->
-                <input type="radio" id="radio-nav-more-it-mini-projects" name="name-radio-nav-more-it">
-                <input checked  type="radio" id="radio-nav-more-it-mini-games" name="name-radio-nav-more-it">
+                <input checked type="radio" id="radio-nav-more-it-mini-projects" name="name-radio-nav-more-it">
+                <input   type="radio" id="radio-nav-more-it-mini-games" name="name-radio-nav-more-it">
                 <input type="radio" id="radio-nav-more-it-coding-tasks" name="name-radio-nav-more-it">
                 <input  type="radio" id="radio-nav-more-it-it-docs" name="name-radio-nav-more-it">
 
@@ -2995,7 +3001,7 @@
                   <div id="mini-projects-container-more-it">
 
                     <!-- ---------------------------------------------------------------------- -->
-                    <!-- ➡️🟥 [1/2] | Header Content | Mini IT-Projects -->
+                    <!-- ➡️🟥 [1/3] | Header Content | Mini IT-Projects -->
                     <!-- ---------------------------------------------------------------------- -->
                     <div class="row-container">
 
@@ -3025,16 +3031,16 @@
                             <div class="sub-title-container-header-content">
 
                               <!-- -------------------------------- -->
-                              <!-- [1/2] | Sub Info & Timer -->
+                              <!-- Sub Info -->
                               <!-- -------------------------------- -->
-                              <div class="sub-info-timer-header-content">
+                              <div class="sub-info-header-content">
 
                                 <!-- arrow -->
                                 <div>»</div>
 
                                 <!-- img timer -->
                                 <div class="info-sticker-title-header-content">
-                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-sand-of-time.png"
+                                  <img src="media/imgs/icons/02-icon-colors/03-grey/grey-sand-of-time.png"
                                     alt="img"
                                     class="img-h-0-8">
                                 </div>
@@ -3044,15 +3050,21 @@
                                   <div>4h 30Min. </div>
                                 </div>
 
+                              </div>
+
+                              <!-- -------------------------------- -->
+                              <!-- Sub Info & Timer -->
+                              <!-- -------------------------------- -->
+                              <div class="sub-info-header-content">
+
+                                <!-- arrow -->
+                                <div>»</div>
+
                                 <!-- addon text -->
                                 <div>30 Min. Plan & 4h Coding</div>
 
                               </div>
 
-                              <!-- -------------------------------- -->
-                              <!-- [2/2] | Sub Info -->
-                              <!-- -------------------------------- -->
-                              <div> » Business Tools, Personal Tools, Skill Development, ... </div>
 
                             </div>
 
@@ -3071,8 +3083,59 @@
 
                     </div>
 
+                    <!-- --------------------------------------------------------------- -->
+                    <!-- ➡️🟥 [2/3] | Anker Links Container | (small)                 -->
+                    <!-- --------------------------------------------------------------- -->
+                    <div class="row-container">
+
+                      <!-- --------------------------------------------------------------- -->
+                      <!-- ➡️🟥 [1/2] | Header Content | (small)                 -->
+                      <!-- --------------------------------------------------------------- -->
+                      <div class="resp-row-content-container-small">
+
+                        <div class="anker-links-container">
+
+                          <!-- header -->
+                          <header>Categories:</header>
+
+                          <!-- main -->
+                          <main>
+
+                            <a href="#">
+                              <div>#Insurance</div>
+                            </a>
+
+                            <a href="#">
+                              <div>#Bank</div>
+                            </a>
+
+                            <a href="#">
+                              <div>#Online Shop</div>
+                            </a>
+
+                            <a href="#">
+                              <div>#Productivity</div>
+                            </a>
+
+                            <a href="#">
+                              <div>#Business Feature</div>
+                            </a>
+
+                            <a href="#">
+                              <div>#Social Media</div>
+                            </a>
+
+                          </main>
+
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
                     <!-- ---------------------------------------------------------------------- -->
-                    <!-- ➡️🟥 [2/2] List Rows Content Container (Universal) -->
+                    <!-- ➡️🟥 [3/3] List Rows Content Container (Universal) -->
                     <!-- ---------------------------------------------------------------------- -->
                     <div class="list-rows-content-container">
 
@@ -3094,7 +3157,7 @@
                             <div class="img-container-mini-project-card">
 
                               <!--img -->
-                              <img src="media/imgs/content/04-it-projects/01-mini-it-projects/in-progress.png"
+                              <img src="media/imgs/content/04-it-projects/default/in-progress/in-progress-bank.png"
                                    alt="img">
 
                               <!-- nr  -->
@@ -3124,11 +3187,15 @@
                               <div class="title-mini-project-card">
 
 
-                                Web-based banking application for managing finances and organizing funds
-                                into custom-created categroes such as household, leisure, vacation, and more. <br>
+                                <span class="txt-b-dark-grey"> Web-based </span> banking application for <span class="txt-b-dark-grey">managing finances </span> and
+                                <span class="txt-b-dark-grey">organizing funds</span>
+                                into custom-created categories such as
+                                <span class="txt-b-dark-grey">household</span>,
+                                <span class="txt-b-dark-grey"> leisure</span>,
+                                <span class="txt-b-dark-grey"> vacation</span>, and more. <br>
                                 Users can also define their recurring expenses to gain a clear and structured overview
                                 of income and expenditures. <br>
-                                For testing purposes, the Stripe API is integrated to simulate realistic bank tranfer
+                                For testing purposes, the <span class="txt-b-dark-grey">Stripe API </span>is integrated to simulate realistic bank tranfer
                                 behavior.
 
 
@@ -3281,7 +3348,7 @@
                             <div class="img-container-mini-project-card">
 
                               <!--img -->
-                              <img src="media/imgs/content/04-it-projects/01-mini-it-projects/in-progress.png"
+                              <img src="media/imgs/content/04-it-projects/default/in-progress/in-progress-insurance.png"
                                    alt="img">
 
                               <!-- nr  -->
@@ -3309,12 +3376,12 @@
                               <div class="title-mini-project-card">
 
 
-                                  Web application for insurance fraud detection during the claims reporting process.
+                                  <span class="txt-b-dark-grey"> Web application</span> for insurance <span class="txt-b-dark-grey">fraud detection</span> during the claims reporting process.
                                   When a claim is submitted, it is automatically evaluated against predefined criteria to determine whether
-                                  there is any suspicion of fraud. In case of repeated fraudulent activity, customers can be blocked from
+                                  there is any suspicion of fraud. In case of repeated fraudulent activity, <span class="txt-b-dark-grey">customers can be blocked</span> from
                                   submitting further claims. <br>
 
-                                  The system also includes a dashboard that clearly visualizes and highlights suspicious customers for review.
+                                  The system also <span class="txt-b-dark-grey">includes a dashboard</span> that clearly visualizes and highlights suspicious customers for review.
 
                               </div>
 
@@ -3464,7 +3531,7 @@
                             <div class="img-container-mini-project-card">
 
                               <!--img -->
-                              <img src="media/imgs/content/04-it-projects/01-mini-it-projects/actually-no-prio.png"
+                              <img src="media/imgs/content/04-it-projects/default/in-progress/in-progress-online-shop.png"
                                    alt="img">
 
                               <!-- nr  -->
@@ -3492,11 +3559,11 @@
 
 
 
-                                 Online car marketplace for purchasing new and used vehicles, as well as renting
+                                 <span class="txt-b-dark-grey">Online car marketplace </span>for purchasing new and used vehicles, as well as renting
                                  cars - ranging from standard models to high-performance sports cars. <br><br>
 
-                                 Before a customer can place an order, a simulated verification process via the Stripe
-                                 API is performed to confirm eligibility and payment authorization.
+                                 Before a customer can place an order, a simulated <span class="txt-b-dark-grey">verification process via the Stripe
+                                 API </span>is performed to <span class="txt-b-dark-grey">confirm eligibility</span> and <span class="txt-b-dark-grey">payment authorization</span>.
 
                                  Once approved, customers gain access to additional options, such as making a down
                                  payment and completing further purchase arrangements.
@@ -3649,7 +3716,7 @@
                             <div class="img-container-mini-project-card">
 
                               <!--img -->
-                              <img src="media/imgs/content/04-it-projects/01-mini-it-projects/actually-no-prio.png"
+                              <img src="media/imgs/content/04-it-projects/default/in-progress/in-progress-online-shop.png"
                                    alt="img">
 
                               <!-- nr  -->
@@ -3678,14 +3745,14 @@
 
 
 
-                                 Booking Prototype - Browse and discover hotels or apartments within your country and select the
+                                 <span class="txt-b-dark-grey">Booking Prototype</span> - Browse and discover hotels or apartments within your country and select the
                                  desired duration of your stay.
-                                 Payments are simulated via the Stripe API for testing purposes. <br>
+                                  <span class="txt-b-dark-grey">Payments are simulated via the Stripe API </span>for testing purposes. <br>
 
-                                 As an administrator, you can add and manage new hotels or aparments that are
+                                 As an administrator, you can add and <span class="txt-b-dark-grey">manage new hotels or aparments </span>that are
                                  displayed to customers.
 
-                                 The application integrates OpenStreetMap to provide location-based visualization and
+                                 The application <span class="txt-b-dark-grey">integrates OpenStreetMap</span> to provide location-based visualization and
                                  mapping features.
 
 
@@ -3837,7 +3904,7 @@
                             <div class="img-container-mini-project-card">
 
                               <!--img -->
-                              <img src="media/imgs/content/04-it-projects/01-mini-it-projects/actually-no-prio.png"
+                              <img src="media/imgs/content/04-it-projects/default/in-progress/in-progress-productivity.png"
                                    alt="img">
 
                               <!-- nr  -->
@@ -3865,16 +3932,17 @@
 
 
 
-                                 Web To-Do Application based on the Kanban concept.
-                                 Organize your tasks into clearly structured columns such as To Do, In Progress and
+                                 <span class="txt-b-dark-grey">Web To-Do Application </span>based on the <span class="txt-b-dark-grey">Kanban concept</span>.
+                                 <span class="txt-b-dark-grey">Organize your tasks </span>into clearly structured columns such as To Do, In Progress and
                                  Done to maintain full visibility of your workflow. <br><br>
-                                 The application also included a dedicated Productivity Mode. When activated, you define a
-                                 specific task and set a focued time period to complete it. After the session ends, your
+
+                                 The application also included a <span class="txt-b-dark-grey">dedicated Productivity Mode</span>. When activated, you define a
+                                 specific task and set a <span class="txt-b-dark-grey">focued time period </span>to complete it. After the session ends, your
                                  record a short reflection outlining what went well and what could be improved, helping
                                  you evaluate your effectiviness and work habits. <br><br>
                                  If you use the tool consistently for one week, you will receive a summarized performance
-                                 report highlighting strenghts and areas for improvment. This weekly overview supports
-                                 continous self-reflection and helps you optimize your productivity over time.
+                                 report highlighting strenghts and areas for improvment. This weekly overview <span class="txt-b-dark-grey">supports
+                                 continous self-reflection </span> and helps you optimize your productivity over time.
 
 
                               </div>
@@ -4025,7 +4093,7 @@
                             <div class="img-container-mini-project-card">
 
                               <!--img -->
-                              <img src="media/imgs/content/04-it-projects/01-mini-it-projects/actually-no-prio.png"
+                              <img src="media/imgs/content/04-it-projects/default/in-progress/in-progress-business-feature.png"
                                    alt="img">
 
                               <!-- nr  -->
@@ -4053,16 +4121,16 @@
                               <div class="title-mini-project-card">
 
 
-                                  Data Dashboard for analyzing information that social media users add to their
+                                  <span class="txt-b-dark-grey">Data Dashboard </span>for analyzing information that <span class="txt-b-dark-grey">social media users</span> add to their
                                   profiles. <br><br>
-                                  Administrators have access to a serachable table view, allowing them to filter and
+                                  Administrators have<span class="txt-b-dark-grey"> access to a serachable table view</span>, allowing them to <span class="txt-b-dark-grey">filter</span> and
                                   locate specific users based on defined criteria.
                                   <br><br>
                                   When
                                   selecting a user, a dedicated dashboard displays detailed insights and profile data for that
                                   individual.
 
-                                  From this dashboard, administrator can generate and export the information as a PDF file.
+                                  From this dashboard, administrator can generate and export the information as a <span class="txt-b-dark-grey">PDF file</span>.
 
 
 
@@ -4215,7 +4283,7 @@
                             <div class="img-container-mini-project-card">
 
                               <!--img -->
-                              <img src="media/imgs/content/04-it-projects/01-mini-it-projects/actually-no-prio.png"
+                              <img src="media/imgs/content/04-it-projects/default/in-progress/in-progress-social-media.png"
                                    alt="img">
 
                               <!-- nr  -->
@@ -4243,11 +4311,11 @@
 
 
 
-                                 Small Instagram Prototype - Users can register with email verification, log in, and
+                                 <span class="txt-b-dark-grey">Small Instagram Prototype </span>- Users can <span class="txt-b-dark-grey">register with email verification</span>, log in, and
                                  add personal information to their profil. <br><br>
-                                 The application allows users to upload photos and share status updates that automatically
+                                 The application allows users to <span class="txt-b-dark-grey">upload photos </span>and <span class="txt-b-dark-grey">share status updates </span>that automatically
                                  expire after a maximum of 24 hours. <br><br>
-                                 Users can search for others profiles. and a secure privacy setting exures that their own profile cannot be found
+                                 Users can <span class="txt-b-dark-grey">search for others profiles</span> and a <span class="txt-b-dark-grey">secure privacy setting </span>exures that their own profile cannot be found
                                  through serach if they choose to remain private.
                                  That means other can only contact them if this profil write them.
 
@@ -4404,7 +4472,7 @@
                             <div class="img-container-mini-project-card">
 
                               <!--img -->
-                              <img src="media/imgs/content/04-it-projects/01-mini-it-projects/actually-no-prio.png"
+                              <img src="media/imgs/content/04-it-projects/default/in-progress/in-progress-entertainment.png"
                                    alt="img">
 
                               <!-- nr  -->
@@ -4432,11 +4500,11 @@
 
 
 
-                                 Online MP3 Web and Mobile Solution - A cross-plattform application that allows users
+                                 <span class="txt-b-dark-grey">Online MP3 Web and Mobile Solution</span> - A cross-plattform application that allows users
                                  to store and manage their personal music library. <br>
 
-                                 Users can organize tracks into custom categories, create playlists,
-                                 and access integrated lyrics to follow along and learn their
+                                 Users can <span class="txt-b-dark-grey">organize tracks </span> into custom categories, <span class="txt-b-dark-grey">create playlists</span>,
+                                 and access  <span class="txt-b-dark-grey">integrated lyrics </span>to follow along and learn their
                                  favorite songs.
 
 
@@ -4582,7 +4650,7 @@
                   <div id="mini-games-container-more-it">
 
                     <!-- ---------------------------------------------------------------------- -->
-                    <!-- ➡️🟥 [1/2] | Header Content | Mini Games -->
+                    <!-- ➡️🟥 [1/3] | Header Content | Mini Games -->
                     <!-- ---------------------------------------------------------------------- -->
                     <div class="row-container">
 
@@ -4621,35 +4689,44 @@
 
                                 <!-- img timer -->
                                 <div class="info-sticker-title-header-content">
-                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-sand-of-time.png"
+                                  <img src="media/imgs/icons/02-icon-colors/03-grey/grey-sand-of-time.png"
                                     alt="img"
                                     class="img-h-0-8">
                                 </div>
 
                                 <!-- timer 1:30 -->
                                 <div class="info-sticker-title-header-content">
-                                  <div>1h 30Min. </div>
+                                  <div>1h 30 Min. </div>
                                 </div>
 
                                  <!-- timer 2:30 -->
                                 <div class="info-sticker-title-header-content">
-                                  <div>2h 30Min. </div>
+                                  <div>2h 30 Min. </div>
                                 </div>
 
                                 <!-- timer 4:30 -->
                                 <div class="info-sticker-title-header-content">
-                                  <div>4h 30Min. </div>
+                                  <div>4h 30 Min. </div>
                                 </div>
+
+
+
+                              </div>
+
+                              <!-- -------------------------------- -->
+                              <!-- Sub Info & Timer -->
+                              <!-- -------------------------------- -->
+                              <div class="sub-info-header-content">
+
+                                <!-- arrow -->
+                                <div>»</div>
 
                                 <!-- addon text -->
                                 <div>30 Min. Plan & 1/2/4h Coding</div>
 
                               </div>
 
-                              <!-- -------------------------------- -->
-                              <!-- [2/2] | Sub Info -->
-                              <!-- -------------------------------- -->
-                              <div> » Board Games, Learning Games, 2-Player, ... </div>
+
 
                             </div>
 
@@ -4667,10 +4744,51 @@
 
                       </div>
 
+
+
+                    </div>
+
+                    <!-- --------------------------------------------------------------- -->
+                    <!-- ➡️🟥 [2/3] | Anker Links Container | (small)                 -->
+                    <!-- --------------------------------------------------------------- -->
+                    <div class="row-container">
+
+                      <!-- --------------------------------------------------------------- -->
+                      <!-- ➡️🟥 [1/2] | Header Content | (small)                 -->
+                      <!-- --------------------------------------------------------------- -->
+                      <div class="resp-row-content-container-small">
+
+                        <div class="anker-links-container">
+
+                          <!-- header -->
+                          <header>Categories:</header>
+
+                          <!-- main -->
+                          <main>
+
+                            <a href="#">
+                              <div>#Board Games</div>
+                            </a>
+
+                            <a href="#">
+                              <div>#Learning</div>
+                            </a>
+
+                            <a href="#">
+                              <div>#Adventure</div>
+                            </a>
+
+                          </main>
+
+
+                        </div>
+
+                      </div>
+
                     </div>
 
                     <!-- ---------------------------------------------------------------------- -->
-                    <!-- ➡️🟥 [2/2] List Rows Content Container (Universal) -->
+                    <!-- ➡️🟥 [3/3] List Rows Content Container (Universal) -->
                     <!-- ---------------------------------------------------------------------- -->
                     <div class="list-rows-content-container">
 
@@ -6198,7 +6316,7 @@
 
                                 <!-- img timer -->
                                 <div class="info-sticker-title-header-content">
-                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-sand-of-time.png"
+                                  <img src="media/imgs/icons/02-icon-colors/03-grey/grey-sand-of-time.png"
                                     alt="img"
                                     class="img-h-0-8">
                                 </div>
@@ -6225,7 +6343,7 @@
                               <!-- -------------------------------- -->
                               <!-- [2/2] | Sub Info -->
                               <!-- -------------------------------- -->
-                              <div> » LeetCode, Others </div>
+                              <div> » LeetCode, Algos, Others </div>
 
                             </div>
 
