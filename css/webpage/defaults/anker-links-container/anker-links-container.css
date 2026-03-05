@@ -73,10 +73,11 @@
 }
 
 /* hover */
-.anker-links-container > a:hover {
+.anker-links-container > main > a:hover {
 
 
   background-color: rgb(219, 219, 219);
+  color:rgb(36, 36, 36);
 
 }
 
