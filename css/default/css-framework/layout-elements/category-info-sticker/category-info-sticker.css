@@ -1,0 +1,59 @@
+/* --------------------------------------------------------------- */
+/* > category-info-sticker.css
+/*
+/* : style category info sticker
+/* --------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* Category Info Sticker
+/* > light grey, light black
+/* ------------------------------------------------------- */
+
+.category-info-sticker-light-grey,
+.category-info-sticker-light-black {
+
+  height: 1.6em;
+  padding: 0 .5em 0 .5em;
+
+  display: inline-flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .4em;
+
+}
+
+/* Div 1 */
+.category-info-sticker-light-grey > div:nth-of-type(1),
+.category-info-sticker-light-black > div:nth-of-type(1)  {
+
+  /* layout pos fix */
+  padding-top: 1px;
+  font-size: 14.5px;
+
+}
+
+/* ------------------------------------------------------- */
+/* Light Grey | Category Info Sticker
+/* ------------------------------------------------------- */
+
+.category-info-sticker-light-grey {
+
+  border: 1px solid rgb(196, 196, 196);
+
+  background-color: white;
+  color:rgb(122, 122, 122);
+
+}
+
+/* ------------------------------------------------------- */
+/* Light Black | Category Info Sticker
+/* ------------------------------------------------------- */
+
+.category-info-sticker-light-black {
+
+  background-color: #2b2b2b;
+  color:#c0c0c0;
+
+}

@@ -1,15 +1,15 @@
 /* --------------------------------------------------------------- */
-/* > mini-projects-more-it.css
+/* > mini-it-projects-more-it.css
 /*
-/* : styles ...
+/* : styles layout of mini it project content
 /* --------------------------------------------------------------- */
 
 
 /* ---------------------------------------------------------------- */
-/* Mini Projects Container More IT
+/* Mini IT Projects Content Container
 /* ---------------------------------------------------------------- */
 
-#mini-projects-container-more-it {
+#mini-it-projects-content-container {
 
   width: 100%;
   display: grid;
@@ -21,18 +21,17 @@
 }
 
 /* default unshown | img header content container */
-
-#mini-projects-container-more-it > .row-container:nth-of-type(1) .header-content-container > img {
+#mini-it-projects-content-container > .row-container:nth-of-type(1) .header-content-container > img {
 
   display: none;
 
 }
 
 /* ---------------------------------------------------------------- */
-/* Row Container (overwerite - blue )
+/* Row Container | overwrite to blue
 /* ---------------------------------------------------------------- */
 
-#mini-projects-container-more-it > .row-container:nth-of-type(1) {
+#mini-it-projects-content-container > .row-container:nth-of-type(1) {
 
   /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
   background-color: rgb(28, 28, 28);
@@ -40,21 +39,20 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Row Container (overwerite - white, grey )
+/* Row Container | overwrite light grey by every odd
 /* ---------------------------------------------------------------- */
 
-/* white */
-#mini-projects-container-more-it > .list-rows-content-container > .row-container:nth-child(odd) {
+#mini-it-projects-content-container > .list-rows-content-container > .row-container:nth-child(odd) {
 
   background-color: rgb(238, 238, 238);
 
 }
 
 /* ---------------------------------------------------------------- */
-/* All | Row Container
+/* Row Container | add paddings
 /* ---------------------------------------------------------------- */
 
-#mini-projects-container-more-it > .list-rows-content-container > .row-container {
+#mini-it-projects-content-container > .list-rows-content-container > .row-container {
 
   padding-top: 3em;
   padding-bottom: 3em;

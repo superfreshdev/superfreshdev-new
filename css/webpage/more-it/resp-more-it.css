@@ -5,6 +5,55 @@
 /*
 /* --------------------------------------------------------------- */
 
+/* ------------------------------------------------------- */
+/* Min Width >= 420px
+/* ------------------------------------------------------- */
+
+@media (min-width: 420px) {
+
+
+  /* -------------------------------------------------- */
+  /* Mini IT Project Card | Link Container
+  /* -------------------------------------------------- */
+
+  .link-container-mini-it-project-card {
+
+    padding: 0em .3em 0 .3em;
+    border-top: 0px;
+
+  }
+
+  /* -------------------------------------------------- */
+  /* Mini IT Project Card | Img Container
+  /* -------------------------------------------------- */
+
+  .img-container-mini-it-project-card > img:nth-of-type(1) {
+
+    width: auto;
+    height: 14em;
+
+  }
+
+  /* -------------------------------------------------- */
+  /* Mini IT Projects | Mini IT Project Card
+  /* -------------------------------------------------- */
+
+  #mini-it-projects-content-container .list-rows-content-container .mini-it-project-card,
+  #mini-games-container-more-it .list-rows-content-container .mini-col-it-project-card {
+
+      grid-template-areas:
+
+      '. img-mipc'
+      'link-mipc link-mipc'
+      'content-mipc content-mipc'
+
+      ;
+
+  }
+
+
+}
+
 
 /* ------------------------------------------------------- */
 /* Min Width >= 480px
@@ -13,7 +62,7 @@
 @media (min-width: 480px) {
 
   /* ---------------------------------------------------------------- */
-  /* More IT | IT Docs | Nav & Sub Nav
+  /* IT Docs | Nav & Sub Nav
   /* ---------------------------------------------------------------- */
 
   #nav-it-docs-more-it > label,
@@ -25,16 +74,17 @@
   }
 
   /* -------------------------------------------------- */
-  /* More IT | Header Content More IT | Img
+  /* Header Content More IT | Img
   /* -------------------------------------------------- */
 
   .header-content-more-it > img:nth-of-type(1) {
 
     display: flex;
+
   }
 
   /* ---------------------------------------------------------------- */
-  /* More IT | IT Docs | Main
+  /* IT Docs | Main
   /* ---------------------------------------------------------------- */
 
   .it-docs-content-box-more-it > main {
@@ -43,36 +93,6 @@
     grid: auto / 12em 12em;
 
   }
-
-  /* -------------------------------------------------- */
-  /* Mini IT Project Card | Link Container
-  /* -------------------------------------------------- */
-
-  .link-container-mini-project-card {
-
-    padding: 0em .3em 0 .3em;
-    border-top: 0px;
-
-  }
-
-  /* -------------------------------------------------- */
-  /* More IT | Mini Project & Mini Games
-  /* -------------------------------------------------- */
-
-  #mini-projects-container-more-it .list-rows-content-container .mini-row-it-project-card,
-  #mini-games-container-more-it .list-rows-content-container .mini-col-it-project-card {
-
-      grid-template-areas:
-
-      '. img-mpc'
-      'link-container-mpc link-container-mpc'
-      'text-skills-mpc text-skills-mpc'
-
-      ;
-
-  }
-
-
 
 }
 
@@ -84,10 +104,10 @@
 
 
   /* -------------------------------------------------- */
-  /* More IT | Header Content Container | Img
+  /* Header Content Container | Img
   /* -------------------------------------------------- */
 
-  #mini-projects-container-more-it > .row-container:nth-of-type(1) .header-content-container > img,
+  #mini-it-projects-content-container > .row-container:nth-of-type(1) .header-content-container > img,
   #mini-games-container-more-it > .row-container:nth-of-type(1) .header-content-container > img,
   #coding-task-container-more-it > .row-container:nth-of-type(1) .header-content-container > img,
   #it-docs-container-more-it > .row-container:nth-of-type(1) .header-content-container > img  {
@@ -101,7 +121,7 @@
   /* Mini IT Project Card | Img Container
   /* -------------------------------------------------- */
 
-    #mini-projects-container-more-it .list-rows-content-container .img-container-mini-project-card > img,
+    #mini-it-projects-content-container .list-rows-content-container .img-container-mini-project-card > img,
     #mini-games-container-more-it .list-rows-content-container .img-container-mini-project-card > img {
 
       width: auto;
@@ -124,28 +144,28 @@
 }
 
 /* ------------------------------------------------------- */
-/* Min Width >= 700px
+/* Min Width >= 750px
 /* ------------------------------------------------------- */
 
-@media (min-width: 700px) {
+@media (min-width: 750px) {
 
   /* -------------------------------------------------- */
   /* More IT | Mini Row IT Project Card
   /* -------------------------------------------------- */
 
-    #mini-projects-container-more-it .list-rows-content-container .mini-row-it-project-card,
-    #mini-games-container-more-it .list-rows-content-container .mini-col-it-project-card {
+  #mini-it-projects-content-container .list-rows-content-container .mini-it-project-card,
+  #mini-games-container-more-it .list-rows-content-container .mini-col-it-project-card {
 
-      /* Desktop */
-      grid-template-areas:
+    /* Desktop */
+    grid-template-areas:
 
-        'text-skills-mpc img-mpc'
-        'text-skills-mpc link-container-mpc'
-        'text-skills-mpc .'
+      'content-mipc img-mipc'
+      'content-mipc link-mipc'
+      'content-mipc .'
 
-      ;
+    ;
 
-    }
+  }
 
 }
 
