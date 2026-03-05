@@ -155,7 +155,7 @@
   float:left;
   margin-right: .4em;
 
-  height: 1.8em;
+  height: 1.6em;
   padding: 0 .5em 0 .5em;
 
   display: inline-flex;
@@ -164,15 +164,17 @@
 
   border-radius: .4em;
 
-  font-weight: bold;
+  /* font-weight: bold; */
 
   background-color: #ffffff;
 
   border: 1px solid rgb(196, 196, 196);
 
   background-color: #2b2b2b;
-  /* background-color: #6d6d6d; */
   color:#c0c0c0;
+
+  background-color: white;
+  color:rgb(122, 122, 122);
 
 }
 
