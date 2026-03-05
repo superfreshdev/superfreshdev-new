@@ -41,7 +41,7 @@ input[name="name-radio-nav-more-it"] {
 /* ---------------------------------------------------------------- */
 
 #radio-nav-more-it-mini-projects:checked ~ #more-it-content-container #mini-it-projects-content-container,
-#radio-nav-more-it-mini-games:checked ~ #more-it-content-container #mini-games-container-more-it,
+#radio-nav-more-it-mini-games:checked ~ #more-it-content-container #mini-games-content-container,
 #radio-nav-more-it-coding-tasks:checked ~ #more-it-content-container #coding-task-container-more-it,
 #radio-nav-more-it-it-docs:checked ~ #more-it-content-container #it-docs-container-more-it {
 

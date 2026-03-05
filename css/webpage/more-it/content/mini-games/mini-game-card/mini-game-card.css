@@ -11,5 +11,190 @@
 
 .mini-game-card {
 
+  position: relative;
+
+  width: 100%;
+
+  display: grid;
+  column-gap: 1em;
+  row-gap: 1em;
+
+  /* small mobile */
+  grid-template-areas:
+
+    'img-mgc img-mgc'
+    'content-mgc content-mgc'
+    'link-mgc link-mgc'
+
+  ;
+
+}
+
+/* ------------------------------------------------------- */
+/* [1/3] | Img Container | Mini Game Card
+/* ------------------------------------------------------- */
+
+.img-container-mini-game-card {
+
+  grid-area: img-mgc;
+
+  position: relative;
+  width: 100%;
+
+  display: grid;
+  justify-items: center;
+
+}
+
+/* img */
+.img-container-mini-game-card > img {
+
+  /* mobile */
+  width: 100%;
+
+  border-radius: .8em;
+
+  border: 1px solid rgb(176, 176, 176);
+  border-radius: .6em;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+/* nr */
+.img-container-mini-game-card > div:nth-of-type(1) {
+
+  position: absolute;
+  top:0;
+  right:0;
+
+  word-spacing: 3px;
+
+  height: 2.3em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+  border-radius: 0 .6em 0 .8em;
+
+  /* border-top: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb; */
+
+  background-color: rgb(43, 43, 43);
+  color: rgb(236, 236, 236);
+
+}
+
+.img-container-mini-game-card > div:nth-of-type(1) > div {
+
+  font-size: 14.5px;
+  letter-spacing: .1em;
+
+}
+
+/* ------------------------------------------------------- */
+/* [2/3] | Content Container | Mini Game Card
+/* ------------------------------------------------------- */
+
+.content-container-mini-game-card {
+
+  grid-area: content-mgc;
+
+  padding: 0 .3em;
+
+  display: grid;
+  row-gap: .8em;
+
+  align-content: flex-start;
+
+}
+
+/* category info sticker light grey be left | .category-info-sticker-light-grey */
+.content-container-mini-game-card > .category-info-sticker-light-grey {
+
+  justify-self: flex-start;
+
+}
+
+/* title */
+.title-mini-game-card {
+
+  line-height: 1.6em;
+
+  color:rgb(69, 69, 69);
+
+  /* font-weight: bold; */
+  color:rgba(92, 92, 92, 0.8);
+
+}
+
+/* skills cointainer */
+.skills-container-mini-game-card {
+
+  /* extra pos top space */
+  padding-top: .4em;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .4em;
+
+}
+
+/* skills > divs */
+.skills-container-mini-game-card > div {
+
+  height: 2em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .6em;
+
+  background-color: white;
+  border: 1px solid rgb(232, 232, 232);
+  color: #a6a6a6;
+
+}
+
+/* skills > div > div */
+.skills-container-mini-game-card > div {
+
+  font-size: 12.5px;
+
+}
+
+/* ------------------------------------------------------- */
+/* [3/3] | Link Container | Mini Game Card
+/* ------------------------------------------------------- */
+
+.link-container-mini-game-card {
+
+  grid-area: link-mgc;
+
+  padding: 1em .3em 0 .3em;
+
+  border-top: 1px solid rgb(205, 205, 205);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .3em;
+
+  font-weight: bold;
+
+}
+
+/* div 1 */
+.link-container-mini-game-card > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
 
 }

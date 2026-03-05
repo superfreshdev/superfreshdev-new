@@ -1,15 +1,15 @@
 /* --------------------------------------------------------------- */
 /* > mini-games-more-it.css
 /*
-/* : styles ...
+/* : styles mini games content
 /* --------------------------------------------------------------- */
 
 
 /* ---------------------------------------------------------------- */
-/* Mini Games Container | More IT
+/* Mini Games Content Container
 /* ---------------------------------------------------------------- */
 
-#mini-games-container-more-it {
+#mini-games-content-container {
 
   width: 100%;
 
@@ -20,18 +20,17 @@
 }
 
 /* default unshown | img header content container */
-
-#mini-games-container-more-it > .row-container:nth-of-type(1) .header-content-container > img {
+#mini-games-content-container > .row-container:nth-of-type(1) .header-content-container > img {
 
   display: none;
 
 }
 
 /* ---------------------------------------------------------------- */
-/* Row Container (overwerite - blue )
+/* Row Container (overwerite - white )
 /* ---------------------------------------------------------------- */
 
-#mini-games-container-more-it > .row-container:nth-of-type(1) {
+#mini-games-content-container > .row-container:nth-of-type(1) {
 
   /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
   background-color: rgb(28, 28, 28);
@@ -43,20 +42,18 @@
 /* Row Container (overwerite - white, grey)
 /* ---------------------------------------------------------------- */
 
-/* white */
-#mini-games-container-more-it > .list-rows-content-container > .row-container:nth-child(odd) {
+#mini-games-content-container > .list-rows-content-container > .row-container:nth-child(odd) {
 
   /* background-color: rgb(220, 220, 220); */
   background-color: rgb(238, 238, 238);
 
 }
 
-
 /* ---------------------------------------------------------------- */
-/* All | Row Container
+/* All | Row Container add paddings
 /* ---------------------------------------------------------------- */
 
-#mini-games-container-more-it > .list-rows-content-container > .row-container {
+#mini-games-content-container > .list-rows-content-container > .row-container {
 
   padding-top: 3em;
   padding-bottom: 3em;
@@ -76,9 +73,6 @@
 
   justify-items: center;
 
-  /* grid: auto / 1fr 1fr; */
-
-  /* column-gap: 2em; */
   row-gap: 2em;
 
   /* background-color: red; */

@@ -47,7 +47,7 @@
 }
 
 /* img */
-.img-container-mini-it-project-card > img{
+.img-container-mini-it-project-card > img {
 
   /* mobile */
   width: 100%;
@@ -189,6 +189,3 @@
   font-weight: bold;
 
 }
-
-
-/* link (universal - github, zip) */
