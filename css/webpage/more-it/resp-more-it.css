@@ -5,6 +5,26 @@
 /*
 /* --------------------------------------------------------------- */
 
+
+/* ------------------------------------------------------- */
+/* Min Width >= 400px
+/* ------------------------------------------------------- */
+
+@media (min-width: 400px) {
+
+
+  /* -------------------------------------------------- */
+  /* Mini Games |Two Col Layout
+  /* -------------------------------------------------- */
+
+  .two-col-layout-mini-games {
+
+    grid: 1fr / 20em;
+
+  }
+
+}
+
 /* ------------------------------------------------------- */
 /* Min Width >= 420px
 /* ------------------------------------------------------- */
@@ -38,8 +58,7 @@
   /* Mini IT Projects | Mini IT Project Card
   /* -------------------------------------------------- */
 
-  #mini-it-projects-content-container .list-rows-content-container .mini-it-project-card,
-  #mini-games-container-more-it .list-rows-content-container .mini-col-it-project-card {
+  #mini-it-projects-content-container .list-rows-content-container .mini-it-project-card {
 
       grid-template-areas:
 
@@ -108,7 +127,7 @@
   /* -------------------------------------------------- */
 
   #mini-it-projects-content-container > .row-container:nth-of-type(1) .header-content-container > img,
-  #mini-games-container-more-it > .row-container:nth-of-type(1) .header-content-container > img,
+  #mini-games-content-container > .row-container:nth-of-type(1) .header-content-container > img,
   #coding-task-container-more-it > .row-container:nth-of-type(1) .header-content-container > img,
   #it-docs-container-more-it > .row-container:nth-of-type(1) .header-content-container > img  {
 
@@ -149,6 +168,18 @@
 
 @media (min-width: 750px) {
 
+
+  /* -------------------------------------------------- */
+  /* Mini Games |Two Col Layout
+  /* -------------------------------------------------- */
+
+  .two-col-layout-mini-games {
+
+    grid: 1fr / 1fr 1fr;
+    column-gap: 1em;
+
+  }
+
   /* -------------------------------------------------- */
   /* More IT | Mini Row IT Project Card
   /* -------------------------------------------------- */
@@ -175,53 +206,16 @@
 
 @media (min-width: 800px) {
 
-
-  /* ---------------------------------------------------------------- */
-  /* Two Col Layout Mini Games
-  /* ---------------------------------------------------------------- */
+  /* -------------------------------------------------- */
+  /* Mini Games |Two Col Layout
+  /* -------------------------------------------------- */
 
   .two-col-layout-mini-games {
 
-
-    grid: auto / 1fr 1fr;
-
-    column-gap: 2em;
-    /* row-gap: 2em; */
-
-    /* background-color: orange; */
+    grid: 1fr / 18em 18em;
+    column-gap: 1.5em;
 
   }
-
-  #mini-games-container-more-it .list-rows-content-container .mini-col-it-project-card {
-
-    width: 14em;
-
-    justify-items: center;
-    justify-content: center;
-
-    /* background-color: red; */
-
-    /* Desktop */
-    grid-template-areas:
-
-      'img-mpc'
-      'text-skills-mpc'
-      'link-container-mpc'
-
-    ;
-
-  }
-
-
-
-  #mini-games-container-more-it .list-rows-content-container .mini-col-it-project-card .link-container-mini-project-card {
-
-    padding: 1em .3em 0 .3em;
-    border-top: 1px solid rgb(205, 205, 205);
-
-  }
-
-
 
 
 }
