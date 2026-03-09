@@ -22,6 +22,7 @@
   /* border: 1px solid black; */
 
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(to right, #f5deb3 0%, #e5c78e 100%);
   color: #1e1e1e;
 
   transition: all .4s;

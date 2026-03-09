@@ -25,8 +25,9 @@ input[name="name-radio-nav-header-body"] {
 #radio-private:checked ~ #header-fixed-body label[for="radio-private"] {
 
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(to right, #f5deb3 0%, #e5c78e 100%);
 
-  border: 1px solid rgb(157, 200, 216);
+  border: 1px solid wheat;
   opacity: 1;
 
   color:black;
