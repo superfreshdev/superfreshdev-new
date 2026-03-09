@@ -11,7 +11,8 @@
 
 #main-body {
 
-  position: relative;
+  /* ⚠️ kommentiert */
+  /* position: relative; */
 
   /* important: to go by max height of parent element */
   height: 100%;

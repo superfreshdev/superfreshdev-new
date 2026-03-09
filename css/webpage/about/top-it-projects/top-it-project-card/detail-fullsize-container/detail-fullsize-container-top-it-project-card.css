@@ -1,0 +1,148 @@
+/* --------------------------------------------------------------- */
+/* > detail-fullsize-view-top-it-project-card.css
+/*
+/* : style detail fullsize view for top it project card
+/* --------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* Detail Fullsize View | Top IT Project Card
+/* ------------------------------------------------------- */
+
+.detail-fullsize-view-top-it-project-card {
+
+  position: absolute;
+  top: 0em;
+  left:0;
+  right:0;
+
+  z-index: 9;
+
+  display: grid;
+
+  font-size: 18px;
+
+  background-color: rgb(208, 208, 208);
+
+  /* ⚠️ in Entwicklung */
+  display: none;
+
+}
+
+/* ------------------------------------------------------- */
+/* Header | Detail Fullsize View
+/* ------------------------------------------------------- */
+
+.detail-fullsize-view-top-it-project-card > header {
+
+
+  height: 4em;
+  padding-left: .8em;
+
+
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  column-gap: .8em;
+
+  background-color: rgb(28, 28, 28);
+
+}
+
+/* ------------------------------------------------------- */
+/* Title | Header
+/* ------------------------------------------------------- */
+
+.title-project-detail-fullsize {
+
+  display: flex;
+  align-items: center;
+  column-gap: .8em;
+
+}
+
+.title-project-detail-fullsize > div:nth-of-type(1) {
+
+  font-size: 16px;
+
+  line-height: 1.4em;
+
+  font-weight: bold;
+  color:rgb(227, 227, 227);
+
+}
+
+/* ------------------------------------------------------- */
+/* Close Button | Header
+/* ------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* Main | Detail Fullsize View
+/* ------------------------------------------------------- */
+
+.detail-fullsize-view-top-it-project-card > main {
+
+  display: grid;
+
+}
+
+/* ------------------------------------------------------- */
+/* Img View Gallery Tiles Container
+/* ------------------------------------------------------- */
+
+.img-view-gallery-tiles-container {
+
+  padding: .8em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Was kann ich damit machen ?
+/* ------------------------------------------------------- */
+
+.project-facts-info-container {
+
+  padding: .8em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Tech Stack ?
+/* ------------------------------------------------------- */
+
+.tech-stack-top-it-project-card-container {
+
+  padding: .8em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Installationsanweisung
+/* ------------------------------------------------------- */
+
+.installation-top-it-project-card-container {
+
+  padding: .8em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Warum habe ich es entwickelt ?
+/* ------------------------------------------------------- */
+
+.why-top-it-project-card-container {
+
+  padding: .8em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Video Developer Tutorial (O)
+/* ------------------------------------------------------- */
+
+.video-tutorial-top-it-project-card-container {
+
+  padding: .8em;
+
+}

@@ -17,7 +17,9 @@
 
 .push-slider {
 
+  /* ⚠️ kommentiert */
   position: relative;
+
   height: 100%;
   width: 100%;
 
@@ -67,7 +69,10 @@
 .push-content-slide-no-anim.active ,
 .push-content-slide-with-anim.active {
 
+  /* ⚠️ kommentiert */
   position: relative;
+
+
   z-index: 2;
   transform: translateX(0);
 
