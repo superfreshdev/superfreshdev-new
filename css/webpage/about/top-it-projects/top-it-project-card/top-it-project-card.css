@@ -31,8 +31,9 @@
 .top-it-project-card:hover {
 
   background-color: rgb(212, 212, 212);
-  background-color: rgb(225, 225, 225);
-  background-color: white;
+  background-color: rgb(210, 210, 210);
+
+  /* background-color: white; */
   /* background-color: wheat; */
   /* background-color: white; */
 
