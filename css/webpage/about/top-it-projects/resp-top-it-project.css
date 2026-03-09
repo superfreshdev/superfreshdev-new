@@ -37,15 +37,14 @@
 /* >= 800px
 /* ---------------------------------------------------------------- */
 
-@media( min-width: 800px ) {
+@media( min-width: 850px ) {
 
 
   #about-top-it-projects-content {
 
     width: 45em;
 
-    column-gap: 2.5em;
-
+    column-gap: 2em;
     /* background-color: red; */
 
   }

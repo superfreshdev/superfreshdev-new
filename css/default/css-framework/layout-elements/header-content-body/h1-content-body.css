@@ -36,7 +36,26 @@
 
 .header-content-body-title-container > div:nth-of-type(1) {
 
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+}
+
+/* title */
+.header-content-body-title-container > div:nth-of-type(1) > div:nth-of-type(1) {
+
   font-size: 20px;
+  /* color:red; */
+
+}
+
+/* img */
+.header-content-body-title-container > div:nth-of-type(1) > img:nth-of-type(1) {
+
+  /* layout pos fix */
+  padding-bottom: 3px;
+
 
 }
 
