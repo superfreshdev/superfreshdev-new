@@ -1,0 +1,50 @@
+/* --------------------------------------------------------------- */
+/* > category-info-sticker-in-text.css
+/*
+/* : style category info sticker in text (float)
+/* --------------------------------------------------------------- */
+
+
+/*
+    ⚠️ Actually Dont Use - Think if we really need this
+
+*/
+
+
+/* ------------------------------------------------------- */
+/* Category Info Sticker In Text
+/* > light grey, light black
+/* ------------------------------------------------------- */
+
+.category-info-sticker-in-text-light-grey,
+.category-info-sticker-in-text-light-black {
+
+  /* height: 1.6em;
+  padding: 0 .1em 0 .1em;
+
+  display: inline-flex;
+  align-items: center;
+  column-gap: .6em;
+
+  border-radius: .4em; */
+
+}
+
+/* ------------------------------------------------------- */
+/* Light Grey
+/* ------------------------------------------------------- */
+
+.category-info-sticker-in-text-light-grey {
+
+  /* font-weight: bold; */
+
+}
+
+/* ------------------------------------------------------- */
+/* Light Black
+/* ------------------------------------------------------- */
+
+.category-info-sticker-in-text-light-black {
+
+
+}

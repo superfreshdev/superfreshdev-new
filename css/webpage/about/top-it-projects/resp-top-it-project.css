@@ -9,17 +9,29 @@
 /* >= 600px
 /* ---------------------------------------------------------------- */
 
-@media( min-width: 600px ) {
+@media( min-width: 660px ) {
 
 
-  #about-it-projects-content-list {
+  /* ---------------------------------------------------------------- */
+  /* Content
+  /* ---------------------------------------------------------------- */
+  #about-top-it-projects-content {
 
     grid: 1fr / 1fr 1fr;
 
   }
 
-}
+  /* ---------------------------------------------------------------- */
+  /* Top It Project Card
+  /* ---------------------------------------------------------------- */
+  .top-it-project-card {
 
+    /* desktop */
+    border-radius: 1em;
+
+  }
+
+}
 
 /* ---------------------------------------------------------------- */
 /* >= 800px
@@ -28,11 +40,11 @@
 @media( min-width: 800px ) {
 
 
-  #about-it-projects-content-list {
+  #about-top-it-projects-content {
 
     width: 45em;
 
-    column-gap: 3em;
+    column-gap: 2.5em;
 
     /* background-color: red; */
 

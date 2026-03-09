@@ -1,19 +1,29 @@
 /* --------------------------------------------------------------- */
-/* > links-light-grey.css
+/* > buttons-light-grey.css
 /*
-/* : style default links which light grey style
-/*   optimal for .zip, github, ... links
+/* : style default buttons which light grey style
+/*   optimal for .zip, github, ... buttons
 /* --------------------------------------------------------------- */
 
 
 /* ------------------------------------------------------- */
-/* All | Link Light Grey
+/* All | Buttons Light Grey
 /* ------------------------------------------------------- */
 
-.link-light-grey-small,
-.link-light-grey-medium,
-.link-light-grey-big {
+.button-light-grey-small,
+.button-light-grey-medium,
+.button-light-grey-big {
 
+  /* delete default html button styles */
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+  /* new button style */
   display: flex;
   align-items: center;
   column-gap: .4em;
@@ -36,26 +46,26 @@
 }
 
 /* only to container */
-.link-not-allowed {
+.button-not-allowed {
 
   cursor: not-allowed;
 
 }
 
-/* only by link, if we use both than not-allowed will be overwrite */
-.link-no-pointer-events {
+/* only by button, if we use both than not-allowed will be overwrite */
+.button-no-pointer-events {
 
   pointer-events: none;
 
 }
 
 /* ------------------------------------------------------- */
-/* Div | Link Light Grey
+/* Div |  Buttons Light Grey
 /* ------------------------------------------------------- */
 
-.link-light-grey-small > div,
-.link-light-grey-medium > div,
-.link-light-grey-big > div {
+.button-light-grey-small > div,
+.button-light-grey-medium > div,
+.button-light-grey-big > div {
 
   font-size: 14.5px;
 
@@ -65,18 +75,18 @@
 /* Img (opacity) | Link Light Grey
 /* ------------------------------------------------------- */
 
-.link-light-grey-small > img,
-.link-light-grey-medium  > img,
-.link-light-grey-big  > img´{
+.button-light-grey-small > img,
+.button-light-grey-medium  > img,
+.button-light-grey-big  > img´{
 
   opacity: .8;
 
 }
 
 /* hover */
-.link-light-grey-small:hover,
-.link-light-grey-medium:hover,
-.link-light-grey-big:hover {
+.button-light-grey-small:hover,
+.button-light-grey-medium:hover,
+.button-light-grey-big:hover {
 
   opacity: 1;
   background-color: rgb(251, 133, 133);
@@ -84,9 +94,9 @@
 }
 
 /* visited */
-.link-light-grey-small:visited,
-.link-light-grey-medium:visited,
-.link-light-grey-big:visited {
+.button-light-grey-small:visited,
+.button-light-grey-medium:visited,
+.button-light-grey-big:visited {
 
   color:rgb(91, 91, 91);
 
@@ -96,7 +106,7 @@
 /* Small
 /* ------------------------------------------------------- */
 
-.link-light-grey-small {
+.button-light-grey-small {
 
   height: 1.6em;
   padding: 0 .6em;
@@ -107,7 +117,7 @@
 /* Medium
 /* ------------------------------------------------------- */
 
-.link-light-grey-medium {
+.button-light-grey-medium {
 
   height: 1.8em;
   padding: 0 .6em;
@@ -118,7 +128,7 @@
 /* Big
 /* ------------------------------------------------------- */
 
-.link-light-grey-big {
+.button-light-grey-big {
 
   height: 2.5em;
   padding: 0 .6em;

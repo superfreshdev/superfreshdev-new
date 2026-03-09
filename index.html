@@ -62,6 +62,9 @@
           <!-- 🟩 link light grey -->
           <link rel="stylesheet" href="css/default/css-framework/layout-elements/links/links-light-grey.css">
 
+          <!-- button light grey -->
+          <link rel="stylesheet" href="css/default/css-framework/layout-elements/buttons/buttons-light-grey.css">
+
           <!-- 🟩 Custom Radio -->
           <link rel="stylesheet" href="css/default/css-framework/layout-elements/custom-radio/custom-radio.css">
 
@@ -71,6 +74,7 @@
 
           <!-- 🟨 Category Info Sticker -->
           <link rel="stylesheet" href="css/default/css-framework/layout-elements/category-info-sticker/category-info-sticker.css">
+          <link rel="stylesheet" href="css/default/css-framework/layout-elements/category-info-sticker/category-info-sticker-in-text.css">
 
           <!-- 🟨 Seperator Containers -->
           <link rel="stylesheet" href="css/default/css-framework/layout-elements/seperator-containers/seperator-containers.css">
@@ -330,8 +334,8 @@
   <!-- ----------------------------------------------------- -->
   <!-- Radios ( Nav Header Body ) -->
   <!-- ----------------------------------------------------- -->
-  <input  type="radio" id="radio-about" name="name-radio-nav-header-body">
-  <input  checked type="radio" id="radio-more-it" name="name-radio-nav-header-body">
+  <input checked type="radio" id="radio-about" name="name-radio-nav-header-body">
+  <input   type="radio" id="radio-more-it" name="name-radio-nav-header-body">
   <input type="radio" id="radio-private" name="name-radio-nav-header-body">
 
   <!-- ---------------------------------------------------------------------------------- -->
@@ -450,7 +454,7 @@
       <div class="push-slider">
 
         <!-- ---------------------------------------------------------------------------- -->
-        <!-- 🟨 [1/3] | About | Page Slide #1 | -->
+        <!-- ➡️🟥 [1/3] | About | Page Slide #1 | -->
         <!-- ---------------------------------------------------------------------------- -->
         <div class="push-content-slide-no-anim">
 
@@ -2147,7 +2151,7 @@
                   <!-- --------------------------------------------------------------------------- -->
                   <!-- ➡️🟥 [2/3] | Top IT Projects Container                                        -->
                   <!-- --------------------------------------------------------------------------- -->
-                  <div id="about-top-it-projects-container">
+                  <div class="width-100p">
 
                     <!-- --------------------------------------------------------------- -->
                     <!-- 📏 Row Container -->
@@ -2155,12 +2159,12 @@
                     <div class="row-container">
 
                       <!-- ------------------------------------------------ -->
-                      <!-- 🟨 Top It Projects Content Container        -->
+                      <!-- 🟥 About | Top It Projects Container             -->
                       <!-- ------------------------------------------------ -->
-                      <div id="about-top-it-projects-content-container">
+                      <div id="about-top-it-projects-container">
 
                         <!-- ---------------------------------------- -->
-                        <!-- 🟨 [1/2] | Header Body -->
+                        <!-- 🟥 [1/2] | Header Body -->
                         <!-- ---------------------------------------- -->
                         <header class="header-content-body">
 
@@ -2177,9 +2181,9 @@
                         </header>
 
                         <!-- ---------------------------------------------------------- -->
-                        <!-- 🟥 [2/2] | IT Projects Content List  -->
+                        <!-- 🟥 [2/2] | About | IT Projects Content   -->
                         <!-- ---------------------------------------------------------- -->
-                        <div id="about-it-projects-content-list">
+                        <div id="about-top-it-projects-content">
 
                             <!-- ------------------------------------------------ -->
                             <!-- ➡️🟥 [0/4] | Top IT Project Card -->
@@ -2272,12 +2276,26 @@
                               </div>
 
                               <!-- ----------------------------------------------------- -->
-                              <!-- [2/3] | Title -->
+                              <!-- [2/3] | Title Container -->
                               <!-- ----------------------------------------------------- -->
-                              <div class="title-top-it-project-card ">
+                              <div class="title-container-top-it-project-card ">
 
-                                Grill & Vegetable Online Delivery Shop with extra Kitchen
-                                Management Dashboard to accept, later or denied the order from the customer. <br>
+                                <!-- -------------------------------------------- -->
+                                <!-- [1/2] | Category Info Sticker -->
+                                <!-- -------------------------------------------- -->
+                                <div class="category-info-sticker-dark-grey">
+                                    <img src="media/imgs/icons/02-icon-colors/03-grey/grey-ai-network.png"
+                                        class="img-h-1-3" alt="img">
+                                    <div>Online Ordering Service</div>
+                                </div>
+
+                                <!-- -------------------------------------------- -->
+                                <!-- [2/2] | Title -->
+                                <!-- -------------------------------------------- -->
+                                <div>
+                                  Grill & Vegetable Online Delivery Shop with extra Kitchen
+                                  Management Dashboard to accept, later or denied the order from the customer.
+                                </div>
 
                               </div>
 
@@ -2294,7 +2312,7 @@
                                   <!-- zip link -->
                                   <a href="https://github.com/in28minutes/spring-unit-testing-with-junit-and-mockito"
                                      title="Download Project as .zip File"
-                                     class="link-light-grey-medium"
+                                     class="link-light-grey-medium link-no-pointer-events"
                                      target="_blank">
 
                                      <img src="media/imgs/icons/02-icon-colors/01-black/black-download-arrow.png"
@@ -2309,7 +2327,7 @@
                                   <a href="https://github.com/in28minutes/spring-unit-testing-with-junit-and-mockito"
                                      title="Go To GitHub"
                                      target="_blank"
-                                     class="link-light-grey-medium">
+                                     class="link-light-grey-medium link-no-pointer-events">
 
                                     <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
                                       class="img-h-0-9"
@@ -2324,7 +2342,7 @@
                                 <!-- -------------------------------------------- -->
                                 <!-- Div 2 | (Details) -->
                                 <!-- -------------------------------------------- -->
-                                <a href="" class="link-light-grey-medium">
+                                <button href="" id="js-link-details-top-it-project-1" class="button-light-grey-medium">
 
                                   <img src="media/imgs/icons/02-icon-colors/01-black/black-eye.png"
                                        class="img-h-0-7"
@@ -2332,7 +2350,7 @@
 
                                   <div>Detais</div>
 
-                                </a>
+                                </button>
 
                               </nav>
 
@@ -2361,12 +2379,28 @@
                               </div>
 
                               <!-- ----------------------------------------------------- -->
-                              <!-- [2/3] | Title -->
+                              <!-- [2/3] | Title Container -->
                               <!-- ----------------------------------------------------- -->
-                              <div class="title-top-it-project-card ">
+                              <div class="title-container-top-it-project-card">
 
-                                Insurance Web Application that allows customers to manage their policies, explore new
-                                offers, and generate their documents as PDF files.
+
+                                <!-- -------------------------------------------- -->
+                                <!-- [1/2] | Category Info Sticker -->
+                                <!-- -------------------------------------------- -->
+                                <div class="category-info-sticker-dark-grey">
+                                    <img src="media/imgs/icons/02-icon-colors/03-grey/grey-ai-network.png"
+                                        class="img-h-1-3" alt="img">
+                                    <div>Insurance - Customer Portal</div>
+                                </div>
+
+                                <!-- -------------------------------------------- -->
+                                <!-- [2/2] | Title -->
+                                <!-- -------------------------------------------- -->
+                                <div>
+                                   Insurance Web Application that allows customers to
+                                   manage their policies, explore new
+                                   offers, and generate their documents as PDF files.
+                                </div>
 
 
                               </div>
@@ -2384,7 +2418,7 @@
                                   <!-- zip link -->
                                   <a href="https://github.com/in28minutes/spring-unit-testing-with-junit-and-mockito"
                                      title="Download Project as .zip File"
-                                     class="link-light-grey-small"
+                                     class="link-light-grey-small link-no-pointer-events"
                                      target="_blank">
 
                                      <img src="media/imgs/icons/02-icon-colors/01-black/black-download-arrow.png"
@@ -2399,7 +2433,7 @@
                                   <a href="https://github.com/in28minutes/spring-unit-testing-with-junit-and-mockito"
                                      title="Go To GitHub"
                                      target="_blank"
-                                     class="link-light-grey-medium">
+                                     class="link-light-grey-medium link-no-pointer-events">
 
                                     <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
                                       class="img-h-0-9"
@@ -2414,7 +2448,7 @@
                                 <!-- -------------------------------------------- -->
                                 <!-- Div 2 | (Details) -->
                                 <!-- -------------------------------------------- -->
-                                <a href="" class="link-light-grey-medium">
+                                <button href="" id="js-link-details-top-it-project-2" class="button-light-grey-medium">
 
                                   <img src="media/imgs/icons/02-icon-colors/01-black/black-eye.png"
                                        class="img-h-0-7"
@@ -2422,7 +2456,7 @@
 
                                   <div>Detais</div>
 
-                                </a>
+                                </button>
 
                               </nav>
 
@@ -2453,13 +2487,27 @@
                               <!-- ----------------------------------------------------- -->
                               <!-- [2/3] | Title -->
                               <!-- ----------------------------------------------------- -->
-                              <div class="title-top-it-project-card ">
+                              <div class="title-container-top-it-project-card">
 
-                                Online Web Shop for sport clothing, modeled after the real online store "Day One".
-                                Customers can order sports apparel, and payments are securely processed and
-                                authorized via the Stripe API to ensure sufficient account funds. <br>
-                                The Stripe API is integrated using simulated users and simulated bank accounts for testing
-                                purposes.
+                                <!-- -------------------------------------------- -->
+                                <!-- [1/2] | Category Info Sticker -->
+                                <!-- -------------------------------------------- -->
+                                <div class="category-info-sticker-dark-grey">
+                                    <img src="media/imgs/icons/02-icon-colors/03-grey/grey-ai-network.png"
+                                        class="img-h-1-3" alt="img">
+                                    <div>Online Shop - "Day One"</div>
+                                </div>
+
+                                <!-- -------------------------------------------- -->
+                                <!-- [2/2] | Title -->
+                                <!-- -------------------------------------------- -->
+                                <div>
+                                    Online Web Shop for sport clothing, modeled after the real online store "Day One".
+                                    Customers can order sports apparel, and payments are securely processed and
+                                    authorized via the Stripe API to ensure sufficient account funds. <br>
+                                    The Stripe API is integrated using simulated users and simulated bank accounts for testing
+                                    purposes.
+                                </div>
 
 
                               </div>
@@ -2477,7 +2525,7 @@
                                   <!-- zip link -->
                                   <a href="https://github.com/in28minutes/spring-unit-testing-with-junit-and-mockito"
                                      title="Download Project as .zip File"
-                                     class="link-light-grey-medium"
+                                     class="link-light-grey-medium link-no-pointer-events"
                                      target="_blank">
 
                                      <img src="media/imgs/icons/02-icon-colors/01-black/black-download-arrow.png"
@@ -2492,7 +2540,7 @@
                                   <a href="https://github.com/in28minutes/spring-unit-testing-with-junit-and-mockito"
                                      title="Go To GitHub"
                                      target="_blank"
-                                     class="link-light-grey-medium">
+                                     class="link-light-grey-medium link-no-pointer-events">
 
                                     <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
                                       class="img-h-0-9"
@@ -2507,7 +2555,7 @@
                                 <!-- -------------------------------------------- -->
                                 <!-- Div 2 | (Details) -->
                                 <!-- -------------------------------------------- -->
-                                <a href="" class="link-light-grey-medium">
+                                <button href="" id="js-link-details-top-it-project-3" class="button-light-grey-medium">
 
                                   <img src="media/imgs/icons/02-icon-colors/01-black/black-eye.png"
                                        class="img-h-0-7"
@@ -2515,7 +2563,7 @@
 
                                   <div>Detais</div>
 
-                                </a>
+                                </button>
 
                               </nav>
 
@@ -2544,15 +2592,28 @@
                               </div>
 
                               <!-- ----------------------------------------------------- -->
-                              <!-- [2/3] | Title -->
+                              <!-- [2/3] | Title Container -->
                               <!-- ----------------------------------------------------- -->
-                              <div class="title-top-it-project-card ">
+                              <div class="title-container-top-it-project-card">
 
-                                Responsive Data Dashboard featuring 4 distinct analytics views.
-                                Users can configure how frequently the dasboard updates and define
-                                specific parameters that trigger push email notifications.
-                                E-Mail alerts can be sent via SendGrid, Gmail or Mailgun integration.
+                                <!-- -------------------------------------------- -->
+                                <!-- [1/2] | Category Info Sticker -->
+                                <!-- -------------------------------------------- -->
+                                <div class="category-info-sticker-dark-grey">
+                                    <img src="media/imgs/icons/02-icon-colors/03-grey/grey-ai-network.png"
+                                        class="img-h-1-3" alt="img">
+                                    <div>Responsive Data Dashboard - 4 Analytics</div>
+                                </div>
 
+                                <!-- -------------------------------------------- -->
+                                <!-- [2/2] | Title -->
+                                <!-- -------------------------------------------- -->
+                                <div>
+                                    Responsive Data Dashboard featuring 4 distinct analytics views.
+                                    Users can configure how frequently the dasboard updates and define
+                                    specific parameters that trigger push email notifications.
+                                    E-Mail alerts can be sent via SendGrid, Gmail or Mailgun integration.
+                                </div>
 
                               </div>
 
@@ -2569,7 +2630,7 @@
                                   <!-- zip link -->
                                   <a href="https://github.com/in28minutes/spring-unit-testing-with-junit-and-mockito"
                                      title="Download Project as .zip File"
-                                     class="link-light-grey-medium"
+                                     class="link-light-grey-medium link-no-pointer-events"
                                      target="_blank">
 
                                      <img src="media/imgs/icons/02-icon-colors/01-black/black-download-arrow.png"
@@ -2584,7 +2645,7 @@
                                   <a href="https://github.com/in28minutes/spring-unit-testing-with-junit-and-mockito"
                                      title="Go To GitHub"
                                      target="_blank"
-                                     class="link-light-grey-medium">
+                                     class="link-light-grey-medium link-no-pointer-events">
 
                                     <img src="media/imgs/icons/02-icon-colors/01-black/black-github.png"
                                       class="img-h-0-9"
@@ -2599,8 +2660,7 @@
                                 <!-- -------------------------------------------- -->
                                 <!-- Div 2 | (Details) -->
                                 <!-- -------------------------------------------- -->
-                                <a href=""
-                                   class="link-light-grey-medium">
+                                <button href="" id="js-link-details-top-it-project-4" class="button-light-grey-medium">
 
                                   <img src="media/imgs/icons/02-icon-colors/01-black/black-eye.png"
                                        class="img-h-0-7"
@@ -2608,7 +2668,7 @@
 
                                   <div>Detais</div>
 
-                                </a>
+                                </button>
 
                               </nav>
 
@@ -2696,7 +2756,7 @@
         </div>
 
         <!-- ---------------------------------------------------------------------------- -->
-        <!-- ➡️🟥 [2/3] | More IT | Page Slide #2 | -->
+        <!-- 🟨 [2/3] | More IT | Page Slide #2 | -->
         <!-- ---------------------------------------------------------------------------- -->
         <div class="push-content-slide-no-anim">
 
@@ -9304,7 +9364,12 @@
       <!-- Layout Elements -->
       <!-- ------------------------------------------------------ -->
 
+        <!-- push slider  -->
         <script src="js/js-framework/layout-elements/push-slider/push-slider.js"></script>
+
+        <!-- detail fullsize view -->
+        <script src="js/js-framework/layout-elements/detail-fullsize-view/detail-fullsize-view.js"></script>
+
 
     <!-- --------------------------------------------------- -->
     <!-- [2/2] | Webpage -->
