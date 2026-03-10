@@ -57,25 +57,25 @@ input[name="name-radio-sub-nav-it-docs"] {
 /* ---------------------------------------------------------------- */
 
 /* Frontend: dev-basic, web-basic, web-dev */
-#radio-sub-nav-it-docs-dev-basic:checked ~ #it-docs-content-container-more-it,
-#radio-sub-nav-it-docs-web-basic:checked ~ #it-docs-content-container-more-it,
-#radio-sub-nav-it-docs-web-dev:checked ~  #it-docs-content-container-more-it {
+#radio-sub-nav-it-docs-dev-basic:checked ~ .row-container:nth-of-type(3) #it-docs-content-container,
+#radio-sub-nav-it-docs-web-basic:checked ~ .row-container:nth-of-type(3) #it-docs-content-container,
+#radio-sub-nav-it-docs-web-dev:checked ~ .row-container:nth-of-type(3) #it-docs-content-container {
 
   display: grid;
 
 }
 
 /* Backend: software-dev, it-architecture, backend-tools */
-#radio-sub-nav-it-docs-software-dev:checked ~ #it-docs-content-container-more-it,
-#radio-sub-nav-it-docs-it-architecture:checked ~ #it-docs-content-container-more-it,
-#radio-sub-nav-it-docs-backend-tools:checked ~ #it-docs-content-container-more-it {
+#radio-sub-nav-it-docs-software-dev:checked ~ .row-container:nth-of-type(3) #it-docs-content-container,
+#radio-sub-nav-it-docs-it-architecture:checked ~ .row-container:nth-of-type(3) #it-docs-content-container,
+#radio-sub-nav-it-docs-backend-tools:checked ~ .row-container:nth-of-type(3) #it-docs-content-container {
 
   display: grid;
 
 }
 
 /* Ai */
-#radio-nav-it-docs-ai:checked ~ #it-docs-content-container-more-it {
+#radio-nav-it-docs-ai:checked ~ .row-container:nth-of-type(3) #it-docs-content-container {
 
   display: grid;
 }

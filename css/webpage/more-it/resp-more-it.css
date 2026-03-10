@@ -106,7 +106,7 @@
   /* IT Docs | Main
   /* ---------------------------------------------------------------- */
 
-  .it-docs-content-box-more-it > main {
+  .main-it-docs-content-box {
 
     /* padding: 1.5em 2em; */
     grid: auto / 12em 12em;
@@ -153,7 +153,7 @@
     /* IT Docs | Main
     /* ---------------------------------------------------------------- */
 
-    .it-docs-content-box-more-it > main {
+    .main-it-docs-content-box {
 
       /* padding: 1.5em 2em; */
       grid: auto / 1fr 1fr 1fr;
@@ -231,7 +231,7 @@
   /* More IT | IT Docs | Main
   /* ---------------------------------------------------------------- */
 
-    .it-docs-content-box-more-it > main {
+    .main-it-docs-content-box {
 
       /* padding: 1.5em 2em; */
        grid: auto / 12em 12em 12em;
@@ -247,15 +247,5 @@
 @media (min-width: 1000px) {
 
 
-  /* ---------------------------------------------------------------- */
-  /* More IT | IT Docs | Main
-  /* ---------------------------------------------------------------- */
-
-    .it-docs-content-box-more-it > main {
-
-      /* padding: 1.5em 2em; */
-       grid: auto / 12em 12em 12em 12em;
-
-    }
 
 }
