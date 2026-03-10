@@ -1,0 +1,104 @@
+/* --------------------------------------------------------------- */
+/* > handling-sub-nav-it-docs-more-it.css
+/*
+/* : styles ...
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Handlings Styles
+/* ---------------------------------------------------------------- */
+
+/* default unshown */
+input[name="name-radio-sub-nav-coding-tasks"] {
+
+  display: none;
+
+}
+
+/* ------------------------------------------- */
+/* LeetCode
+/* ------------------------------------------- */
+
+/* set background red | ⚠️ dont understand why 2 because it should be 1 */
+#radio-sub-nav-coding-tasks-leetcode-all:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-all"],
+#radio-sub-nav-coding-tasks-leetcode-easy:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-easy"],
+#radio-sub-nav-coding-tasks-leetcode-medium:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-medium"],
+#radio-sub-nav-coding-tasks-leetcode-hard:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-hard"] {
+
+  background-image: linear-gradient(to right, #db7272, #da9292);
+
+}
+
+/* change img custom radio */
+#radio-sub-nav-coding-tasks-leetcode-all:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-all"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-sub-nav-coding-tasks-leetcode-easy:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-easy"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-sub-nav-coding-tasks-leetcode-medium:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-medium"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-sub-nav-coding-tasks-leetcode-hard:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-hard"] .counter-custom-radio-nav-label-radio .custom-radio-small > img {
+
+  display: flex;
+
+}
+
+/* ------------------------------------------- */
+/* Algos
+/* ------------------------------------------- */
+
+/* set background red | ⚠️ dont understand why 2 because it should be 1 */
+#radio-sub-nav-coding-tasks-algos-basic:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-basic"],
+#radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-advanced"] {
+
+  background-image: linear-gradient(to right, #db7272, #da9292);
+
+}
+
+/* set background red | ⚠️ dont understand why 2 because it should be 1 */
+#radio-sub-nav-coding-tasks-algos-basic:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-basic"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-advanced"] .counter-custom-radio-nav-label-radio .custom-radio-small > img {
+
+  display: flex;
+
+}
+
+/* show sub sub nav algos | basic, advanced */
+#radio-sub-nav-coding-tasks-algos-basic:checked ~ .row-container:nth-of-type(2) #sub-sub-nav-algos-basic-nav-coding-task,
+#radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(2) #sub-sub-nav-algos-advanced-nav-coding-task {
+
+  display: grid;
+
+}
+
+/* ------------------------------------------- */
+/* Others
+/* ------------------------------------------- */
+
+/* set background red | ⚠️ dont understand why 2 because it should be 1 */
+#radio-sub-nav-coding-tasks-others-java:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-others-java"],
+#radio-sub-nav-coding-tasks-others-python:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-others-python"],
+#radio-sub-nav-coding-tasks-others-mixery:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-others-mixery"] {
+
+  background-image: linear-gradient(to right, #db7272, #da9292);
+
+}
+
+#radio-sub-nav-coding-tasks-others-java:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-others-java"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-sub-nav-coding-tasks-others-python:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-others-python"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-sub-nav-coding-tasks-others-mixery:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-others-mixery"] .counter-custom-radio-nav-label-radio .custom-radio-small > img {
+
+  display: flex;
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Handling Action
+/* ---------------------------------------------------------------- */
+
+/* show sub navs ( for leetcode, algos, others ) */
+#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) #sub-nav-leetcode-coding-task,
+#radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(2) #sub-nav-algos-coding-task,
+#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) #sub-nav-others-coding-task {
+
+  display: flex;
+
+}

@@ -138,13 +138,13 @@
   font-size: 12.5px;
 
   /* width: 2.5em; */
-  height: 1.4em;
+  height: 1.3em;
 
   /* layout optimal pos fix */
-  padding-top: .1em;
+  /* padding-top: .1em; */
 
-  padding-left: .4em;
-  padding-right: .4em;
+  padding-left: .3em;
+  padding-right: .3em;
 
   display: flex;
   align-items: center;
@@ -156,7 +156,7 @@
 
   /* background-color: #74abc2; */
   background-color: rgb(224, 224, 224);
-  color:#626262;
+  color:#969696;
 
   border: 1px solid rgb(197, 197, 197);
 

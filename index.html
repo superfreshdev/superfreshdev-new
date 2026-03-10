@@ -267,6 +267,14 @@
             <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/nav/nav-coding-tasks-more-it.css">
             <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/nav/handling-nav-coding-tasks-more-it.css">
 
+            <!-- sub nav-->
+            <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/nav/sub-navs/sub-navs-coding-tasks-more-it.css">
+            <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/nav/sub-navs/handling-sub-nav-coding-task-more-it.css">
+
+            <!-- sub sub nav algos (basic, advanced) -->
+            <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/nav/sub-sub-navs/sub-sub-navs-algos-coding-tasks.css">
+
+
             <!-- coding task item -->
             <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/coding-task-item/coding-task-item-more-it.css">
             <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/coding-task-item/header-coding-task-item.css">
@@ -2909,8 +2917,8 @@
                 <!-- --------------------------------------------------- -->
                 <input  type="radio" id="radio-nav-more-it-mini-projects" name="name-radio-nav-more-it">
                 <input  type="radio" id="radio-nav-more-it-mini-games" name="name-radio-nav-more-it">
-                <input type="radio" id="radio-nav-more-it-coding-tasks" name="name-radio-nav-more-it">
-                <input checked type="radio" id="radio-nav-more-it-it-docs" name="name-radio-nav-more-it">
+                <input checked type="radio" id="radio-nav-more-it-coding-tasks" name="name-radio-nav-more-it">
+                <input  type="radio" id="radio-nav-more-it-it-docs" name="name-radio-nav-more-it">
 
                 <!-- ------------------------------------------------------------------------- -->
                 <!-- ➡️🟥 [2/3] | Nav Container | Row Content Container (max) -->
@@ -6869,7 +6877,7 @@
                   </div>
 
                   <!-- ----------------------------------------------------------- -->
-                  <!-- 🟨 [3/4] | Coding Tasks Container | More IT -->
+                  <!-- ➡️🟥 [3/4] | Coding Tasks Container | More IT -->
                   <!-- ----------------------------------------------------------- -->
                   <div id="coding-task-container-more-it">
 
@@ -6961,11 +6969,30 @@
                     </div>
 
                     <!-- ---------------------------------------- -->
-                    <!-- 🟩 Radios | Coding Tasks -->
+                    <!-- 🟩 Radios | Nav | Coding Tasks -->
                     <!-- ---------------------------------------- -->
-                    <input type="radio" id="radio-nav-coding-tasks-leetcode" name="name-radio-nav-coding-tasks">
+                    <input checked type="radio" id="radio-nav-coding-tasks-leetcode" name="name-radio-nav-coding-tasks">
                     <input type="radio" id="radio-nav-coding-tasks-algos" name="name-radio-nav-coding-tasks">
                     <input type="radio" id="radio-nav-coding-tasks-others" name="name-radio-nav-coding-tasks">
+
+                    <!-- ---------------------------------------- -->
+                    <!-- 🟩 Radios | Sub Nav | Coding Tasks -->
+                    <!-- ---------------------------------------- -->
+
+                    <!-- leetcode sub nav -->
+                    <input type="radio" id="radio-sub-nav-coding-tasks-leetcode-all" name="name-radio-sub-nav-coding-tasks">
+                    <input type="radio" id="radio-sub-nav-coding-tasks-leetcode-easy" name="name-radio-sub-nav-coding-tasks">
+                    <input type="radio" id="radio-sub-nav-coding-tasks-leetcode-medium" name="name-radio-sub-nav-coding-tasks">
+                    <input type="radio" id="radio-sub-nav-coding-tasks-leetcode-hard" name="name-radio-sub-nav-coding-tasks">
+
+                    <!-- algos sub nav -->
+                    <input type="radio" id="radio-sub-nav-coding-tasks-algos-basic" name="name-radio-sub-nav-coding-tasks">
+                    <input type="radio" id="radio-sub-nav-coding-tasks-algos-advanced" name="name-radio-sub-nav-coding-tasks">
+
+                    <!-- others sub nav -->
+                    <input type="radio" id="radio-sub-nav-coding-tasks-others-java" name="name-radio-sub-nav-coding-tasks">
+                    <input type="radio" id="radio-sub-nav-coding-tasks-others-python" name="name-radio-sub-nav-coding-tasks">
+                    <input type="radio" id="radio-sub-nav-coding-tasks-others-mixery" name="name-radio-sub-nav-coding-tasks">
 
 
                     <!-- ---------------------------------------------------------------------- -->
@@ -6979,7 +7006,7 @@
                       <div class="resp-row-content-container-small">
 
                         <!-- ---------------------------------------------------------------- -->
-                        <!-- 🟩 Nav Coding Tasks  -->
+                        <!-- 🟩 [1/6] | Nav Coding Tasks  -->
                         <!-- ---------------------------------------------------------------- -->
                         <nav id="nav-coding-tasks-more-it">
 
@@ -7030,7 +7057,6 @@
 
 
                           </label>
-
 
                           <!-- -------------------------------------------------- -->
                           <!-- 🟩 [2/3] | Algos | Label -->
@@ -7134,6 +7160,467 @@
 
                         </nav>
 
+                        <!-- ---------------------------------------------------------------- -->
+                        <!-- 🟩 [2/6] | Leetcode | Nav Coding Tasks  -->
+                        <!-- ---------------------------------------------------------------- -->
+                        <nav id="sub-nav-leetcode-coding-task">
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [1/4] | All | Label -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-coding-tasks-leetcode-all" class="nav-label-radio-small">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title | Nav Label Radio                             -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-nav-label-radio">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div>All </div>
+
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/2] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 30 </div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                    alt="img">
+                              </div>
+
+                            </div>
+
+
+                          </label>
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [2/4] | Easy | Label -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-coding-tasks-leetcode-easy" class="nav-label-radio-small">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title | Nav Label Radio                             -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-nav-label-radio">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div>Easy </div>
+
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/2] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 10 </div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                    alt="img">
+                              </div>
+
+                            </div>
+
+
+                          </label>
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [3/4] | Medium | Label -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-coding-tasks-leetcode-medium" class="nav-label-radio-small">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title | Nav Label Radio                             -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-nav-label-radio">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div>Medium </div>
+
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/2] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 10 </div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                    alt="img">
+                              </div>
+
+                            </div>
+
+
+                          </label>
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [4/4] | Medium | Label -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-coding-tasks-leetcode-hard" class="nav-label-radio-small">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title | Nav Label Radio                             -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-nav-label-radio">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div>Hard </div>
+
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/2] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 10 </div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                    alt="img">
+                              </div>
+
+                            </div>
+
+
+                          </label>
+
+
+                        </nav>
+
+                        <!-- ---------------------------------------------------------------- -->
+                        <!-- 🟩 [3/6] | Algos | Nav Coding Tasks  -->
+                        <!-- ---------------------------------------------------------------- -->
+                        <nav id="sub-nav-algos-coding-task">
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [1/2] | Basics | Label -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-coding-tasks-algos-basic" class="nav-label-radio-small">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title | Nav Label Radio                             -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-nav-label-radio">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div>Basics </div>
+
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/2] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 20 </div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                    alt="img">
+                              </div>
+
+                            </div>
+
+
+                          </label>
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [2/2] | Advanced | Label -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-coding-tasks-algos-advanced" class="nav-label-radio-small">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title | Nav Label Radio                             -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-nav-label-radio">
+
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div>Advanced </div>
+
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/2] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 15 </div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                    alt="img">
+                              </div>
+
+                            </div>
+
+
+                          </label>
+
+                        </nav>
+
+                        <!-- ---------------------------------------------------------------- -->
+                        <!-- 🟩 [4/6] | Sub Sub Nav Algos Basic | Nav Coding Tasks |   -->
+                        <!-- ---------------------------------------------------------------- -->
+                        <div id="sub-sub-nav-algos-basic-nav-coding-task">
+
+                          <header>
+                            Top 20 Basic:
+                          </header>
+
+                          <main>
+
+                            <div>1. Sortier-Algorithmen: Quicksort, Mergesort, Heapsort</div>
+                            <div>2. Such-Algorithmen: Binäre Suche, lineare Suche </div>
+                            <div>3. Graph-Algorithmen: Dijkstra, A*, Tiefensuche, Breitsuche</div>
+                            <div>4. Datenstrukutren: Arrays, Listen, Stacks, Queues, Bäume, Graphen</div>
+                            <div>5. Suchbäume: Binäre Suchbäume, AVL-Bäume, Rot-Schwarz-Bäume</div>
+                            <div>6. Hash-Algorithmen: Hasg-Tabellen, Kollisionsbehandlung</div>
+                            <div>7. ...: </div>
+
+
+                          </main>
+
+                        </div>
+
+                        <!-- ---------------------------------------------------------------- -->
+                        <!-- 🟩 [5/6] | Algos | Nav Coding Tasks  -->
+                        <!-- ---------------------------------------------------------------- -->
+                        <div id="sub-sub-nav-algos-advanced-nav-coding-task">
+
+                          <header>
+                            Top 15 Advanced (e.g Insurance, Bank, AI, E-Commerce, ...):
+                          </header>
+
+                          <main>
+
+                            <div>1. ... ,</div>
+                            <div>1. ... ,</div>
+                            <div>1. ... ,</div>
+
+                          </main>
+
+                        </div>
+
+                        <!-- ---------------------------------------------------------------- -->
+                        <!-- 🟩 [6/6] | Others | Nav Coding Tasks  -->
+                        <!-- ---------------------------------------------------------------- -->
+                        <nav id="sub-nav-others-coding-task">
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [1/3] | Java | Label -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-coding-tasks-others-java" class="nav-label-radio-small">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title | Nav Label Radio                             -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/2] | Img Icon -->
+                              <!-- --------------------------------------------- -->
+                             <img src="media/imgs/icons/04-tech-logos/java-black.png"
+                                  class="img-h-1-1"
+                                  alt="img">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div>Java </div>
+
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/2] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 04 </div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                    alt="img">
+                              </div>
+
+                            </div>
+
+
+                          </label>
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [2/3] | Python | Label -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-coding-tasks-others-python" class="nav-label-radio-small">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title | Nav Label Radio                             -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/2] | Img Icon -->
+                              <!-- --------------------------------------------- -->
+                             <img src="media/imgs/icons/04-tech-logos/python.png"
+                                  class="img-h-1-1"
+                                  alt="img">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div>Python </div>
+
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/2] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 04 </div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                    alt="img">
+                              </div>
+
+                            </div>
+
+
+                          </label>
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [3/3] | Mixery | Label -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-coding-tasks-others-mixery" class="nav-label-radio-small">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title | Nav Label Radio                             -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/2] | Img Icon -->
+                              <!-- --------------------------------------------- -->
+                             <img src="media/imgs/icons/02-icon-colors/01-black/black-shuffle.png"
+                                  class="img-h-1"
+                                  alt="img">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div>Mixery </div>
+
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/2] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 04 </div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                    alt="img">
+                              </div>
+
+                            </div>
+
+
+                          </label>
+
+                        </nav>
+
                       </div>
 
                     </div>
@@ -7142,6 +7629,14 @@
                     <!-- ➡️🟥 [3/3] | Coding Task Content Container More It -->
                     <!-- ---------------------------------------------------------------------- -->
                     <div id="coding-task-content-container-more-it">
+
+                      <!--
+
+                        1. LeetCode Coding Task Container
+                        2. Algos Coding Task Container
+                        3. Others Coding Task Container
+
+                      -->
 
                       <!-- --------------------------------------------------------------- -->
                       <!-- ➡️🟥 Task 1/4 | Row Container              -->
@@ -7732,7 +8227,7 @@
                   </div>
 
                   <!-- ----------------------------------------------------------- -->
-                  <!-- ➡️🟥 [4/4] | IT Docs Container | More IT -->
+                  <!-- 🟨 [4/4] | IT Docs Container | More IT -->
                   <!-- ----------------------------------------------------------- -->
                   <div id="it-docs-container-more-it">
 
@@ -8298,7 +8793,7 @@
                     </div>
 
                     <!-- ----------------------------------------------------------------------- -->
-                    <!-- ➡️🟥 [3/3] It Docs Content Container -->
+                    <!-- 🟨 [3/3] It Docs Content Container (js - dynamic ) -->
                     <!-- ----------------------------------------------------------------------- -->
                     <div id="it-docs-content-container">
 
@@ -8563,7 +9058,7 @@
                       </div>
 
                       <!-- ------------------------------------------------------------ -->
-                      <!-- [1/?] | Angular 19 (2023) | IT Docs Content Box -->
+                      <!-- [2/?] | Angular 19 (2023) | IT Docs Content Box -->
                       <!-- ------------------------------------------------------------ -->
                       <div class="it-docs-content-box">
 
@@ -8769,8 +9264,6 @@
                       </div>
 
                     </div>
-
-
 
 
                   </div>

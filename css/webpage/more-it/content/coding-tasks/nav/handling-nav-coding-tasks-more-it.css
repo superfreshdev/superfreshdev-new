@@ -33,3 +33,17 @@ input[name="name-radio-nav-coding-tasks"] {
    display: flex;
 
 }
+
+
+/* ---------------------------------------------------------------- */
+/* Handling Action
+/* ---------------------------------------------------------------- */
+
+/* show sub navs ( for leetcode, algos, others ) */
+#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) #sub-nav-leetcode-coding-task,
+#radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(2) #sub-nav-algos-coding-task,
+#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) #sub-nav-others-coding-task {
+
+  display: flex;
+
+}

@@ -1,25 +1,26 @@
 /* --------------------------------------------------------------- */
-/* > nav-coding-tasks-more-it.css
+/* > sub-navs-coding-task-more-it.css
 /*
-/* : styles ...
+/* : styles sub navs coding tasks
 /* --------------------------------------------------------------- */
 
 
 /* ---------------------------------------------------------------- */
-/* Nav Coding Tasks | More IT
+/* Sub Navs | LeetCode, Algos, Others
 /* ---------------------------------------------------------------- */
 
-#nav-coding-tasks-more-it {
+#sub-nav-leetcode-coding-task,
+#sub-nav-algos-coding-task,
+#sub-nav-others-coding-task {
 
-  padding: .6em 0;
+  padding-bottom: .6em;
 
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: flex-end;
-  column-gap: .4em;
-  row-gap: .4em;
+  gap:.3em;
 
-  /* background-color: green; */
+  /* default unshown */
+  display: none;
 
 }

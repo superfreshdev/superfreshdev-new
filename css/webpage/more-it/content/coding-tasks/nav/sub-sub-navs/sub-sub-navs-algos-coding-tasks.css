@@ -1,0 +1,68 @@
+/* --------------------------------------------------------------- */
+/* > sub-sub-navs-algos-coding-tasks.css
+/*
+/* : styles sub sub navs algos
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Sub Sub Navs | LeetCode, Algos, Others
+/* ---------------------------------------------------------------- */
+
+#sub-sub-nav-algos-basic-nav-coding-task,
+#sub-sub-nav-algos-advanced-nav-coding-task {
+
+  display: grid;
+
+  /* default unshown */
+  display: none;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Header | Sub Sub Navs | LeetCode, Algos, Others
+/* ---------------------------------------------------------------- */
+
+#sub-sub-nav-algos-basic-nav-coding-task > header,
+#sub-sub-nav-algos-advanced-nav-coding-task  > header {
+
+  font-weight: bold;
+
+  /* default unshown */
+  /* display: none; */
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Main | Sub Sub Navs | LeetCode, Algos, Others
+/* ---------------------------------------------------------------- */
+
+#sub-sub-nav-algos-basic-nav-coding-task > main,
+#sub-sub-nav-algos-advanced-nav-coding-task  > main {
+
+  padding: .4em .2em;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: .3em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Divs | Main
+/* ---------------------------------------------------------------- */
+
+#sub-sub-nav-algos-basic-nav-coding-task > main > div,
+#sub-sub-nav-algos-advanced-nav-coding-task  > main > div {
+
+  font-size: 14.5px;
+
+  padding: 0 .3em;
+
+  color:grey;
+
+  border-radius: .4em;
+  border: 1px dashed grey;
+
+}
