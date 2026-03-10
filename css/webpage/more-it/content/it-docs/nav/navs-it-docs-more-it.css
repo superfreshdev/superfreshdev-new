@@ -1,0 +1,79 @@
+/* --------------------------------------------------------------- */
+/* > navs-it-docs-more-it.css
+/*
+/* : styles nav, nav it docs, sub nav it docs
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Nav Container | IT Docs
+/* ---------------------------------------------------------------- */
+
+#nav-container-it-docs {
+
+  padding: .6em 0;
+
+  display: grid;
+  /* background-color: red; */
+
+}
+
+/* ---------------------------------------------------------------- */
+/* [1/2] | Nav & Sub Nav | It Docs
+/* ---------------------------------------------------------------- */
+
+#nav-it-docs-more-it {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: .4em;
+  row-gap: .4em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Labels | Nav | It Docs
+/* ---------------------------------------------------------------- */
+
+/* mobile */
+#nav-it-docs-more-it > label {
+
+  width: 100%;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* [2/2] | Frontend, Backend | Sub Nav IT Docs More IT
+/* ---------------------------------------------------------------- */
+
+#frontend-sub-nav-it-docs,
+#backend-sub-nav-it-docs {
+
+  width: 100%;
+  padding-top: .6em;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: .3em;
+  row-gap: .3em;
+
+  /* default unshown, by checked will be shown */
+  display: none;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Labels | Sub Nav IT
+/* ---------------------------------------------------------------- */
+
+/* mobile */
+#frontend-sub-nav-it-docs > label,
+#backend-sub-nav-it-docs > label {
+
+  width: 100%;
+
+}

@@ -34,7 +34,7 @@
 /* overwrite bgc white */
 #more-it-container > .row-container:nth-of-type(2) {
 
-  /* background-color: rgb(28, 28, 28); */
+  background-color: rgb(28, 28, 28);
 
 }
 
