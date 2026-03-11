@@ -46,6 +46,7 @@ input[name="name-radio-sub-nav-coding-tasks"] {
 
 /* set background red | ⚠️ dont understand why 2 because it should be 1 */
 #radio-sub-nav-coding-tasks-algos-basic:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-basic"],
+#radio-sub-nav-coding-tasks-algos-math:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-math"],
 #radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-advanced"] {
 
   background-image: linear-gradient(to right, #db7272, #da9292);
@@ -54,6 +55,7 @@ input[name="name-radio-sub-nav-coding-tasks"] {
 
 /* set background red | ⚠️ dont understand why 2 because it should be 1 */
 #radio-sub-nav-coding-tasks-algos-basic:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-basic"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-sub-nav-coding-tasks-algos-math:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-math"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
 #radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-advanced"] .counter-custom-radio-nav-label-radio .custom-radio-small > img {
 
   display: flex;
@@ -100,5 +102,21 @@ input[name="name-radio-sub-nav-coding-tasks"] {
 #radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) #sub-nav-others-coding-task {
 
   display: flex;
+
+}
+
+/* by leetcode unshown sub navs algo  */
+#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) #sub-sub-nav-algos-basic-nav-coding-task,
+#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) #sub-sub-nav-algos-advanced-nav-coding-task {
+
+  display: none;
+
+}
+
+/* by others unshown sub navs algo  */
+#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) #sub-sub-nav-algos-basic-nav-coding-task,
+#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) #sub-sub-nav-algos-advanced-nav-coding-task {
+
+  display: none;
 
 }
