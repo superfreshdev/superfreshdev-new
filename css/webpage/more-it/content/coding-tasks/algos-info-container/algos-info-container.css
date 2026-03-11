@@ -1,0 +1,177 @@
+/* --------------------------------------------------------------- */
+/* > algos-info-container.css
+/*
+/* : styles algos info container from coding task
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Algos Info Container Coding Task
+/* ---------------------------------------------------------------- */
+
+#algos-info-container-coding-task {
+
+  padding-bottom: .8em;
+
+  /* background-color: red; */
+
+}
+
+/* 🛑 auslagern */
+/* ---------------------------------------------------------------- */
+/* Button In Text - small
+/* ---------------------------------------------------------------- */
+
+.button-in-text-small {
+
+  /* delete default html button styles */
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+  /* new button style */
+  height: 1.8em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .3em;
+
+  background-color: #ececec;
+
+  transition: all .4s;
+
+}
+
+.button-in-text-small:hover {
+
+  background-color: wheat;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Algos Info Content Container
+/* ---------------------------------------------------------------- */
+
+.algos-info-content-container {
+
+  display: grid;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* All | Basic, Math, Advanced (unshown)
+/* ---------------------------------------------------------------- */
+
+#basic-algo-info-container,
+#math-algo-info-container,
+#advanced-algo-info-container {
+
+  display: none;
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Header | Algos Info Content Container
+/* ---------------------------------------------------------------- */
+
+.algos-info-content-container > header {
+
+  height: 3em;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .4em;
+  row-gap: .4em;
+
+  font-weight: bold;
+
+  /* background-color: #ececec; */
+
+}
+
+/* div > header */
+.algos-info-content-container > header > div {
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+}
+
+/* div> div > header */
+.algos-info-content-container > header > div > div {
+
+  font-size: 14.5px;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Main | Algos Info Content Container
+/* ---------------------------------------------------------------- */
+
+.algos-info-content-container > main {
+
+  padding: .8em 0;
+
+  display: grid;
+  row-gap: .3em;
+
+  border-top: 1px solid rgb(218, 218, 218);
+
+
+
+}
+
+/* ---------------------------------------------------------------- */
+/* All Mains | Basic, Math, Advanced (unshown)
+/* ---------------------------------------------------------------- */
+
+#basic-algo-info-container > main,
+#math-algo-info-container > main,
+#advanced-algo-info-container > main {
+
+  display: none;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Divs | Main
+/* ---------------------------------------------------------------- */
+
+.algos-info-content-container > main > div {
+
+  font-size: 14.5px;
+
+  line-height: 1.6em;
+
+  color:rgb(120, 120, 120);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Span 1 | Divs | Main
+/* ---------------------------------------------------------------- */
+
+.algos-info-content-container > main > div > span:nth-of-type(1) {
+
+  font-weight: bold;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Span 2 | Divs | Main
+/* ---------------------------------------------------------------- */
+
+.algos-info-content-container > main > div > span:nth-of-type(2) {
+
+}

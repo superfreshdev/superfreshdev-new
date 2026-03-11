@@ -271,8 +271,10 @@
             <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/nav/sub-navs/sub-navs-coding-tasks-more-it.css">
             <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/nav/sub-navs/handling-sub-nav-coding-task-more-it.css">
 
-            <!-- sub sub nav algos (basic, advanced) -->
-            <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/nav/sub-sub-navs/sub-sub-navs-algos-coding-tasks.css">
+            <!-- algos info container -->
+            <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/algos-info-container/algos-info-container.css">
+            <link rel="stylesheet" href="css/webpage/more-it/content/coding-tasks/algos-info-container/handling-nav-algo-info-container.css">
+
 
 
             <!-- coding task item -->
@@ -6876,6 +6878,29 @@
 
                   </div>
 
+                  <!--
+                      Clean Code
+
+                      1.coding-task-container-more-it
+
+                        X. Header Content (universal)
+                        X. Radios ( Nav Coding Task | Sub Nav Coding Task )
+
+                        1.1 Nav Container Coding Task
+
+                          1.1.1 Nav Coding Task
+                          1.1.2 Sub Nav Coding Task - LeetCode
+                          1.1.2 Sub Nav Coding Task - Algos
+                            X. Algos Info List Container | #top-20, ..., ..
+
+                          1.1.2 Sub Nav Coding Task - Others
+
+                        1.2 Content Container Coding Task
+
+                          1.2.1 LeetCode Cards, ...  (default style)
+
+                  -->
+
                   <!-- ----------------------------------------------------------- -->
                   <!-- ➡️🟥 [3/4] | Coding Tasks Container | More IT -->
                   <!-- ----------------------------------------------------------- -->
@@ -6971,33 +6996,45 @@
                     <!-- ---------------------------------------- -->
                     <!-- 🟩 Radios | Nav | Coding Tasks -->
                     <!-- ---------------------------------------- -->
-                    <input checked type="radio" id="radio-nav-coding-tasks-leetcode" name="name-radio-nav-coding-tasks">
-                    <input type="radio" id="radio-nav-coding-tasks-algos" name="name-radio-nav-coding-tasks">
-                    <input type="radio" id="radio-nav-coding-tasks-others" name="name-radio-nav-coding-tasks">
+
+                      <input checked type="radio" id="radio-nav-coding-tasks-leetcode" name="name-radio-nav-coding-tasks">
+                      <input type="radio" id="radio-nav-coding-tasks-algos" name="name-radio-nav-coding-tasks">
+                      <input type="radio" id="radio-nav-coding-tasks-others" name="name-radio-nav-coding-tasks">
 
                     <!-- ---------------------------------------- -->
                     <!-- 🟩 Radios | Sub Nav | Coding Tasks -->
                     <!-- ---------------------------------------- -->
 
-                    <!-- leetcode sub nav -->
-                    <input type="radio" id="radio-sub-nav-coding-tasks-leetcode-all" name="name-radio-sub-nav-coding-tasks">
-                    <input type="radio" id="radio-sub-nav-coding-tasks-leetcode-easy" name="name-radio-sub-nav-coding-tasks">
-                    <input type="radio" id="radio-sub-nav-coding-tasks-leetcode-medium" name="name-radio-sub-nav-coding-tasks">
-                    <input type="radio" id="radio-sub-nav-coding-tasks-leetcode-hard" name="name-radio-sub-nav-coding-tasks">
+                      <!-- leetcode sub nav -->
+                      <input type="radio" id="radio-sub-nav-coding-tasks-leetcode-all" name="name-radio-sub-nav-coding-tasks">
+                      <input type="radio" id="radio-sub-nav-coding-tasks-leetcode-easy" name="name-radio-sub-nav-coding-tasks">
+                      <input type="radio" id="radio-sub-nav-coding-tasks-leetcode-medium" name="name-radio-sub-nav-coding-tasks">
+                      <input type="radio" id="radio-sub-nav-coding-tasks-leetcode-hard" name="name-radio-sub-nav-coding-tasks">
 
-                    <!-- algos sub nav -->
-                    <input type="radio" id="radio-sub-nav-coding-tasks-algos-basic" name="name-radio-sub-nav-coding-tasks">
-                    <input type="radio" id="radio-sub-nav-coding-tasks-algos-math" name="name-radio-sub-nav-coding-tasks">
-                    <input type="radio" id="radio-sub-nav-coding-tasks-algos-advanced" name="name-radio-sub-nav-coding-tasks">
+                      <!-- algos sub nav -->
+                      <input type="radio" id="radio-sub-nav-coding-tasks-algos-basic" name="name-radio-sub-nav-coding-tasks">
+                      <input type="radio" id="radio-sub-nav-coding-tasks-algos-math" name="name-radio-sub-nav-coding-tasks">
+                      <input type="radio" id="radio-sub-nav-coding-tasks-algos-advanced" name="name-radio-sub-nav-coding-tasks">
 
-                    <!-- others sub nav -->
-                    <input type="radio" id="radio-sub-nav-coding-tasks-others-java" name="name-radio-sub-nav-coding-tasks">
-                    <input type="radio" id="radio-sub-nav-coding-tasks-others-python" name="name-radio-sub-nav-coding-tasks">
-                    <input type="radio" id="radio-sub-nav-coding-tasks-others-mixery" name="name-radio-sub-nav-coding-tasks">
+
+                      <!-- others sub nav -->
+                      <input type="radio" id="radio-sub-nav-coding-tasks-others-java" name="name-radio-sub-nav-coding-tasks">
+                      <input type="radio" id="radio-sub-nav-coding-tasks-others-ai" name="name-radio-sub-nav-coding-tasks">
+                      <input type="radio" id="radio-sub-nav-coding-tasks-others-python" name="name-radio-sub-nav-coding-tasks">
+                      <input type="radio" id="radio-sub-nav-coding-tasks-others-mixery" name="name-radio-sub-nav-coding-tasks">
+
+                    <!-- ---------------------------------------------------------- -->
+                    <!-- 🟩 Checkbox | Algos | Sub Nav | Coding Tasks -->
+                    <!-- ---------------------------------------------------------- -->
+
+                      <!-- open/close | algos sub nav -->
+                      <input type="checkbox" id="chk-algo-info-basic" name="name-chk-algo-info">
+                      <input type="checkbox" id="chk-algo-info-math" name="name-chk-algo-info">
+                      <input type="checkbox" id="chk-algo-info-advanced" name="name-chk-algo-info">
 
 
                     <!-- ---------------------------------------------------------------------- -->
-                    <!-- 🟩 [2/3] | Nav Coding Tasks -->
+                    <!-- ➡️🟥 [2/4] | Nav Coding Tasks -->
                     <!-- ---------------------------------------------------------------------- -->
                     <div class="row-container">
 
@@ -7007,7 +7044,7 @@
                       <div class="resp-row-content-container-small">
 
                         <!-- ---------------------------------------------------------------- -->
-                        <!-- 🟩 [1/6] | Nav Coding Tasks  -->
+                        <!-- 🟩 [1/4] | Nav | Coding Tasks  -->
                         <!-- ---------------------------------------------------------------- -->
                         <nav id="nav-coding-tasks-more-it">
 
@@ -7162,7 +7199,7 @@
                         </nav>
 
                         <!-- ---------------------------------------------------------------- -->
-                        <!-- 🟩 [2/6] | Leetcode | Nav Coding Tasks  -->
+                        <!-- 🟩 [2/4] | Sub Nav | Leetcode   -->
                         <!-- ---------------------------------------------------------------- -->
                         <nav id="sub-nav-leetcode-coding-task">
 
@@ -7338,7 +7375,7 @@
                         </nav>
 
                         <!-- ---------------------------------------------------------------- -->
-                        <!-- 🟩 [3/6] | Algos | Nav Coding Tasks  -->
+                        <!-- 🟩 [3/4] | Sub Nav | Algos   -->
                         <!-- ---------------------------------------------------------------- -->
                         <nav id="sub-nav-algos-coding-task">
 
@@ -7471,50 +7508,7 @@
                         </nav>
 
                         <!-- ---------------------------------------------------------------- -->
-                        <!-- 🟩 [4/6] | Sub Sub Nav Algos Basic | Nav Coding Tasks |   -->
-                        <!-- ---------------------------------------------------------------- -->
-                        <div id="sub-sub-nav-algos-basic-nav-coding-task">
-
-                          <header>
-                            Top 20 Basic:
-                          </header>
-
-                          <main>
-
-                            <div>1. Sortier-Algorithmen: Quicksort, Mergesort, Heapsort</div>
-                            <div>2. Such-Algorithmen: Binäre Suche, lineare Suche </div>
-                            <div>3. Graph-Algorithmen: Dijkstra, A*, Tiefensuche, Breitsuche</div>
-                            <div>4. Datenstrukutren: Arrays, Listen, Stacks, Queues, Bäume, Graphen</div>
-                            <div>5. Suchbäume: Binäre Suchbäume, AVL-Bäume, Rot-Schwarz-Bäume</div>
-                            <div>6. Hash-Algorithmen: Hasg-Tabellen, Kollisionsbehandlung</div>
-                            <div>7. ...: </div>
-
-
-                          </main>
-
-                        </div>
-
-                        <!-- ---------------------------------------------------------------- -->
-                        <!-- 🟩 [5/6] | Algos | Nav Coding Tasks  -->
-                        <!-- ---------------------------------------------------------------- -->
-                        <div id="sub-sub-nav-algos-advanced-nav-coding-task">
-
-                          <header>
-                            Top 15 Advanced (e.g Insurance, Bank, AI, E-Commerce, ...):
-                          </header>
-
-                          <main>
-
-                            <div>1. ... ,</div>
-                            <div>1. ... ,</div>
-                            <div>1. ... ,</div>
-
-                          </main>
-
-                        </div>
-
-                        <!-- ---------------------------------------------------------------- -->
-                        <!-- 🟩 [6/6] | Others | Nav Coding Tasks  -->
+                        <!-- 🟩 [4/4] | Sub Nav | Others  -->
                         <!-- ---------------------------------------------------------------- -->
                         <nav id="sub-nav-others-coding-task">
 
@@ -7614,6 +7608,55 @@
 
                           </label>
 
+
+                          <!-- -------------------------------------------------- -->
+                          <!-- 🟩 [2/3] | Python | Label -->
+                          <!-- -------------------------------------------------- -->
+                          <label for="radio-sub-nav-coding-tasks-others-python" class="nav-label-radio-small">
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [1/2] | Title | Nav Label Radio                             -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="title-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/2] | Img Icon -->
+                              <!-- --------------------------------------------- -->
+                             <img src="media/imgs/icons/04-tech-logos/python.png"
+                                  class="img-h-1-1"
+                                  alt="img">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Title -->
+                              <!-- --------------------------------------------- -->
+                              <div>AI </div>
+
+
+                            </div>
+
+                            <!-- ----------------------------------------------------------- -->
+                            <!-- [2/2] | Counter Custom Radio | Nav Label Radio              -->
+                            <!-- ----------------------------------------------------------- -->
+                            <div class="counter-custom-radio-nav-label-radio">
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [1/2] | Counter | Nav Label Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="counter-nav-label-radio"> 04 </div>
+
+                              <!-- --------------------------------------------- -->
+                              <!-- [2/2] | Custom Radio -->
+                              <!-- --------------------------------------------- -->
+                              <div class="custom-radio-small">
+                                <img src="media/imgs/icons/02-icon-colors/01-black/black-styling-art-x.png"
+                                    alt="img">
+                              </div>
+
+                            </div>
+
+
+                          </label>
+
                           <!-- -------------------------------------------------- -->
                           <!-- 🟩 [3/3] | Mixery | Label -->
                           <!-- -------------------------------------------------- -->
@@ -7669,7 +7712,363 @@
                     </div>
 
                     <!-- ---------------------------------------------------------------------- -->
-                    <!-- ➡️🟥 [3/3] | Coding Task Content Container More It -->
+                    <!-- ➡️🟥 [3/4] | Algos Info Container | Coding Task -->
+                    <!-- ---------------------------------------------------------------------- -->
+                    <div class="row-container">
+
+                      <!-- --------------------------------------------------------------- -->
+                      <!-- ➡️🟥 Algos Info Container | Coding Task                -->
+                      <!-- --------------------------------------------------------------- -->
+                      <div class="resp-row-content-container-small">
+
+                        <!-- --------------------------------------------------------------- -->
+                        <!-- ➡️🟥 Algos Info Container | Coding Task                -->
+                        <!-- --------------------------------------------------------------- -->
+                        <div id="algos-info-container-coding-task">
+
+                          <!-- ---------------------------------------------------------------- -->
+                          <!-- 🟩 [1/3] | Basic Algo Info Container   -->
+                          <!-- ---------------------------------------------------------------- -->
+                          <div class="algos-info-content-container" id="basic-algo-info-container">
+
+                            <!-- ------------------------------------------- -->
+                            <!-- Header -->
+                            <!-- ------------------------------------------- -->
+                            <header>
+
+                              <!-- --------------------------------------->
+                              <!-- Title Top 20 Math | Top 15 Advanced -->
+                              <!-- --------------------------------------->
+                              <div>
+
+                                <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-info.png"
+                                     class="img-h-0-9"
+                                     alt="img"> -->
+                                <div>Top 17 Basic:</div>
+
+                              </div>
+
+                              <!-- --------------------------------------->
+                              <!-- Button -->
+                              <!-- --------------------------------------->
+                              <label for="chk-algo-info-basic" class="button-in-text-small">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-arrow-clap-down.png"
+                                      class="img-h-0-4"
+                                      alt="img">
+
+                              </label>
+
+
+                            </header>
+
+                            <!-- ------------------------------------------- -->
+                            <!-- Main -->
+                            <!-- ------------------------------------------- -->
+                            <main>
+
+                              <!-- 1 -->
+                              <div>
+                                <span>1. Sortier-Algorithmen:</span>
+                                <span>Quicksort, Mergesort, Heapsort, Counting Sort, Radix Sort</span>
+                              </div>
+
+                              <!-- 2 -->
+                              <div>
+                                <span>2. Such-Algorithmen:</span>
+                                <span>Binäre Suche, lineare Suche</span>
+                              </div>
+
+                              <!-- 3 -->
+                              <div>
+                                <span>3. Graph-Algorithmen:</span>
+                                <span>Dijkstra, A*, Tiefensuche, Breitsuche</span>
+                              </div>
+
+                              <!-- 4 -->
+                              <div>
+                                <span>4. Datenstrukutren:</span>
+                                <span>Arrays, Listen, Stacks, Queues, Bäume, Graphen</span>
+                              </div>
+
+                              <!-- 5 -->
+                              <div>
+                                <span>5. Suchbäume:</span>
+                                <span>Binäre Suchbäume, AVL-Bäume, Rot-Schwarz-Bäume</span>
+                              </div>
+
+                              <!-- 6 -->
+                              <div>
+                                <span>6. Hash-Algorithmen:</span>
+                                <span>Hash-Tabellen, Kollisionsbehandlung</span>
+                              </div>
+
+                              <!-- 7 -->
+                              <div>
+                                <span>7. Dynamische Programmierung:</span>
+                                <span>Fibonacci, Knapsack-Problem</span>
+                              </div>
+
+                              <!-- 8 -->
+                              <div>
+                                <span>8. Greedy-Algorithmen:</span>
+                                <span>Kruskal, radio-nav-private-meals</span>
+                              </div>
+
+
+                              <!-- 10 -->
+                              <div>
+                                <span>9. Rekursion:</span>
+                                <span>Fakultät, Turm von Hanoi</span>
+                              </div>
+
+
+                              <!-- 13 -->
+                              <div>
+                                <span>10. Fenster Algo:</span>
+                                <span>Sliding Window</span>
+                              </div>
+
+                              <!-- 14 -->
+                              <div>
+                                <span>11. Zahlen Theorie:</span>
+                                <span>Primzahlen, Euklid</span>
+                              </div>
+
+                              <!-- 15 -->
+                              <div>
+                                <span>12. String Algo:</span>
+                                <span>KMP, Rabin-Krap</span>
+                              </div>
+
+                              <!-- 16 -->
+                              <div>
+                                <span>13. Greey Algo Optimierung:</span>
+                                <span>Huffman-Codierung</span>
+                              </div>
+
+                              <!-- 17 -->
+                              <div>
+                                <span>14. Fluss Algo:</span>
+                                <span>Ford Fulkerson</span>
+                              </div>
+
+                              <!-- 18 -->
+                              <div>
+                                <span>15. Segmentbäume:</span>
+                                <span>Range Queries</span>
+                              </div>
+
+                              <!-- 19 -->
+                              <div>
+                                <span>16. Trie-Datenstrukturen:</span>
+                                <span>Strings</span>
+                              </div>
+
+                              <!-- 20 -->
+                              <div>
+                                <span>17. Optimierung:</span>
+                                <span>Rucksackproblem</span>
+                              </div>
+
+
+                            </main>
+
+                          </div>
+
+                          <!-- ---------------------------------------------------------------- -->
+                          <!-- 🟩 [2/3] | Math Algo Info Container  -->
+                          <!-- ---------------------------------------------------------------- -->
+                          <div class="algos-info-content-container" id="math-algo-info-container">
+
+                            <!-- ------------------------------------------- -->
+                            <!-- Header -->
+                            <!-- ------------------------------------------- -->
+                            <header>
+
+                              <!-- --------------------------------------->
+                              <!-- Title Top 20 Math | Top 15 Advanced -->
+                              <!-- --------------------------------------->
+                              <div>
+
+                                <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-info.png"
+                                     class="img-h-0-9"
+                                     alt="img"> -->
+                                <div>Top 6 Math:</div>
+
+                              </div>
+
+                              <!-- --------------------------------------->
+                              <!-- Label -->
+                              <!-- --------------------------------------->
+                              <label for="chk-algo-info-math" class="button-in-text-small">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-arrow-clap-down.png"
+                                      class="img-h-0-4"
+                                      alt="img">
+
+                              </label>
+
+
+                            </header>
+
+                            <!-- ------------------------------------------- -->
+                            <!-- Main -->
+                            <!-- ------------------------------------------- -->
+                            <main>
+
+                              <!-- 1 -->
+                              <div>
+                                <span>1. Statistik & Wahrscheinlichkeitsrechnung:</span>
+                                <span>...</span>
+                              </div>
+
+                              <!-- 2 -->
+                              <div>
+                                <span>2. Vektoren, Matrizen:</span>
+                                <span>...</span>
+                              </div>
+
+                              <!-- 3 -->
+                              <div>
+                                <span>3. Graphentheorie:</span>
+                                <span>...</span>
+                              </div>
+
+                              <!-- 4 -->
+                              <div>
+                                <span>4. Mengenlehre:</span>
+                                <span>...</span>
+                              </div>
+
+                              <!-- 5 -->
+                              <div>
+                                <span>5. Gleichungen:</span>
+                                <span>...</span>
+                              </div>
+
+                              <!-- 6 -->
+                              <div>
+                                <span>6. Geometrie:</span>
+                                <span>...</span>
+                              </div>
+
+
+
+                            </main>
+
+                          </div>
+
+                          <!-- ---------------------------------------------------------------- -->
+                          <!-- 🟩 [3/3] | Advanced Algo Info Container  -->
+                          <!-- ---------------------------------------------------------------- -->
+                          <div class="algos-info-content-container" id="advanced-algo-info-container">
+
+                           <!-- ------------------------------------------- -->
+                            <!-- Header -->
+                            <!-- ------------------------------------------- -->
+                            <header>
+
+                              <!-- --------------------------------------->
+                              <!-- Title Top 20 Math | Top 15 Advanced -->
+                              <!-- --------------------------------------->
+                              <div>
+
+                                <!-- <img src="media/imgs/icons/02-icon-colors/01-black/black-info.png"
+                                     class="img-h-0-9"
+                                     alt="img"> -->
+                                <div>Top 9 Advanced:</div>
+
+                              </div>
+
+                              <!-- --------------------------------------->
+                              <!-- Label -->
+                              <!-- --------------------------------------->
+                              <label for="chk-algo-info-advanced" class="button-in-text-small">
+
+                                  <img src="media/imgs/icons/02-icon-colors/01-black/black-arrow-clap-down.png"
+                                      class="img-h-0-4"
+                                      alt="img">
+
+                              </label>
+
+
+                            </header>
+
+                            <!-- ------------------------------------------- -->
+                            <!-- Main -->
+                            <!-- ------------------------------------------- -->
+                            <main>
+
+                              <!-- 1 -->
+                              <div>
+                                <span>1. Lineare Regression:</span>
+                                <span>Risikobewertung in Versicherungen/Finanzen</span>
+                              </div>
+
+                              <!-- 2 -->
+                              <div>
+                                <span>2. Logistische Regression:</span>
+                               <span>Klassifikationen, z.B Betrugserkennung</span>
+                              </div>
+
+                              <!-- 3 -->
+                              <div>
+                                <span>3. Entscheidungsbäume:</span>
+                                <span>Risikomanagement / Kreditvergabe</span>
+                              </div>
+
+                              <!-- 4 -->
+                              <div>
+                                <span>4. Random Forest:</span>
+                                <span>Ensemble Algos - Kredit und Versicherungsbranche oft verwendet</span>
+                              </div>
+
+                              <!-- 5 -->
+                              <div>
+                                <span>5. k-means Clustering:</span>
+                                <span>Kunden Segmentierung im Marketing und Social-Media Bereich</span>
+                              </div>
+
+                              <!-- 6 -->
+                              <div>
+                                <span>6. Neuronale Netze:</span>
+                                <span>komplexe Mustererkennung, Betrugserkennung, Schadensbewertung</span>
+                              </div>
+
+                              <!-- 7 -->
+                              <div>
+                                <span>7. Gradient Boosting:</span>
+                                <span>präzise Vorhersagen</span>
+                              </div>
+
+                              <!-- 8 -->
+                              <div>
+                                <span>8. Zeitreihen-Analyse:</span>
+                                <span>Prognosen Schadenhäufigkeit</span>
+                              </div>
+
+                              <!-- 9 -->
+                              <div>
+                                <span>9. Collaborative Filtering:</span>
+                                <span>personalisierte Empfehlungen</span>
+                              </div>
+
+
+
+                            </main>
+
+                          </div>
+
+                        </div>
+
+                      </div>
+
+                    </div>
+
+
+                    <!-- ---------------------------------------------------------------------- -->
+                    <!-- ➡️🟥 [4/4] | Coding Task Content Container More It -->
                     <!-- ---------------------------------------------------------------------- -->
                     <div id="coding-task-content-container-more-it">
 

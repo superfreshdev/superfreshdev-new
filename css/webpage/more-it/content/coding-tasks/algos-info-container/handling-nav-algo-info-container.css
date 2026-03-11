@@ -1,0 +1,51 @@
+/* --------------------------------------------------------------- */
+/* > handling-nav-algo-info-container.css
+/*
+/* : styles ...
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Handlings Styles
+/* ---------------------------------------------------------------- */
+
+/* default unshown */
+input[name="name-chk-algo-info"] {
+
+  display: none;
+
+}
+
+/* ------------------------------------------- */
+/* LeetCode
+/* ------------------------------------------- */
+
+/* set background red | ⚠️ dont understand why 2 because it should be 1 */
+#chk-algo-info-basic:checked ~ .row-container:nth-of-type(3) label[for="chk-algo-info-basic"],
+#chk-algo-info-math:checked ~ .row-container:nth-of-type(3) label[for="chk-algo-info-math"],
+#chk-algo-info-advanced:checked ~ .row-container:nth-of-type(3) label[for="chk-algo-info-advanced"] {
+
+  background-image: linear-gradient(to right, #db7272, #da9292);
+
+}
+
+/* img arrow rotate */
+#chk-algo-info-basic:checked ~ .row-container:nth-of-type(3) label[for="chk-algo-info-basic"] > img,
+#chk-algo-info-math:checked ~ .row-container:nth-of-type(3) label[for="chk-algo-info-math"] > img,
+#chk-algo-info-advanced:checked ~ .row-container:nth-of-type(3) label[for="chk-algo-info-advanced"] > img {
+
+  transform: rotate(180deg);
+
+}
+
+/* ------------------------------------------- */
+/* Handling Action
+/* ------------------------------------------- */
+
+#chk-algo-info-basic:checked ~ .row-container:nth-of-type(3) #basic-algo-info-container > main,
+#chk-algo-info-math:checked ~ .row-container:nth-of-type(3) #math-algo-info-container > main,
+#chk-algo-info-advanced:checked ~ .row-container:nth-of-type(3) #advanced-algo-info-container > main {
+
+  display: grid;
+
+}

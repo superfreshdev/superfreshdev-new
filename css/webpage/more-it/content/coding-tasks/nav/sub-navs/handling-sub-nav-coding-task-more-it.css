@@ -62,13 +62,15 @@ input[name="name-radio-sub-nav-coding-tasks"] {
 
 }
 
-/* show sub sub nav algos | basic, advanced */
-#radio-sub-nav-coding-tasks-algos-basic:checked ~ .row-container:nth-of-type(2) #sub-sub-nav-algos-basic-nav-coding-task,
-#radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(2) #sub-sub-nav-algos-advanced-nav-coding-task {
+/* show algo info (basic, math, advanced) */
+#radio-sub-nav-coding-tasks-algos-basic:checked ~ .row-container:nth-of-type(3) #basic-algo-info-container,
+#radio-sub-nav-coding-tasks-algos-math:checked ~ .row-container:nth-of-type(3) #math-algo-info-container,
+#radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(3) #advanced-algo-info-container {
 
   display: grid;
 
 }
+
 
 /* ------------------------------------------- */
 /* Others
