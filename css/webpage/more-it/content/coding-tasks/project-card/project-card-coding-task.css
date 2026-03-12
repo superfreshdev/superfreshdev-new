@@ -1,20 +1,20 @@
 /* --------------------------------------------------------------- */
-/* > coding-task-item-more-it.css
+/* > project-card-coding-task.css
 /*
-/* : styles ...
+/* : styles project card from coding task
 /* --------------------------------------------------------------- */
 
 
 /* ---------------------------------------------------------------- */
-/* Coding Task Item | More IT
+/* Project Card | Coding Task
 /* ---------------------------------------------------------------- */
 
-.coding-task-item-more-it {
+.project-card-coding-task {
 
   width: 100%;
   padding: 1.5em 0;
 
   display: grid;
-  row-gap: .4em;
+  row-gap: 1em;
 
 }

@@ -1,15 +1,15 @@
 /* --------------------------------------------------------------- */
-/* > header-coding-task-item.css
+/* > header project card coding task
 /*
-/* : styles ...
+/* : styles header project card coding task
 /* --------------------------------------------------------------- */
 
 
 /* ---------------------------------------------------------------- */
-/* Header | Coding Task Item | More IT
+/* Header | Project Card | Coding Task
 /* ---------------------------------------------------------------- */
 
-.coding-task-item-more-it > header {
+.project-card-coding-task > header {
 
   display: flex;
   flex-wrap: wrap;
@@ -20,11 +20,12 @@
 
 }
 
+
 /* ---------------------------------------------------------------- */
-/* Category Info Coding Task | Header
+/* Nr (Div1) | Main
 /* ---------------------------------------------------------------- */
 
-.category-info-coding-task {
+.project-card-coding-task > header > div:nth-of-type(1) {
 
   height: 1.5em;
   padding: 0 .4em;
@@ -34,29 +35,30 @@
   justify-content: center;
 
   border-radius: .4em;
-
   /* font-weight: bold; */
+  letter-spacing: 1px;
 
   border: 1px solid rgb(185, 185, 185);
+
   background-color: white;
   color:rgb(115, 115, 115);
 
-  /* font-weight: bold; */
+  color:rgb(129, 129, 129);
 
 }
 
 /* div */
-.category-info-coding-task > div {
+.project-card-coding-task > header > div:nth-of-type(1) > div {
 
   font-size: 14.5px;
 
 }
 
 /* ---------------------------------------------------------------- */
-/* Time Level Info Coding Task | Header
+/* Addon Info Header Coding Task | Header
 /* ---------------------------------------------------------------- */
 
-.time-level-info-coding-task {
+.addon-info-header-coding-task  {
 
   display: flex;
   align-items: center;
@@ -81,9 +83,10 @@
 
   border: 1px solid rgb(185, 185, 185);
   background-color: white;
+
   color:rgb(115, 115, 115);
 
-  /* font-weight: bold; */
+  color:rgb(129, 129, 129);
 
 }
 
@@ -113,6 +116,8 @@
   border: 1px solid rgb(185, 185, 185);
 
   color:rgb(72, 72, 72);
+
+  color:rgb(129, 129, 129);
 
 }
 

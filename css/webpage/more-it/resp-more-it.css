@@ -7,6 +7,42 @@
 
 
 /* ------------------------------------------------------- */
+/* Min Width >= 355px
+/* ------------------------------------------------------- */
+
+@media (min-width: 355px) {
+
+  /* ---------------------------------------------- */
+  /* Coding Task | Footer  */
+  /* ---------------------------------------------- */
+  .project-card-coding-task > footer {
+
+
+    /* desktop */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+
+  /* ---------------------------------------------- */
+  /* Coding Task | External Link Container */
+  /* ---------------------------------------------- */
+  .external-link-container-coding-task {
+
+    width: auto;
+
+    display: flex;
+    align-items: center;
+    column-gap: .3em;
+
+  }
+
+}
+
+/* ------------------------------------------------------- */
 /* Min Width >= 400px
 /* ------------------------------------------------------- */
 

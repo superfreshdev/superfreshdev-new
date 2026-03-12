@@ -1,0 +1,106 @@
+/* --------------------------------------------------------------- */
+/* > main-project-card-coding-task.css
+/*
+/* : styles main project card from coding task
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Main | Project Card
+/* ---------------------------------------------------------------- */
+
+.project-card-coding-task > main {
+
+  display: grid;
+  row-gap: .3em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* [1/3] | Category Info Coding Task | Header
+/* ---------------------------------------------------------------- */
+
+.category-info-coding-task {
+
+  justify-self: flex-start;
+
+  height: 1.5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+  color:#4d4d4d;
+
+}
+
+/* div */
+.category-info-coding-task > div {
+
+  font-size: 14.5px;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* [2/3] | Div 2 | Title | Main | Project Card
+/* ---------------------------------------------------------------- */
+
+/* Div 2 | Project Title | Main */
+
+.project-card-coding-task > main > div:nth-of-type(2) {
+
+  padding: .1em 0;
+  line-height: 1.5em;
+  color:#454545;
+
+}
+
+/* div text */
+.project-card-coding-task > main > div:nth-of-type(2) > div {
+
+  font-size: 14.5px;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* [3/3] | It Skill Container | Coding Task
+/* ---------------------------------------------------------------- */
+
+.it-skill-container-coding-task {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap:.3em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Divs | It Skill Container
+/* ---------------------------------------------------------------- */
+
+.it-skill-container-coding-task > div {
+
+  height: 1.3em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  color:grey;
+
+  border-radius: .4em;
+  border: 1px solid rgb(185, 185, 185);
+
+  opacity: .6;
+
+}
+
+/* div > div */
+.it-skill-container-coding-task > div > div {
+
+  font-size: 12.5px;
+
+}

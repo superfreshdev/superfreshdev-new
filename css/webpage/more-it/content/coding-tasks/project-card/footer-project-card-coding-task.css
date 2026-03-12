@@ -1,7 +1,7 @@
 /* --------------------------------------------------------------- */
-/* > footer-coding-task-item.css
+/* > footer-project-card-coding-task.css
 /*
-/* : styles ...
+/* : styles footer project card coding task
 /* --------------------------------------------------------------- */
 
 
@@ -9,12 +9,15 @@
 /* Footer | Coding Task Item | More IT
 /* ---------------------------------------------------------------- */
 
-.coding-task-item-more-it > footer {
+.project-card-coding-task > footer {
 
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  /* padding-top: .6em; */
+  /* border-top: 1px solid rgb(218, 218, 218); */
+
+  /* mobile */
+  display: grid;
+  /* justify-items: flex-start; */
+
   column-gap: .4em;
   row-gap: .4em;
 
@@ -48,40 +51,18 @@
 
 }
 
-.link-task-coding-task:visited {
-
-  color:rgb(115, 115, 115);
-
-}
-
-.link-task-coding-task > div {
-
-  font-size: 14.5px;
-
-}
-
-/* hover */
-.link-task-coding-task:hover {
-
-  background-color: rgb(251, 133, 133);
-
-}
-
-/* img layout pos fix */
-.link-task-coding-task > img {
-
-  padding-top: .1px;
-
-}
-
 /* ---------------------------------------------------------------- */
 /* External Link Container | Footer
 /* ---------------------------------------------------------------- */
 
 .external-link-container-coding-task {
 
-  display: flex;
-  align-items: center;
+  width: 100%;
+
+  /* mobile */
+  display: grid;
+  grid: auto / 1fr 1fr 1fr;
+
   column-gap: .3em;
 
 }
@@ -111,24 +92,5 @@
 
   user-select: none;
   transition: all .4s;
-
-}
-
-.link-external-coding-task:visited {
-
-  color:rgb(115, 115, 115);
-
-}
-
-.link-external-coding-task > div {
-
-  font-size: 14.5px;
-
-}
-
-/* hover */
-.link-external-coding-task:hover {
-
-  background-color: rgb(251, 133, 133);
 
 }
