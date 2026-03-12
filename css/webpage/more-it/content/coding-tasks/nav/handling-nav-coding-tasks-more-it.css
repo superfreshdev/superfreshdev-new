@@ -40,10 +40,10 @@ input[name="name-radio-nav-coding-tasks"] {
 /* ---------------------------------------------------------------- */
 
 /* show sub navs ( for leetcode, algos, others ) */
-#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) #sub-nav-leetcode-coding-task,
-#radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(2) #sub-nav-algos-coding-task,
-#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) #sub-nav-others-coding-task {
+#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(3) #sub-nav-tab-coding-task-leetcode,
+#radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(3) #sub-nav-tab-coding-task-algos,
+#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(3) #sub-nav-tab-coding-task-others {
 
-  display: flex;
+  display: grid;
 
 }

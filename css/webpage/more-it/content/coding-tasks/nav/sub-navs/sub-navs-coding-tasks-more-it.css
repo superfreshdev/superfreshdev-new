@@ -6,19 +6,12 @@
 
 
 /* ---------------------------------------------------------------- */
-/* Sub Navs | LeetCode, Algos, Others
+/* Sub Tab Nav | LeetCode, Algos, Others
 /* ---------------------------------------------------------------- */
 
-#sub-nav-leetcode-coding-task,
-#sub-nav-algos-coding-task,
-#sub-nav-others-coding-task {
-
-  /* padding-bottom: .6em; */
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap:.3em;
+#sub-nav-tab-coding-task-leetcode,
+#sub-nav-tab-coding-task-algos,
+#sub-nav-tab-coding-task-others {
 
   /* default unshown */
   display: none;

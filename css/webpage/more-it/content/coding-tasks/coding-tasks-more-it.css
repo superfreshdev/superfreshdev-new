@@ -29,7 +29,7 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Row Container (overwerite - blue )
+/* 1 | Row Container (overwerite - blue )
 /* ---------------------------------------------------------------- */
 
 #coding-task-container-more-it > .row-container:nth-of-type(1) {
@@ -41,13 +41,37 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Row Container (overwerite - dark )
+/* 2 | Row Container (overwerite - dark )
 /* ---------------------------------------------------------------- */
 
 #coding-task-container-more-it > .row-container:nth-of-type(2) {
 
   /* background-color: rgb(28, 28, 28); */
   background-color: white;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* 3 | Row Container -> Nav | Hash Tag Tab Label Container
+/* ---------------------------------------------------------------- */
+
+#coding-task-container-more-it > .row-container:nth-of-type(3) .hash-tag-tab-label-container {
+
+  /* background-color: rgb(28, 28, 28); */
+  /* background-color: red; */
+  padding-bottom: 1em;
+
+
+}
+
+/* ---------------------------------------------------------------- */
+/* All | Row Container (overwrite) | Coding Task Content Container
+/* ---------------------------------------------------------------- */
+
+/* white */
+#coding-task-content-container-more-it > .row-container:nth-child(odd) {
+
+  background-color: rgb(238, 238, 238);
 
 }
 
@@ -59,18 +83,5 @@
 
   width: 100%;
   /* padding: 1.5em 0; */
-
-}
-
-
-
-/* ---------------------------------------------------------------- */
-/* Row Container (overwrite) | Coding Task Content Container
-/* ---------------------------------------------------------------- */
-
-/* white */
-#coding-task-content-container-more-it > .row-container:nth-child(odd) {
-
-  background-color: rgb(238, 238, 238);
 
 }

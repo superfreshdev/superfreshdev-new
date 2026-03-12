@@ -9,7 +9,7 @@
 /* All | Label Up Down
 /* ------------------------------------------------------- */
 
-.label-up-down-small-small,
+.label-up-down-small,
 .label-up-down-medium,
 .label-up-down-big {
 
@@ -44,7 +44,7 @@
 /* Divs | Label Up Down
 /* ------------------------------------------------------- */
 
-.label-up-down-small-small > div,
+.label-up-down-small > div,
 .label-up-down-medium > div,
 .label-up-down-big > div{
 
@@ -72,7 +72,7 @@
 /* Small
 /* ------------------------------------------------------- */
 
-.label-up-down-small-small {
+.label-up-down-small {
 
   height: 1.6em;
   padding: 0 .6em;

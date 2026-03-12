@@ -16,25 +16,33 @@ input[name="name-radio-sub-nav-coding-tasks"] {
 
 }
 
+/* default unshow algos info container */
+input[name="chk-algo-info-basic"] {
+
+  display: none;
+
+}
+
 /* ------------------------------------------- */
 /* LeetCode
 /* ------------------------------------------- */
 
 /* set background red | ⚠️ dont understand why 2 because it should be 1 */
-#radio-sub-nav-coding-tasks-leetcode-all:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-all"],
-#radio-sub-nav-coding-tasks-leetcode-easy:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-easy"],
-#radio-sub-nav-coding-tasks-leetcode-medium:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-medium"],
-#radio-sub-nav-coding-tasks-leetcode-hard:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-hard"] {
+#radio-sub-nav-coding-tasks-leetcode-all:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-leetcode-all"],
+#radio-sub-nav-coding-tasks-leetcode-easy:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-leetcode-easy"],
+#radio-sub-nav-coding-tasks-leetcode-medium:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-leetcode-medium"],
+#radio-sub-nav-coding-tasks-leetcode-hard:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-leetcode-hard"] {
 
-  background-image: linear-gradient(to right, #db7272, #da9292);
+  color:rgb(46, 46, 46);
+  background-color: rgb(224, 224, 224);
 
 }
 
 /* change img custom radio */
-#radio-sub-nav-coding-tasks-leetcode-all:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-all"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
-#radio-sub-nav-coding-tasks-leetcode-easy:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-easy"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
-#radio-sub-nav-coding-tasks-leetcode-medium:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-medium"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
-#radio-sub-nav-coding-tasks-leetcode-hard:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-leetcode-hard"] .counter-custom-radio-nav-label-radio .custom-radio-small > img {
+#radio-sub-nav-coding-tasks-leetcode-all:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-leetcode-all"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-sub-nav-coding-tasks-leetcode-easy:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-leetcode-easy"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-sub-nav-coding-tasks-leetcode-medium:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-leetcode-medium"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
+#radio-sub-nav-coding-tasks-leetcode-hard:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-leetcode-hard"] .counter-custom-radio-nav-label-radio .custom-radio-small > img {
 
   display: flex;
 
@@ -45,27 +53,38 @@ input[name="name-radio-sub-nav-coding-tasks"] {
 /* ------------------------------------------- */
 
 /* set background red | ⚠️ dont understand why 2 because it should be 1 */
-#radio-sub-nav-coding-tasks-algos-basic:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-basic"],
-#radio-sub-nav-coding-tasks-algos-math:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-math"],
-#radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-advanced"] {
+#radio-sub-nav-coding-tasks-algos-basic:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-algos-basic"],
+#radio-sub-nav-coding-tasks-algos-math:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-algos-math"],
+#radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-algos-advanced"] {
+
+  color:rgb(46, 46, 46);
+  background-color: rgb(224, 224, 224);
+
+}
+
+
+/* style > algos info conatiner */
+#chk-algo-info-basic:checked ~ .row-container:nth-of-type(4) label[for="chk-algo-info-basic"],
+#chk-algo-info-math:checked ~ .row-container:nth-of-type(4) label[for="chk-algo-info-basic"],
+#chk-algo-info-advanced:checked ~ .row-container:nth-of-type(4) label[for="chk-algo-info-basic"] {
 
   background-image: linear-gradient(to right, #db7272, #da9292);
 
 }
 
-/* set background red | ⚠️ dont understand why 2 because it should be 1 */
-#radio-sub-nav-coding-tasks-algos-basic:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-basic"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
-#radio-sub-nav-coding-tasks-algos-math:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-math"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
-#radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-algos-advanced"] .counter-custom-radio-nav-label-radio .custom-radio-small > img {
+/* rotate img arrow > algos info conatiner */
+#chk-algo-info-basic:checked ~ .row-container:nth-of-type(4) label[for="chk-algo-info-basic"] > img,
+#chk-algo-info-math:checked ~ .row-container:nth-of-type(4) label[for="chk-algo-info-math"] > img,
+#chk-algo-info-advanced:checked ~ .row-container:nth-of-type(4) label[for="chk-algo-info-advanced"] > img  {
 
-  display: flex;
+  transform: rotate(180deg);
 
 }
 
-/* show algo info (basic, math, advanced) */
-#radio-sub-nav-coding-tasks-algos-basic:checked ~ .row-container:nth-of-type(3) #basic-algo-info-container,
-#radio-sub-nav-coding-tasks-algos-math:checked ~ .row-container:nth-of-type(3) #math-algo-info-container,
-#radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(3) #advanced-algo-info-container {
+/* open/close > algos info conatiner */
+#chk-algo-info-basic:checked ~ .row-container:nth-of-type(4) #basic-algo-info-container > main,
+#chk-algo-info-math:checked ~ .row-container:nth-of-type(4) #math-algo-info-container  > main,
+#chk-algo-info-advanced:checked ~ .row-container:nth-of-type(4) #advanced-algo-info-container  > main {
 
   display: grid;
 
@@ -77,19 +96,15 @@ input[name="name-radio-sub-nav-coding-tasks"] {
 /* ------------------------------------------- */
 
 /* set background red | ⚠️ dont understand why 2 because it should be 1 */
-#radio-sub-nav-coding-tasks-others-java:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-others-java"],
-#radio-sub-nav-coding-tasks-others-python:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-others-python"],
-#radio-sub-nav-coding-tasks-others-mixery:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-others-mixery"] {
+#radio-sub-nav-coding-tasks-others-java:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-others-java"],
+#radio-sub-nav-coding-tasks-others-js:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-others-js"],
+#radio-sub-nav-coding-tasks-others-ts:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-others-ts"],
+#radio-sub-nav-coding-tasks-others-ai:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-others-ai"],
+#radio-sub-nav-coding-tasks-others-python:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-others-python"],
+#radio-sub-nav-coding-tasks-others-mixery:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-others-mixery"] {
 
-  background-image: linear-gradient(to right, #db7272, #da9292);
-
-}
-
-#radio-sub-nav-coding-tasks-others-java:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-others-java"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
-#radio-sub-nav-coding-tasks-others-python:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-others-python"] .counter-custom-radio-nav-label-radio .custom-radio-small > img,
-#radio-sub-nav-coding-tasks-others-mixery:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-coding-tasks-others-mixery"] .counter-custom-radio-nav-label-radio .custom-radio-small > img {
-
-  display: flex;
+  color:rgb(46, 46, 46);
+  background-color: rgb(224, 224, 224);
 
 }
 
@@ -107,17 +122,27 @@ input[name="name-radio-sub-nav-coding-tasks"] {
 
 }
 
-/* by leetcode unshown sub navs algo  */
-#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) #sub-sub-nav-algos-basic-nav-coding-task,
-#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) #sub-sub-nav-algos-advanced-nav-coding-task {
+
+/* show algo info container (basic, math, advanced) */
+#radio-sub-nav-coding-tasks-algos-basic:checked ~ .row-container:nth-of-type(4) #basic-algo-info-container,
+#radio-sub-nav-coding-tasks-algos-math:checked ~ .row-container:nth-of-type(4) #math-algo-info-container,
+#radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(4) #advanced-algo-info-container {
+
+  display: grid;
+
+}
+
+
+
+/* special case 1: by leetcode unshown sub navs algo  */
+#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(4) #algos-info-container-coding-task {
 
   display: none;
 
 }
 
-/* by others unshown sub navs algo  */
-#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) #sub-sub-nav-algos-basic-nav-coding-task,
-#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) #sub-sub-nav-algos-advanced-nav-coding-task {
+/* special case 2: by others unshown sub navs algo  */
+#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(4) #algos-info-container-coding-task {
 
   display: none;
 

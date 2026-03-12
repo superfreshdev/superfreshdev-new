@@ -1,0 +1,55 @@
+/* --------------------------------------------------------------- */
+/* > hash-tag-tab-label-light-grey.css
+/*
+/* : styles hash tags tab label in light grey style
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Hash Tag Tab Label Light Grey
+/* ---------------------------------------------------------------- */
+
+.hash-tag-tab-label-light-grey {
+
+  /* delete default html button styles */
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+  /* new button style */
+
+  height: 1.6em;
+  padding: 0 .3em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .4em;
+
+  border: 1px solid rgb(183, 183, 183);
+  color: rgb(156, 156, 156);
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: all .4s;
+
+}
+
+.hash-tag-tab-label-light-grey > div {
+
+  font-size: 14.5px;
+
+}
+
+.hash-tag-tab-label-light-grey:hover {
+
+  color:rgb(46, 46, 46);
+  background-color: rgb(224, 224, 224);
+
+}

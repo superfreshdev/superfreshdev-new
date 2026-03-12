@@ -1,0 +1,48 @@
+/* --------------------------------------------------------------- */
+/* > hash-tag-tab-label-container.css
+/*
+/* : styles hash tag tab container
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Hash Tag Tab Label Container
+/* ---------------------------------------------------------------- */
+
+.hash-tag-tab-label-container {
+
+  display: grid;
+  row-gap: .4em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Header | Hash Tag Tab Container
+/* ---------------------------------------------------------------- */
+
+.hash-tag-tab-label-container > header {
+
+  font-weight: bold;
+
+  color:grey;
+
+}
+
+/* div > header */
+.hash-tag-tab-label-container > header > div {
+
+  font-size: 14.5px;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Main | Hash Tag Tab Container
+/* ---------------------------------------------------------------- */
+
+.hash-tag-tab-label-container > main {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4em;
+
+}

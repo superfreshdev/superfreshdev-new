@@ -1,0 +1,89 @@
+/* ----------------------------------------------------------------------- */
+/* labels-in-text-up-down.css
+/*
+/* > styles custom label in text up down (only img arrow)
+/* ----------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* All | Label in Text Up Down
+/* ------------------------------------------------------- */
+
+.label-in-text-up-down-small,
+.label-in-text-up-down-medium,
+.label-in-text-up-down-big {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ececec;
+  color: #1e1e1e;
+
+  transition: all .4s;
+  cursor: pointer;
+  user-select: none;
+
+}
+
+/* ------------------------------------------------------- */
+/* Divs | Label Up Down
+/* ------------------------------------------------------- */
+
+.label-in-text-up-down-small > div,
+.label-in-text-up-down-medium > div,
+.label-in-text-up-down-big > div{
+
+  font-size: 14.5px;
+
+}
+
+/* hover */
+.label-in-text-up-down-small:hover,
+.label-in-text-up-down-medium:hover,
+.label-in-text-up-down-big:hover  {
+
+  /* background-color: #db7272; */
+  background-color: wheat;
+}
+
+
+/* ------------------------------------------------------- */
+/* Small
+/* ------------------------------------------------------- */
+
+.label-in-text-up-down-small {
+
+  height: 1.8em;
+  padding: 0 .6em;
+  border-radius: .3em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Medium
+/* ------------------------------------------------------- */
+
+.label-in-text-up-down-medium {
+
+  height: 2.5em;
+  width: 2.3em;
+
+  padding: 0 .6em;
+  border-radius: .6em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Big
+/* ------------------------------------------------------- */
+
+.label-in-text-up-down-big {
+
+  height: 3em;
+  width: 2.3em;
+
+  padding: 0 .6em;
+  border-radius: .6em;
+
+}

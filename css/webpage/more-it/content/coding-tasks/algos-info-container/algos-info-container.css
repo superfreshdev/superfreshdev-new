@@ -11,47 +11,9 @@
 
 #algos-info-container-coding-task {
 
-  padding-bottom: .8em;
+  /* padding-bottom: .8em; */
 
   /* background-color: red; */
-
-}
-
-/* 🛑 auslagern */
-/* ---------------------------------------------------------------- */
-/* Button In Text - small
-/* ---------------------------------------------------------------- */
-
-.button-in-text-small {
-
-  /* delete default html button styles */
-  background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-
-  /* new button style */
-  height: 1.8em;
-  padding: 0 .6em;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: .3em;
-
-  background-color: #ececec;
-
-  transition: all .4s;
-
-}
-
-.button-in-text-small:hover {
-
-  background-color: wheat;
 
 }
 
@@ -84,7 +46,7 @@
 
 .algos-info-content-container > header {
 
-  height: 3em;
+  padding-bottom: 1em;
 
   display: flex;
   flex-wrap: wrap;
@@ -99,12 +61,21 @@
 
 }
 
+/* div 1 > header */
+.algos-info-content-container > header > div:nth-of-type(1) > img {
+
+  opacity: .3;
+
+}
+
 /* div > header */
 .algos-info-content-container > header > div {
 
   display: flex;
   align-items: center;
   column-gap: .4em;
+
+  color: #808080;
 
 }
 
@@ -121,12 +92,14 @@
 
 .algos-info-content-container > main {
 
-  padding: .8em 0;
+  padding: 1em 0;
+  margin-bottom: 2em;
 
   display: grid;
   row-gap: .6em;
 
   border-top: 1px solid rgb(218, 218, 218);
+  border-bottom: 1px solid rgb(218, 218, 218);
 
 }
 
