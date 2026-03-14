@@ -62,7 +62,7 @@
   display: grid;
   row-gap: .3em;
 
-  color:grey;
+  color:rgb(135, 135, 135);
 
 }
 
@@ -95,6 +95,12 @@
 
 }
 
+.sub-info-header-content > div:nth-of-type(2) {
+
+  font-size: 14.5px;
+
+}
+
 /* ------------------------------------------------------- */
 /* Info Sticker | Title
 /* ------------------------------------------------------- */
@@ -112,12 +118,10 @@
 
   /* font-weight: bold; */
 
-  /* background-color: #6d6d6d; */
-  /* background-color: #a1a1a1; */
-  border: 1px solid grey;
+  background-color: rgb(56, 56, 56);
 
-  color:rgb(37, 37, 37);
-  color:grey;
+  /* border: 1px solid rgb(97, 97, 97); */
+  color:rgb(135, 135, 135);
 
 }
 

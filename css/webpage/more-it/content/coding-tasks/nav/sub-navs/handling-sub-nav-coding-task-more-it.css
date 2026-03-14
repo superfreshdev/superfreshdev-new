@@ -33,7 +33,7 @@ input[name="chk-algo-info-basic"] {
 #radio-sub-nav-coding-tasks-leetcode-medium:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-leetcode-medium"],
 #radio-sub-nav-coding-tasks-leetcode-hard:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-leetcode-hard"] {
 
-  color:rgb(46, 46, 46);
+  color: rgb(101, 101, 101);
   background-color: rgb(224, 224, 224);
 
 }
@@ -57,7 +57,7 @@ input[name="chk-algo-info-basic"] {
 #radio-sub-nav-coding-tasks-algos-math:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-algos-math"],
 #radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-algos-advanced"] {
 
-  color:rgb(46, 46, 46);
+  color: rgb(101, 101, 101);
   background-color: rgb(224, 224, 224);
 
 }
@@ -103,7 +103,7 @@ input[name="chk-algo-info-basic"] {
 #radio-sub-nav-coding-tasks-others-python:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-others-python"],
 #radio-sub-nav-coding-tasks-others-mixery:checked ~ .row-container:nth-of-type(3) label[for="radio-sub-nav-coding-tasks-others-mixery"] {
 
-  color:rgb(46, 46, 46);
+  color: rgb(101, 101, 101);
   background-color: rgb(224, 224, 224);
 
 }

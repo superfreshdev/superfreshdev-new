@@ -23,7 +23,7 @@
   /* new button style */
 
   height: 1.6em;
-  padding: 0 .3em;
+  padding: 0 .4em;
 
   display: flex;
   align-items: center;
@@ -31,8 +31,10 @@
 
   border-radius: .4em;
 
+  /* font-weight: bold; */
+
   border: 1px solid rgb(183, 183, 183);
-  color: rgb(156, 156, 156);
+  color:rgb(142, 142, 142);
 
   cursor: pointer;
   user-select: none;
@@ -49,7 +51,7 @@
 
 .hash-tag-tab-label-light-grey:hover {
 
-  color:rgb(46, 46, 46);
+  color:rgb(83, 83, 83);
   background-color: rgb(224, 224, 224);
 
 }
