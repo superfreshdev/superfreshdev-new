@@ -11,8 +11,9 @@
 
 .project-card-coding-task > main {
 
+  padding: .6em .3em;
+
   display: grid;
-  row-gap: .3em;
 
 }
 
@@ -23,8 +24,6 @@
 .category-info-coding-task {
 
   justify-self: flex-start;
-
-  height: 1.5em;
 
   display: flex;
   align-items: center;
@@ -51,9 +50,8 @@
 
 .project-card-coding-task > main > div:nth-of-type(2) {
 
-  padding: .1em 0;
   line-height: 1.5em;
-  color:#454545;
+  color:#767676;
 
 }
 
@@ -70,6 +68,8 @@
 
 .it-skill-container-coding-task {
 
+  padding: .6em 0;
+
   display: flex;
   flex-wrap: wrap;
   gap:.3em;
@@ -82,19 +82,18 @@
 
 .it-skill-container-coding-task > div {
 
-  height: 1.3em;
+  height: 1.5em;
   padding: 0 .4em;
 
   display: flex;
   align-items: center;
-  column-gap: .3em;
+  column-gap: .4em;
 
-  color:grey;
+  color:rgb(146, 146, 146);
 
   border-radius: .4em;
   border: 1px solid rgb(185, 185, 185);
 
-  opacity: .6;
 
 }
 
@@ -102,5 +101,8 @@
 .it-skill-container-coding-task > div > div {
 
   font-size: 12.5px;
+
+  /* pos layout fix */
+  /* padding-top: 1px; */
 
 }

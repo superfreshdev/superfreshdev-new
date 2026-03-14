@@ -64,8 +64,20 @@
 
 }
 
+
 /* ---------------------------------------------------------------- */
-/* All | Row Container (overwrite) | Coding Task Content Container
+/* Coding Task Content Container | More IT
+/* ---------------------------------------------------------------- */
+
+#coding-task-content-container-more-it {
+
+  width: 100%;
+  /* padding: 1.5em 0; */
+
+}
+
+/* ---------------------------------------------------------------- */
+/* All (odd) | Row Container (overwrite) | Coding Task Content Container
 /* ---------------------------------------------------------------- */
 
 /* white */
@@ -76,12 +88,19 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Coding Task Content Container | More IT
+/* All | Row Container (overwrite) | Coding Task Content Container
 /* ---------------------------------------------------------------- */
 
-#coding-task-content-container-more-it {
+/* transition */
+#coding-task-content-container-more-it > .row-container {
 
-  width: 100%;
-  /* padding: 1.5em 0; */
+  transition: all .4s;
+
+}
+
+#coding-task-content-container-more-it > .row-container:hover {
+
+  background-color: rgb(248, 237, 216);
+  background-color: rgb(232, 232, 232);
 
 }

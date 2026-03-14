@@ -22,11 +22,11 @@
 
   border-radius: .4em;
 
-  /* border: 1px solid rgb(185, 185, 185); */
   border: 1px solid rgb(195, 195, 195);
 
-  background-color: #e3e3e3;
-  color:rgb(91, 91, 91);
+  background-color: rgb(220, 220, 220);
+  color:rgb(93, 93, 93);
+
 
   opacity: .8;
 
@@ -69,7 +69,7 @@
 .link-light-grey-medium  > img,
 .link-light-grey-big  > img´{
 
-  opacity: .8;
+  opacity: .6;
 
 }
 
@@ -78,7 +78,7 @@
 .link-light-grey-medium:hover,
 .link-light-grey-big:hover {
 
-  opacity: 1;
+  /* opacity: 1; */
   background-color: rgb(251, 133, 133);
 
 }
@@ -88,7 +88,11 @@
 .link-light-grey-medium:visited,
 .link-light-grey-big:visited {
 
-  color:rgb(91, 91, 91);
+  border: 1px solid rgb(195, 195, 195);
+
+  background-color: rgb(220, 220, 220);
+  color:rgb(93, 93, 93);
+
 
 }
 

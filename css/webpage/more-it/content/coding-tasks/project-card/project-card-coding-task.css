@@ -15,6 +15,6 @@
   padding: 1.5em 0;
 
   display: grid;
-  row-gap: 1em;
+  /* row-gap: 1em; */
 
 }
