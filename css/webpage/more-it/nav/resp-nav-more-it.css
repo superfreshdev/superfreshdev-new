@@ -24,18 +24,25 @@
 
 @media (min-width: 650px) {
 
+
+  /* --------------------------------------------- */
+  /* Nav Container
+  /* --------------------------------------------- */
   #nav-container-more-it {
 
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+
 
   }
 
-   #nav-container-more-it > label {
+  /* --------------------------------------------- */
+  /* Label | Nav Container
+  /* --------------------------------------------- */
+  #nav-container-more-it > label {
 
-    width: 12em;
+    width: auto;
 
   }
 
@@ -48,10 +55,5 @@
 @media (min-width: 1000px) {
 
 
-   #nav-container-more-it > label {
-
-    width: auto;
-
-  }
 
 }

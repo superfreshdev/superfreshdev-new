@@ -27,6 +27,7 @@
 #about-contact-me-container .row-container:nth-of-type(1) {
 
   background-color: rgb(28, 28, 28);
+  background-color: white;
 
 }
 
@@ -117,7 +118,7 @@
 
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   background-image: linear-gradient(to right, #f5deb3 0%, #e5c78e 100%);
-  color: #1e1e1e;
+  color: #3b3b3b;
 
   text-decoration: none;
   transition: all .4s;

@@ -1,27 +1,26 @@
 /* --------------------------------------------------------------- */
 /* > coding-tasks-more-it.css
 /*
-/* : styles ...
+/* : styles coding task
 /* --------------------------------------------------------------- */
 
 
 /* ---------------------------------------------------------------- */
-/* Coding Task Container More IT
+/* Coding Task Container
 /* ---------------------------------------------------------------- */
 
 #coding-task-container-more-it {
 
   width: 100%;
-  /* padding: 2.5em 0; */
 
+  background-color: red;
+
+  /* default unshwon */
   display: none;
-
-  background-color: rgb(115, 119, 114);
 
 }
 
-/* default unshown | img header content container */
-
+/* default img "header-content-container" unshown */
 #coding-task-container-more-it > .row-container:nth-of-type(1) .header-content-container > img {
 
   display: none;
@@ -29,7 +28,7 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* 1 | Row Container (overwerite - blue )
+/* 1 | Row Container | header-content-container
 /* ---------------------------------------------------------------- */
 
 #coding-task-container-more-it > .row-container:nth-of-type(1) {
@@ -41,33 +40,31 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* 2 | Row Container (overwerite - dark )
+/* 2 | Row Container | Nav Container Tasc Container
 /* ---------------------------------------------------------------- */
 
 #coding-task-container-more-it > .row-container:nth-of-type(2) {
 
   /* background-color: rgb(28, 28, 28); */
   background-color: white;
+  /* background-color: blue; */
 
 }
 
 /* ---------------------------------------------------------------- */
-/* 3 | Row Container -> Nav | Hash Tag Tab Label Container
+/* 3 | Row Container | Hash Tag Tab Label Container
 /* ---------------------------------------------------------------- */
 
 #coding-task-container-more-it > .row-container:nth-of-type(3) .hash-tag-tab-label-container {
 
-  /* background-color: rgb(28, 28, 28); */
-  /* background-color: red; */
   padding-bottom: 1em;
-  /* background-color: red; */
 
+  /* background-color: rgb(28, 28, 28); */
 
 }
 
-
 /* ---------------------------------------------------------------- */
-/* Coding Task Content Container | More IT
+/* Coding Task Content Container
 /* ---------------------------------------------------------------- */
 
 #coding-task-content-container-more-it {
@@ -79,18 +76,7 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* All (odd) | Row Container (overwrite) | Coding Task Content Container
-/* ---------------------------------------------------------------- */
-
-/* white */
-#coding-task-content-container-more-it > .row-container:nth-child(odd) {
-
-  background-color: rgb(238, 238, 238);
-
-}
-
-/* ---------------------------------------------------------------- */
-/* All | Row Container (overwrite) | Coding Task Content Container
+/* All | Row Container | Coding Task Content Container
 /* ---------------------------------------------------------------- */
 
 /* transition */
@@ -100,9 +86,21 @@
 
 }
 
+/* hover */
 #coding-task-content-container-more-it > .row-container:hover {
 
   background-color: rgb(248, 237, 216);
   /* background-color: rgb(232, 232, 232); */
+
+}
+
+/* ---------------------------------------------------------------- */
+/* All (odd) | Row Container | from coding task content container
+/* ---------------------------------------------------------------- */
+
+/* background white */
+#coding-task-content-container-more-it > .row-container:nth-child(odd) {
+
+  background-color: rgb(238, 238, 238);
 
 }

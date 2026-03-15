@@ -1,0 +1,329 @@
+/* --------------------------------------------------------------- */
+/* > nav-labels-radio-on-white.css
+/*
+/* : styles nav label radio on white styles
+/* : for custom checked styltes create ur own css checked css file
+/* :
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* All | Nav Label Radios On Dark
+/* ---------------------------------------------------------------- */
+
+.nav-label-radio-on-white-small,
+.nav-label-radio-on-white-medium,
+.nav-label-radio-on-white-small {
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .4em;
+
+  border-radius: .6em;
+
+  /* font-weight: bold; */
+
+  border: 1px solid rgb(229, 229, 229);
+
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+  color: rgb(84, 84, 84);
+
+  transition: all .4s;
+  cursor: pointer;
+  user-select: none;
+
+}
+
+/* hover general */
+.nav-label-radio-on-white-small:hover,
+.nav-label-radio-on-white-medium:hover,
+.nav-label-radio-on-white-small:hover {
+
+  background-color: wheat;
+  color:black;
+
+  border: 1px solid rgb(173, 173, 173);
+
+}
+
+/* hover unshown grey img */
+.nav-label-radio-on-white-small:hover .title-info-nav-label-radio-on-white > img:nth-of-type(1),
+.nav-label-radio-on-white-medium:hover .title-info-nav-label-radio-on-white > img:nth-of-type(1),
+.nav-label-radio-on-white-small:hover .title-info-nav-label-radio-on-white > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* hover shown black img */
+.nav-label-radio-on-white-small:hover .title-info-nav-label-radio-on-white > img:nth-of-type(2),
+.nav-label-radio-on-white-medium:hover .title-info-nav-label-radio-on-white > img:nth-of-type(2),
+.nav-label-radio-on-white-small:hover .title-info-nav-label-radio-on-white > img:nth-of-type(2) {
+
+  display: flex;
+
+}
+
+
+/* hover > counter white box */
+.nav-label-radio-on-white-small:hover .white-counter-box,
+.nav-label-radio-on-white-medium:hover .white-counter-box,
+.nav-label-radio-on-white-small:hover .white-counter-box {
+
+  border: 1px solid rgb(72, 72, 72);
+  color:rgb(39, 39, 39);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Title | Nav Label Radios On Dark
+/* ---------------------------------------------------------------- */
+
+.title-info-nav-label-radio-on-white {
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+}
+
+/* title > img */
+.title-info-nav-label-radio-on-white > img:nth-of-type(1) {
+
+  opacity: .6;
+
+}
+
+/* title > div  */
+.title-info-nav-label-radio-on-white > div:nth-of-type(1) {
+
+  font-size: 14.5px;
+  font-weight: bold;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Img > Title | Nav Label Radios On Dark
+/* ---------------------------------------------------------------- */
+
+/* default unshown img black */
+.title-info-nav-label-radio-on-white > img:nth-of-type(2) {
+
+  display: none;
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Small | Nav Label Radios On Dark
+/* ---------------------------------------------------------------- */
+
+.nav-label-radio-on-white-small {
+
+  height: 2.3em;
+  padding: 0 .6em;
+
+  border-radius: .6em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Medium | Nav Label Radios On Dark
+/* ---------------------------------------------------------------- */
+
+.nav-label-radio-on-white-medium {
+
+  height: 2.5em;
+  padding: 0 .6em;
+
+  border-radius: .6em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Big | Nav Label Radios On Dark
+/* ---------------------------------------------------------------- */
+
+.nav-label-radio-on-white-big {
+
+  height: 2.8em;
+  padding: 0 .6em;
+
+}
+
+/*
+
+  .title-nav-label-radio-on-white
+
+    - img
+    - title
+
+  .selection-info-nav-label-radion-on-white
+
+    - counter (optional)
+    - img arrow down/up (mobile)
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------- */
+/* ❌❌❌ Trash
+/* ----------------------------------------------------------------------- */
+
+/* ---------------------------------------------------------------- */
+/* All | Nav Label Radios
+/* ---------------------------------------------------------------- */
+
+.nav-label-radio-small,
+.nav-label-radio-medium,
+.nav-label-radio-big {
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .4em;
+
+  /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
+  /* background-image: linear-gradient(to right, #f5deb3 0%, #e5c78e 100%); */
+
+  background-color: rgb(236, 236, 236);
+  /* border: 1px solid rgb(195, 195, 195); */
+
+  color: #1e1e1e;
+
+  transition: all .4s;
+  cursor: pointer;
+  user-select: none;
+
+}
+
+/* hover */
+.nav-label-radio-small:hover,
+.nav-label-radio-medium:hover,
+.nav-label-radio-big:hover {
+
+  /* background-image: linear-gradient(to right, #db7272, #da9292); */
+  /* background-color: #db7272;
+  background-color: wheat; */
+
+  background-image: linear-gradient(to right, #f5deb3 0%, #e5c78e 100%);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Small |
+/* ---------------------------------------------------------------- */
+
+.nav-label-radio-small {
+
+  height: 2.3em;
+  padding: 0 .6em;
+
+  border-radius: .6em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Medium |
+/* ---------------------------------------------------------------- */
+
+.nav-label-radio-medium {
+
+  height: 2.5em;
+  padding: 0 .6em;
+
+  border-radius: .6em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Big |
+/* ---------------------------------------------------------------- */
+
+.nav-label-radio-big {
+
+  height: 2.8em;
+  padding: 0 .6em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Title | Nav Label Radio
+/* ---------------------------------------------------------------- */
+
+.title-nav-label-radio {
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Img | Title | Nav Label Radio
+/* ---------------------------------------------------------------- */
+
+.title-nav-label-radio > img {
+
+  opacity: .6;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Div 1 | Text Title | Nav Label Radio
+/* ---------------------------------------------------------------- */
+
+.title-nav-label-radio > div:nth-of-type(1) {
+
+  font-size: 14.5px;
+  font-weight: bold;
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Counter Custom Radio | Nav Label Radio
+/* ---------------------------------------------------------------- */
+
+.counter-custom-radio-nav-label-radio {
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+}

@@ -1,0 +1,58 @@
+/* --------------------------------------------------------------- */
+/* > counter-boxes.css
+/*
+/* : styles counter boxes for dark, white
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* All | Counter Boxes | dark, white
+/* ---------------------------------------------------------------- */
+
+.dark-counter-box,
+.white-counter-box {
+
+  font-size: 12.5px;
+
+  /* width: 2.5em; */
+  height: 1.3em;
+  padding: 0 .3em;
+
+  /* layout optimal pos fix */
+  padding-top: .08em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* font-weight: bold; */
+
+  border-radius: .3em;
+  border: 1px solid transparent;
+  /* background-color: rgb(44, 44, 44); */
+
+  /* color: rgb(231, 231, 231); */
+
+
+  font-weight: bold;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Dark Counter Box
+/* ---------------------------------------------------------------- */
+
+.dark-counter-box {
+
+  color:rgb(138, 138, 138);
+
+}
+
+/* ---------------------------------------------------------------- */
+/* White Counter Box
+/* ---------------------------------------------------------------- */
+
+.white-counter-box {
+
+
+}

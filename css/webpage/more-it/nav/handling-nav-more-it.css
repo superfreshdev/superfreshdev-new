@@ -16,21 +16,45 @@ input[name="name-radio-nav-more-it"] {
 
 }
 
-/* set background red | ⚠️ dont understand why 2 because it should be 1 */
+/* set background wheat | ⚠️ dont understand why 2 because it should be 1 */
 #radio-nav-more-it-mini-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-projects"],
 #radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"],
 #radio-nav-more-it-coding-tasks:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-coding-tasks"],
 #radio-nav-more-it-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-it-docs"] {
 
-  background-image: linear-gradient(to right, #db7272, #da9292);
+  /* background-image: linear-gradient(to right, #db7272, #da9292); */
+  /* background-color: wheat; */
+  background-image: linear-gradient(to right, #f5deb3 0%, #e5c78e 100%);
+  color:black;
 
 }
 
-/* change img custom radio */
-#radio-nav-more-it-mini-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-projects"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
-#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
-#radio-nav-more-it-coding-tasks:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-coding-tasks"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
-#radio-nav-more-it-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-it-docs"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img {
+/* set color white | dark counter box */
+#radio-nav-more-it-mini-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-projects"] .dark-counter-box,
+#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"] .dark-counter-box,
+#radio-nav-more-it-coding-tasks:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-coding-tasks"] .dark-counter-box,
+#radio-nav-more-it-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-it-docs"] .dark-counter-box {
+
+  border: 1px solid rgb(72, 72, 72);
+  color:rgb(39, 39, 39);
+
+}
+
+/* unshown grey img */
+#radio-nav-more-it-mini-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-projects"] > .title-info-nav-label-radio-on-dark > img:nth-of-type(1),
+#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"] > .title-info-nav-label-radio-on-dark > img:nth-of-type(1),
+#radio-nav-more-it-coding-tasks:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-coding-tasks"] .title-info-nav-label-radio-on-dark > img:nth-of-type(1),
+#radio-nav-more-it-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-it-docs"] > .title-info-nav-label-radio-on-dark > img:nth-of-type(1) {
+
+   display: none;
+
+}
+
+/* show black img */
+#radio-nav-more-it-mini-projects:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-projects"] > .title-info-nav-label-radio-on-dark > img:nth-of-type(2),
+#radio-nav-more-it-mini-games:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-mini-games"] > .title-info-nav-label-radio-on-dark > img:nth-of-type(2),
+#radio-nav-more-it-coding-tasks:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-coding-tasks"] .title-info-nav-label-radio-on-dark > img:nth-of-type(2),
+#radio-nav-more-it-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-it-docs"] > .title-info-nav-label-radio-on-dark > img:nth-of-type(2) {
 
    display: flex;
 
