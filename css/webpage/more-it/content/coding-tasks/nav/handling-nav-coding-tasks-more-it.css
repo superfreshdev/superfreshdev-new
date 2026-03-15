@@ -19,20 +19,46 @@ input[name="name-radio-nav-coding-tasks"] {
 /* set background red | ⚠️ dont understand why 2 because it should be 1 */
 #radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-leetcode"],
 #radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-algos"],
-#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-others"] {
+#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-others"],
+#radio-nav-coding-tasks-unshown:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-unshown"] {
 
-  background-image: linear-gradient(to right, #db7272, #da9292);
+  /* background-image: linear-gradient(to right, #db7272, #da9292); */
+  background-image: linear-gradient(to right, #f5deb3 0%, #e5c78e 100%);
+  color:black;
+
+}
+
+/* set color white | white counter box */
+#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-leetcode"] .white-counter-box,
+#radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-algos"] .white-counter-box,
+#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-others"] .white-counter-box {
+
+  border: 1px solid rgb(72, 72, 72);
+  color:rgb(39, 39, 39);
 
 }
 
-/* change img custom radio */
-#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-leetcode"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
-#radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-algos"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img,
-#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-others"] > .counter-custom-radio-nav-label-radio .custom-radio-small > img {
+/* unshown grey img */
+#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-leetcode"] .title-info-nav-label-radio-on-white > img:nth-of-type(1),
+#radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-algos"] .title-info-nav-label-radio-on-white > img:nth-of-type(1),
+#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-others"] .title-info-nav-label-radio-on-white > img:nth-of-type(1),
+#radio-nav-coding-tasks-unshown:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-unshown"] .title-info-nav-label-radio-on-white > img:nth-of-type(1) {
 
-   display: flex;
+  display: none;
 
 }
+
+/* show black img */
+#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-leetcode"] .title-info-nav-label-radio-on-white > img:nth-of-type(2),
+#radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-algos"] .title-info-nav-label-radio-on-white > img:nth-of-type(2),
+#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-others"] .title-info-nav-label-radio-on-white > img:nth-of-type(2),
+#radio-nav-coding-tasks-unshown:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-unshown"] .title-info-nav-label-radio-on-white > img:nth-of-type(2) {
+
+  display: flex;
+
+}
+
+
 
 
 /* ---------------------------------------------------------------- */
