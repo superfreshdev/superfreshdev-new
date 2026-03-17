@@ -90,6 +90,35 @@
 
 @media (min-width: 480px) {
 
+
+  /* ---------------------------------------------------------------- */
+  /* Mini IT Projects | Nav Tab Container
+  /* ---------------------------------------------------------------- */
+
+  #mini-it-projects-content-container #nav-tab-mini-it-projects {
+
+    padding: .8em .8em 1.3em .8em;
+
+    /* background-color: red; */
+
+  }
+
+  /* ---------------------------------------------------------------- */
+  /* Mini Games | Nav Tab Container
+  /* ---------------------------------------------------------------- */
+
+  #mini-games-content-container #nav-tab-mini-games {
+
+    padding: .8em .8em 1.3em .8em;
+
+    /* background-color: red; */
+
+  }
+
+
+
+
+
   /* ---------------------------------------------------------------- */
   /* IT Docs | Nav & Sub Nav
   /* ---------------------------------------------------------------- */

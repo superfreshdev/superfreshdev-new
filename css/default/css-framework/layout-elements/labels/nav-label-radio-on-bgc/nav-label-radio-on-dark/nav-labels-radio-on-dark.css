@@ -26,9 +26,9 @@
 
   border: 1px solid rgb(72, 72, 72);
 
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
 
-  color: rgb(84, 84, 84);
+  color: rgb(86, 86, 86);
 
   transition: all .4s;
   cursor: pointer;
@@ -70,7 +70,7 @@
 .nav-label-radio-on-dark-medium:hover .dark-counter-box,
 .nav-label-radio-on-dark-small:hover .dark-counter-box {
 
-  border: 1px solid rgb(72, 72, 72);
+  border: 2px solid rgb(84, 84, 84);
   color:rgb(39, 39, 39);
 
 }

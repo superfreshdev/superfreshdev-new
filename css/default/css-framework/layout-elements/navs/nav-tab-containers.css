@@ -1,15 +1,15 @@
 /* --------------------------------------------------------------- */
-/* > hash-tag-tab-label-container.css
+/* > nav-tab-containers.css
 /*
 /* : styles hash tag tab container
 /* --------------------------------------------------------------- */
 
 
 /* ---------------------------------------------------------------- */
-/* Hash Tag Tab Label Container
+/* Nav Tab Container | Small
 /* ---------------------------------------------------------------- */
 
-.hash-tag-tab-label-container {
+.nav-tab-container-small {
 
   display: grid;
   row-gap: .4em;
@@ -17,10 +17,10 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Header | Hash Tag Tab Container
+/* Header | Nav Tab Container
 /* ---------------------------------------------------------------- */
 
-.hash-tag-tab-label-container > header {
+.nav-tab-container-small > header {
 
   font-weight: bold;
 
@@ -29,17 +29,19 @@
 }
 
 /* div > header */
-.hash-tag-tab-label-container > header > div {
+.nav-tab-container-small > header > div {
 
   font-size: 14.5px;
 
 }
 
 /* ---------------------------------------------------------------- */
-/* Main | Hash Tag Tab Container
+/* Main | Nav Tab Container
 /* ---------------------------------------------------------------- */
 
-.hash-tag-tab-label-container > main {
+.nav-tab-container-small > main {
+
+  padding: 0 .2em;
 
   display: flex;
   flex-wrap: wrap;

@@ -1,0 +1,40 @@
+/* --------------------------------------------------------------- */
+/* > handling-nav-mini-it-projects.css
+/*
+/* : styles ...
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Handlings Styles
+/* ---------------------------------------------------------------- */
+
+/* default unshown */
+input[name="name-radio-nav-mini-it-projects"] {
+
+  display: none;
+
+}
+
+/* set background grey | ⚠️ dont understand why 2 because it should be 1 */
+#radio-sub-nav-mini-it-projects-all:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-all"],
+#radio-sub-nav-mini-it-projects-insurance:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-insurance"],
+#radio-sub-nav-mini-it-projects-bank:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-bank"],
+#radio-sub-nav-mini-it-projects-online-shop:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-online-shop"],
+#radio-sub-nav-mini-it-projects-productivity:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-productivity"],
+#radio-sub-nav-mini-it-projects-business-feature:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-business-feature"],
+#radio-sub-nav-mini-it-projects-social-media:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-social-media"],
+#radio-sub-nav-mini-it-projects-entertainment:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-entertainment"],
+#radio-sub-nav-mini-it-projects-unshown:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-unshown"] {
+
+  color: rgb(101, 101, 101);
+  background-color: rgb(224, 224, 224);
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Action Handlings
+/* ---------------------------------------------------------------- */
+
+/* show content */

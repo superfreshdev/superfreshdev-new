@@ -1,0 +1,80 @@
+/* --------------------------------------------------------------- */
+/* > tab-labels.css
+/*
+/* : styles tab labels for e.g nav tab containers
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Tab Label | Small
+/* ---------------------------------------------------------------- */
+
+.tab-label-small {
+
+  height: 1.6em;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .4em;
+
+  /* font-weight: bold; */
+  /* font-style: italic; */
+
+  border: 1px solid rgb(183, 183, 183);
+  color:rgb(142, 142, 142);
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: all .4s;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Div 1 | Tab Label
+/* ---------------------------------------------------------------- */
+
+.tab-label-small > div:nth-of-type(1) {
+
+  font-size: 14.5px;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Div 2 | Tab Label
+/* ---------------------------------------------------------------- */
+
+.tab-label-small > div:nth-of-type(2) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .2em;
+
+  font-size: 12.5px;
+  font-weight: bold;
+}
+
+.tab-label-small:hover {
+
+  color:rgb(83, 83, 83);
+  background-color: rgb(224, 224, 224);
+
+}
+
+/* seperator | div 2 > div 1 */
+.tab-label-small > div:nth-of-type(2) > div:nth-of-type(1) {
+
+  /* layout pos fix */
+  padding-bottom: 2px;
+
+}
+
+/* nr | div 2 > div 2 */
+.tab-label-small > div:nth-of-type(2) > div:nth-of-type(2) {
+
+  /* layout pos fix */
+  padding-top: .6px;
+}

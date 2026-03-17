@@ -24,9 +24,9 @@
 
   /* font-weight: bold; */
 
-  border: 1px solid rgb(229, 229, 229);
+  border: 1px solid rgb(192, 192, 192);
 
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
 
   color: rgb(84, 84, 84);
 
@@ -43,8 +43,6 @@
 
   background-color: wheat;
   color:black;
-
-  border: 1px solid rgb(173, 173, 173);
 
 }
 
@@ -72,7 +70,7 @@
 .nav-label-radio-on-white-medium:hover .white-counter-box,
 .nav-label-radio-on-white-small:hover .white-counter-box {
 
-  border: 1px solid rgb(72, 72, 72);
+  border: 2px solid rgb(84, 84, 84);
   color:rgb(39, 39, 39);
 
 }

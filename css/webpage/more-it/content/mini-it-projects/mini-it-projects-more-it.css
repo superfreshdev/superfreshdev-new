@@ -39,6 +39,18 @@
 }
 
 /* ---------------------------------------------------------------- */
+/* Nav Tab Container | Mini IT  Projects
+/* ---------------------------------------------------------------- */
+
+#mini-it-projects-content-container #nav-tab-mini-it-projects {
+
+  padding: .8em 0 1.3em 0;
+
+  /* background-color: red; */
+
+}
+
+/* ---------------------------------------------------------------- */
 /* Row Container | overwrite light grey by every odd
 /* ---------------------------------------------------------------- */
 

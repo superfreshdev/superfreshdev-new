@@ -33,7 +33,7 @@ input[name="name-radio-nav-it-docs"] {
 #radio-nav-it-docs-backend:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-it-docs-backend"] .white-counter-box,
 #radio-nav-it-docs-ai:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-it-docs-ai"] .white-counter-box {
 
-  border: 1px solid rgb(72, 72, 72);
+  border: 2px solid rgb(84, 84, 84);
   color:rgb(39, 39, 39);
 
 }

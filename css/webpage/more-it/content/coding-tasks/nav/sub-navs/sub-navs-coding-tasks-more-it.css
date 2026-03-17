@@ -9,9 +9,9 @@
 /* Sub Tab Nav | LeetCode, Algos, Others
 /* ---------------------------------------------------------------- */
 
-#sub-nav-tab-coding-task-leetcode,
-#sub-nav-tab-coding-task-algos,
-#sub-nav-tab-coding-task-others {
+#nav-tab-coding-task-leetcode,
+#nav-tab-coding-task-algos,
+#nav-tab-coding-task-others {
 
   /* default unshown */
   display: none;

@@ -33,7 +33,7 @@ input[name="name-radio-nav-coding-tasks"] {
 #radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-algos"] .white-counter-box,
 #radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-others"] .white-counter-box {
 
-  border: 1px solid rgb(72, 72, 72);
+  border: 2px solid rgb(84, 84, 84);
   color:rgb(39, 39, 39);
 
 }
@@ -66,9 +66,9 @@ input[name="name-radio-nav-coding-tasks"] {
 /* ---------------------------------------------------------------- */
 
 /* show sub navs ( for leetcode, algos, others ) */
-#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(3) #sub-nav-tab-coding-task-leetcode,
-#radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(3) #sub-nav-tab-coding-task-algos,
-#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(3) #sub-nav-tab-coding-task-others {
+#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(3) #nav-tab-coding-task-leetcode,
+#radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(3) #nav-tab-coding-task-algos,
+#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(3) #nav-tab-coding-task-others {
 
   display: grid;
 

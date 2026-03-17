@@ -35,7 +35,7 @@ input[name="name-radio-nav-more-it"] {
 #radio-nav-more-it-coding-tasks:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-coding-tasks"] .dark-counter-box,
 #radio-nav-more-it-it-docs:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-more-it-it-docs"] .dark-counter-box {
 
-  border: 1px solid rgb(72, 72, 72);
+  border: 2px solid rgb(84, 84, 84);
   color:rgb(39, 39, 39);
 
 }

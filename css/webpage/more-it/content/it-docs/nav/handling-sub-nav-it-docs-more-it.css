@@ -36,7 +36,7 @@ input[name="name-radio-sub-nav-it-docs"] {
 #radio-sub-nav-it-docs-web-basic:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-web-basic"] .white-counter-box,
 #radio-sub-nav-it-docs-web-dev:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-web-dev"] .white-counter-box {
 
-  border: 1px solid rgb(72, 72, 72);
+  border: 2px solid rgb(84, 84, 84);
   color:rgb(39, 39, 39);
 
 }
@@ -81,7 +81,7 @@ input[name="name-radio-sub-nav-it-docs"] {
 #radio-sub-nav-it-docs-it-architecture:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-it-architecture"] .white-counter-box,
 #radio-sub-nav-it-docs-backend-tools:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-it-docs-backend-tools"] .white-counter-box {
 
-  border: 1px solid rgb(72, 72, 72);
+  border: 2px solid rgb(84, 84, 84);
   color:rgb(39, 39, 39);
 
 }

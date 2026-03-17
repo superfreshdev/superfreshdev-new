@@ -1,0 +1,35 @@
+/* --------------------------------------------------------------- */
+/* > handling-nav-mini-games.css
+/*
+/* : styles ...
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Handlings Styles
+/* ---------------------------------------------------------------- */
+
+/* default unshown */
+input[name="name-radio-nav-mini-games"] {
+
+  display: none;
+
+}
+
+/* set background grey | ⚠️ dont understand why 2 because it should be 1 */
+#radio-sub-nav-mini-games-board-games:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-games-board-games"],
+#radio-sub-nav-mini-games-learning:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-games-learning"],
+#radio-sub-nav-mini-games-adventure:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-games-adventure"],
+#radio-sub-nav-mini-games-unshown:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-games-unshown"] {
+
+  color: rgb(101, 101, 101);
+  background-color: rgb(224, 224, 224);
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Action Handlings
+/* ---------------------------------------------------------------- */
+
+/* show content */
