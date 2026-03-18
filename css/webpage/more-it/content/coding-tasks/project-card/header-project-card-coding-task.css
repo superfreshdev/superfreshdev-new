@@ -24,37 +24,34 @@
 
 .info-sticker-coding-task {
 
-  height: 1.5em;
+  height: 1.4em;
   padding: 0 .4em;
 
   display: flex;
   align-items: center;
   justify-content: center;
+  column-gap: .15em;
 
   border-radius: .4em;
-  /* font-weight: bold; */
-  letter-spacing: 1px;
 
-  /* font-weight: bold; */
+  border: 1px solid rgb(73, 73, 73);
+  background-color: rgb(73, 73, 73);
 
-  /* 🟩 new */
-  border: 1px solid rgb(193, 193, 193);
-
-  /* background-color: rgb(245, 245, 245); */
-  color:rgb(180, 180, 180);
-  color: #4d4d44;
-
-  color:rgb(174, 174, 174);
+  color:rgb(222, 222, 222);
 
 }
 
 .info-sticker-coding-task > div {
 
-  font-size: 14.5px;
+  font-size: 12.5px;
   /* pos layout fix */
   padding-top: 1px;
 
+  font-weight: bold;
+
 }
+
+
 
 /* ---------------------------------------------------------------- */
 /* Addon Info Header Coding Task | Header
@@ -76,7 +73,7 @@
 .level-info-coding-task-medium,
 .level-info-coding-task-hard {
 
-  height: 1.5em;
+  height: 1.4em;
   padding: 0 .6em;
 
   display: flex;
@@ -93,7 +90,7 @@
 .level-info-coding-task-medium > div,
 .level-info-coding-task-hard > div {
 
-  font-size: 14.5px;
+  font-size: 12.5px;
 
 }
 
@@ -124,6 +121,6 @@
   border: 1px solid rgb(229, 49, 49);
 
   background-color: rgb(251, 133, 133);
-  color:rgb(206, 59, 59);
+  color:rgb(169, 31, 31);
 
 }

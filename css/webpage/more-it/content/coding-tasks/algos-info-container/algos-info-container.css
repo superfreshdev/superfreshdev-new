@@ -99,10 +99,9 @@
   margin-bottom: 1.5em;
 
   display: grid;
-  row-gap: .6em;
+  row-gap: 1em;
 
   border-radius: .6em;
-
 
   background-color: rgb(248, 248, 248);
 
@@ -112,6 +111,7 @@
 /* All Mains | Basic, Math, Advanced (unshown)
 /* ---------------------------------------------------------------- */
 
+/* default set */
 #basic-algo-info-container > main,
 #math-algo-info-container > main,
 #advanced-algo-info-container > main {
@@ -121,35 +121,48 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Divs | Main
+/* Algo Info Item
 /* ---------------------------------------------------------------- */
 
-.algos-info-content-container > main > div {
+/* default set */
+.algo-info-item {
 
-  font-size: 14.5px;
-
-  line-height: 1.8em;
-
-  color:rgb(120, 120, 120);
+  line-height: 1.4em;
+  /* background-color: red; */
 
 }
 
 /* ---------------------------------------------------------------- */
-/* Span 1 | Divs | Main
+/* Category Algo Info Container
 /* ---------------------------------------------------------------- */
 
-.algos-info-content-container > main > div > span:nth-of-type(1) {
+.category-algo-info-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: .3em;
+  row-gap: .2em;
 
   font-weight: bold;
 
 }
 
+.category-algo-info-container > div {
+
+  font-size: 14.5px;
+
+  color:rgb(91, 91, 91);
+
+}
+
 /* ---------------------------------------------------------------- */
-/* Span 2 | Divs | Main
+/* Info Algo Info Container
 /* ---------------------------------------------------------------- */
 
-.algos-info-content-container > main > div > span:nth-of-type(2) {
+.info-algo-container {
 
-  color:rgb(165, 165, 165);
+  font-size: 14.5px;
+  color:rgb(159, 159, 159);
 
 }

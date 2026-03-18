@@ -52,6 +52,9 @@
   font-size: 14.5px;
   line-height: 1.4em;
 
+  /* layout pos fix */
+  padding-top: 1px;
+
 }
 
 /* ---------------------------------------------------------------- */
@@ -101,7 +104,11 @@
   align-items: center;
   column-gap: .4em;
 
+  font-weight: bold;
+
   color:rgb(146, 146, 146);
+
+  opacity: .8;
 
   border-radius: .4em;
   border: 1px solid rgb(185, 185, 185);

@@ -91,7 +91,7 @@
 /* hover */
 #coding-task-content-container-more-it > .row-container:hover {
 
-  background-color: rgb(248, 237, 216);
+  background-color: rgb(240, 240, 240);
   /* background-color: rgb(232, 232, 232); */
 
 }
@@ -101,9 +101,17 @@
 /* ---------------------------------------------------------------- */
 
 /* background white */
-#coding-task-content-container-more-it > .row-container:nth-child(odd) {
+#coding-task-content-container-more-it > .row-container {
 
-  background-color: rgb(238, 238, 238);
+  border-top: 1px solid rgb(224, 224, 224);
+
+}
+
+#coding-task-content-container-more-it > .row-container:last-child {
+
+  /* border-bottom: 1px solid rgb(224, 224, 224); */
+
+  /* background-color: red !important; */
 
 }
 

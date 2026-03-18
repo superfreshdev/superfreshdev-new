@@ -22,13 +22,12 @@
 
   border-radius: .4em;
 
+  background-color: rgb(247, 247, 247);
+
   border: 1px solid rgb(195, 195, 195);
 
   /* background-color: rgb(220, 220, 220); */
-  color:rgb(93, 93, 93);
-
-
-  opacity: .8;
+  color:rgb(128, 128, 128);
 
   text-decoration: none;
   transition: all .4s;
@@ -81,6 +80,8 @@
   /* opacity: 1; */
   background-color: rgb(251, 133, 133);
 
+  background-color: wheat;
+
 }
 
 /* visited */
@@ -88,11 +89,7 @@
 .link-light-grey-medium:visited,
 .link-light-grey-big:visited {
 
-  border: 1px solid rgb(195, 195, 195);
-
-  background-color: rgb(220, 220, 220);
-  color:rgb(93, 93, 93);
-
+  color:rgb(128, 128, 128);
 
 }
 
