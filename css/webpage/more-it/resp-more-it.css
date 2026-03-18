@@ -7,11 +7,40 @@
 
 
 /* ------------------------------------------------------- */
-/* Min Width >= 355px
+/* Min Width >= 350px
 /* ------------------------------------------------------- */
 
-@media (min-width: 355px) {
+@media (min-width: 350px) {
 
+  /* ---------------------------------------------------------------- */
+  /* Only Mini IT Projects & Games | nav tab container small
+  /* ---------------------------------------------------------------- */
+
+  #mini-it-projects-content-container .nav-tab-container-small,
+  #mini-games-content-container .nav-tab-container-small {
+
+    justify-items: center;
+
+  }
+
+  #coding-task-container-more-it .nav-tab-container-small {
+
+    /* justify-items: center; */
+
+  }
+
+  #mini-it-projects-content-container .nav-tab-container-small > main,
+  #mini-games-content-container .nav-tab-container-small > main {
+
+    justify-content: center;
+
+  }
+
+  #coding-task-container-more-it .nav-tab-container-small > main {
+
+    /* justify-content: center; */
+
+  }
 
 
 }
@@ -41,23 +70,7 @@
 
 @media (min-width: 420px) {
 
-  /* ---------------------------------------------------------------- */
-  /* Only Mini IT Projects & Games | nav tab container small
-  /* ---------------------------------------------------------------- */
 
-  #mini-it-projects-content-container .nav-tab-container-small,
-  #mini-games-content-container .nav-tab-container-small {
-
-    justify-items: center;
-
-  }
-
-  #mini-it-projects-content-container .nav-tab-container-small > main,
-  #mini-games-content-container .nav-tab-container-small > main {
-
-    justify-content: center;
-
-  }
 
   /* -------------------------------------------------- */
   /* Mini IT Project Card | Link Container
@@ -109,16 +122,27 @@
 
 
   /* ---------------------------------------------------------------- */
-  /* More It Container (General) | unshown overview container
+  /* Mini IT Projects & Mini Games | unshown overview container
   /* ---------------------------------------------------------------- */
 
-  #more-it-container .unshown-overview-container > img:nth-of-type(1) {
+  #mini-it-projects-content-container .unshown-overview-container > img:nth-of-type(1),
+  #mini-games-content-container .unshown-overview-container > img:nth-of-type(1) {
 
     height: 8em;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
 
   }
 
+  /* ---------------------------------------------------------------- */
+  /* Coding Task | unshown overview container
+  /* ---------------------------------------------------------------- */
+
+  #coding-task-container-more-it .unshown-overview-container > img:nth-of-type(1) {
+
+    height: 8em;
+    padding-bottom: 8em;
+
+  }
 
   /* ---------------------------------------------------------------- */
   /* Mini IT Projects | Nav Tab Container
@@ -131,6 +155,8 @@
     /* background-color: red; */
 
   }
+
+
 
   /* ---------------------------------------------------------------- */
   /* Mini Games | Nav Tab Container
@@ -237,13 +263,33 @@
 @media (min-width: 750px) {
 
   /* ---------------------------------------------------------------- */
-  /* More It Container (General) | unshown overview container
+  /* Mini IT Projects & Mini Games | unshown overview container
   /* ---------------------------------------------------------------- */
 
-  #more-it-container .unshown-overview-container > img:nth-of-type(1) {
+  #mini-it-projects-content-container .unshown-overview-container > img:nth-of-type(1) {
 
     height: 10em;
+
+  }
+
+  /* ---------------------------------------------------------------- */
+  /* Mini Games | unshown overview container
+  /* ---------------------------------------------------------------- */
+
+  #mini-games-content-container .unshown-overview-container > img:nth-of-type(1) {
+
+    height: 8em;
     padding-bottom: 4em;
+
+  }
+
+  /* ---------------------------------------------------------------- */
+  /* Coding Task | unshown overview container
+  /* ---------------------------------------------------------------- */
+
+  #coding-task-container-more-it .unshown-overview-container > img:nth-of-type(1) {
+
+    height: 9em;
 
   }
 

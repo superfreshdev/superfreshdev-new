@@ -13,7 +13,7 @@
 
   box-sizing: border-box;
 
-  padding: .8em;
+  padding: 1.5em .8em;
   height: 100%;
 
   display: flex;
@@ -29,10 +29,6 @@
 /* ---------------------------------------------------------------- */
 
 .unshown-overview-container > img:nth-of-type(1) {
-
-  /* desktop */
-  /* padding-bottom: 11em; */
-  height: 12em;
 
   /* mobile */
   height: 6em;
