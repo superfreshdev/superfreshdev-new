@@ -33,7 +33,7 @@ input[name="name-radio-nav-it-docs"] {
 #radio-nav-it-docs-backend:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-it-docs-backend"] .white-counter-box,
 #radio-nav-it-docs-ai:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-it-docs-ai"] .white-counter-box {
 
-  border: 2px solid rgb(84, 84, 84);
+  border: 1px solid rgb(84, 84, 84);
   color:rgb(39, 39, 39);
 
 }
@@ -67,5 +67,45 @@ input[name="name-radio-nav-it-docs"] {
 #radio-nav-it-docs-backend:checked  ~ .row-container:nth-of-type(2) #backend-sub-nav-it-docs {
 
   display: flex;
+
+}
+
+/* ----------------------------------- */
+/* Unshown Checked
+/* ----------------------------------- */
+
+/* show > unshown overview container  */
+#radio-nav-it-docs-unshown:checked ~ .row-container:nth-of-type(3) #unshown-overview-container-it-docs {
+
+  display: grid;
+
+}
+
+/* unshown it docs content container */
+#radio-nav-it-docs-unshown:checked ~ #it-docs-content-container {
+
+  display: none;
+
+}
+
+/* ----------------------------------- */
+/* Others Checked
+/* ----------------------------------- */
+
+/* unshown > unshown overview container */
+#radio-nav-it-docs-frontend:checked  ~ .row-container:nth-of-type(3) #unshown-overview-container-it-docs,
+#radio-nav-it-docs-backend:checked  ~ .row-container:nth-of-type(3) #unshown-overview-container-it-docs,
+#radio-nav-it-docs-ai:checked  ~ .row-container:nth-of-type(3) #unshown-overview-container-it-docs {
+
+  display: none;
+
+}
+
+/* show it docs content container */
+#radio-nav-it-docs-frontend:checked ~ #it-docs-content-container,
+#radio-nav-it-docs-backend:checked ~ #it-docs-content-container,
+#radio-nav-it-docs-ai:checked ~ #it-docs-content-container {
+
+  display: grid;
 
 }

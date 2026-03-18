@@ -70,7 +70,7 @@
 .nav-label-radio-on-white-medium:hover .white-counter-box,
 .nav-label-radio-on-white-small:hover .white-counter-box {
 
-  border: 2px solid rgb(84, 84, 84);
+  border: 1px solid rgb(84, 84, 84);
   color:rgb(39, 39, 39);
 
 }
@@ -150,20 +150,6 @@
   padding: 0 .6em;
 
 }
-
-/*
-
-  .title-nav-label-radio-on-white
-
-    - img
-    - title
-
-  .selection-info-nav-label-radion-on-white
-
-    - counter (optional)
-    - img arrow down/up (mobile)
-
-*/
 
 
 

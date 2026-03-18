@@ -70,7 +70,7 @@
 .nav-label-radio-on-dark-medium:hover .dark-counter-box,
 .nav-label-radio-on-dark-small:hover .dark-counter-box {
 
-  border: 2px solid rgb(84, 84, 84);
+  border: 1px solid rgb(84, 84, 84);
   color:rgb(39, 39, 39);
 
 }

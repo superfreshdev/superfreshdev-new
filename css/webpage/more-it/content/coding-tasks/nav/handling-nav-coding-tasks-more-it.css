@@ -33,7 +33,7 @@ input[name="name-radio-nav-coding-tasks"] {
 #radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-algos"] .white-counter-box,
 #radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(2) label[for="radio-nav-coding-tasks-others"] .white-counter-box {
 
-  border: 2px solid rgb(84, 84, 84);
+  border: 1px solid rgb(84, 84, 84);
   color:rgb(39, 39, 39);
 
 }

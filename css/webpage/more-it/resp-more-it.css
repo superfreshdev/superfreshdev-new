@@ -145,6 +145,19 @@
   }
 
   /* ---------------------------------------------------------------- */
+  /* It Docs | unshown overview container
+  /* ---------------------------------------------------------------- */
+
+  #it-docs-container-more-it .unshown-overview-container > img:nth-of-type(1) {
+
+    height: 8em;
+    padding-bottom: 8em;
+
+  }
+
+
+
+  /* ---------------------------------------------------------------- */
   /* Mini IT Projects | Nav Tab Container
   /* ---------------------------------------------------------------- */
 
@@ -288,6 +301,16 @@
   /* ---------------------------------------------------------------- */
 
   #coding-task-container-more-it .unshown-overview-container > img:nth-of-type(1) {
+
+    height: 9em;
+
+  }
+
+  /* ---------------------------------------------------------------- */
+  /* It Docs | unshown overview container
+  /* ---------------------------------------------------------------- */
+
+  #it-docs-container-more-it .unshown-overview-container > img:nth-of-type(1) {
 
     height: 9em;
 

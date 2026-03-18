@@ -62,29 +62,28 @@ input[name="chk-algo-info-basic"] {
 
 }
 
-
 /* style > algos info conatiner */
-#chk-algo-info-basic:checked ~ .row-container:nth-of-type(4) label[for="chk-algo-info-basic"],
-#chk-algo-info-math:checked ~ .row-container:nth-of-type(4) label[for="chk-algo-info-basic"],
-#chk-algo-info-advanced:checked ~ .row-container:nth-of-type(4) label[for="chk-algo-info-basic"] {
+#chk-algo-info-basic:checked ~ .row-container:nth-of-type(5) label[for="chk-algo-info-basic"],
+#chk-algo-info-math:checked ~ .row-container:nth-of-type(5) label[for="chk-algo-info-basic"],
+#chk-algo-info-advanced:checked ~ .row-container:nth-of-type(5) label[for="chk-algo-info-basic"] {
 
   background-image: linear-gradient(to right, #db7272, #da9292);
 
 }
 
 /* rotate img arrow > algos info conatiner */
-#chk-algo-info-basic:checked ~ .row-container:nth-of-type(4) label[for="chk-algo-info-basic"] > img,
-#chk-algo-info-math:checked ~ .row-container:nth-of-type(4) label[for="chk-algo-info-math"] > img,
-#chk-algo-info-advanced:checked ~ .row-container:nth-of-type(4) label[for="chk-algo-info-advanced"] > img  {
+#chk-algo-info-basic:checked ~ .row-container:nth-of-type(5) label[for="chk-algo-info-basic"] > img,
+#chk-algo-info-math:checked ~ .row-container:nth-of-type(5) label[for="chk-algo-info-math"] > img,
+#chk-algo-info-advanced:checked ~ .row-container:nth-of-type(5) label[for="chk-algo-info-advanced"] > img  {
 
   transform: rotate(180deg);
 
 }
 
 /* open/close > algos info conatiner */
-#chk-algo-info-basic:checked ~ .row-container:nth-of-type(4) #basic-algo-info-container > main,
-#chk-algo-info-math:checked ~ .row-container:nth-of-type(4) #math-algo-info-container  > main,
-#chk-algo-info-advanced:checked ~ .row-container:nth-of-type(4) #advanced-algo-info-container  > main {
+#chk-algo-info-basic:checked ~ .row-container:nth-of-type(5) #basic-algo-info-container > main,
+#chk-algo-info-math:checked ~ .row-container:nth-of-type(5) #math-algo-info-container  > main,
+#chk-algo-info-advanced:checked ~ .row-container:nth-of-type(5) #advanced-algo-info-container  > main {
 
   display: grid;
 
@@ -113,6 +112,7 @@ input[name="chk-algo-info-basic"] {
 /* Handling Action
 /* ---------------------------------------------------------------- */
 
+
 /* show sub navs ( for leetcode, algos, others ) */
 #radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(2) #sub-nav-leetcode-coding-task,
 #radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(2) #sub-nav-algos-coding-task,
@@ -122,27 +122,38 @@ input[name="chk-algo-info-basic"] {
 
 }
 
-
 /* show algo info container (basic, math, advanced) */
-#radio-sub-nav-coding-tasks-algos-basic:checked ~ .row-container:nth-of-type(4) #basic-algo-info-container,
-#radio-sub-nav-coding-tasks-algos-math:checked ~ .row-container:nth-of-type(4) #math-algo-info-container,
-#radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(4) #advanced-algo-info-container {
+#radio-sub-nav-coding-tasks-algos-basic:checked ~ .row-container:nth-of-type(5) #basic-algo-info-container,
+#radio-sub-nav-coding-tasks-algos-math:checked ~ .row-container:nth-of-type(5) #math-algo-info-container,
+#radio-sub-nav-coding-tasks-algos-advanced:checked ~ .row-container:nth-of-type(5) #advanced-algo-info-container {
 
   display: grid;
 
 }
 
 
+/* ------------------------------------------- */
+/* Special Cases
+/* checked by leetcode, others, unshown
+/* then unshown algo info
+/* ------------------------------------------- */
 
-/* special case 1: by leetcode unshown sub navs algo  */
-#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(4) #algos-info-container-coding-task {
+/* checked leetcode -> unshown algo info  */
+#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(5) #algos-info-container-coding-task {
 
   display: none;
 
 }
 
-/* special case 2: by others unshown sub navs algo  */
-#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(4) #algos-info-container-coding-task {
+/* checked others -> unshown algo info  */
+#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(5) #algos-info-container-coding-task {
+
+  display: none;
+
+}
+
+/* checked unshown -> unshown algo info  */
+#radio-nav-coding-tasks-unshown:checked ~ .row-container:nth-of-type(5) #algos-info-container-coding-task {
 
   display: none;
 
