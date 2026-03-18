@@ -37,4 +37,52 @@ input[name="name-radio-nav-mini-it-projects"] {
 /* Action Handlings
 /* ---------------------------------------------------------------- */
 
-/* show content */
+/* ----------------------------------- */
+/* Unshown Checked
+/* ----------------------------------- */
+
+/* show > unshown overview container  */
+#radio-sub-nav-mini-it-projects-unshown:checked ~ .row-container:nth-of-type(3) #unshown-overview-container-mini-it-projects {
+
+  display: grid;
+
+}
+
+/* unshown mini it project content list */
+#radio-sub-nav-mini-it-projects-unshown:checked ~ #mini-it-projects-content-list {
+
+  display: none;
+
+}
+
+/* ----------------------------------- */
+/* Others Checked
+/* ----------------------------------- */
+
+/* unshown > unshown overview container */
+#radio-sub-nav-mini-it-projects-all:checked ~ .row-container:nth-of-type(3) #unshown-overview-container-mini-it-projects,
+#radio-sub-nav-mini-it-projects-insurance:checked ~ .row-container:nth-of-type(3) #unshown-overview-container-mini-it-projects,
+#radio-sub-nav-mini-it-projects-bank:checked ~ .row-container:nth-of-type(3) #unshown-overview-container-mini-it-projects,
+#radio-sub-nav-mini-it-projects-online-shop:checked ~ .row-container:nth-of-type(3) #unshown-overview-container-mini-it-projects,
+#radio-sub-nav-mini-it-projects-productivity:checked ~ .row-container:nth-of-type(3) #unshown-overview-container-mini-it-projects,
+#radio-sub-nav-mini-it-projects-business-feature:checked ~ .row-container:nth-of-type(3) #unshown-overview-container-mini-it-projects,
+#radio-sub-nav-mini-it-projects-social-media:checked ~ .row-container:nth-of-type(3) #unshown-overview-container-mini-it-projects,
+#radio-sub-nav-mini-it-projects-entertainment:checked ~ .row-container:nth-of-type(3) #unshown-overview-container-mini-it-projects {
+
+  display: none;
+
+}
+
+/* show mini it project content list*/
+#radio-sub-nav-mini-it-projects-all:checked ~ #mini-it-projects-content-list,
+#radio-sub-nav-mini-it-projects-insurance:checked ~ #mini-it-projects-content-list,
+#radio-sub-nav-mini-it-projects-bank:checked ~ #mini-it-projects-content-list,
+#radio-sub-nav-mini-it-projects-online-shop:checked ~ #mini-it-projects-content-list,
+#radio-sub-nav-mini-it-projects-productivity:checked ~ #mini-it-projects-content-list,
+#radio-sub-nav-mini-it-projects-business-feature:checked ~ #mini-it-projects-content-list,
+#radio-sub-nav-mini-it-projects-social-media:checked ~ #mini-it-projects-content-list,
+#radio-sub-nav-mini-it-projects-entertainment:checked ~ #mini-it-projects-content-list {
+
+  display: grid;
+
+}

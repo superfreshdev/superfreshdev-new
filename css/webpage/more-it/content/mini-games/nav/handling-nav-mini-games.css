@@ -32,4 +32,42 @@ input[name="name-radio-nav-mini-games"] {
 /* Action Handlings
 /* ---------------------------------------------------------------- */
 
-/* show content */
+/* ----------------------------------- */
+/* Unshown Checked
+/* ----------------------------------- */
+
+/* show > unshown overview container  */
+#radio-sub-nav-mini-games-unshown:checked ~ .row-container:nth-of-type(3) #unshown-overview-container-mini-games {
+
+  display: grid;
+
+}
+
+/* unshown mini it project content list */
+#radio-sub-nav-mini-games-unshown:checked ~ #mini-games-content-list {
+
+  display: none;
+
+}
+
+/* ----------------------------------- */
+/* Others Checked
+/* ----------------------------------- */
+
+/* unshown > unshown overview container */
+#radio-sub-nav-mini-games-board-games:checked ~ .row-container:nth-of-type(3) #unshown-overview-container-mini-games,
+#radio-sub-nav-mini-games-learning:checked ~ .row-container:nth-of-type(3) #unshown-overview-container-mini-it-games,
+#radio-sub-nav-mini-games-adventure:checked ~ .row-container:nth-of-type(3) #unshown-overview-container-mini-it-games {
+
+  display: none;
+
+}
+
+/* show mini games content list*/
+#radio-sub-nav-mini-games-board-games:checked ~ #mini-games-content-list,
+#radio-sub-nav-mini-games-learning:checked ~ #mini-games-content-list,
+#radio-sub-nav-mini-games-adventure:checked ~ #mini-games-content-list {
+
+  display: grid;
+
+}

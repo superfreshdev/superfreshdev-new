@@ -41,6 +41,23 @@
 
 @media (min-width: 420px) {
 
+  /* ---------------------------------------------------------------- */
+  /* Only Mini IT Projects & Games | nav tab container small
+  /* ---------------------------------------------------------------- */
+
+  #mini-it-projects-content-container .nav-tab-container-small,
+  #mini-games-content-container .nav-tab-container-small {
+
+    justify-items: center;
+
+  }
+
+  #mini-it-projects-content-container .nav-tab-container-small > main,
+  #mini-games-content-container .nav-tab-container-small > main {
+
+    justify-content: center;
+
+  }
 
   /* -------------------------------------------------- */
   /* Mini IT Project Card | Link Container
@@ -89,6 +106,18 @@
 /* ------------------------------------------------------- */
 
 @media (min-width: 480px) {
+
+
+  /* ---------------------------------------------------------------- */
+  /* More It Container (General) | unshown overview container
+  /* ---------------------------------------------------------------- */
+
+  #more-it-container .unshown-overview-container > img:nth-of-type(1) {
+
+    height: 8em;
+    padding-bottom: 2em;
+
+  }
 
 
   /* ---------------------------------------------------------------- */
@@ -207,6 +236,16 @@
 
 @media (min-width: 750px) {
 
+  /* ---------------------------------------------------------------- */
+  /* More It Container (General) | unshown overview container
+  /* ---------------------------------------------------------------- */
+
+  #more-it-container .unshown-overview-container > img:nth-of-type(1) {
+
+    height: 10em;
+    padding-bottom: 4em;
+
+  }
 
   /* -------------------------------------------------- */
   /* Mini Games |Two Col Layout

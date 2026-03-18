@@ -12,6 +12,11 @@
 #mini-games-content-container {
 
   width: 100%;
+  height: 100%;
+
+  display: grid;
+  /* align-content: flex-start; */
+  grid: auto auto 1fr / 1fr;
 
   display: none;
 
@@ -89,5 +94,28 @@
   row-gap: 2em;
 
   /* background-color: red; */
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Unshown Overview Container
+/* ---------------------------------------------------------------- */
+
+#unshown-overview-container-mini-games {
+
+  /* default unshown, change by nav checked */
+  display: none;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Mini IT Projects Content List
+/* ---------------------------------------------------------------- */
+
+#mini-games-content-list {
+
+  /* default unshown, change by nav checked */
+  display: none;
 
 }

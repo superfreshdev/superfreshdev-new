@@ -73,3 +73,44 @@ input[name="name-radio-nav-coding-tasks"] {
   display: grid;
 
 }
+
+
+/* ----------------------------------- */
+/* Unshown Checked
+/* ----------------------------------- */
+
+/* show > unshown overview container  */
+#radio-nav-coding-tasks-unshown:checked ~ .row-container:nth-of-type(4) #unshown-overview-container-coding-tasks {
+
+  display: grid;
+
+}
+
+/* unshown coding tasks content list */
+#radio-nav-coding-tasks-unshown:checked:checked ~ #coding-task-content-container-more-it {
+
+  display: none;
+
+}
+
+/* ----------------------------------- */
+/* Others Checked
+/* ----------------------------------- */
+
+/* unshown > unshown overview container */
+#radio-nav-coding-tasks-leetcode:checked ~ .row-container:nth-of-type(4) #unshown-overview-container-coding-tasks,
+#radio-nav-coding-tasks-algos:checked ~ .row-container:nth-of-type(4) #unshown-overview-container-coding-tasks,
+#radio-nav-coding-tasks-others:checked ~ .row-container:nth-of-type(4) #unshown-overview-container-coding-tasks {
+
+  display: none;
+
+}
+
+/* show coding tasks content list*/
+#radio-nav-coding-tasks-leetcode:checked ~ #coding-task-content-container-more-it,
+#radio-nav-coding-tasks-algos:checked ~ #coding-task-content-container-more-it,
+#radio-nav-coding-tasks-others:checked ~ #coding-task-content-container-more-it {
+
+  display: grid;
+
+}

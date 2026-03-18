@@ -12,6 +12,7 @@
 .nav-tab-container-small {
 
   display: grid;
+  /* justify-items: center; */
   row-gap: .4em;
 
 }
@@ -44,6 +45,7 @@
   padding: 0 .2em;
 
   display: flex;
+  /* justify-content: center; */
   flex-wrap: wrap;
   gap: .4em;
 
