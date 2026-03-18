@@ -11,7 +11,7 @@
 
 .project-card-coding-task > main {
 
-  padding: .6em .3em;
+  padding: .8em .3em;
 
   display: grid;
 
@@ -26,8 +26,10 @@
   justify-self: flex-start;
 
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  column-gap: .4em;
+  row-gap: .3em;
 
   font-weight: bold;
 
@@ -35,30 +37,40 @@
 
 }
 
-/* div */
-.category-info-coding-task > div {
+/* div 1 | img container */
+.category-info-coding-task > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+}
+
+/* div 2 | title container */
+.category-info-coding-task > div:nth-of-type(2) {
 
   font-size: 14.5px;
+  line-height: 1.4em;
 
 }
 
 /* ---------------------------------------------------------------- */
-/* [2/3] | Div 2 | Title | Main | Project Card
+/* [2/3] | Info Coding Task
 /* ---------------------------------------------------------------- */
 
-/* Div 2 | Project Title | Main */
+.info-coding-task {
 
-.project-card-coding-task > main > div:nth-of-type(2) {
+  padding: .6em 0em;
 
-  line-height: 1.5em;
   color:#767676;
 
 }
 
-/* div text */
-.project-card-coding-task > main > div:nth-of-type(2) > div {
+/* div 1 */
+.info-coding-task > div:nth-of-type(1) {
 
   font-size: 14.5px;
+  line-height: 1.5em;
 
 }
 
@@ -68,7 +80,7 @@
 
 .it-skill-container-coding-task {
 
-  padding: .6em 0;
+  /* padding: .6em 0; */
 
   display: flex;
   flex-wrap: wrap;
@@ -93,7 +105,6 @@
 
   border-radius: .4em;
   border: 1px solid rgb(185, 185, 185);
-
 
 }
 
