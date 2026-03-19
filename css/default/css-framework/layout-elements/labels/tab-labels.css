@@ -5,64 +5,6 @@
 /* --------------------------------------------------------------- */
 
 
-.tab-label-proto {
-
-  height: 1.6em;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  border-radius: .4em;
-
-  /* font-weight: bold; */
-  /* font-style: italic; */
-
-  border: 1px solid rgb(183, 183, 183);
-  color:rgb(142, 142, 142);
-
-  cursor: pointer;
-  user-select: none;
-
-  transition: all .4s;
-
-}
-
-/* div 1 */
-.tab-label-proto > div:nth-of-type(1) {
-
-  padding: 0 .6em;
-  font-size: 14.5px;
-
-}
-
-/* div 2 */
-.tab-label-proto > div:nth-of-type(2) {
-
-  padding: 0 .4em;
-  /* height: 100%; */
-
-  box-sizing: border-box;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-weight: bold;
-
-  border-radius: 0 .4em .4em 0;
-
-  background-color: rgb(183, 183, 183);
-  color:rgb(92, 92, 92);
-
-}
-
-.tab-label-proto > div:nth-of-type(2) > div {
-
-  font-size: 12.5px;
-
-}
-
 /* ---------------------------------------------------------------- */
 /* Tab Label | Small
 /* ---------------------------------------------------------------- */
@@ -70,11 +12,10 @@
 .tab-label-small {
 
   height: 1.6em;
-  padding: 0 .4em;
 
   display: flex;
   align-items: center;
-  column-gap: .3em;
+  justify-content: center;
 
   border-radius: .4em;
 
@@ -95,9 +36,9 @@
 /* Div 1 | Tab Label
 /* ---------------------------------------------------------------- */
 
-.tab-label-small > div:nth-of-type(1),
-.tab-label-proto > div:nth-of-type(1) {
+.tab-label-small > div:nth-of-type(1) {
 
+  padding: 0 .6em;
   font-size: 14.5px;
 
 }
@@ -108,12 +49,32 @@
 
 .tab-label-small > div:nth-of-type(2) {
 
+  padding: 0 .4em;
+  height: 100%;
+
+  box-sizing: border-box;
+
   display: flex;
   align-items: center;
-  column-gap: .2em;
+  justify-content: center;
+
+  font-weight: bold;
+
+  border-radius: 0 .4em .4em 0;
+
+  background-color: rgb(183, 183, 183);
+  background-color: rgb(186, 186, 186);
+  color:rgb(82, 82, 82);
+
+}
+
+.tab-label-small > div:nth-of-type(2) > div {
 
   font-size: 12.5px;
-  font-weight: bold;
+
+  /* layout pos fix */
+  padding-top: 1px;
+
 }
 
 .tab-label-small:hover {

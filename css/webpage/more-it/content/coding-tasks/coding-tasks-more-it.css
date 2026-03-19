@@ -15,8 +15,8 @@
   height: 100%;
 
   display: grid;
-  align-items: flex-start;
-  grid: auto auto auto auto auto 1fr / 1fr;
+  /* align-items: flex-start; */
+  grid: auto auto auto 1fr / 1fr;
 
   /* default unshwon */
   display: none;
@@ -61,7 +61,6 @@
 #coding-task-container-more-it > .row-container:nth-of-type(3) .nav-tab-container-small {
 
   padding-bottom: 1em;
-  /* background-color: rgb(28, 28, 28); */
 
 }
 
@@ -90,6 +89,15 @@
 
 /* hover */
 #coding-task-content-container-more-it > .row-container:hover {
+
+  /* background-color: rgb(240, 240, 240); */
+  /* background-color: rgb(232, 232, 232); */
+
+  /* background-color: rgb(227, 227, 227) !important; */
+
+}
+
+#coding-task-content-container-more-it > .row-container:nth-child(odd) {
 
   background-color: rgb(240, 240, 240);
   /* background-color: rgb(232, 232, 232); */
@@ -121,10 +129,13 @@
 
 #unshown-overview-container-coding-tasks {
 
+  padding-bottom: 2em;
   /* default unshown, change by nav checked */
   display: none;
 
+
 }
+
 
 /* ---------------------------------------------------------------- */
 /* Mini IT Projects Content List
