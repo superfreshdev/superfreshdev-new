@@ -5,6 +5,64 @@
 /* --------------------------------------------------------------- */
 
 
+.tab-label-proto {
+
+  height: 1.6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: .4em;
+
+  /* font-weight: bold; */
+  /* font-style: italic; */
+
+  border: 1px solid rgb(183, 183, 183);
+  color:rgb(142, 142, 142);
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: all .4s;
+
+}
+
+/* div 1 */
+.tab-label-proto > div:nth-of-type(1) {
+
+  padding: 0 .6em;
+  font-size: 14.5px;
+
+}
+
+/* div 2 */
+.tab-label-proto > div:nth-of-type(2) {
+
+  padding: 0 .4em;
+  height: 100%;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+  border-radius: 0 .4em .4em 0;
+
+  background-color: rgb(183, 183, 183);
+  color:rgb(92, 92, 92);
+
+}
+
+.tab-label-proto > div:nth-of-type(2) > div {
+
+  font-size: 12.5px;
+
+}
+
 /* ---------------------------------------------------------------- */
 /* Tab Label | Small
 /* ---------------------------------------------------------------- */
@@ -37,7 +95,8 @@
 /* Div 1 | Tab Label
 /* ---------------------------------------------------------------- */
 
-.tab-label-small > div:nth-of-type(1) {
+.tab-label-small > div:nth-of-type(1),
+.tab-label-proto > div:nth-of-type(1) {
 
   font-size: 14.5px;
 
