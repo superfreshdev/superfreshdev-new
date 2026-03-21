@@ -27,8 +27,23 @@ input[name="name-radio-nav-mini-it-projects"] {
 #radio-sub-nav-mini-it-projects-entertainment:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-entertainment"],
 #radio-sub-nav-mini-it-projects-unshown:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-unshown"] {
 
-  color: rgb(101, 101, 101);
-  background-color: rgb(224, 224, 224);
+  color: rgb(27, 27, 27);
+  background-color: wheat;
+
+}
+
+/* set background nr tab */
+#radio-sub-nav-mini-it-projects-all:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-all"] > div:nth-of-type(2),
+#radio-sub-nav-mini-it-projects-insurance:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-insurance"] > div:nth-of-type(2),
+#radio-sub-nav-mini-it-projects-bank:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-bank"] > div:nth-of-type(2),
+#radio-sub-nav-mini-it-projects-online-shop:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-online-shop"] > div:nth-of-type(2),
+#radio-sub-nav-mini-it-projects-productivity:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-productivity"] > div:nth-of-type(2),
+#radio-sub-nav-mini-it-projects-business-feature:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-business-feature"] > div:nth-of-type(2),
+#radio-sub-nav-mini-it-projects-social-media:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-social-media"] > div:nth-of-type(2),
+#radio-sub-nav-mini-it-projects-entertainment:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-entertainment"] > div:nth-of-type(2),
+#radio-sub-nav-mini-it-projects-unshown:checked ~ .row-container:nth-of-type(2) label[for="radio-sub-nav-mini-it-projects-unshown"] > div:nth-of-type(2) {
+
+  background-color: white;
 
 }
 
