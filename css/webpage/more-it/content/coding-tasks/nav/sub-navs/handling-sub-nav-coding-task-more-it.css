@@ -187,6 +187,7 @@ input[name="chk-algo-info-basic"] {
 /* checked unshown -> unshown algo info  */
 #radio-nav-coding-tasks-unshown:checked ~ .row-container:nth-of-type(5) #algos-info-container-coding-task {
 
+
   display: none;
 
 }

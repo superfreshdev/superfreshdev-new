@@ -32,13 +32,8 @@
 
   border-radius: .4em;
 
-  /* border: 1px solid rgb(185, 185, 185); */
-  border: 1px solid rgb(195, 195, 195);
-
-  background-color: #e3e3e3;
+  border: 1px solid rgb(67, 67, 67);
   color:rgb(91, 91, 91);
-
-  opacity: .8;
 
   text-decoration: none;
   transition: all .4s;
@@ -75,11 +70,21 @@
 /* Img (opacity) | Link Light Grey
 /* ------------------------------------------------------- */
 
-.button-light-grey-small > img,
-.button-light-grey-medium  > img,
-.button-light-grey-big  > img´{
+/* img grey 1 */
+.button-light-grey-small > img:nth-of-type(1),
+.button-light-grey-medium  > img:nth-of-type(1),
+.button-light-grey-big  > img:nth-of-type(1) {
 
   opacity: .8;
+
+}
+
+/* default unshown img black */
+.button-light-grey-small > img:nth-of-type(2),
+.button-light-grey-medium  > img:nth-of-type(2),
+.button-light-grey-big  > img:nth-of-type(2) {
+
+  display: none;
 
 }
 
@@ -88,19 +93,31 @@
 .button-light-grey-medium:hover,
 .button-light-grey-big:hover {
 
-  opacity: 1;
+  border: 1px solid rgb(155, 155, 155);
   background-color: rgb(251, 133, 133);
+  /* background-color: wheat; */
+  color:rgb(19, 19, 19);
 
 }
 
-/* visited */
-.button-light-grey-small:visited,
-.button-light-grey-medium:visited,
-.button-light-grey-big:visited {
+/* hover > unshown img grey */
+.button-light-grey-small:hover > img:nth-of-type(1),
+.button-light-grey-medium:hover > img:nth-of-type(1),
+.button-light-grey-big:hover > img:nth-of-type(1) {
 
-  color:rgb(91, 91, 91);
+  display: none;
 
 }
+
+/* hover > show img black */
+.button-light-grey-small:hover > img:nth-of-type(2),
+.button-light-grey-medium:hover > img:nth-of-type(2),
+.button-light-grey-big:hover > img:nth-of-type(2) {
+
+  display: flex;
+
+}
+
 
 /* ------------------------------------------------------- */
 /* Small
@@ -108,7 +125,7 @@
 
 .button-light-grey-small {
 
-  height: 1.6em;
+  height: 1.8em;
   padding: 0 .6em;
 
 }

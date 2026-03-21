@@ -54,6 +54,15 @@
 
 }
 
+#coding-task-container-more-it > .row-container:nth-of-type(2) .resp-row-content-container-small {
+
+  justify-self: flex-end;
+  /* background-color: rgb(28, 28, 28); */
+  /* background-color: blue; */
+
+}
+
+
 /* ---------------------------------------------------------------- */
 /* 3 | Row Container | Nav Tab Container Small
 /* ---------------------------------------------------------------- */
@@ -61,6 +70,27 @@
 #coding-task-container-more-it > .row-container:nth-of-type(3) .nav-tab-container-small {
 
   padding-bottom: 1em;
+
+}
+
+/* Categories Nav */
+#coding-task-container-more-it > .row-container:nth-of-type(3) .resp-row-content-container-small {
+
+  justify-self: flex-start;
+  /* background-color: rgb(28, 28, 28); */
+  /* background-color: blue; */
+
+}
+
+/* ---------------------------------------------------------------- */
+/* 4 | Row Container | Algo Info Container
+/* ---------------------------------------------------------------- */
+
+#coding-task-container-more-it > .row-container:nth-of-type(5) .resp-row-content-container-small {
+
+  /* justify-self: flex-start; */
+  /* background-color: rgb(28, 28, 28); */
+  /* background-color: blue; */
 
 }
 

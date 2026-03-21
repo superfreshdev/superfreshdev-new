@@ -22,14 +22,8 @@
 
   border-radius: .4em;
 
-  background-color: rgb(247, 247, 247);
-
-  border: 1px solid rgb(195, 195, 195);
-
-  /* background-color: rgb(220, 220, 220); */
-  color:rgb(128, 128, 128);
-
-
+  border: 1px solid rgb(67, 67, 67);
+  color:rgb(91, 91, 91);
 
   text-decoration: none;
   transition: all .4s;
@@ -66,11 +60,12 @@
 /* Img (opacity) | Link Light Grey
 /* ------------------------------------------------------- */
 
-.link-light-grey-small > img,
-.link-light-grey-medium  > img,
-.link-light-grey-big  > img´{
+/* default unshown black img */
+.link-light-grey-small > img:nth-of-type(2),
+.link-light-grey-medium > img:nth-of-type(2),
+.link-light-grey-big  > img:nth-of-type(2){
 
-  opacity: .6;
+  display: none;
 
 }
 
@@ -79,21 +74,32 @@
 .link-light-grey-medium:hover,
 .link-light-grey-big:hover {
 
-  /* opacity: 1; */
+  border: 1px solid rgb(155, 155, 155);
   background-color: rgb(251, 133, 133);
 
-  background-color: wheat;
+  /* because we dont like to use link visited color */
+  color:rgb(19, 19, 19);
 
 }
 
-/* visited */
-.link-light-grey-small:visited,
-.link-light-grey-medium:visited,
-.link-light-grey-big:visited {
+/* hover > unshown grey img */
+.link-light-grey-small:hover > img:nth-of-type(1),
+.link-light-grey-medium:hover > img:nth-of-type(1),
+.link-light-grey-big:hover  > img:nth-of-type(1){
 
-  color:rgb(128, 128, 128);
+  display: none;
 
 }
+
+/* hover > unshown black img */
+.link-light-grey-small:hover > img:nth-of-type(2),
+.link-light-grey-medium:hover > img:nth-of-type(2),
+.link-light-grey-big:hover  > img:nth-of-type(2){
+
+  display: flex;
+
+}
+
 
 /* ------------------------------------------------------- */
 /* Small
