@@ -1,4 +1,5 @@
 /* --------------------------------------------------------------- */
+/* 🟣 css-framework
 /* > tab-labels.css
 /*
 /* : styles tab labels for e.g nav tab containers
@@ -19,10 +20,10 @@
 
   border-radius: .4em;
 
-  /* font-weight: bold; */
+  font-weight: bold;
   /* font-style: italic; */
 
-  border: 1px solid rgb(183, 183, 183);
+  border: 3px solid rgb(183, 183, 183);
   color:rgb(142, 142, 142);
 
   cursor: pointer;
@@ -33,7 +34,7 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Div 1 | Tab Label
+/* Div 1 (Title) | Tab Label
 /* ---------------------------------------------------------------- */
 
 .tab-label-small > div:nth-of-type(1) {
@@ -44,7 +45,7 @@
 }
 
 /* ---------------------------------------------------------------- */
-/* Div 2 | Tab Label
+/* Div 2 (Nr) | Tab Label
 /* ---------------------------------------------------------------- */
 
 .tab-label-small > div:nth-of-type(2) {
@@ -63,8 +64,7 @@
   border-radius: 0 .4em .4em 0;
 
   background-color: rgb(183, 183, 183);
-  background-color: rgb(186, 186, 186);
-  color:rgb(82, 82, 82);
+  color:rgb(46, 46, 46);
 
 }
 
