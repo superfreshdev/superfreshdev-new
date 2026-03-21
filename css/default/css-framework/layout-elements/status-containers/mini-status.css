@@ -26,6 +26,8 @@
 
   border-radius: .4em;
 
+  border-radius: 1em;
+
 }
 
 /* div 1 */
@@ -58,7 +60,7 @@
 
   border: 1px solid rgb(123, 123, 123);
 
-  background-color: rgb(175, 175, 175);
+  background-color: rgb(208, 208, 208);
   color:rgb(47, 47, 47);
 
 }
