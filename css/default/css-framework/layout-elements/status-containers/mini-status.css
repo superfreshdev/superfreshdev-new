@@ -13,7 +13,7 @@
 .mini-status-later,
 .mini-status-finished {
 
-  height: 1.4em;
+  height: 1.5em;
   min-width: 3em;
   padding: 0 .4em;
 
@@ -26,7 +26,7 @@
 
   border-radius: .4em;
 
-  border-radius: 1em;
+  /* border-radius: 1em; */
 
 }
 
@@ -49,6 +49,7 @@
 
   background-color: rgb(251, 133, 133);
   color:rgb(169, 31, 31);
+  color:black;
 
 }
 
@@ -62,6 +63,7 @@
 
   background-color: rgb(208, 208, 208);
   color:rgb(106, 106, 106);
+  color:black;
 
 }
 
@@ -81,5 +83,6 @@
 
   background-color: rgb(153, 251, 153);
   color:rgb(12, 167, 12);
+  color:black;
 
 }

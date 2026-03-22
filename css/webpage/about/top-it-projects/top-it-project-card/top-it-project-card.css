@@ -16,31 +16,29 @@
 
   width:100%;
   box-sizing: border-box;
-  /* padding: .8em; */
 
   display: grid;
 
-  /* mobile */
-  border-radius: .8em .8em .6em .6em;
 
   border: 4px solid transparent;
 
+  /* mobile */
+  border-radius: 1em 1em;
 
   transition: all .4s;
 
 }
 
+/* ---------------------------------------- */
+/* Hovers
+/* ---------------------------------------- */
+
 /* hover */
 .top-it-project-card:hover {
-
-  background-color: rgb(212, 212, 212);
-  background-color: rgb(210, 210, 210);
 
   background-color: white;
 
   border: 4px solid rgba(28, 28, 28, .3);
-
-
 
 }
 
@@ -62,8 +60,28 @@
 /* hover -> nr */
 .top-it-project-card:hover > .img-container-top-it-project-card > .nr-top-it-project-card {
 
-  background-color: rgb(28, 28, 28);
-  color:rgb(255, 255, 255);
+  /* background-color: rgb(28, 28, 28);
+  color:rgb(255, 255, 255); */
+
+  background-color: rgb(188, 188, 188);
+  color:black;
+
+}
+
+/* hover -> if status exist */
+.top-it-project-card:hover .mini-status-to-do,
+.top-it-project-card:hover .mini-status-finished,
+.top-it-project-card:hover .mini-status-later {
+
+  opacity: 1;
+
+}
+
+/* hover -> overwrite links & buttons */
+.top-it-project-card:hover > .nav-top-it-project-card a,
+.top-it-project-card:hover > .nav-top-it-project-card button {
+
+  border: 1px solid rgb(167, 167, 167);
 
 }
 
@@ -78,11 +96,11 @@
   display: grid;
   justify-items: center;
 
-  /* border: 1px solid rgb(176, 176, 176); */
-  /* border: 4px solid #c0c0c0; */
-  /* border: 4px solid rgb(28, 28, 28); */
+  border-radius: 1.3em;
 
-  border-radius: .8em;
+  /* background-color: red;
+  background-color: green;
+  background-color: rgb(75, 75, 75); */
 
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
@@ -97,9 +115,9 @@
   width: 100%;
   opacity: .4;
 
-  border-radius: .8em;
+  border-radius: 1.3em 1.3em 1.3em 1.3em;
 
-  border: 3px solid transparent;
+  border-bottom: 3px solid transparent;
 
   transition: all .4s;
 
@@ -121,12 +139,11 @@
   align-items: center;
   justify-content: center;
 
-  border-radius: 0 .4em 0 .5em;
+  border-radius: 0 .7em 0 .5em;
 
   font-weight: bold;
 
   background-color: rgb(28, 28, 28);
-
   color:rgb(132, 132, 132);
 
 }
@@ -138,25 +155,71 @@
 .title-container-top-it-project-card {
 
   font-size: 16px;
-  padding: 1.3em 1em;
+  padding: 1.3em .8em 1.3em .8em;
 
   /* line-height: 1.6em; */
 
   display: grid;
   justify-items: flex-start;
-  row-gap: .4em;
-
-  color:#616161;
+  /* row-gap: .4em; */
 
 }
 
-/* if status exist */
+/* ------------------------------------------ */
+/* If Status Exist */
+/* ------------------------------------------ */
+
 .title-container-top-it-project-card > .mini-status-to-do,
 .title-container-top-it-project-card > .mini-status-finished,
 .title-container-top-it-project-card > .mini-status-later {
 
-  margin-bottom: .6em;
+  margin-bottom: .8em;
+  opacity: .6;
 
+  justify-self: flex-end;
+
+}
+
+/* ------------------------------------------ */
+/* Header Category Top IT Project */
+/* ------------------------------------------ */
+
+.header-category-top-it-project {
+
+  display: flex;
+  align-items: center;
+  column-gap: .6em;
+
+}
+
+/* div 1 */
+.header-category-top-it-project > div:nth-of-type(1) {
+
+  /* layout pos fix */
+  /* padding-top: 1px; */
+  font-weight: bold;
+  line-height: 1.4em;
+
+  color:#4d4d4d;
+
+}
+
+/* ------------------------------------------ */
+/* Title |  */
+/* ------------------------------------------ */
+
+.title-top-it-project-card {
+
+  padding: .8em .3em 0 .3em;
+
+}
+
+/* div 1 */
+.title-top-it-project-card > div:nth-of-type(1) {
+
+  color:rgb(65, 65, 65);
+
+  line-height: 1.6em;
 }
 
 /* ---------------------------------------------------------------- */
@@ -171,13 +234,28 @@
   align-items: center;
   justify-content: space-between;
 
+  opacity: .8;
+
 }
 
 /* ---------------------------------------------------------------- */
-/* Div 1 | Nav
+/* Info Zip Gihub Container
 /* ---------------------------------------------------------------- */
 
-.nav-top-it-project-card > div:nth-of-type(1) {
+.info-zip-github-container-top-it-project-card {
+
+  padding-left: .6em;
+
+  color:rgb(94, 94, 94);
+  font-size: 12.5px;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Zip GitHub Container | Top IT Project Card
+/* ---------------------------------------------------------------- */
+
+.zip-github-container-top-it-project-card {
 
   display: flex;
   align-items: center;
