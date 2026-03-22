@@ -34,3 +34,51 @@
   width: 100%;
 
 }
+
+/* ---------------------------------------------------------------- */
+/* Clipart Info | Nav Details About Quick Info
+/* ---------------------------------------------------------------- */
+
+#clipart-info-nav-details-about-quick-info {
+
+  padding: 1em 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  column-gap: 1.3em;
+
+  border-top: 1px solid rgb(211, 211, 211);
+
+  background-color: white;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Img | Clipart Info
+/* ---------------------------------------------------------------- */
+
+#clipart-info-nav-details-about-quick-info > img {
+
+  height: 4em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Div 1 | Clipart Info
+/* ---------------------------------------------------------------- */
+
+#clipart-info-nav-details-about-quick-info > div:nth-of-type(1) {
+
+  width: 8em;
+
+  text-align: center;
+
+  font-weight: bold;
+
+  line-height: 1.4em;
+
+  color:rgb(52, 52, 52);
+
+}
