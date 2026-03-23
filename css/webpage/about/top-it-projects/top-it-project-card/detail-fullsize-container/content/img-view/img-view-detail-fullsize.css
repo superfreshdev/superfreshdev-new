@@ -1,0 +1,81 @@
+/* --------------------------------------------------------------- */
+/* > img-view-detail-fullsize.css
+/*
+/* : style detail img view detail fullsize
+/* --------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* Img View Gallery Tiles Container
+/* ------------------------------------------------------- */
+
+.img-view-container-detail-fullsize {
+
+  /* mobile */
+  display: grid;
+  justify-content: center;
+
+  row-gap: 1.3em;
+  column-gap: 1.3em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Divs > Imgs
+/* ------------------------------------------------------- */
+
+.img-view-container-detail-fullsize > div {
+
+  position: relative;
+
+  width: 100%;
+  display: grid;
+  justify-items: center;
+
+}
+
+/* ------------------------------------------------------- */
+/* Imgs | Img View Gallery Tiles Container
+/* ------------------------------------------------------- */
+
+.img-view-container-detail-fullsize > div > img {
+
+  width: 100%;
+
+  border-radius: .8em;
+  border: 3px solid black;
+
+}
+
+/* ------------------------------------------------------- */
+/* Nrs > Divs
+/* ------------------------------------------------------- */
+
+.nr-img-view-details-fullsize {
+
+  position: absolute;
+  right:0;
+
+  min-width: 2.5em;
+  height: 2.3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+  letter-spacing: 1px;
+
+  border-radius: 0 .8em 0 1em;
+
+  background-color: rgb(28, 28, 28);
+  color:white;
+
+}
+
+.nr-img-view-details-fullsize > div {
+
+  font-size: 14.5px;
+
+}

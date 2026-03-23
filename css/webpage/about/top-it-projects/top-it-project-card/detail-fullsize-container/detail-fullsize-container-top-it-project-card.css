@@ -1,15 +1,17 @@
 /* --------------------------------------------------------------- */
-/* > detail-fullsize-view-top-it-project-card.css
+/* > detail-fullsize-container-top-it-project-card.css
 /*
 /* : style detail fullsize view for top it project card
 /* --------------------------------------------------------------- */
 
 
 /* ------------------------------------------------------- */
-/* Detail Fullsize View | Top IT Project Card
+/* Detail Fullsize Container | Top IT Project Card
 /* ------------------------------------------------------- */
 
-.detail-fullsize-view-top-it-project-card {
+.detail-fullsize-container-top-it-project-card {
+
+  width: 100%;
 
   position: absolute;
   top: 0em;
@@ -25,207 +27,34 @@
   background-color: rgb(208, 208, 208);
 
   /* ⚠️ in Entwicklung */
-  display: none;
+  /* display: none; */
 
 }
 
-/* ------------------------------------------------------- */
-/* Header | Detail Fullsize View
-/* ------------------------------------------------------- */
-
-.detail-fullsize-view-top-it-project-card > header {
-
-
-  height: 4em;
-  padding-left: .8em;
-
-
-  display: flex;
-  /* align-items: center; */
-  justify-content: space-between;
-  column-gap: .8em;
-
-  background-color: rgb(28, 28, 28);
-
-}
 
 /* ------------------------------------------------------- */
-/* Title | Header
+/* Main | Detail Fullsize Container
 /* ------------------------------------------------------- */
 
-.title-project-detail-fullsize {
-
-  display: flex;
-  align-items: center;
-  column-gap: .8em;
-
-}
-
-.title-project-detail-fullsize > div:nth-of-type(1) {
-
-  font-size: 16px;
-
-  line-height: 1.4em;
-
-  font-weight: bold;
-  color:rgb(227, 227, 227);
-
-}
-
-/* ------------------------------------------------------- */
-/* Close Button | Header
-/* ------------------------------------------------------- */
-
-
-/* ------------------------------------------------------- */
-/* Main | Detail Fullsize View
-/* ------------------------------------------------------- */
-
-.detail-fullsize-view-top-it-project-card > main {
-
-  display: grid;
-
-}
-
-/* 🟣 Auslagern */
-/* ------------------------------------------------------- */
-/* Img View Gallery Tiles Container
-/* ------------------------------------------------------- */
-
-.img-view-gallery-tiles-container {
-
-  padding: .8em;
-
-  display: flex;
-  column-gap: 1em;
-
-}
-
-.img-view-gallery-tiles-container img {
+.detail-fullsize-container-top-it-project-card > main {
 
   width: 100%;
 
-  border-radius: .8em;
-  border: 3px solid black;
-
 }
 
 /* ------------------------------------------------------- */
-/* [1/2] | Impress
+/* Content Container Detail Fullsize | Main
 /* ------------------------------------------------------- */
-.impress-img-view-gallery-container {
 
+.content-container-detail-fullsize {
 
-  border: 1px solid black;
+  width: 100%;
 
-}
-
-
-/* ------------------------------------------------------- */
-/* [2/2] | Img View Gallery Tiles Container
-/* ------------------------------------------------------- */
-.img-4-view-gallery-container {
-
-
-
+  padding: .8em;
   display: grid;
 
-  grid-template-areas:
+  row-gap: 1.3em;
 
-    'img-1-view-gallery img-2-view-gallery'
-    'img-3-view-gallery img-4-view-gallery'
-
-  ;
-
-  gap: 1.3em;
-
-}
-
-/* img-1-view-gallery */
-.img-1-view-gallery {
-
-  grid-area: img-1-view-gallery;
-
-
-
-}
-
-/* img-2-view-gallery */
-.img-2-view-gallery {
-
-  grid-area: img-2-view-gallery;
-
-
-
-}
-
-
-/* img-3-view-gallery */
-.img-3-view-gallery {
-
-  grid-area: img-3-view-gallery;
-
-
-
-}
-
-
-/* img-4-view-gallery */
-.img-4-view-gallery {
-
-  grid-area: img-4-view-gallery;
-
-
-
-}
-
-
-/* ------------------------------------------------------- */
-/* Was kann ich damit machen ?
-/* ------------------------------------------------------- */
-
-.project-facts-info-container {
-
-  padding: .8em;
-
-}
-
-/* ------------------------------------------------------- */
-/* Tech Stack ?
-/* ------------------------------------------------------- */
-
-.tech-stack-top-it-project-card-container {
-
-  padding: .8em;
-
-}
-
-/* ------------------------------------------------------- */
-/* Installationsanweisung
-/* ------------------------------------------------------- */
-
-.installation-top-it-project-card-container {
-
-  padding: .8em;
-
-}
-
-/* ------------------------------------------------------- */
-/* Warum habe ich es entwickelt ?
-/* ------------------------------------------------------- */
-
-.why-top-it-project-card-container {
-
-  padding: .8em;
-
-}
-
-/* ------------------------------------------------------- */
-/* Video Developer Tutorial (O)
-/* ------------------------------------------------------- */
-
-.video-tutorial-top-it-project-card-container {
-
-  padding: .8em;
+  /* background-color: magenta; */
 
 }

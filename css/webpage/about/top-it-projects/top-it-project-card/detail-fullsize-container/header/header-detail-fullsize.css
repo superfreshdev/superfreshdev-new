@@ -1,0 +1,130 @@
+/* --------------------------------------------------------------- */
+/* > header-detail-fullsize.css
+/*
+/* : style header
+/* --------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* Header Detail Fullsize
+/* ------------------------------------------------------- */
+
+.header-detail-fullsize-top-it-project {
+
+  width: 100%;
+  min-height: 4em;
+  padding: .8em;
+
+  /* mobile */
+  /* display: grid;
+  justify-items: flex-start; */
+
+  column-gap: 1em;
+  row-gap: .8em;
+
+  /* desktop */
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: rgb(28, 28, 28);
+
+}
+
+/* ------------------------------------------------------- */
+/* [1/2] | Title | Header Detail Fullsize
+/* ------------------------------------------------------- */
+
+.title-detail-fullsize {
+
+  /* mobile */
+  /* order: 2; */
+
+  display: flex;
+  align-items: center;
+  column-gap: 1em;
+
+}
+
+/* img 1 */
+.title-detail-fullsize > img:nth-of-type(1) {
+
+  display: none;
+
+}
+
+/* div 1 */
+.title-detail-fullsize > div:nth-of-type(1) {
+
+  line-height: 1.2em;
+
+}
+
+/* div 1 > div 1 */
+.title-detail-fullsize > div:nth-of-type(1) > div:nth-of-type(1) {
+
+  font-size: 15.5px;
+
+  font-weight: bold;
+  color:rgb(227, 227, 227);
+
+}
+
+/* div 1 > div 2 */
+.title-detail-fullsize > div:nth-of-type(1) > div:nth-of-type(2) {
+
+  font-size: 14.5px;
+  font-weight: bold;
+
+  color:rgb(134, 134, 134);
+
+}
+
+
+/* ------------------------------------------------------- */
+/* [2/2] | Close Button | Header Detail Fullsize
+/* ------------------------------------------------------- */
+
+.close-button-detail-fullsize {
+
+  /* mobile */
+  /* order: 1; */
+  justify-self: flex-end;
+
+  /* delete default html button styles */
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+  /* new button style */
+
+  min-height: 3em;
+  min-width: 3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .6em;
+
+  font-weight: bold;
+
+  background-color:wheat;
+  color:rgb(41, 41, 41);
+
+  /* opacity: .8; */
+
+  text-decoration: none;
+  transition: all .4s;
+
+}
+
+.close-button-detail-fullsize:hover {
+
+  background-color: #f77e7e;
+}

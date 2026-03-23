@@ -19,6 +19,18 @@ var btn_close_fullsize = document.getElementById("close-detail-view");
 // Test
 var str_cssStyle_update = "";
 
+/*
+
+  1. Click
+
+
+  2. Close
+
+
+
+
+*/
+
 /* ---------------------------------------------------------------------- */
 /* Add Dom Element to Click Event
 /* ---------------------------------------------------------------------- */

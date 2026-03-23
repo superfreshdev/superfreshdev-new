@@ -1,0 +1,77 @@
+/* --------------------------------------------------------------- */
+/* > benefits-install.css
+/*
+/* : style benefits install
+/* --------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------------------- */
+/* Benefits Install Container | Content Container Detail Fullsize
+/* ----------------------------------------------------------------------- */
+
+.benefits-install-container {
+
+  display: grid;
+  row-gap: .3em;
+
+}
+
+/* 🟣 > detail fullsize */
+/* ----------------------------------------------------------------------- */
+/* Label Detail Fullsize
+/* ----------------------------------------------------------------------- */
+
+.lbl-detail-fullsize {
+
+  padding: .8em .8em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: .6em ;
+  /* border-bottom: 1px solid rgb(206, 206, 206); */
+
+  background-color: rgb(236, 236, 236);
+
+  cursor: pointer;
+  user-select: none;
+  transition: all .4s;
+
+}
+
+/* hover */
+.lbl-detail-fullsize:hover {
+
+
+  background-color: wheat;
+
+}
+
+/* ----------------------------------------------------------------------- */
+/* Div 1 | Label Detail Fullsize
+/* ----------------------------------------------------------------------- */
+.lbl-detail-fullsize > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .8em;
+
+}
+
+/* Div > Div 1 */
+.lbl-detail-fullsize > div:nth-of-type(1) > div {
+
+  font-size: 15.5px;
+  font-weight: bold;
+
+}
+
+/* ----------------------------------------------------------------------- */
+/* Img 1 | Label Detail Fullsize
+/* ----------------------------------------------------------------------- */
+.lbl-detail-fullsize > img:nth-of-type(1)  {
+
+  height: .6em;
+
+}
