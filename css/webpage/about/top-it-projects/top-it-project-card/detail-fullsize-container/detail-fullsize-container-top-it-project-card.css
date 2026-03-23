@@ -87,6 +87,7 @@
 
 }
 
+/* 🟣 Auslagern */
 /* ------------------------------------------------------- */
 /* Img View Gallery Tiles Container
 /* ------------------------------------------------------- */
@@ -95,7 +96,89 @@
 
   padding: .8em;
 
+  display: flex;
+  column-gap: 1em;
+
 }
+
+.img-view-gallery-tiles-container img {
+
+  width: 100%;
+
+  border-radius: .8em;
+  border: 3px solid black;
+
+}
+
+/* ------------------------------------------------------- */
+/* [1/2] | Impress
+/* ------------------------------------------------------- */
+.impress-img-view-gallery-container {
+
+
+  border: 1px solid black;
+
+}
+
+
+/* ------------------------------------------------------- */
+/* [2/2] | Img View Gallery Tiles Container
+/* ------------------------------------------------------- */
+.img-4-view-gallery-container {
+
+
+
+  display: grid;
+
+  grid-template-areas:
+
+    'img-1-view-gallery img-2-view-gallery'
+    'img-3-view-gallery img-4-view-gallery'
+
+  ;
+
+  gap: 1.3em;
+
+}
+
+/* img-1-view-gallery */
+.img-1-view-gallery {
+
+  grid-area: img-1-view-gallery;
+
+
+
+}
+
+/* img-2-view-gallery */
+.img-2-view-gallery {
+
+  grid-area: img-2-view-gallery;
+
+
+
+}
+
+
+/* img-3-view-gallery */
+.img-3-view-gallery {
+
+  grid-area: img-3-view-gallery;
+
+
+
+}
+
+
+/* img-4-view-gallery */
+.img-4-view-gallery {
+
+  grid-area: img-4-view-gallery;
+
+
+
+}
+
 
 /* ------------------------------------------------------- */
 /* Was kann ich damit machen ?

@@ -45,7 +45,7 @@
 
 .mini-status-to-do {
 
-  border: 1px solid rgb(229, 49, 49);
+  /* border: 1px solid rgb(229, 49, 49); */
 
   background-color: rgb(251, 133, 133);
   color:rgb(169, 31, 31);
@@ -59,7 +59,7 @@
 
 .mini-status-later {
 
-  border: 1px solid rgb(123, 123, 123);
+  /* border: 1px solid rgb(123, 123, 123); */
 
   background-color: rgb(208, 208, 208);
   color:rgb(106, 106, 106);
@@ -79,7 +79,7 @@
 
 .mini-status-finished {
 
-  border: 1px solid rgb(12, 167, 12);
+  /* border: 1px solid rgb(12, 167, 12); */
 
   background-color: rgb(153, 251, 153);
   color:rgb(12, 167, 12);
