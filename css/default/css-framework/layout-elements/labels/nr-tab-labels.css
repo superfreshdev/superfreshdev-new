@@ -1,0 +1,110 @@
+/* --------------------------------------------------------------- */
+/* 🟣 css-framework
+/* > nr-tab-labels.css
+/*
+/* : styles nr tab labels for e.g nav tab containers
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Nr Tab Label | Small
+/* ---------------------------------------------------------------- */
+
+.nr-tab-label-small {
+
+  height: 1.6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  /* font-weight: bold; */
+  /* font-style: italic; */
+
+  border: 1px solid rgb(183, 183, 183);
+  color:rgb(128, 128, 128);
+
+  /* color: #545454; */
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: all .4s;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Div 1 (Nr) | Tab Label
+/* ---------------------------------------------------------------- */
+
+.nr-tab-label-small > div:nth-of-type(1) {
+
+  padding: 0 .5em;
+  height: 100%;
+
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+  border-radius: .4em 0em 0em .4em;
+
+  background-color: rgb(225, 225, 225);
+  color:rgb(46, 46, 46);
+
+}
+
+.nr-tab-label-small > div:nth-of-type(1) > div {
+
+  font-size: 12.5px;
+
+  /* layout pos fix */
+  padding-top: 2px;
+
+}
+
+.nr-tab-label-small:hover {
+
+  /* color:rgb(83, 83, 83);
+  background-color: rgb(224, 224, 224); */
+
+  color: rgb(27, 27, 27);
+  background-color: wheat;
+
+}
+
+.nr-tab-label-smalll:hover > div:nth-of-type(1) {
+
+  background-color: white;
+}
+
+/* seperator | div 2 > div 1 */
+.nr-tab-label-small > div:nth-of-type(1) > div:nth-of-type(1) {
+
+  /* layout pos fix */
+  padding-bottom: 2px;
+
+}
+
+/* nr | div 2 > div 2 */
+.nr-tab-label-small > div:nth-of-type(1) > div:nth-of-type(2) {
+
+  /* layout pos fix */
+  padding-top: .6px;
+}
+
+/* ---------------------------------------------------------------- */
+/* Div 2 (Title) | Tab Label
+/* ---------------------------------------------------------------- */
+
+.nr-tab-label-small > div:nth-of-type(2) {
+
+  padding: 0 .6em;
+  font-size: 14.5px;
+
+}

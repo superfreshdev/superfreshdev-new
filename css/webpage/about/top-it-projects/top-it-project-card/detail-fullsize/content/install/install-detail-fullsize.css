@@ -11,11 +11,38 @@
 
 #install-info-container {
 
-  padding: .8em;
+  position: relative;
+
+}
+
+/* 🟣 auslagern */
+/* ------------------------------------------------------- */
+/* Nav Install Container Detail Fullsize
+/* ------------------------------------------------------- */
+
+#nav-install-container-detail-fullsize {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .8em;
+
+}
+
+#nav-install-container-detail-fullsize > img:nth-of-type(1) {
+
+  height: 2.5em;
+  opacity: .1;
 
 }
 
 
+
+
+
+
+
+/* 🟣 auslagern | stylings */
 .courier-box {
 
   padding: .4em .6em;

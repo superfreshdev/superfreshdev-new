@@ -1,0 +1,98 @@
+/* --------------------------------------------------------------- */
+/* > requirement-detail-fullsize.css
+/*
+/* : styles requirement detail fullsize
+/* --------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* Requirements |
+/* ------------------------------------------------------- */
+
+#requirements-detail-fullsize {
+
+  margin-top: 2em;
+  padding: 2em .4em;
+
+  border-top: 1px solid rgb(209, 209, 209);
+
+}
+
+/* ------------------------------------------------------- */
+/* Requirement List |
+/* ------------------------------------------------------- */
+
+#requirement-list-detail-fullsize {
+
+  display: grid;
+  row-gap: 1em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Divs | Requirement List
+/* ------------------------------------------------------- */
+
+#requirement-list-detail-fullsize > div {
+
+  display: flex;
+  align-items: center;
+  column-gap: .8em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Nr | Div 1 | Requirement List
+/* ------------------------------------------------------- */
+
+#requirement-list-detail-fullsize > div > div:nth-of-type(1) {
+
+
+  align-self: flex-start;
+
+  /* layout pos fix */
+  margin-top: 9px;
+
+  min-width: 1.8em;
+  min-height: 1.8em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  background-color: rgb(245, 245, 245);
+  color:grey;
+
+}
+
+#requirement-list-detail-fullsize > div > div:nth-of-type(1) > div:nth-of-type(1) {
+
+  font-size: 14.5px;
+  font-weight: bold;
+
+}
+
+/* ------------------------------------------------------- */
+/* Title | Div 2 | Requirement List
+/* ------------------------------------------------------- */
+
+#requirement-list-detail-fullsize > div > div:nth-of-type(2) {
+
+  /* layout pos fix */
+  margin-top: 8px;
+
+
+}
+
+#requirement-list-detail-fullsize > div > div:nth-of-type(2) > div:nth-of-type(1) {
+
+  font-size: 14.5px;
+  /* font-weight: bold; */
+
+  line-height: 1.6em;
+
+  color:rgb(86, 86, 86);
+
+}
