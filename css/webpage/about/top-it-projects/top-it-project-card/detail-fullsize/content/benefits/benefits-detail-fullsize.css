@@ -11,17 +11,152 @@
 
 #benefits-info-container {
 
-  padding: .8em;
+  position: relative;
 
 }
 
 /* ------------------------------------------------------- */
-/* Benefits List |
+/* Benefits Item | Detail Fullsize
 /* ------------------------------------------------------- */
 
-.benefits-list-detail-fullsize {
+.benefits-item-detail-fullsize {
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  column-gap: 1em;
+  row-gap: .6em;
+
+}
+
+/* special case, all items and last different style */
+#benefits-info-container .benefits-item-detail-fullsize:not(:last-child) {
+
+  padding-bottom: 2.5em;
+  /* background-color: red; */
+
+}
+
+/* ------------------------------------------------------- */
+/* Nr & Img Category | Benefits Item
+/* ------------------------------------------------------- */
+
+.nr-img-category-item-detail-fullsize {
+
+  /* layout pos fix */
+  margin-top: 5px;
+
+  /* mobile */
+  display: flex;
+  column-gap: .3em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Nr | Benefits Item
+/* ------------------------------------------------------- */
+
+.nr-img-category-item-detail-fullsize > div:nth-of-type(1)  {
+
+  min-height: 2em;
+  min-width: 2em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  background-color: #ececec;
+  color:grey;
+
+}
+
+/* div 1 > div 1 > div 1 | nr */
+.nr-img-category-item-detail-fullsize  > div:nth-of-type(1) > div:nth-of-type(1) {
+
+  font-size: 14.5px;
+  letter-spacing: 1px;
+  font-weight: bold;
+
+}
+
+/* ------------------------------------------------------- */
+/* Img Category | Benefits Item
+/* ------------------------------------------------------- */
+
+.nr-img-category-item-detail-fullsize > div:nth-of-type(2)  {
+
+  min-height: 2em;
+  min-width: 2em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  border: 1px dashed grey;
+
+}
+
+/* ------------------------------------------------------- */
+/* Title
+/* ------------------------------------------------------- */
+
+.benefits-item-detail-fullsize > div:nth-of-type(2) {
 
   display: grid;
-  row-gap: .4em;
+  row-gap: .3em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Header | Title
+/* ------------------------------------------------------- */
+
+.benefits-item-detail-fullsize > div:nth-of-type(2) > header {
+
+  font-size: 14.6px;
+  line-height: 1.6em;
+  font-weight: bold;
+
+  color:rgb(62, 62, 62);
+
+}
+
+/* ------------------------------------------------------- */
+/* Main | Title
+/* ------------------------------------------------------- */
+
+.benefits-item-detail-fullsize > div:nth-of-type(2) > main {
+
+ font-size: 14.6px;
+ line-height: 1.8em;
+
+ color:rgb(160, 160, 160);
+
+}
+
+/* ------------------------------------------------------- */
+/* Img Content Right | Nav Content | Detail Fullsize
+/* ------------------------------------------------------- */
+
+.img-content-right-detail-fullsize {
+
+  float:right;
+
+  margin-top: 3em;
+  margin-left: 2.5em;
+  margin-right: .5em;
+  margin-bottom: 1em;
+
+  height: 5em;
+
+  opacity: .1;
+
+  /* mobile default unshown */
+  display: none;
 
 }

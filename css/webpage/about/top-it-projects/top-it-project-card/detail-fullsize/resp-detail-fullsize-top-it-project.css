@@ -36,10 +36,45 @@
 }
 
 /* ------------------------------------------------------- */
+/* Min Width >= 480px
+/* ------------------------------------------------------- */
+
+@media (min-width: 480px) {
+
+/* ------------------------------------------------------- */
+/* Nav Content Area | Detail Fullsize
+/* ------------------------------------------------------- */
+
+.nav-content-area-detail-fullsize {
+
+  padding: 1.5em 1em;
+  /* background-color: magenta; */
+
+}
+
+
+
+
+}
+
+
+/* ------------------------------------------------------- */
 /* Min Width >= 600px
 /* ------------------------------------------------------- */
 
 @media (min-width: 600px) {
+
+  /* ------------------------------------------------------- */
+  /* Nav Content Area | Detail Fullsize
+  /* ------------------------------------------------------- */
+
+  .nav-content-area-detail-fullsize {
+
+    padding: 1.5em 2em;
+    /* background-color: magenta; */
+
+  }
+
 
   /* ------------------------------------------------------ */
   /* Img View Container
@@ -70,6 +105,58 @@
 /* ------------------------------------------------------- */
 
 @media (min-width: 750px) {
+
+  /* ------------------------------------------------------- */
+  /* Nav Content Area | Detail Fullsize
+  /* ------------------------------------------------------- */
+
+  .nav-content-area-detail-fullsize {
+
+    padding: 3em 2em;
+    /* background-color: magenta; */
+
+  }
+
+
+  /* ------------------------------------------------------- */
+  /* Img Content Right | Nav Content | Detail Fullsize
+  /* ------------------------------------------------------- */
+
+  .img-content-right-detail-fullsize {
+
+    float:right;
+
+    /* height: 7em; */
+
+    /* mobile default unshown */
+    display: block;
+
+  }
+
+  /* ------------------------------------------------------- */
+  /* Benefits Item | Detail Fullsize
+  /* ------------------------------------------------------- */
+
+  .benefits-item-detail-fullsize {
+
+    /* margin: 0 10%; */
+
+    flex-wrap: nowrap;
+    /* padding: 1em 2em; */
+
+  }
+
+  /* ------------------------------------------------------- */
+  /* Nr & Img Category | Benefits Item
+  /* ------------------------------------------------------- */
+
+  .nr-img-category-item-detail-fullsize {
+
+    /* mobile */
+    display: grid;
+    row-gap: .3em;
+
+  }
 
   /* ------------------------------------------------------ */
   /* Img View Container

@@ -11,6 +11,8 @@
 
 .img-view-detail-fullsize {
 
+  padding: 2.5em 0;
+
   /* mobile */
   display: grid;
   justify-content: center;

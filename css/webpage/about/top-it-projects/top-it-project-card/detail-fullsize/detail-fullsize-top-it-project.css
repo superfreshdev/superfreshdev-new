@@ -49,10 +49,8 @@
 
   width: 100%;
 
-  padding: .8em;
-  display: grid;
+  padding: 0 .8em;
 
-  row-gap: 1.3em;
 
   /* background-color: magenta; */
 
@@ -70,16 +68,16 @@
 }
 
 /* ------------------------------------------------------- */
-/* Img Content Right | Nav Content | Detail Fullsize
+/* Nav Content Area | Detail Fullsize
 /* ------------------------------------------------------- */
 
-.img-content-right-detail-fullsize {
+.nav-content-area-detail-fullsize {
 
-  float: right;
-
-  height: 7em;
+  padding: 1.5em .6em;
+  /* background-color: magenta; */
 
 }
+
 
 
 /* 🟣 > detail fullsize | label content open close */

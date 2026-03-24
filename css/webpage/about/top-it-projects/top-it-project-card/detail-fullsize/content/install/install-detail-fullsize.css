@@ -14,3 +14,31 @@
   padding: .8em;
 
 }
+
+
+.courier-box {
+
+  padding: .4em .6em;
+  line-height: 1.5em;
+
+  border-radius: .6em;
+
+  border: 1px dashed black;
+
+}
+
+.courier-box > div,
+.courier-box > span {
+
+  font-size: 14.5px;
+
+}
+
+
+.font-courier {
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14.5px;
+  font-weight: bold;
+
+}
