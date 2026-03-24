@@ -27,7 +27,7 @@
   /* Img View Container | Imgs
   /* ------------------------------------------------------ */
 
-  .img-view-container-detail-fullsize > div  {
+  .img-view-detail-fullsize > div  {
 
     width: 18em;
 
@@ -45,7 +45,7 @@
   /* Img View Container
   /* ------------------------------------------------------ */
 
-  .img-view-container-detail-fullsize {
+  .img-view-detail-fullsize {
 
     /* desktop */
     grid: auto / 1fr 1fr;
@@ -53,10 +53,10 @@
   }
 
   /* ------------------------------------------------------ */
-  /* Img View Container | Imgs
+  /* Img View Container | Divs
   /* ------------------------------------------------------ */
 
-  .img-view-container-detail-fullsize > div  {
+  .img-view-detail-fullsize > div  {
 
     width: 100%;
 
@@ -75,13 +75,32 @@
   /* Img View Container
   /* ------------------------------------------------------ */
 
-  .img-view-container-detail-fullsize {
+  .img-view-detail-fullsize {
 
     /* desktop */
     grid: auto / 18em 18em;
 
   }
 
+
+}
+
+/* ------------------------------------------------------- */
+/* Min Width >= 1200px
+/* ------------------------------------------------------- */
+
+@media (min-width: 1200px) {
+
+  /* ------------------------------------------------------ */
+  /* Img View Container
+  /* ------------------------------------------------------ */
+
+  .img-view-detail-fullsize {
+
+    /* desktop */
+    grid: auto / 22em 22em;
+
+  }
 
 
 }

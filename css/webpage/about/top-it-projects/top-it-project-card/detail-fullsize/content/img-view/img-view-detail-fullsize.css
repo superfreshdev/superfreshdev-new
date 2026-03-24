@@ -9,7 +9,7 @@
 /* Img View Gallery Tiles Container
 /* ------------------------------------------------------- */
 
-.img-view-container-detail-fullsize {
+.img-view-detail-fullsize {
 
   /* mobile */
   display: grid;
@@ -24,7 +24,7 @@
 /* Divs > Imgs
 /* ------------------------------------------------------- */
 
-.img-view-container-detail-fullsize > div {
+.img-view-detail-fullsize > div {
 
   position: relative;
 
@@ -32,18 +32,25 @@
   display: grid;
   justify-items: center;
 
+
 }
 
 /* ------------------------------------------------------- */
 /* Imgs | Img View Gallery Tiles Container
 /* ------------------------------------------------------- */
 
-.img-view-container-detail-fullsize > div > img {
+.img-view-detail-fullsize > div > img {
 
   width: 100%;
 
   border-radius: .8em;
-  border: 3px solid black;
+  border: 3px solid rgb(237, 237, 237);
+
+  border: 4px solid rgba(28, 28, 28, .1);
+
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+
 
 }
 
@@ -54,10 +61,10 @@
 .nr-img-view-details-fullsize {
 
   position: absolute;
-  right:0;
+  right:-2px;
 
-  min-width: 2.5em;
-  height: 2.3em;
+  min-width: 2em;
+  height: 2em;
 
   display: flex;
   align-items: center;
@@ -67,15 +74,15 @@
 
   letter-spacing: 1px;
 
-  border-radius: 0 .8em 0 1em;
+  border-radius: .1em .8em .1em .4em;
 
-  background-color: rgb(28, 28, 28);
-  color:white;
+  background-color: rgb(144, 144, 144);
+  color:rgb(209, 209, 209);
 
 }
 
 .nr-img-view-details-fullsize > div {
 
-  font-size: 14.5px;
+  font-size: 12.5px;
 
 }
