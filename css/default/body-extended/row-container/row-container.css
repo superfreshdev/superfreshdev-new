@@ -6,19 +6,28 @@
 
 
 /* ---------------------------------------------------------------- */
-/* Row Container
+/* Resp Row Container
 /* ---------------------------------------------------------------- */
 
 .row-container {
 
-  width: 100%;
+  z-index: 1;
 
   box-sizing: border-box;
+
   padding: 0 .8em;
+  width: 100%;
 
   display: grid;
   justify-items: center;
 
-  background-color: white;
+  /* default bgc is transparent, because we use background img
+  /* but u can overwrite it with another bgc */
+  background-color: transparent;
+
+  /* background-color: yellow; */
+
+  /* content visible background more darker */
+  /* background-color: rgba(39, 39, 39, 0.8); */
 
 }

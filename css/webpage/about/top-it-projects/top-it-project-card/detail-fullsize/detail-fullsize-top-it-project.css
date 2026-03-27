@@ -5,6 +5,49 @@
 /* --------------------------------------------------------------- */
 
 
+/* -------------------------------------------------------------- */
+/* 🟩🟩🟩 New | Detail Fullsize | Top IT Project
+/* -------------------------------------------------------------- */
+
+.new-detail-fullsize-top-it-project {
+
+  z-index: 3;
+
+  box-sizing: border-box;
+
+  width: 100%;
+  padding: 0 .8em 0em .8em;
+
+  display: grid;
+
+  /* let content start on the top */
+  align-items: flex-start;
+
+  /* let content be centered */
+  justify-items: center;
+  justify-content: center;
+
+  grid: auto auto 1fr / 1fr;
+
+  background-color: rgb(133, 133, 133);
+  background-color: white;
+
+  /* background-color: red; */
+
+}
+
+
+
+/* -------------------------------------------------------------- */
+/* ❌❌❌ Trash
+/* -------------------------------------------------------------- */
+
+
+
+
+
+
+
 /* ------------------------------------------------------- */
 /* Detail Fullsize | Top IT Project Card
 /* ------------------------------------------------------- */
@@ -20,14 +63,12 @@
 
   z-index: 9;
 
-  display: grid;
-
   font-size: 18px;
 
   background-color: rgb(208, 208, 208);
 
   /* ⚠️ in Entwicklung */
-  /* display: none; */
+  display: none;
 
 }
 
@@ -81,61 +122,3 @@
 
 
 /* 🟣 > detail fullsize | label content open close */
-/* ----------------------------------------------------------------------- */
-/* Label Detail Fullsize
-/* ----------------------------------------------------------------------- */
-
-.lbl-detail-fullsize {
-
-  padding: .8em .8em;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  border-radius: .6em ;
-  /* border-bottom: 1px solid rgb(206, 206, 206); */
-
-  background-color: rgb(236, 236, 236);
-
-  cursor: pointer;
-  user-select: none;
-  transition: all .4s;
-
-}
-
-/* hover */
-.lbl-detail-fullsize:hover {
-
-
-  background-color: wheat;
-
-}
-
-/* ----------------------------------------------------------------------- */
-/* Div 1 | Label Detail Fullsize
-/* ----------------------------------------------------------------------- */
-.lbl-detail-fullsize > div:nth-of-type(1) {
-
-  display: flex;
-  align-items: center;
-  column-gap: .8em;
-
-}
-
-/* Div > Div 1 */
-.lbl-detail-fullsize > div:nth-of-type(1) > div {
-
-  font-size: 15.5px;
-  font-weight: bold;
-
-}
-
-/* ----------------------------------------------------------------------- */
-/* Img 1 | Label Detail Fullsize
-/* ----------------------------------------------------------------------- */
-.lbl-detail-fullsize > img:nth-of-type(1)  {
-
-  height: .6em;
-
-}

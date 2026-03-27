@@ -1,7 +1,7 @@
 /* --------------------------------------------------------------- */
 /* > header-detail-fullsize.css
 /*
-/* : style header
+/* : style header detail fullsize ( project title )
 /* --------------------------------------------------------------- */
 
 
@@ -9,121 +9,160 @@
 /* Header Detail Fullsize
 /* ------------------------------------------------------- */
 
-.header-detail-fullsize-top-it-project {
+#header-detail-fullsize {
 
   width: 100%;
-  min-height: 4em;
-  padding: .8em;
-
-  /* mobile */
-  /* display: grid;
-  justify-items: flex-start; */
-
-  column-gap: 1em;
-  row-gap: .8em;
-
-  /* desktop */
-  display: flex;
-  /* flex-wrap: wrap; */
-  align-items: center;
-  justify-content: space-between;
-
-  background-color: rgb(28, 28, 28);
-
-}
-
-/* ------------------------------------------------------- */
-/* [1/2] | Title | Header Detail Fullsize
-/* ------------------------------------------------------- */
-
-.title-detail-fullsize {
-
-  /* mobile */
-  /* order: 2; */
+  margin-top: 3em;
 
   display: flex;
   align-items: center;
   column-gap: 1em;
 
+  /* border: 1px solid grey; */
+  /* background-color: red; */
+
 }
 
-/* img 1 */
-.title-detail-fullsize > img:nth-of-type(1) {
+/* ------------------------------------------------------- */
+/* [1/2] | Img Large | Header Detail Fullsize
+/* ------------------------------------------------------- */
 
+.img-large-header-detail-fullsize-medium,
+.img-large-header-detail-fullsize-big {
+
+  opacity: .3;
+
+  /* mobile default unshown */
   display: none;
 
 }
 
-/* div 1 */
-.title-detail-fullsize > div:nth-of-type(1) {
+/* medium */
+.img-large-header-detail-fullsize-medium {
 
-  line-height: 1.2em;
-
-}
-
-/* div 1 > div 1 */
-.title-detail-fullsize > div:nth-of-type(1) > div:nth-of-type(1) {
-
-  font-size: 15.5px;
-
-  font-weight: bold;
-  color:rgb(227, 227, 227);
+  height: 1.8em;
 
 }
 
-/* div 1 > div 2 */
-.title-detail-fullsize > div:nth-of-type(1) > div:nth-of-type(2) {
+/* big */
+.img-large-header-detail-fullsize-big {
 
-  font-size: 14.5px;
-  font-weight: bold;
-
-  color:rgb(134, 134, 134);
+  height: 2em;
 
 }
 
 /* ------------------------------------------------------- */
-/* [2/2] | Close Button | Header Detail Fullsize
+/* [2/2] | Title Container | Header Detail Fullsize
 /* ------------------------------------------------------- */
 
-.close-button-detail-fullsize {
+#title-container-header-detail-fullsize {
 
-  /* mobile */
-  /* order: 1; */
-  justify-self: flex-end;
+  display: grid;
+  row-gap: .4em;
 
-  /* delete default html button styles */
-  background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+  /* line-height: 2.8em; */
 
-  /* new button style */
+}
 
-  min-height: 3em;
-  min-width: 3em;
+/* ------------------------------------------------------- */
+/* Header | Title Container
+/* ------------------------------------------------------- */
+
+#title-container-header-detail-fullsize > header {
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Category Title | Div 1 | Header
+/* ------------------------------------------------------- */
+
+#title-container-header-detail-fullsize > header > div:nth-of-type(1) {
+
+  height: 1.5em;
+  padding: 0 .6em;
 
   display: flex;
   align-items: center;
   justify-content: center;
+  column-gap: .5em;
 
-  border-radius: .6em;
+  border-radius: .8em;
 
-  font-weight: bold;
+  background-color: rgb(235, 234, 234);
 
-  background-color:wheat;
-  color:rgb(41, 41, 41);
+  opacity: .8;
 
-  /* opacity: .8; */
-
-  text-decoration: none;
-  transition: all .4s;
 
 }
 
-.close-button-detail-fullsize:hover {
+#title-container-header-detail-fullsize > header > div:nth-of-type(1) > div {
 
-  background-color: #f77e7e;
+ font-size: 12.5px;
+ font-weight: bold;
+ color: rgb(76, 76, 76);
+
+}
+
+/* ------------------------------------------------------- */
+/* Time Info | Div 2 | Header
+/* ------------------------------------------------------- */
+
+#title-container-header-detail-fullsize > header > div:nth-of-type(2){
+
+  height: 1.5em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: .3em;
+
+  border-radius: .8em;
+
+  background-color: rgb(235, 234, 234);
+
+  opacity: .8;
+
+}
+
+/* img */
+#title-container-header-detail-fullsize > header > div:nth-of-type(2) > img {
+
+  opacity: .6;
+
+}
+
+/* div */
+#title-container-header-detail-fullsize > header > div:nth-of-type(2) > div {
+
+  /* layout pos fix */
+  padding-top: 2px;
+
+  font-size: 12.5px;
+  font-weight: bold;
+  color: rgb(76, 76, 76);
+
+}
+
+/* ------------------------------------------------------- */
+/* Main | Title Container
+/* ------------------------------------------------------- */
+
+#title-container-header-detail-fullsize > main {
+
+  padding-left: .6em;
+
+}
+
+/* div > main */
+#title-container-header-detail-fullsize > main > div {
+
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(27, 27, 27);
+
 }

@@ -11,56 +11,100 @@
 
 #benefits-info-container {
 
-  position: relative;
+  box-sizing: border-box;
+
+  margin-top: 1em;
+
+  width: 100%;
+  padding: 1.5em .8em;
+
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+
+  row-gap: 1em;
+
+  /* border-radius: .8em; */
+  /* border: 1px dashed black; */
+
+  /* background-color: brown; */
+
+  /* background-color: rgb(228, 228, 228); */
 
 }
 
 /* ------------------------------------------------------- */
-/* Benefits Item | Detail Fullsize
+/* [1/2] | Benefits Info Item
 /* ------------------------------------------------------- */
 
-.benefits-item-detail-fullsize {
+.benefit-info-item {
+
+  box-sizing: border-box;
+  padding: .8em .6em;
+
+  width: 100%;
 
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
+  column-gap: 1.5em;
 
-  column-gap: 1em;
-  row-gap: .6em;
+  border-radius: .8em;
+
+  border: 1px solid rgb(222, 222, 222);
+
+  /* background-color: grey; */
+
+  background-color: rgb(251, 251, 251);
+
+  transition: all .4s;
 
 }
 
-/* special case, all items and last different style */
-#benefits-info-container .benefits-item-detail-fullsize:not(:last-child) {
+/* hover */
+.benefit-info-item:hover {
 
-  padding-bottom: 2.5em;
-  /* background-color: red; */
+  background-color: red;
+  background-color: wheat;
+
+  background-color: rgba(245, 222, 179, .5);
 
 }
 
 /* ------------------------------------------------------- */
-/* Nr & Img Category | Benefits Item
+/* Benefit Info Content
 /* ------------------------------------------------------- */
 
-.nr-img-category-item-detail-fullsize {
+.benefit-info-content {
 
-  /* layout pos fix */
-  margin-top: 5px;
+  /* width: 100%; */
 
-  /* mobile */
+  display: grid;
+  /* align-items: flex-start; */
+  row-gap: .4em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Nr & Img Info | Benefit Info Content
+/* ------------------------------------------------------- */
+
+.nr-img-info-benefit-info {
+
   display: flex;
-  column-gap: .3em;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .4em;
 
 }
 
-/* ------------------------------------------------------- */
-/* Nr | Benefits Item
-/* ------------------------------------------------------- */
+/* ------------------------------ */
+/* Nr | Div 1
+/* ------------------------------ */
 
-.nr-img-category-item-detail-fullsize > div:nth-of-type(1)  {
+.nr-img-info-benefit-info > div:nth-of-type(1) {
 
-  min-height: 2em;
-  min-width: 2em;
+  height: 1.6em;
+  padding: 0 .5em;
 
   display: flex;
   align-items: center;
@@ -69,27 +113,30 @@
   border-radius: .4em;
 
   background-color: #ececec;
-  color:grey;
+
+  color:rgb(69, 69, 69);
+
+  background-color: white;
+  border: 1px solid rgb(234, 234, 234);
 
 }
 
-/* div 1 > div 1 > div 1 | nr */
-.nr-img-category-item-detail-fullsize  > div:nth-of-type(1) > div:nth-of-type(1) {
+.nr-img-info-benefit-info > div:nth-of-type(1) > div:nth-of-type(1) {
 
-  font-size: 14.5px;
-  letter-spacing: 1px;
+  font-size: 13px;
   font-weight: bold;
+  letter-spacing: 1px;
 
 }
 
-/* ------------------------------------------------------- */
-/* Img Category | Benefits Item
-/* ------------------------------------------------------- */
+/* ------------------------------ */
+/* Img Info | Div 2
+/* ------------------------------ */
 
-.nr-img-category-item-detail-fullsize > div:nth-of-type(2)  {
+.nr-img-info-benefit-info > div:nth-of-type(2) {
 
-  min-height: 2em;
-  min-width: 2em;
+  min-width: 2.5em;
+  min-height: 2.5em;
 
   display: flex;
   align-items: center;
@@ -97,66 +144,100 @@
 
   border-radius: .4em;
 
-  border: 1px dashed grey;
+  /* border: 1px solid rgb(212, 212, 212); */
+  background-color: #ececec;
+
+  background-color: white;
+  border: 1px solid rgb(234, 234, 234);
 
 }
 
+.nr-img-info-benefit-info > div:nth-of-type(2) > img {
+
+  opacity: .8;
+
+}
+
+
 /* ------------------------------------------------------- */
-/* Title
+/* Title Content | Benefit Info Content
 /* ------------------------------------------------------- */
 
-.benefits-item-detail-fullsize > div:nth-of-type(2) {
+.title-content-benefit-info {
+
+  padding-left: .8em;
 
   display: grid;
-  row-gap: .3em;
+  row-gap: .1em;
 
 }
 
 /* ------------------------------------------------------- */
-/* Header | Title
+/* Header | Title Content
 /* ------------------------------------------------------- */
 
-.benefits-item-detail-fullsize > div:nth-of-type(2) > header {
+.title-content-benefit-info > header {
 
-  font-size: 14.6px;
-  line-height: 1.6em;
+
+}
+
+/* header div */
+
+.title-content-benefit-info > header > div {
+
+  font-size: 14.5px;
   font-weight: bold;
 
-  color:rgb(62, 62, 62);
+}
+
+/* ------------------------------------------------------- */
+/* Main | Title Content
+/* ------------------------------------------------------- */
+
+.title-content-benefit-info > main {
+
+
+}
+
+/* main > div */
+.title-content-benefit-info > main > div {
+
+  font-size: 14.5px;
+  line-height: 1.6em;
+
+  color:rgb(100, 100, 100);
 
 }
 
 /* ------------------------------------------------------- */
-/* Main | Title
+/* [2/2] | Img Large Benefit Info
 /* ------------------------------------------------------- */
 
-.benefits-item-detail-fullsize > div:nth-of-type(2) > main {
+/* because some img icons need another height
+for correct layout proportion */
 
- font-size: 14.6px;
- line-height: 1.8em;
+.img-lage-benefit-info-medium,
+.img-large-benefit-info-big {
 
- color:rgb(160, 160, 160);
+  padding-top: .8em;
+  padding-right: .4em;
 
-}
+  opacity: .3;
 
-/* ------------------------------------------------------- */
-/* Img Content Right | Nav Content | Detail Fullsize
-/* ------------------------------------------------------- */
-
-.img-content-right-detail-fullsize {
-
-  float:right;
-
-  margin-top: 3em;
-  margin-left: 2.5em;
-  margin-right: .5em;
-  margin-bottom: 1em;
-
-  height: 5em;
-
-  opacity: .1;
-
-  /* mobile default unshown */
+  /* default mobile unshown */
   display: none;
 
+}
+
+/* medium */
+.img-lage-benefit-info-medium {
+
+  height: 5.5em;
+
+}
+
+/* big */
+.img-large-benefit-info-big {
+
+  height: 6em;
 }

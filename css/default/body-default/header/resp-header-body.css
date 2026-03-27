@@ -112,7 +112,7 @@
 
     #header-content-body {
 
-      width: 90%;
+      /* width: 90%; */
       padding: 0 0;
 
     }
@@ -127,7 +127,7 @@
 
     #header-content-body {
 
-      width: 55em;
+      /* width: 55em; */
       /* background-color: yellow; */
 
     }
@@ -142,7 +142,8 @@
 
     #header-content-body {
 
-      width: 65em;
+      /* width: 65em; */
+
       /* background-color: rgb(0, 42, 255); */
 
     }

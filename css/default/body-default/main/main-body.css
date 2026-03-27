@@ -37,7 +37,11 @@
 #main-body-container {
 
   /* because of fixed header height 5em default */
+
+  /* no fullsize */
   padding-top: 4.5em;
+
+
 
   /* important to let resp content areas correct work */
   width: 100%;

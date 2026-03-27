@@ -1,0 +1,102 @@
+/* --------------------------------------------------------------- */
+/* > clap-content-top-it-project.css
+/*
+/* : styles clap content top it project & extra lbl clap
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Clap Content | Top IT Project
+/* ---------------------------------------------------------------- */
+
+#clap-content-top-it-project {
+
+  box-sizing: border-box;
+
+  width: 100%;
+  padding-bottom: 3em;
+
+  display: grid;
+  justify-items: center;
+
+  row-gap: .3em;
+
+  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 0, 179); */
+
+}
+
+/* mobile label, div max 100% */
+#clap-content-top-it-project > label,
+#clap-content-top-it-project > div {
+
+  width: 100%;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Label Clap | Detail Fullsize
+/* ---------------------------------------------------------------- */
+
+.lbl-clap-detail-fullsize {
+
+  box-sizing: border-box;
+
+  /* width: 100%; */
+  height: 4em;
+  padding: 0em .8em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  column-gap: 2.5em;
+
+  border-radius: .6em ;
+
+  background-color: rgb(236, 236, 236);
+
+  /* border-bottom: 1px solid rgb(206, 206, 206); */
+
+  cursor: pointer;
+  user-select: none;
+  transition: all .4s;
+
+}
+
+/* hover */
+.lbl-clap-detail-fullsize:hover {
+
+  background-color: wheat;
+
+}
+
+/* ----------------------------------------------------------------------- */
+/* Div 1 | Label Detail Fullsize
+/* ----------------------------------------------------------------------- */
+
+.lbl-clap-detail-fullsize > div:nth-of-type(1) {
+
+  display: flex;
+  align-items: center;
+  column-gap: .8em;
+
+}
+
+/* Div > Div 1 (text) */
+.lbl-clap-detail-fullsize > div:nth-of-type(1) > div {
+
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+/* ----------------------------------------------------------------------- */
+/* Img 1 | Label Detail Fullsize
+/* ----------------------------------------------------------------------- */
+
+.lbl-clap-detail-fullsize > img:nth-of-type(1)  {
+
+  height: .6em;
+
+}

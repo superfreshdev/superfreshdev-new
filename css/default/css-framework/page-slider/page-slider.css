@@ -94,8 +94,11 @@
   /* no detail fullsize */
   /* ---------------------------------------------- */
 
-  position: relative;
+  /* ⚠️⚠️ ???? brauch ich das wirklich */
   z-index: 2;
+
+  position: relative;
+
   transform: translateX(0);
 
   /* ---------------------------------------------- */

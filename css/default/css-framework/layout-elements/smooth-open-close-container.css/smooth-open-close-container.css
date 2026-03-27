@@ -1,0 +1,30 @@
+/* ------------------------------------------------------------------------- */
+/* > smooth-open-close-container.css
+/*
+/* : style smooth open close container & overflow hidden extra needed
+/* ------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* Smooth Open Close Container
+/* ------------------------------------------------------- */
+
+.smooth-open-close-container {
+
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease-out;
+
+}
+
+/* ------------------------------------------------------- */
+/* Smooth Overflow Hidden
+/* ------------------------------------------------------- */
+
+.smooth-overflow-hidden {
+
+  overflow: hidden;
+
+}
