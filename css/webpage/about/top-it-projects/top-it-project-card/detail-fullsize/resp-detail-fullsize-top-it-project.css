@@ -12,16 +12,6 @@
 @media (min-width: 380px) {
 
 
-  /* ------------------------------------------------------- */
-  /* Img Large | Header Detail Fullsize
-  /* ------------------------------------------------------- */
-
-  .img-large-header-detail-fullsize-medium,
-  .img-large-header-detail-fullsize-big {
-
-    display: flex;
-
-  }
 
 
   /* ------------------------------------------------------ */
@@ -40,6 +30,18 @@
 /* Min Width >= 450px
 /* ------------------------------------------------------- */
 @media (min-width: 450px) {
+
+
+  /* ------------------------------------------------------- */
+  /* Img Large | Header Detail Fullsize
+  /* ------------------------------------------------------- */
+
+  .img-large-header-detail-fullsize-medium,
+  .img-large-header-detail-fullsize-big {
+
+    display: flex;
+
+  }
 
   /* ------------------------------------------------------ */
   /* Img View Container | Imgs
