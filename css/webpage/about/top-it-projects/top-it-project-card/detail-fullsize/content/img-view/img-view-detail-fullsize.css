@@ -20,7 +20,7 @@
   display: grid;
   justify-content: center;
 
-  row-gap: 1.3em;
+  row-gap: 1em;
   column-gap: 1.3em;
 
   /* background-color: red; */
@@ -97,7 +97,7 @@
 
   letter-spacing: 1px;
 
-  border-radius: .1em 1.3em .1em .4em;
+  border-radius: .1em 1.2em .1em .4em;
 
   background-color: rgb(216, 216, 216);
   color:rgb(72, 72, 72);
