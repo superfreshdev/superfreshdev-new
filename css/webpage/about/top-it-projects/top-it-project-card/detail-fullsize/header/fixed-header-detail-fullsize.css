@@ -76,6 +76,7 @@
   /* color:rgb(101, 101, 101); */
   color:rgb(77, 77, 77);
   color:white;
+  color:rgb(83, 83, 83);
 
 }
 
@@ -124,8 +125,8 @@
 
   /* new button style */
 
-  min-height: 3em;
-  min-width: 3em;
+  min-height: 2.8em;
+  min-width: 2.8em;
 
   display: flex;
   align-items: center;
