@@ -1,0 +1,57 @@
+/* --------------------------------------------------------------- */
+/* > handling-nav-detail-fullsize.css
+/*
+/* : style handling nav
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Handlings Styles
+/* ---------------------------------------------------------------- */
+
+/* default unshown */
+input[name="name-radio-fullsize-install"] {
+
+  display: none;
+
+}
+
+/* set background wheat | ⚠️ dont understand why 2 because it should be 1 */
+#radio-fullsize-install-requirement:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-requirement"],
+#radio-fullsize-install-install-steps:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-install-steps"],
+#radio-fullsize-install-setup-steps:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-setup-steps"],
+#radio-fullsize-install-test-steps:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-test-steps"] {
+
+
+  border: 2px solid rgb(27, 27, 27);
+  background-color: wheat;
+
+  color: rgb(27, 27, 27);
+
+
+}
+
+/* nr tab */
+#radio-fullsize-install-requirement:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-requirement"] > div:nth-of-type(1),
+#radio-fullsize-install-install-steps:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-install-steps"] > div:nth-of-type(1),
+#radio-fullsize-install-setup-steps:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-setup-steps"] > div:nth-of-type(1),
+#radio-fullsize-install-test-steps:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-test-steps"] > div:nth-of-type(1) {
+
+  background-color: black;
+  color:white;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Handling Action
+/* ---------------------------------------------------------------- */
+
+/* open smooth container */
+#radio-fullsize-install-requirement:checked ~ #requirements-info-detail-fullsize,
+#radio-fullsize-install-install-steps:checked ~ #install-steps-info-detail-fullsize,
+#radio-fullsize-install-setup-steps:checked ~ #setup-steps-info-detail-fullsize,
+#radio-fullsize-install-test-steps:checked ~ #test-steps-info-detail-fullsize {
+
+  display: grid;
+
+}

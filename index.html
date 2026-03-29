@@ -339,13 +339,20 @@
             <!-- ---------------------- -->
             <!-- install -->
             <!-- ---------------------- -->
+
               <link rel="stylesheet" href="css/webpage/about/top-it-projects/top-it-project-card/detail-fullsize/content/install/install-detail-fullsize.css">
+
+              <!-- nav -->
+              <link rel="stylesheet" href="css/webpage/about/top-it-projects/top-it-project-card/detail-fullsize/content/install/nav/handling-nav-install-top-it-project.css">
+              <link rel="stylesheet" href="css/webpage/about/top-it-projects/top-it-project-card/detail-fullsize/content/install/nav/nav-install-top-it-project.css">
 
               <!-- requirement -->
               <link rel="stylesheet" href="css/webpage/about/top-it-projects/top-it-project-card/detail-fullsize/content/install/content/requirement-detail-fullsize.css">
 
               <!-- install steps -->
-              <link rel="stylesheet" href="css/webpage/about/top-it-projects/top-it-project-card/detail-fullsize/content/install/content/install-steps-detail-fullsize.css">
+              <link rel="stylesheet" href="css/webpage/about/top-it-projects/top-it-project-card/detail-fullsize/content/install/content/install/install-steps-detail-fullsize.css">
+              <link rel="stylesheet" href="css/webpage/about/top-it-projects/top-it-project-card/detail-fullsize/content/install/content/install/install-style-elements/install-style-elements.css">
+
 
               <!-- setup steps -->
               <link rel="stylesheet" href="css/webpage/about/top-it-projects/top-it-project-card/detail-fullsize/content/install/content/setup-steps-detail-fullsize.css">
@@ -903,13 +910,13 @@
                     <!-- -------------------------------------------------------------------- -->
 
                     <input type="checkbox" id="chk-detail-fullsize-top-it-project-benefits" name="name-chk-detail-fullsize-top-it-project">
-                    <input type="checkbox" id="chk-detail-fullsize-top-it-project-install" name="name-chk-detail-fullsize-top-it-project">
+                    <input checked type="checkbox" id="chk-detail-fullsize-top-it-project-install" name="name-chk-detail-fullsize-top-it-project">
                     <input type="checkbox" id="chk-detail-fullsize-top-it-project-more-details" name="name-chk-detail-fullsize-top-it-project">
 
                     <!-- <div class="wurst"> Ich bin eine Wurst </div> -->
 
                     <!-- -------------------------------------------------------------------- -->
-                    <!-- ➡️🟥 [1/3] | Label Benefits -->
+                    <!-- 🟨 [1/3] | Label Benefits -->
                     <!-- -------------------------------------------------------------------- -->
                     <label for="chk-detail-fullsize-top-it-project-benefits" class="lbl-clap-detail-fullsize">
 
@@ -941,7 +948,7 @@
                     </label>
 
                     <!-- -------------------------------------------------------------------- -->
-                    <!-- 🟥 Benefits Info Container | Smooth Open Close                       -->
+                    <!-- 🟨 Benefits Info Container | Smooth Open Close                       -->
                     <!-- -------------------------------------------------------------------- -->
                     <div id="smooth-open-close-benefits-container" class="smooth-open-close-container" >
 
@@ -1214,7 +1221,7 @@
                     </div>
 
                     <!-- -------------------------------------------------------------------- -->
-                    <!-- ➡️🟥 [2/3] | Label Install -->
+                    <!-- 🟨 [2/3] | Label Install -->
                     <!-- -------------------------------------------------------------------- -->
                     <label for="chk-detail-fullsize-top-it-project-install" class="lbl-clap-detail-fullsize">
 
@@ -1246,9 +1253,9 @@
                     </label>
 
                     <!-- -------------------------------------------------------------------- -->
-                    <!-- 🟥 Install Info Container | Smooth Open Close                       -->
+                    <!-- ➡️🟥 Install Info Container | Smooth Open Close                       -->
                     <!-- -------------------------------------------------------------------- -->
-                    <div id="smooth-open-close-install-container" class="smooth-open-close-container" >
+                    <div id="smooth-open-close-install-container" class="smooth-open-close-container">
 
                       <!-- -------------------------------------------------- -->
                       <!-- 🟥 Smooth Overflow Hidden -->
@@ -1260,7 +1267,129 @@
                         <!-- -------------------------------------------------- -->
                         <div id="install-info-container">
 
-                            Install Info Container
+                          <!-- ------------------------------------------------------ -->
+                          <!-- ➡️🟥 Radios Nav | Requi., Install Steps, ...  -->
+                          <!-- ------------------------------------------------------ -->
+                          <input type="radio" id="radio-fullsize-install-requirement" name="name-radio-fullsize-install">
+                          <input type="radio" id="radio-fullsize-install-install-steps" name="name-radio-fullsize-install">
+                          <input type="radio" id="radio-fullsize-install-setup-steps" name="name-radio-fullsize-install">
+                          <input type="radio" id="radio-fullsize-install-test-steps" name="name-radio-fullsize-install">
+
+                          <!-- ------------------------------------------------------ -->
+                          <!-- ➡️🟥 [1/5] | Nav -->
+                          <!-- ------------------------------------------------------ -->
+                          <div id="nav-install-container-detail-fullsize">
+
+                            <!-- ----------------------------------------------------------------- -->
+                            <!-- [1/2] | Nav -->
+                            <!-- ----------------------------------------------------------------- -->
+                            <nav id="nav-install-detail-fullsize" class="nav-tab-container-small">
+
+                              <!-- ------------------------------------------------------- -->
+                              <!-- [1/2] | Header -->
+                              <!-- ------------------------------------------------------- -->
+                              <header>
+                                <div>Categories:</div>
+                              </header>
+
+                              <!-- ------------------------------------------------------- -->
+                              <!-- [2/2] | Main -->
+                              <!-- ------------------------------------------------------- -->
+                              <main>
+
+
+                                <!-- tab 1 | all -->
+                                <label for="radio-fullsize-install-requirement" class="nr-tab-label-small">
+
+                                  <div>
+                                    <div>1.</div>
+                                  </div>
+
+                                  <div>Requirements</div>
+
+
+                                </label>
+
+                                <!-- tab 2 | easy -->
+                                <label for="radio-fullsize-install-install-steps" class="nr-tab-label-small">
+
+                                  <div>
+                                    <div>2.</div>
+                                  </div>
+
+                                  <div>Install Steps</div>
+
+                                </label>
+
+                                <!-- tab 2 | easy -->
+                                <label for="radio-fullsize-install-setup-steps" class="nr-tab-label-small">
+
+                                  <div>
+                                    <div>3.</div>
+                                  </div>
+
+                                  <div>Setup Steps</div>
+
+
+                                </label>
+
+                                <!-- tab 2 | easy -->
+                                <label for="radio-fullsize-install-test-steps" class="nr-tab-label-small">
+
+
+                                  <div>
+                                    <div>4.</div>
+                                  </div>
+
+                                  <div>Test Steps</div>
+
+
+
+
+                                </label>
+
+
+
+                              </main>
+
+                            </nav>
+
+                            <!-- ----------------------------------------------------------------- -->
+                            <!-- [2/2] | Img -->
+                            <!-- ----------------------------------------------------------------- -->
+                            <img src="media/imgs/icons/02-icon-colors/01-black/black-2-construction.png"
+                                  alt="img">
+
+
+                          </div>
+
+                          <!-- ------------------------------------------------------ -->
+                          <!-- ➡️🟥 [2/5] | Requirement Info | Detail Fullsize -->
+                          <!-- ------------------------------------------------------ -->
+                          <div id="requirements-info-detail-fullsize">
+                              Requirement Info
+                          </div>
+
+                          <!-- ------------------------------------------------------ -->
+                          <!-- 🟥 [3/5] | Install Steps Info | Detail Fullsize -->
+                          <!-- ------------------------------------------------------ -->
+                          <div id="install-steps-info-detail-fullsize">
+                              Install Steps
+                          </div>
+
+                          <!-- ------------------------------------------------------ -->
+                          <!-- 🟥 [4/5] | Setup Steps Info | Detail Fullsize -->
+                          <!-- ------------------------------------------------------ -->
+                          <div id="setup-steps-info-detail-fullsize">
+                              Setup Steps
+                          </div>
+
+                          <!-- ------------------------------------------------------ -->
+                          <!-- 🟥 [5/5] | Test Steps | Info Container  -->
+                          <!-- ------------------------------------------------------ -->
+                          <div id="test-steps-info-detail-fullsize">
+                              Test Info
+                          </div>
 
                         </div>
 
@@ -1269,7 +1398,7 @@
                     </div>
 
                     <!-- -------------------------------------------------------------------- -->
-                    <!-- ➡️🟥 [2/3] | Label More Details -->
+                    <!-- 🟥 [2/3] | Label More Details -->
                     <!-- -------------------------------------------------------------------- -->
                     <label for="chk-detail-fullsize-top-it-project-more-details" class="lbl-clap-detail-fullsize">
 

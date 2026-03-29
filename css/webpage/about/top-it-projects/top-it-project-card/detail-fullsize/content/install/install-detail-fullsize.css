@@ -6,14 +6,34 @@
 
 
 /* ------------------------------------------------------- */
-/* Benefits Info Container
+/* Install Info Container
 /* ------------------------------------------------------- */
 
 #install-info-container {
 
-  position: relative;
+  /* position: relative; */
+
+  box-sizing: border-box;
+
+  width: 100%;
+  padding: 1.5em .8em;
+
+  display: grid;
+  justify-items: center;
+  /* justify-content: center; */
+
+  row-gap: 1.5em;
+
+  /* display: none; */
+
+  /* background-color: red; */
 
 }
+
+
+/* ------------------------------------------------------- */
+/* ❌❌❌ Trash
+/* ------------------------------------------------------- */
 
 /* 🟣 auslagern */
 /* ------------------------------------------------------- */

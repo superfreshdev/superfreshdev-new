@@ -1,27 +1,24 @@
 /* --------------------------------------------------------------- */
-/* > requirement-detail-fullsize.css
+/* > nav-install-top-it-roject.css
 /*
 /* : styles requirement detail fullsize
 /* --------------------------------------------------------------- */
 
 
 /* ------------------------------------------------------- */
-/* Setup Steps |
+/* Nav Install Container | Detail Fullsize
 /* ------------------------------------------------------- */
 
-#setup-steps-info-detail-fullsize {
+#nav-install-container-detail-fullsize {
+
+  /* padding: 1.5em 0; */
 
   width: 100%;
-  box-sizing: border-box;
 
   display: flex;
+  align-items: center;
+  column-gap: .8em;
 
-  padding: 2.5em .4em;
-
-  border-top: 1px solid rgb(209, 209, 209);
-  border-bottom: 1px solid rgb(209, 209, 209);
-
-  /* default unshown */
-  display: none;
+  /* background-color: blue; */
 
 }
