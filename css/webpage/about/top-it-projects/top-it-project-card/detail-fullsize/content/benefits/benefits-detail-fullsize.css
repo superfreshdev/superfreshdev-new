@@ -50,12 +50,9 @@
   align-items: center;
   column-gap: 1.5em;
 
-  border-radius: .8em;
+  border-radius: .6em;
 
   border: 1px solid rgb(222, 222, 222);
-
-  /* background-color: grey; */
-
   background-color: rgb(251, 251, 251);
 
   transition: all .4s;
@@ -105,25 +102,29 @@
 
 .nr-img-info-benefit-info > div:nth-of-type(1) {
 
-  height: 1.6em;
+  height: 1.5em;
   padding: 0 .5em;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  border-radius: .6em;
+  border-radius: .8em;
 
-  background-color: #ececec;
 
-  color:rgb(69, 69, 69);
+  border: 1px solid rgb(211, 211, 211);
 
   background-color: white;
-  border: 1px solid rgb(234, 234, 234);
+
+  background-color: rgb(244, 244, 244);
+  color:rgb(145, 145, 145);
 
 }
 
 .nr-img-info-benefit-info > div:nth-of-type(1) > div:nth-of-type(1) {
+
+  /* layout pos fix */
+  padding-top: 1px;
 
   font-size: 13px;
   font-weight: bold;
@@ -218,6 +219,7 @@
 /* because some img icons need another height
 for correct layout proportion */
 
+.img-lage-benefit-info-small,
 .img-lage-benefit-info-medium,
 .img-large-benefit-info-big {
 
@@ -231,10 +233,17 @@ for correct layout proportion */
 
 }
 
+/* small */
+.img-lage-benefit-info-small {
+
+  height: 4.5em;
+
+}
+
 /* medium */
 .img-lage-benefit-info-medium {
 
-  height: 5.5em;
+  height: 5.3em;
 
 }
 

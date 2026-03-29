@@ -59,9 +59,21 @@
 /* Header | Fixed Header Content
 /* ------------------------------------------------------- */
 
-#fixed-header-content-detail-fullsize> header {
+#fixed-header-content-detail-fullsize > header {
 
-  line-height: 1.4em;
+  display: flex;
+  align-items: center;
+  column-gap: .8em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Title Container | Fixed Header
+/* ------------------------------------------------------- */
+
+#title-container-fixed-header-detail-fullsize {
+
+  line-height: 1.3em;
 
 }
 
@@ -69,7 +81,7 @@
 /* Superfreshdev Info | Div 1 | Header
 /* ------------------------------------------------------- */
 
-#fixed-header-content-detail-fullsize > header > div:nth-of-type(1) > div {
+#title-container-fixed-header-detail-fullsize > div:nth-of-type(1) > div {
 
   font-size: 12.5px;
   font-weight: bold;
@@ -84,25 +96,25 @@
 /* Superfreshdev Info | Div 2 | Header
 /* ------------------------------------------------------- */
 
-#fixed-header-content-detail-fullsize > header > div:nth-of-type(2) {
+#title-container-fixed-header-detail-fullsize > div:nth-of-type(2) {
 
   /* padding-left: .3em; */
 
 }
 
-#fixed-header-content-detail-fullsize > header > div:nth-of-type(2) > div {
+#title-container-fixed-header-detail-fullsize > div:nth-of-type(2) > div {
 
   font-size: 16px;
   font-weight: bold;
-  color: wheat;
+  color: #f5deb3;
+
+
 
   /* opacity: .8; */
 
   /* font-style: italic; */
 
 }
-
-
 
 /* ------------------------------------------------------- */
 /* [2/2] | Close Button | Header Detail Fullsize
