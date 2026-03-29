@@ -71,10 +71,11 @@
 
 #fixed-header-content-detail-fullsize > header > div:nth-of-type(1) > div {
 
-  font-size: 14.5px;
+  font-size: 12.5px;
   font-weight: bold;
   /* color:rgb(101, 101, 101); */
   color:rgb(77, 77, 77);
+  color:white;
 
 }
 
@@ -84,17 +85,17 @@
 
 #fixed-header-content-detail-fullsize > header > div:nth-of-type(2) {
 
-  padding-left: .3em;
+  /* padding-left: .3em; */
 
 }
 
 #fixed-header-content-detail-fullsize > header > div:nth-of-type(2) > div {
 
-  font-size: 14.5px;
+  font-size: 16px;
   font-weight: bold;
   color: wheat;
 
-  opacity: .8;
+  /* opacity: .8; */
 
   /* font-style: italic; */
 
