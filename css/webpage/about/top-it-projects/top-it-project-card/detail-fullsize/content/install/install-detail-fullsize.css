@@ -118,6 +118,9 @@
   height: 2.5em;
   opacity: .1;
 
+  /* default mobile unshown */
+  display: none;
+
 }
 
 

@@ -22,3 +22,15 @@
   /* background-color: blue; */
 
 }
+
+
+/* overwrite main */
+#nav-install-detail-fullsize > main {
+
+  /* width: 100%;
+  display: grid;
+  grid: auto / 1fr 1fr; */
+
+  /* background-color: red; */
+
+}
