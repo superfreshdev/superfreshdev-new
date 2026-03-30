@@ -46,7 +46,25 @@ html,body {
   /* 1rem = 16px  */
   font-size: 1rem;
 
-  font-family: Arial, Helvetica, sans-serif;
+  /* ---------------------------------------------------- */
+  /* Google Font Style in /fonts
+  /* ---------------------------------------------------- */
+
+  /* classic */
+  /* font-family: Arial, Helvetica, sans-serif; */
+
+  /* - Google Font -  https://fonts.google.com/selection/embed */
+  font-family: "Delius", cursive;
+
+  /* - Coding gut */
+  font-family: "Cascadia Code", sans-serif;
+
+  /* 💪 Favorite */
+  font-family: "Open Sans", sans-serif;
+
+  /* 💪 Nunito */
+  /* font-family: "Nunito", sans-serif; */
+
   line-height: 1.8rem;
 
   /* for smooth anker scrolling */
