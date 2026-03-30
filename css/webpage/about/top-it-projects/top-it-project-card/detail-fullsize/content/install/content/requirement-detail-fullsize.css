@@ -11,45 +11,113 @@
 
 #requirements-info-detail-fullsize {
 
+
   /* background-color: red; */
   display: none;
 
 }
 
 /* ------------------------------------------------------- */
-/* Requirement List |
+/* Requirement List
 /* ------------------------------------------------------- */
 
 #requirement-list-detail-fullsize {
 
+  box-sizing: border-box;
+
+  width: 100%;
+  padding: 0 .4em;
+
   display: grid;
+  justify-items: center;
+  /* justify-content: center; */
+
   row-gap: 1em;
 
 }
 
 /* ------------------------------------------------------- */
-/* Divs | Requirement List
+/* Requirment Item | Requirment List
 /* ------------------------------------------------------- */
 
-#requirement-list-detail-fullsize > div {
+.requirement-item-detail-fullsize {
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: .8em .8em;
+
+  display: grid;
+  row-gap: .4em;
+
+   border-radius: .6em;
+
+  border: 1px solid rgb(222, 222, 222);
+  background-color: rgb(251, 251, 251);
+
+  transition: all .4s;
+
+}
+
+/* hover */
+.requirement-item-detail-fullsize:hover {
+
+  background-color: rgba(245, 222, 179, .5);
+
+}
+
+
+/* ------------------------------------------------------- */
+/* [1/2] | Nr & Img Container | Requirment Item
+/* ------------------------------------------------------- */
+
+.requirement-item-detail-fullsize > div:nth-of-type(1) {
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
   column-gap: .8em;
 
 }
 
 /* ------------------------------------------------------- */
-/* Nr | Div 1 | Requirement List
+/* Nr | Requirment Item
 /* ------------------------------------------------------- */
 
-#requirement-list-detail-fullsize > div > div:nth-of-type(1) {
+.requirement-item-detail-fullsize > div:nth-of-type(1) > div:nth-of-type(1) {
 
+  height: 1.5em;
+  padding: 0 .5em;
 
-  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  /* layout pos fix */
-  margin-top: 9px;
+  border-radius: .8em;
+
+  border: 1px solid rgb(211, 211, 211);
+
+  background-color: rgb(244, 244, 244);
+  color:rgb(145, 145, 145);
+
+}
+
+/* div 1 > div 1 */
+.requirement-item-detail-fullsize > div:nth-of-type(1) > div:nth-of-type(1) div {
+
+  padding-bottom: 1px;
+
+  font-size: 12.5px;
+  font-weight: bold;
+  letter-spacing: 1px;
+
+}
+
+/* ------------------------------------------------------- */
+/* Img | Requirment Item
+/* ------------------------------------------------------- */
+
+/* div > img */
+.requirement-item-detail-fullsize > div:nth-of-type(1) > div:nth-of-type(2) {
 
   min-width: 1.8em;
   min-height: 1.8em;
@@ -58,39 +126,42 @@
   align-items: center;
   justify-content: center;
 
-  border-radius: .4em;
+  border-radius: .6em;
 
-  background-color: rgb(245, 245, 245);
-  color:grey;
+  /* border: 1px solid rgb(212, 212, 212); */
+  background-color: #ececec;
+
+  background-color: white;
+  border: 1px solid rgb(234, 234, 234);
+
+}
+
+/* div 1 > img */
+.requirement-item-detail-fullsize > div:nth-of-type(1) > div img {
+
+  opacity: .6;
 
 }
 
-#requirement-list-detail-fullsize > div > div:nth-of-type(1) > div:nth-of-type(1) {
 
-  font-size: 14.5px;
-  font-weight: bold;
 
-}
 
 /* ------------------------------------------------------- */
-/* Title | Div 2 | Requirement List
+/* [2/2] | Info Requirement Item | Requirment Item
 /* ------------------------------------------------------- */
 
-#requirement-list-detail-fullsize > div > div:nth-of-type(2) {
+.info-requirement-item {
 
-  /* layout pos fix */
-  margin-top: 8px;
-
+  padding-left: .3em;
 
 }
 
-#requirement-list-detail-fullsize > div > div:nth-of-type(2) > div:nth-of-type(1) {
+.info-requirement-item > div {
 
   font-size: 14.5px;
-  /* font-weight: bold; */
 
-  line-height: 1.6em;
+  line-height: 1.8em;
 
-  color:rgb(86, 86, 86);
+  color:rgb(87, 87, 87);
 
 }
