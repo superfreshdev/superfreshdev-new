@@ -113,10 +113,12 @@
 
   border: 1px solid rgb(211, 211, 211);
 
-  background-color: white;
 
   background-color: rgb(244, 244, 244);
   color:rgb(145, 145, 145);
+
+  background-color: rgb(28, 28, 28);
+  color:rgb(229, 229, 229);
 
 }
 

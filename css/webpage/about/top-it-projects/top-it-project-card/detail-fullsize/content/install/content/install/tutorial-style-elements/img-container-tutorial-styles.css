@@ -1,17 +1,10 @@
 /* --------------------------------------------------------------- */
-/* > requirement-detail-fullsize.css
+/* > code-tutorial-styles.css
 /*
-/* : styles requirement detail fullsize
+/* : styles code tutorial styles
 /* --------------------------------------------------------------- */
 
 
 /* ------------------------------------------------------- */
-/* Install Steps |
+/* Header Chapter Tutorial
 /* ------------------------------------------------------- */
-
-#install-steps-info-detail-fullsize {
-
-  /* default unshown */
-  display: none;
-
-}

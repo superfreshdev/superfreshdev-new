@@ -1,0 +1,66 @@
+/* --------------------------------------------------------------- */
+/* > text-container-tutorial-styles.css
+/*
+/* : styles code tutorial styles
+/* --------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* Plain Text Container
+/* ------------------------------------------------------- */
+
+.plain-text-container-tutorial-styles {
+
+  color:grey;
+
+}
+
+.plain-text-container-tutorial-styles > div {
+
+  font-size: 14.5px;
+  line-height: 1.8em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Header Text Container
+/* ------------------------------------------------------- */
+
+.header-text-container-tutorial-styles {
+
+  display: grid;
+  row-gap: .1em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Header | Header Text Container
+/* ------------------------------------------------------- */
+
+.header-text-container-tutorial-styles > header {
+
+  line-height: 1.4em;
+
+}
+
+/* div */
+.header-text-container-tutorial-styles > header > div {
+
+  font-size: 14.5px;
+  font-weight: bold;
+  color: rgb(99, 99, 99);
+
+}
+
+/* ------------------------------------------------------- */
+/* Divs | Header Text Container
+/* ------------------------------------------------------- */
+
+.header-text-container-tutorial-styles > div {
+
+  color:grey;
+
+  font-size: 14.5px;
+  line-height: 1.8em;
+
+}

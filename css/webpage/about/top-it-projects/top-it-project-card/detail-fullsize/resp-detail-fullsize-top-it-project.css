@@ -276,12 +276,27 @@
 
 @media (min-width: 1000px) {
 
+
   .benefit-info-item {
 
     width: 50em;
     /* background-color: red; */
 
   }
+
+  /* ------------------------------------------------------- */
+  /* Chapter Software Tutorial | Main
+  /* ------------------------------------------------------- */
+
+  .chapter-software-tutorial > main {
+
+    width: 95%;
+    /* background-color: blue; */
+
+  }
+
+
+
 
 }
 
