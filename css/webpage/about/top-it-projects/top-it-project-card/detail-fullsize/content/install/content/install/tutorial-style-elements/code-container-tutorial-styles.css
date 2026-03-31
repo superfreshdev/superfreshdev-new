@@ -6,25 +6,36 @@
 
 
 /* ------------------------------------------------------- */
-/* Header Chapter Tutorial
-/* ------------------------------------------------------- */
-
-
-
-
-/* ------------------------------------------------------- */
 /* Code Block
 /* ------------------------------------------------------- */
 
 .code-block {
 
-  margin: .8em 0;
+  font-family: "Cascadia Code", sans-serif;
 
-  padding: .2em .8em;
+  padding: .6em .6em;
 
   border-radius: .6em;
 
-  border: 1px dashed black;
+  line-height: 1.5em;
 
+  /* font-weight: bold; */
+
+  border: 1px dashed rgb(139, 139, 139);
+  background-color: rgb(247, 247, 247);
+
+  color:rgb(57, 57, 57);
+
+  /* display: none; */
+
+}
+
+.code-block div {
+
+  font-size: 14.5px;
+  /* word-wrap: break-word;
+  word-break: break-all; */
+  letter-spacing: 1px;
+  /* word-spacing: 2px; */
 
 }
