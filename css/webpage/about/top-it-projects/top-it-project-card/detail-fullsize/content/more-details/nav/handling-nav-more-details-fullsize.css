@@ -1,0 +1,45 @@
+/* --------------------------------------------------------------- */
+/* > handling-nav-more-detail-fullsize.css
+/*
+/* : style handling nav
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+/* Handlings Styles
+/* ---------------------------------------------------------------- */
+
+/* default unshown */
+input[name="name-radio-fullsize-more-details"] {
+
+  display: none;
+
+}
+
+/* set background wheat | ⚠️ dont understand why 2 because it should be 1 */
+#radio-fullsize-more-details-motivation:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-more-details-motivation"],
+#radio-fullsize-details-tech-stacks:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-details-tech-stacks"],
+#radio-fullsize-install-details-architecture:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-details-architecture"],
+#radio-fullsize-install-details-video-tutorials:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-details-video-tutorials"] {
+
+  border: 2px solid rgb(184, 184, 184);
+
+  background-color: wheat;
+  color: rgb(27, 27, 27);
+
+}
+
+
+/* ---------------------------------------------------------------- */
+/* Handling Action
+/* ---------------------------------------------------------------- */
+
+/* open smooth container */
+#radio-fullsize-more-details-motivation:checked ~ #motivation-container-detail-fullsize,
+#radio-fullsize-details-tech-stacks:checked ~ #tech-stacks-container-detail-fullsize,
+#radio-fullsize-install-details-architecture:checked ~ #architecture-container-detail-fullsize,
+#radio-fullsize-install-details-video-tutorials:checked ~ #video-tutorials-container-detail-fullsize {
+
+  display: grid;
+
+}

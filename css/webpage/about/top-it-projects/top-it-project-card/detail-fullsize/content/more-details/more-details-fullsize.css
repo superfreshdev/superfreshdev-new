@@ -1,0 +1,32 @@
+
+/* --------------------------------------------------------------- */
+/* > more-details-fullsize.css
+/*
+/* : styles more details fullsize
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/* More Detail Info Container
+/* ---------------------------------------------------------------------- */
+
+#more-details-info-container {
+
+   /* position: relative; */
+
+    box-sizing: border-box;
+
+    width: 100%;
+    padding: 1.5em .4em;
+
+    display: grid;
+    justify-items: center;
+    /* justify-content: center; */
+
+    row-gap: 1.5em;
+
+    /* display: none; */
+
+    /* background-color: red; */
+
+}

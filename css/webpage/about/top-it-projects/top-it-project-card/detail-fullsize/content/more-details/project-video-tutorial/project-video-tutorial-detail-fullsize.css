@@ -1,0 +1,18 @@
+
+/* --------------------------------------------------------------- */
+/* > video-tutorials-detail-fullsize.css
+/*
+/* : styles motivation detail fullsize
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/* Video Tutorials | Detail Fullsize
+/* ---------------------------------------------------------------------- */
+
+#video-tutorials-container-detail-fullsize {
+
+  /* default unshown */
+  display: none;
+
+}

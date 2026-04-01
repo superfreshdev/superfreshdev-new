@@ -1,10 +1,18 @@
+
 /* --------------------------------------------------------------- */
-/* > detail-fullsize-top-it-projec.css
+/* > architecture-detail-fullsize.css
 /*
-/* : style detail fullsize of top it project
+/* : styles architecture detail fullsize
 /* --------------------------------------------------------------- */
 
 
-/* ------------------------------------------------------- */
-/* Detail Fullsize | Top IT Project Card
-/* ------------------------------------------------------- */
+/* ---------------------------------------------------------------------- */
+/* Architecture Container | Detail Fullsize
+/* ---------------------------------------------------------------------- */
+
+#architecture-container-detail-fullsize {
+
+  /* default unshown */
+  display: none;
+
+}

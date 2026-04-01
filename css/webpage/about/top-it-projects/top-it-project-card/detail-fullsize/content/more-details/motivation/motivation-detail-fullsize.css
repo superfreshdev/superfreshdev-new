@@ -1,0 +1,18 @@
+
+/* --------------------------------------------------------------- */
+/* > motivation-detail-fullsize.css
+/*
+/* : styles motivation detail fullsize
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/* Motivation Container | Detail Fullsize
+/* ---------------------------------------------------------------------- */
+
+#motivation-container-detail-fullsize {
+
+  /* default unshown */
+  display: none;
+
+}

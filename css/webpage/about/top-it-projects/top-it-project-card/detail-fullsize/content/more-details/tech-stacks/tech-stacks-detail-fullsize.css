@@ -1,0 +1,18 @@
+
+/* --------------------------------------------------------------- */
+/* > tech-stacks-detail-fullsize.css
+/*
+/* : styles tech stacks detail fullsize
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/* Tech Stacks Container | Detail Fullsize
+/* ---------------------------------------------------------------------- */
+
+#tech-stacks-container-detail-fullsize {
+
+  /* default unshown */
+  display: none;
+
+}
