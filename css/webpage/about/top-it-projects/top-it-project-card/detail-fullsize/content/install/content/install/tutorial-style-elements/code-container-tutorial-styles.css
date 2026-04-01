@@ -6,12 +6,13 @@
 
 
 /* ------------------------------------------------------- */
-/* Code Block
+/* Code Plain Container
 /* ------------------------------------------------------- */
 
-.code-block {
+.code-plain-container {
 
   font-family: "Cascadia Code", sans-serif;
+  /* font-family: "Google Sans Code", monospace; */
 
   padding: .6em .6em;
 
@@ -22,7 +23,7 @@
   /* font-weight: bold; */
 
   border: 1px dashed rgb(139, 139, 139);
-  background-color: rgb(247, 247, 247);
+  background-color: rgb(250, 250, 250);
 
   color:rgb(57, 57, 57);
 
@@ -30,12 +31,45 @@
 
 }
 
-.code-block div {
+.code-plain-container div {
 
-  font-size: 14.5px;
+  font-size: 13px;
   /* word-wrap: break-word;
   word-break: break-all; */
   letter-spacing: 1px;
   /* word-spacing: 2px; */
+
+}
+
+/* ------------------------------------------------------- */
+/* Code Header Container
+/* ------------------------------------------------------- */
+
+.code-header-container {
+
+  display: grid;
+  row-gap: .6em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Header Code Block
+/* ------------------------------------------------------- */
+
+.code-header-container > header {
+
+
+}
+
+/* div > header */
+
+.code-header-container > header > div {
+
+  font-size: 14.5px;
+
+  line-height: 1.6em;
+  font-weight: bold;
+
+  color: #575757;
 
 }

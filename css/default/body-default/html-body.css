@@ -54,16 +54,34 @@ html,body {
   /* font-family: Arial, Helvetica, sans-serif; */
 
   /* - Google Font -  https://fonts.google.com/selection/embed */
-  font-family: "Delius", cursive;
+  /* font-family: "Delius", cursive; */
 
-  /* - Coding gut */
-  font-family: "Cascadia Code", sans-serif;
+  /* - Coding gut 1/2 */
+  /* font-family: "Cascadia Code", sans-serif; */
+
+  /* - Coding gut 2/2 */
+  /* font-family: "Google Sans Code", monospace; */
 
   /* 💪 Favorite */
   font-family: "Open Sans", sans-serif;
 
   /* 💪 Nunito */
   /* font-family: "Nunito", sans-serif; */
+
+  /* Comig Relief */
+  /* font-family: "Comic Relief", system-ui; */
+
+  /* Roboto */
+   /* font-family: "Roboto", sans-serif; */
+
+  /* Alan Sans */
+  /* font-family: "Alan Sans", sans-serif; */
+
+  /* Lexend */
+  /* font-family: "Lexend", sans-serif; */
+
+
+
 
   line-height: 1.8rem;
 
