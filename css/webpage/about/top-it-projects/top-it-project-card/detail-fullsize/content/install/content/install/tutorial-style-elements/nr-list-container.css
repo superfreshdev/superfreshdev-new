@@ -1,0 +1,100 @@
+/* --------------------------------------------------------------- */
+/* > nr-list-container.css
+/*
+/* : styles nr plain & header list container
+/* --------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* [1/2] | Nr Plain List Container
+/* ------------------------------------------------------- */
+
+.nr-plain-list-container {
+
+  /* delete default ol, li style */
+  margin: 0;
+  padding: 0 0 0 1em;
+
+  display: grid;
+  row-gap: .6em;
+
+  /* background-color: red; */
+
+}
+
+/* ------------------------------------------------------- */
+/* Li ( nr marker ) | plain & header
+/* ------------------------------------------------------- */
+
+/* nr marker by browser */
+.nr-plain-list-container > li::marker,
+.nr-header-list-container > ul > li::marker  {
+
+  font-weight: bold;
+  color: rgb(87, 87, 87);
+
+  font-size: 14.5px;
+
+}
+
+/* ------------------------------------------------------- */
+/* Li | plain & header
+/* ------------------------------------------------------- */
+
+.nr-plain-list-container > li,
+.nr-header-list-container > ul > li {
+
+  /* padding-right: 3em; */
+  padding: 0 .8em 0 .8em;
+
+  /* background-color: green; */
+  color: rgb(139, 139, 139);
+
+}
+
+.nr-plain-list-container > li div,
+.nr-header-list-container > ul > li div{
+
+  font-size: 14.5px;
+  line-height: 1.6em;
+
+}
+
+/* ------------------------------------------------------- */
+/* [2/2] | Nr Header List Container
+/* ------------------------------------------------------- */
+
+.nr-header-list-container {
+
+  display: grid;
+  row-gap: .8em;
+  /* border: 1px solid black; */
+
+}
+
+/* ------------------------------------------------------- */
+/* Header | Nr Header List Container
+/* ------------------------------------------------------- */
+
+.nr-header-list-container > header {
+
+}
+
+/* div > header */
+.nr-header-list-container > header > div {
+
+  font-size: 14.5px;
+
+  font-weight: bold;
+  color: rgb(87, 87, 87);
+
+}
+
+/* ol */
+.nr-header-list-container > ol {
+
+  padding: 0 1.5em;
+
+  /* background-color: red; */
+
+}

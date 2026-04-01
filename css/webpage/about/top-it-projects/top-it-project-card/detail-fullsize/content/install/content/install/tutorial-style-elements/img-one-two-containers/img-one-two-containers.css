@@ -1,0 +1,48 @@
+
+/* --------------------------------------------------------------- */
+/* > img-one-two-containers.css
+/*
+/* : styles img one,two container for tutorial styles
+/* --------------------------------------------------------------- */
+
+
+.img-one-container img,
+.img-two-container img {
+
+  width: 100%;
+  border-radius: .8em;
+
+}
+
+/* ------------------------------------------------------- */
+/* [1/2] | Img One Container
+/* ------------------------------------------------------- */
+
+.img-one-container {
+
+  width: 100%;
+
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+
+
+  /* background-color: red; */
+
+}
+
+/* ------------------------------------------------------- */
+/* [2/2] | Img Two Container
+/* ------------------------------------------------------- */
+
+.img-two-container {
+
+  display: grid;
+  grid: auto / 1fr 1fr;
+
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+
+  /* background-color: grey; */
+
+}

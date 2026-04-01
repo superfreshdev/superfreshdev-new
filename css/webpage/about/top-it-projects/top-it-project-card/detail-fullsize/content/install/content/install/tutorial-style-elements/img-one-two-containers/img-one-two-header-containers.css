@@ -1,0 +1,85 @@
+
+/* --------------------------------------------------------------- */
+/* > img-one-two-header-containers.css
+/*
+/* : styles img one,two header container for tutorial styles
+/* --------------------------------------------------------------- */
+
+
+/* all img */
+.img-one-header-container > main img,
+.img-two-header-container > main img {
+
+  width: 100%;
+  border-radius: .8em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Default | Img One, Img Two
+/* ------------------------------------------------------- */
+
+.img-one-header-container,
+.img-two-header-container {
+
+  display: grid;
+  row-gap: .8em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Header | Img One, Img Two
+/* ------------------------------------------------------- */
+
+.img-one-header-container > header,
+.img-two-header-container > header {
+
+
+}
+
+.img-one-header-container > header div,
+.img-two-header-container > header div {
+
+  font-size: 14.5px;
+  font-weight: bold;
+
+  line-height: 1.6em;
+
+  color: rgb(58, 58, 58);
+
+}
+
+
+
+/* ------------------------------------------------------- */
+/* [1/2] | Main |  Img One Header Container
+/* ------------------------------------------------------- */
+
+.img-one-header-container > main {
+
+  width: 100%;
+
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+
+
+  /* background-color: red; */
+
+}
+
+/* ------------------------------------------------------- */
+/* [2/2] | Main | Img Two Header Container
+/* ------------------------------------------------------- */
+
+.img-two-header-container > main {
+
+  display: grid;
+  grid: auto / 1fr 1fr;
+
+  column-gap: 1.5em;
+  row-gap: 1.5em;
+
+  /* background-color: grey; */
+
+}
