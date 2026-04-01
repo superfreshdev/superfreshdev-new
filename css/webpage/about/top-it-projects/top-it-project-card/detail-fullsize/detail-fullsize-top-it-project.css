@@ -6,10 +6,10 @@
 
 
 /* -------------------------------------------------------------- */
-/* 🟩🟩🟩 New | Detail Fullsize | Top IT Project
+/* Detail Fullsize | Top IT Project
 /* -------------------------------------------------------------- */
 
-.new-detail-fullsize-top-it-project {
+.detail-fullsize-top-it-project {
 
   z-index: 3;
 
@@ -35,90 +35,3 @@
   /* background-color: red; */
 
 }
-
-
-
-/* -------------------------------------------------------------- */
-/* ❌❌❌ Trash
-/* -------------------------------------------------------------- */
-
-
-
-
-
-
-
-/* ------------------------------------------------------- */
-/* Detail Fullsize | Top IT Project Card
-/* ------------------------------------------------------- */
-
-.detail-fullsize-top-it-project {
-
-  width: 100%;
-
-  position: absolute;
-  top: 0em;
-  left:0;
-  right:0;
-
-  z-index: 9;
-
-  font-size: 18px;
-
-  background-color: rgb(208, 208, 208);
-
-  /* ⚠️ in Entwicklung */
-  display: none;
-
-}
-
-/* ------------------------------------------------------- */
-/* Main | Detail Fullsize
-/* ------------------------------------------------------- */
-
-.detail-fullsize-top-it-project > main {
-
-  width: 100%;
-
-}
-
-/* ------------------------------------------------------- */
-/* Content Detail Fullsize | Main
-/* ------------------------------------------------------- */
-
-.content-detail-fullsize-top-it-project {
-
-  width: 100%;
-
-  padding: 0 .8em;
-
-
-  /* background-color: magenta; */
-
-}
-
-/* ------------------------------------------------------- */
-/* Nav Content | Detail Fullsize | Main
-/* ------------------------------------------------------- */
-
-#nav-content-detail-fullsize-top-it-project {
-
-  display: grid;
-  row-gap: .3em;
-
-}
-
-/* ------------------------------------------------------- */
-/* Nav Content Area | Detail Fullsize
-/* ------------------------------------------------------- */
-
-.nav-content-area-detail-fullsize {
-
-  padding: 1em .6em;
-  /* background-color: magenta; */
-
-}
-
-
-
-/* 🟣 > detail fullsize | label content open close */

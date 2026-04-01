@@ -6,8 +6,10 @@
 
 
 /* ------------------------------------------------------- */
-/* Benefits Info Container
+/* Benefits Container | Detail Fullsize
 /* ------------------------------------------------------- */
+
+/* benefits-container-detail-fullsize */
 
 #benefits-info-container {
 
@@ -19,19 +21,9 @@
   padding: 1.5em .8em;
 
   display: grid;
-  /* justify-items: center; */
   justify-content: center;
 
   row-gap: 1em;
-
-  /* border-radius: .8em; */
-  /* border-left: 1px solid black;
-  border-right: 1px solid black; */
-
-  /* background-color: brown; */
-
-  /* background-color: rgb(228, 228, 228); */
-
 }
 
 /* ------------------------------------------------------- */

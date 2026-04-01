@@ -58,7 +58,7 @@
 #title-container-header-detail-fullsize {
 
   display: grid;
-  row-gap: .4em;
+  row-gap: .6em;
 
   /* line-height: 2.8em; */
 
@@ -94,7 +94,9 @@
 
   background-color: rgb(235, 234, 234);
 
-  opacity: .8;
+  background-color: rgb(52, 52, 52);
+
+  /* opacity: .8; */
 
 
 }
@@ -103,7 +105,7 @@
 
  font-size: 12.5px;
  font-weight: bold;
- color: rgb(76, 76, 76);
+ color: rgb(218, 218, 218);
 
 }
 
@@ -123,9 +125,7 @@
 
   border-radius: .8em;
 
-  background-color: rgb(235, 234, 234);
-
-  opacity: .8;
+  background-color: rgb(52, 52, 52);
 
 }
 
@@ -140,11 +140,11 @@
 #title-container-header-detail-fullsize > header > div:nth-of-type(2) > div {
 
   /* layout pos fix */
-  padding-top: 2px;
+  /* padding-top: 2px; */
 
   font-size: 12.5px;
   font-weight: bold;
-  color: rgb(76, 76, 76);
+  color: rgb(218, 218, 218);
 
 }
 

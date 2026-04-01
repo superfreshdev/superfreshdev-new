@@ -1,7 +1,7 @@
 /* --------------------------------------------------------------- */
 /* > handling-nav-detail-fullsize.css
 /*
-/* : style handling nav
+/* : style handling nav, benefits, installatoin, more details
 /* --------------------------------------------------------------- */
 
 
@@ -16,7 +16,7 @@ input[name="name-chk-detail-fullsize-top-it-project"] {
 
 }
 
-/* set background wheat | ⚠️ dont understand why 2 because it should be 1 */
+/* set background wheat | benefits, install, more details */
 #chk-detail-fullsize-top-it-project-benefits:checked ~ label[for="chk-detail-fullsize-top-it-project-benefits"],
 #chk-detail-fullsize-top-it-project-install:checked ~ label[for="chk-detail-fullsize-top-it-project-install"],
 #chk-detail-fullsize-top-it-project-more-details:checked ~ label[for="chk-detail-fullsize-top-it-project-more-details"] {
