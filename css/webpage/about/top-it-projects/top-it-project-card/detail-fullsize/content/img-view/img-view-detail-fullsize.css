@@ -6,12 +6,10 @@
 
 
 /* ------------------------------------------------------- */
-/* Img View Gallery Tiles Container
+/* Img View | Detail Fullsize
 /* ------------------------------------------------------- */
 
-/* img-view-container-detail-fullsize */
-
-.img-view-detail-fullsize {
+#img-view-detail-fullsize {
 
   box-sizing: border-box;
 
@@ -33,7 +31,7 @@
 /* Divs > Imgs
 /* ------------------------------------------------------- */
 
-.img-view-detail-fullsize > div {
+#img-view-detail-fullsize > div {
 
   position: relative;
 
@@ -47,7 +45,7 @@
 /* Imgs | Img View Gallery Tiles Container
 /* ------------------------------------------------------- */
 
-.img-view-detail-fullsize > div > img {
+#img-view-detail-fullsize > div > img {
 
   width: 100%;
 
@@ -65,14 +63,14 @@
 }
 
 /* hover > img */
-.img-view-detail-fullsize > div > img:hover {
+#img-view-detail-fullsize > div > img:hover {
 
   border: 3px solid rgba(28, 28, 28, 1);
 
 }
 
 /* hover > img > nr */
-.img-view-detail-fullsize > div > img:hover ~ .nr-img-view-details-fullsize {
+#img-view-detail-fullsize > div > img:hover ~ .nr-img-view-details-fullsize {
 
   background-color: rgba(28, 28, 28, 1);
   color:rgb(225, 225, 225);

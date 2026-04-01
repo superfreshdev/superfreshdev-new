@@ -19,16 +19,30 @@
   display: grid;
   justify-items: center;
 
-  row-gap: .3em;
+  row-gap: .4em;
 
   background-color: rgb(255, 255, 255);
   /* background-color: rgb(255, 0, 179); */
 
 }
 
+/* ---------------------------------------------------------------- */
+/* Clap Item Content
+/* ---------------------------------------------------------------- */
+
+.clap-item-content {
+
+  box-sizing: border-box;
+  width: 100%;
+
+  display: grid;
+  justify-items: center;
+
+}
+
 /* mobile label, div max 100% */
-#clap-content-top-it-project > label,
-#clap-content-top-it-project > div {
+.clap-item-content > label,
+.clap-item-content > div {
 
   width: 100%;
 

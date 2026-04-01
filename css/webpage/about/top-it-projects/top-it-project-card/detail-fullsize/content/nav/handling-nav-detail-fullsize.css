@@ -17,9 +17,9 @@ input[name="name-chk-detail-fullsize-top-it-project"] {
 }
 
 /* set background wheat | benefits, install, more details */
-#chk-detail-fullsize-top-it-project-benefits:checked ~ label[for="chk-detail-fullsize-top-it-project-benefits"],
-#chk-detail-fullsize-top-it-project-install:checked ~ label[for="chk-detail-fullsize-top-it-project-install"],
-#chk-detail-fullsize-top-it-project-more-details:checked ~ label[for="chk-detail-fullsize-top-it-project-more-details"] {
+#chk-detail-fullsize-top-it-project-benefits:checked ~ .clap-item-content label[for="chk-detail-fullsize-top-it-project-benefits"],
+#chk-detail-fullsize-top-it-project-install:checked ~ .clap-item-content label[for="chk-detail-fullsize-top-it-project-install"],
+#chk-detail-fullsize-top-it-project-more-details:checked ~ .clap-item-content label[for="chk-detail-fullsize-top-it-project-more-details"] {
 
   /* background-image: linear-gradient(to right, #db7272, #da9292); */
   /* background-color: wheat; */
@@ -29,9 +29,9 @@ input[name="name-chk-detail-fullsize-top-it-project"] {
 }
 
 /* img arrow rotate */
-#chk-detail-fullsize-top-it-project-benefits:checked ~ label[for="chk-detail-fullsize-top-it-project-benefits"] > img:nth-of-type(1),
-#chk-detail-fullsize-top-it-project-install:checked ~ label[for="chk-detail-fullsize-top-it-project-install"] > img:nth-of-type(1),
-#chk-detail-fullsize-top-it-project-more-details:checked ~ label[for="chk-detail-fullsize-top-it-project-more-details"] > img:nth-of-type(1) {
+#chk-detail-fullsize-top-it-project-benefits:checked ~ .clap-item-content label[for="chk-detail-fullsize-top-it-project-benefits"] > img:nth-of-type(1),
+#chk-detail-fullsize-top-it-project-install:checked ~ .clap-item-content label[for="chk-detail-fullsize-top-it-project-install"] > img:nth-of-type(1),
+#chk-detail-fullsize-top-it-project-more-details:checked ~ .clap-item-content label[for="chk-detail-fullsize-top-it-project-more-details"] > img:nth-of-type(1) {
 
   transform: rotate(-180deg);
 
@@ -42,9 +42,9 @@ input[name="name-chk-detail-fullsize-top-it-project"] {
 /* ---------------------------------------------------------------- */
 
 /* open smooth container */
-#chk-detail-fullsize-top-it-project-benefits:checked ~ #smooth-open-close-benefits-container,
-#chk-detail-fullsize-top-it-project-install:checked ~ #smooth-open-close-install-container,
-#chk-detail-fullsize-top-it-project-more-details:checked ~ #smooth-open-close-more-details-container {
+#chk-detail-fullsize-top-it-project-benefits:checked ~ .clap-item-content #smooth-open-close-benefits-container,
+#chk-detail-fullsize-top-it-project-install:checked ~ .clap-item-content #smooth-open-close-install-container,
+#chk-detail-fullsize-top-it-project-more-details:checked ~ .clap-item-content #smooth-open-close-more-details-container {
 
    grid-template-rows: 1fr;
 

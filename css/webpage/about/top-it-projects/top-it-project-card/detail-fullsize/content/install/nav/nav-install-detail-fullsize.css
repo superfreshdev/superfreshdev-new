@@ -1,7 +1,7 @@
 /* --------------------------------------------------------------- */
-/* > nav-install-top-it-roject.css
+/* > nav-install-detail-fullsize.css
 /*
-/* : styles requirement detail fullsize
+/* : styles nav install container of detail fullsize
 /* --------------------------------------------------------------- */
 
 
@@ -11,26 +11,23 @@
 
 #nav-install-container-detail-fullsize {
 
-  /* padding: 1.5em 0; */
-
   width: 100%;
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
   column-gap: .8em;
 
-  /* background-color: blue; */
+  /* background-color: red; */
 
 }
 
+#nav-install-container-detail-fullsize > img:nth-of-type(1) {
 
-/* overwrite main */
-#nav-install-detail-fullsize > main {
+  height: 2.5em;
+  opacity: .1;
 
-  /* width: 100%;
-  display: grid;
-  grid: auto / 1fr 1fr; */
-
-  /* background-color: red; */
+  /* default mobile unshown */
+  display: none;
 
 }
