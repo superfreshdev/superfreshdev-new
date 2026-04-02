@@ -10,7 +10,7 @@
 .img-two-container img {
 
   width: 100%;
-  border-radius: .8em;
+  border-radius: .4em;
 
 }
 
@@ -37,8 +37,10 @@
 
 .img-two-container {
 
+  width: 100%;
+
+  /* desktop */
   display: grid;
-  grid: auto / 1fr 1fr;
 
   column-gap: 1.5em;
   row-gap: 1.5em;

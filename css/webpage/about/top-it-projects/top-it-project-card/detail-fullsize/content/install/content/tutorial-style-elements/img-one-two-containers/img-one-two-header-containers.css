@@ -11,7 +11,7 @@
 .img-two-header-container > main img {
 
   width: 100%;
-  border-radius: .8em;
+  border-radius: .4em;
 
 }
 
@@ -74,12 +74,15 @@
 
 .img-two-header-container > main {
 
+  width: 100%;
+
+  /* desktop */
   display: grid;
-  grid: auto / 1fr 1fr;
+
+  /* grid: auto / 1fr 1fr; */
 
   column-gap: 1.5em;
   row-gap: 1.5em;
-
   /* background-color: grey; */
 
 }

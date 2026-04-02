@@ -1,0 +1,70 @@
+/* --------------------------------------------------------------- */
+/* > sub-chapter-software-tutorial.css
+/*
+/* : styles sub chapter software tutorial
+/* --------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* Sub Chapter Software Tutorial
+/* ------------------------------------------------------- */
+
+.sub-chapter-software-tutorial {
+
+  display: grid;
+  row-gap: 2em;
+
+  /* background-color: green; */
+
+}
+
+/* ------------------------------------------------------- */
+/* Header | Sub Chapter Software Tutorial
+/* ------------------------------------------------------- */
+
+.sub-chapter-software-tutorial > header {
+
+  padding: .8em .6em;
+
+  line-height: 1.4em;
+  font-weight: bold;
+
+  border-radius: .4em;
+
+  background-color: rgb(215, 215, 215);
+  color: rgb(28, 28, 28);
+
+  color: rgb(58, 58, 58);
+
+}
+
+/* divs */
+.sub-chapter-software-tutorial > header > span {
+
+  font-size: 14.5px;
+
+}
+
+/* nr */
+.sub-chapter-software-tutorial > header > span:nth-of-type(1) {
+
+  padding-right: .3em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Main | Sub Chapter Software Tutorial
+/* ------------------------------------------------------- */
+
+.sub-chapter-software-tutorial > main {
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 .4em;
+
+  display: grid;
+  row-gap: 1.5em;
+
+  /* background-color: red; */
+
+}
