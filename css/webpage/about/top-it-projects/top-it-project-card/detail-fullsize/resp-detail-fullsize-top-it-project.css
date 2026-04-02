@@ -215,6 +215,15 @@
 
   }
 
+  /* ------------------------------------------------------ */
+  /* Nav More Details Container | Img Large
+  /* ------------------------------------------------------ */
+  #nav-more-details-container-detail-fullsize > img:nth-of-type(1) {
+
+    display: flex;
+
+  }
+
 
 }
 
@@ -249,6 +258,17 @@
   /* Install Detail Fullsize
   /* ------------------------------------------------------- */
   #install-detail-fullsize {
+
+    padding: 1.5em 0em;
+    width: 90%;
+    /* background-color: blue; */
+
+  }
+
+  /* ------------------------------------------------------- */
+  /* More Details | Detail Fullsize
+  /* ------------------------------------------------------- */
+  #more-details-detail-fullsize {
 
     padding: 1.5em 0em;
     width: 90%;

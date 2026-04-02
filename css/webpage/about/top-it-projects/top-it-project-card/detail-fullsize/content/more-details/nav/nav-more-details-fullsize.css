@@ -1,0 +1,35 @@
+/* --------------------------------------------------------------- */
+/* > nav-more-details-detail-fullsize.css
+/*
+/* : styles nav install container of detail fullsize
+/* --------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------- */
+/* Nav More Details Container | Detail Fullsize
+/* ------------------------------------------------------- */
+
+#nav-more-details-container-detail-fullsize {
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 .4em;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .8em;
+
+  /* background-color: red; */
+
+}
+
+#nav-more-details-container-detail-fullsize > img:nth-of-type(1) {
+
+  height: 2.5em;
+  opacity: .1;
+
+  /* default mobile unshown */
+  display: none;
+
+}

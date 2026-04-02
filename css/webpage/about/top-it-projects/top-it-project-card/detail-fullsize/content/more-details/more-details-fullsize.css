@@ -7,26 +7,21 @@
 
 
 /* ---------------------------------------------------------------------- */
-/* More Detail Info Container
+/* More Details | Detail Fullsize
 /* ---------------------------------------------------------------------- */
 
-#more-details-info-container {
+#more-details-detail-fullsize {
 
-   /* position: relative; */
+  box-sizing: border-box;
 
-    box-sizing: border-box;
+  width: 100%;
+  padding: 1.5em 0em;
 
-    width: 100%;
-    padding: 1.5em .4em;
+  display: grid;
+  justify-items: center;
+  /* justify-content: center; */
+  /* justify-content: center; */
 
-    display: grid;
-    justify-items: center;
-    /* justify-content: center; */
-
-    row-gap: 1.5em;
-
-    /* display: none; */
-
-    /* background-color: red; */
+  row-gap: 1.5em;
 
 }

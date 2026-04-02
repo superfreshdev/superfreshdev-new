@@ -17,10 +17,10 @@ input[name="name-radio-fullsize-more-details"] {
 }
 
 /* set background wheat | ⚠️ dont understand why 2 because it should be 1 */
-#radio-fullsize-more-details-motivation:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-more-details-motivation"],
-#radio-fullsize-details-tech-stacks:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-details-tech-stacks"],
-#radio-fullsize-install-details-architecture:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-details-architecture"],
-#radio-fullsize-install-details-video-tutorials:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-details-video-tutorials"] {
+#radio-fullsize-more-details-motivation:checked ~ #nav-more-details-container-detail-fullsize label[for="radio-fullsize-more-details-motivation"],
+#radio-fullsize-details-tech-stacks:checked ~ #nav-more-details-container-detail-fullsize label[for="radio-fullsize-details-tech-stacks"],
+#radio-fullsize-install-details-architecture:checked ~ #nav-more-details-container-detail-fullsize label[for="radio-fullsize-install-details-architecture"],
+#radio-fullsize-install-details-video-tutorials:checked ~ #nav-more-details-container-detail-fullsize label[for="radio-fullsize-install-details-video-tutorials"] {
 
   border: 2px solid rgb(184, 184, 184);
 
