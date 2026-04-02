@@ -137,7 +137,8 @@
   /* border: 1px solid rgb(212, 212, 212); */
   background-color: #ececec;
 
-  background-color: white;
+  background-color: rgb(99, 99, 99);
+
   border: 1px solid rgb(234, 234, 234);
 
 }
@@ -145,7 +146,7 @@
 /* div 1 > img */
 .requirement-item-detail-fullsize > div:nth-of-type(1) > div img {
 
-  opacity: .6;
+  opacity: .8;
 
 }
 

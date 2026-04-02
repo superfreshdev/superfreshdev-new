@@ -1,7 +1,7 @@
 /* --------------------------------------------------------------- */
-/* > text-container-tutorial-styles.css
+/* > text-containers.css
 /*
-/* : styles code tutorial styles
+/* : styles text containers
 /* --------------------------------------------------------------- */
 
 
@@ -9,14 +9,17 @@
 /* Plain Text Container
 /* ------------------------------------------------------- */
 
-.plain-text-container-tutorial-styles {
+
+.text-plain-container {
 
 
 }
 
-.plain-text-container-tutorial-styles > div {
+.text-plain-container > div {
 
-  font-size: 14.5px;
+  /* font-size: 14.5px; */
+  font-size: 16px;
+
   line-height: 1.8em;
 
   color: rgb(139, 139, 139);
@@ -27,10 +30,10 @@
 /* Header Text Container
 /* ------------------------------------------------------- */
 
-.header-text-container-tutorial-styles {
+.header-text-container {
 
   display: grid;
-  row-gap: .1em;
+  row-gap: .6em;
 
 }
 
@@ -38,16 +41,16 @@
 /* Header | Header Text Container
 /* ------------------------------------------------------- */
 
-.header-text-container-tutorial-styles > header {
+.header-text-container > header {
 
   line-height: 1.4em;
 
 }
 
 /* div */
-.header-text-container-tutorial-styles > header > div {
+.header-text-container > header > div {
 
-  font-size: 14.5px;
+  font-size: 16px;
   font-weight: bold;
   color: rgb(87, 87, 87);
 
@@ -57,11 +60,11 @@
 /* Divs | Header Text Container
 /* ------------------------------------------------------- */
 
-.header-text-container-tutorial-styles > div {
+.header-text-container > div {
 
   color: rgb(139, 139, 139);
 
-  font-size: 14.5px;
+  font-size: 16px;
   line-height: 1.8em;
 
 }

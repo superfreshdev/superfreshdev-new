@@ -29,18 +29,6 @@ input[name="name-radio-fullsize-install"] {
 
 }
 
-/* nr tab */
-#radio-fullsize-install-requirement:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-requirement"] > div:nth-of-type(1),
-#radio-fullsize-install-install-steps:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-install-steps"] > div:nth-of-type(1),
-#radio-fullsize-install-setup-steps:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-setup-steps"] > div:nth-of-type(1),
-#radio-fullsize-install-test-steps:checked ~ #nav-install-container-detail-fullsize label[for="radio-fullsize-install-test-steps"] > div:nth-of-type(1) {
-
-   border-right: 2px solid rgb(150, 150, 150);
-
-  background-color: rgb(184, 184, 184);
-  color:rgb(2, 2, 2);
-
-}
 
 /* ---------------------------------------------------------------- */
 /* Handling Action

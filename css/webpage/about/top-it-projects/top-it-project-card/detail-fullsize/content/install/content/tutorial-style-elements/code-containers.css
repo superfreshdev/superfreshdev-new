@@ -1,5 +1,5 @@
 /* --------------------------------------------------------------- */
-/* > code-tutorial-styles.css
+/* > code-containers.css
 /*
 /* : styles code tutorial styles
 /* --------------------------------------------------------------- */
@@ -63,10 +63,9 @@
 }
 
 /* div > header */
-
 .code-header-container > header > div {
 
-  font-size: 14.5px;
+  font-size: 16px;
 
   line-height: 1.6em;
   font-weight: bold;

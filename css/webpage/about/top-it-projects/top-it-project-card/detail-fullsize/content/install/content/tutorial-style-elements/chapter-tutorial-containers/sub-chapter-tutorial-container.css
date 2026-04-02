@@ -32,7 +32,8 @@
   border-radius: .4em;
 
   background-color: rgb(215, 215, 215);
-  color: rgb(28, 28, 28);
+
+  background-color: wheat;
 
   color: rgb(58, 58, 58);
 
@@ -42,6 +43,8 @@
 .sub-chapter-software-tutorial > header > span {
 
   font-size: 14.5px;
+
+  font-size: 16px;
 
 }
 
