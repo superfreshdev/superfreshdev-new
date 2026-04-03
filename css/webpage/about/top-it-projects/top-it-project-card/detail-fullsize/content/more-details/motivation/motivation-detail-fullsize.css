@@ -12,9 +12,12 @@
 
 #motivation-container-detail-fullsize {
 
-  background-color: rgb(243, 243, 243);
+  box-sizing: border-box;
 
-  border-radius: .6em;
+  width: 100%;
+
+  display: grid;
+  justify-items: center;
 
   /* default unshown */
   display: none;
@@ -27,8 +30,135 @@
 
 #motivation-container-detail-fullsize > main {
 
+  box-sizing: border-box;
+  width: 100%;
+
   display: grid;
+  justify-items: center;
   row-gap: 1.5em;
 
+}
+
+/* ---------------------------------------------------------------------- */
+/* Motivation Item | Detail Fullsize
+/* ---------------------------------------------------------------------- */
+
+.motivation-item-detail-fullsize {
+
+  box-sizing: border-box;
+
+  width: 100%;
+  padding: .8em;
+
+  display: grid;
+  row-gap: .4em;
+
+  border-radius: .6em;
+  border: 1px solid rgb(222, 222, 222);
+  background-color: rgb(251, 251, 251);
+
+  transition: all .4s;
+
+}
+
+/* hover */
+.motivation-item-detail-fullsize:hover {
+
+  background-color: rgba(245, 222, 179, .5);
+
+}
+
+/* ---------------------------------------------------------------------- */
+/* Header | Motivation Item
+/* ---------------------------------------------------------------------- */
+
+.motivation-item-detail-fullsize > header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: .8em;
+
+}
+
+/* ---------------------------------------------------------------------- */
+/* Nr | Header
+/* ---------------------------------------------------------------------- */
+
+.motivation-item-detail-fullsize > header > div:nth-of-type(1) {
+
+  height: 1.5em;
+  padding: 0 .5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .8em;
+
+  border: 1px solid rgb(211, 211, 211);
+
+  background-color: rgb(99, 99, 99);
+  color: rgb(229, 229, 229);
+
+}
+
+/* nr text */
+.motivation-item-detail-fullsize > header > div:nth-of-type(1) > div {
+
+  font-size: 12.5px;
+  font-weight: bold;
+
+}
+
+/* ---------------------------------------------------------------------- */
+/* Img Info | Header
+/* ---------------------------------------------------------------------- */
+
+.motivation-item-detail-fullsize > header > div:nth-of-type(2) {
+
+  min-width: 1.8em;
+  min-height: 1.8em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .6em;
+
+  border: 1px solid rgb(234, 234, 234);
+
+  background-color: rgb(99, 99, 99);
+
+}
+
+/* img */
+.motivation-item-detail-fullsize > header > div:nth-of-type(2) > img {
+
+  height: .8em;
+
+}
+
+/* ---------------------------------------------------------------------- */
+/* Main | Motivation Item
+/* ---------------------------------------------------------------------- */
+
+.motivation-item-detail-fullsize > main {
+
+  padding-left: .4em;
+
+  display: grid;
+  row-gap: .3em;
+
+}
+
+/* div text */
+.motivation-item-detail-fullsize > main > div {
+
+  font-size: 14.5px;
+
+  line-height: 1.8em;
+
+  color:#575757;
 
 }
