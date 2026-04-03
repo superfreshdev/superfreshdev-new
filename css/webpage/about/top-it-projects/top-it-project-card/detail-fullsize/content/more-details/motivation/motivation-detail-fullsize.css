@@ -40,6 +40,26 @@
 }
 
 /* ---------------------------------------------------------------------- */
+/* Footer | Motivation Container | Detail Fullsize
+/* ---------------------------------------------------------------------- */
+
+#motivation-container-detail-fullsize > footer {
+
+  padding-top: 2em;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+/* img clipart */
+#motivation-container-detail-fullsize > footer > img {
+
+  height: 8em;
+
+}
+
+/* ---------------------------------------------------------------------- */
 /* Motivation Item | Detail Fullsize
 /* ---------------------------------------------------------------------- */
 
