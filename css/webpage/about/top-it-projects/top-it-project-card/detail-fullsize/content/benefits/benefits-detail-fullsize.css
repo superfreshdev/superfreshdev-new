@@ -13,15 +13,77 @@
 
   box-sizing: border-box;
 
-  margin-top: 1em;
-
   width: 100%;
   padding: 1.5em .8em;
 
   display: grid;
   justify-content: center;
 
+}
+
+
+/* ------------------------------------------------------- */
+/* Header | Benefits Container | Detail Fullsize
+/* ------------------------------------------------------- */
+
+#benefits-detail-fullsize > header {
+
+  box-sizing: border-box;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+/* img */
+#benefits-detail-fullsize > header > img {
+
+  height: 8em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Footer | Benefits Container | Detail Fullsize
+/* ------------------------------------------------------- */
+
+#benefits-detail-fullsize > footer {
+
+  box-sizing: border-box;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+/* img */
+#benefits-detail-fullsize > footer > img {
+
+  height: 8em;
+  transform: scaleX(-1);
+
+}
+
+
+
+/* ------------------------------------------------------- */
+/* Main | Benefits Container | Detail Fullsize
+/* ------------------------------------------------------- */
+
+#benefits-detail-fullsize > main {
+
+  box-sizing: border-box;
+
+  width: 100%;
+  padding: 1.5em 0em;
+
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+
   row-gap: 1em;
+
 }
 
 /* ------------------------------------------------------- */
