@@ -12,6 +12,7 @@
 
 #tech-stacks-container-detail-fullsize {
 
+
   /* default unshown */
   display: none;
 
@@ -27,24 +28,17 @@
   width: 100%;
 
   display: grid;
+  /* justify-items: flex-start; */
   justify-items: center;
+  /* justify-content: center; */
 
-  row-gap: 1.5em;
+  row-gap: 3em;
 
-  border: 1px dashed black;
+  /* background-color: red; */
 
-}
-
-/* ------------------------------------------------------- */
-/* Tech Stack Category | Detail Fullsize
-/* ------------------------------------------------------- */
-
-.tech-stack-category-detail-fullsize  {
-
-  /* color:red; */
+  /* border: 1px dashed black; */
 
 }
-
 
 /* ------------------------------------------------------- */
 /* Footer | Tech Stacks Container | Detail Fullsize
@@ -69,5 +63,110 @@
 
   height: 9.5em;
   /* transform: scaleX(-1); */
+
+}
+
+/* ------------------------------------------------------- */
+/* Tech Stack Category | Detail Fullsize
+/* ------------------------------------------------------- */
+
+.tech-stack-category-detail-fullsize  {
+
+  /* width: 100%; */
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+
+  row-gap: 1em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Header | Tech Stack Category
+/* ------------------------------------------------------- */
+
+.tech-stack-category-detail-fullsize > header {
+
+  /* width: 100%; */
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+
+}
+
+/* ------------------------------------------------------- */
+/* Img Icon | Header
+/* ------------------------------------------------------- */
+
+.tech-stack-category-detail-fullsize > header > div:nth-of-type(1) {
+
+  min-height: 2.3em;
+  min-width: 2.3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: .4em;
+
+  /* background-color: rgb(224, 224, 224); */
+
+}
+
+/* ------------------------------------------------------- */
+/* Category Title | Header
+/* ------------------------------------------------------- */
+
+.tech-stack-category-detail-fullsize > header > div:nth-of-type(2) > div {
+
+  font-weight: bold;
+  font-size: 16px;
+  /* color:blue; */
+
+}
+
+/* ------------------------------------------------------- */
+/* Main | Tech Stack Category
+/* ------------------------------------------------------- */
+
+.tech-stack-category-detail-fullsize > main {
+
+  width: 100%;
+  padding: 0 .4em;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap:.3em;
+
+}
+
+/* ------------------------------------------------------- */
+/* Divs | Main | Tech Stack Category
+/* ------------------------------------------------------- */
+
+.tech-stack-category-detail-fullsize > main > div {
+
+  height: 1.8em;
+  padding: 0 .6em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .3em;
+
+  border-radius: .6em;
+
+  background-color: rgb(252, 252, 252);
+  border: 1px solid rgb(206, 206, 206);
+
+}
+
+.tech-stack-category-detail-fullsize > main > div > div {
+
+  font-size: 14.5px;
+  color:grey;
 
 }
