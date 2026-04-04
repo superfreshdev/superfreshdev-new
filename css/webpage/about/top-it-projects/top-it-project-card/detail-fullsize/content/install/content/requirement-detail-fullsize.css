@@ -17,6 +17,68 @@
 }
 
 /* ------------------------------------------------------- */
+/* Main | Requirements
+/* ------------------------------------------------------- */
+
+#requirements-info-detail-fullsize > main {
+
+  box-sizing: border-box;
+  width: 100%;
+
+  display: grid;
+  justify-items: center;
+
+  row-gap: 3em;
+
+
+}
+
+/* ------------------------------------------------------- */
+/* Main | Header | Requirements
+/* ------------------------------------------------------- */
+
+#requirements-info-detail-fullsize > main > header {
+
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  /* background-color: grey; */
+
+}
+
+#requirements-info-detail-fullsize > main > header > img {
+
+  height: 2.5em;
+  opacity: .2;
+
+}
+
+/* ------------------------------------------------------- */
+/* Main | Footer | Requirements
+/* ------------------------------------------------------- */
+
+
+#requirements-info-detail-fullsize > main > footer {
+
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  /* background-color: grey; */
+
+}
+
+#requirements-info-detail-fullsize > main > footer > img {
+
+  height: 2.5em;
+  opacity: .2;
+
+}
+
+/* ------------------------------------------------------- */
 /* Requirement List
 /* ------------------------------------------------------- */
 

@@ -11,6 +11,8 @@
 
 .sub-chapter-software-tutorial {
 
+  padding: 0 .4em;
+
   display: grid;
   row-gap: 2em;
 

@@ -1,15 +1,15 @@
 /* --------------------------------------------------------------- */
-/* > install-steps-detail-fullsize.css
+/* > setup-steps-detail-fullsize.css
 /*
-/* : define install steps
+/* : define setup steps
 /* --------------------------------------------------------------- */
 
 
 /* ------------------------------------------------------- */
-/* Install Steps |
+/* Setup Steps |
 /* ------------------------------------------------------- */
 
-#install-steps-info-detail-fullsize {
+#setup-steps-info-detail-fullsize {
 
   /* default unshown */
   display: none;
@@ -17,10 +17,10 @@
 }
 
 /* ------------------------------------------------------- */
-/* Main | Install Steps
+/* Main | Setup Steps
 /* ------------------------------------------------------- */
 
-#install-steps-info-detail-fullsize > main {
+#setup-steps-info-detail-fullsize > main {
 
   box-sizing: border-box;
   width: 100%;
@@ -34,10 +34,10 @@
 }
 
 /* ------------------------------------------------------- */
-/* Main | Header | Install Steps
+/* Main | Header | Setup Steps
 /* ------------------------------------------------------- */
 
-#install-steps-info-detail-fullsize > main > header {
+#setup-steps-info-detail-fullsize > main > header {
 
   width: 100%;
 
@@ -48,7 +48,7 @@
 
 }
 
-#install-steps-info-detail-fullsize > main > header > img {
+#setup-steps-info-detail-fullsize > main > header > img {
 
   height: 3em;
   opacity: .2;
@@ -56,11 +56,11 @@
 }
 
 /* ------------------------------------------------------- */
-/* Main | Footer | Install Steps
+/* Main | Footer | Setup Steps
 /* ------------------------------------------------------- */
 
 
-#install-steps-info-detail-fullsize  > main > footer {
+#setup-steps-info-detail-fullsize > main > footer {
 
   width: 100%;
 
@@ -71,7 +71,7 @@
 
 }
 
-#install-steps-info-detail-fullsize > main > footer > img {
+#setup-steps-info-detail-fullsize > main > footer > img {
 
   height: 3em;
   opacity: .2;
