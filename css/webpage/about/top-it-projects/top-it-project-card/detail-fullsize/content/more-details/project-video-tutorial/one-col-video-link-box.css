@@ -1,0 +1,96 @@
+/* --------------------------------------------------------------- */
+/* > one-col-video-link-box.css
+/*
+/* : define one col video link box
+/* --------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------- */
+/*  One Col Video Link Box | Main
+/* ---------------------------------------------------------------------- */
+
+.one-col-video-link-box-detail-fullsize {
+
+  width: 100%;
+
+  display: grid;
+
+  border-radius: .8em;
+
+}
+
+/* ---------------------------------------------------------------------- */
+/* Header | One Col Video Link Box | Main
+/* ---------------------------------------------------------------------- */
+
+.one-col-video-link-box-detail-fullsize > header {
+
+  box-sizing: border-box;
+
+  width: 100%;
+  padding: .8em;
+
+  display: flex;
+  align-items: center;
+  column-gap: .4em;
+
+  border-radius: .8em .8em 0 0;
+
+  font-weight: bold;
+
+  background-color: rgb(204, 204, 204);
+
+}
+
+/* nr */
+.one-col-video-link-box-detail-fullsize > header > div:nth-of-type(1) {
+
+   font-size: 14.5px;
+
+}
+
+/* text */
+.one-col-video-link-box-detail-fullsize > header > div:nth-of-type(2) {
+
+
+  font-size: 14.5px;
+
+}
+
+/* ---------------------------------------------------------------------- */
+/* Main | One Col Video Link Box | Main
+/* ---------------------------------------------------------------------- */
+
+.one-col-video-link-box-detail-fullsize > main {
+
+  /* width: 100%; */
+
+  display: grid;
+  justify-items: center;
+
+}
+
+/* last link */
+.one-col-video-link-box-detail-fullsize > main > .link-video-detail-fullsize:last-child {
+
+  border-radius: 0 0 .8em .8em;
+  /* background-color: red; */
+
+}
+
+/* all links but not last */
+.one-col-video-link-box-detail-fullsize > main > .link-video-detail-fullsize:not(:last-child) {
+
+  border-bottom: 1px solid rgb(206, 206, 206);
+
+}
+
+
+/* ---------------------------------------------------------------------- */
+/* [1/2] | One Col Video Link Box | Main
+/* ---------------------------------------------------------------------- */
+
+.one-col-video-link-box-detail-fullsize {
+
+
+}
