@@ -17,9 +17,11 @@
 
   /* mobile */
   display: grid;
+  align-items: flex-start;
 
   row-gap: 1.5em;
   column-gap: 1em;
+
 
 }
 
@@ -29,6 +31,8 @@
 
 .two-col-video-box {
 
+  border-radius: .8em;
+  border: 1px solid rgb(222, 222, 222);
 
 }
 
@@ -52,6 +56,7 @@
   font-weight: bold;
 
   background-color: rgb(204, 204, 204);
+  background-color: #e1e1e1;
 
 }
 

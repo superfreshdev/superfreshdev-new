@@ -55,6 +55,7 @@
   font-weight: bold;
 
   background-color: rgb(244, 244, 244);
+  background-color: #fbfbfb;
 
   transition: all .4s;
 
@@ -85,8 +86,8 @@
 /* nr text */
 .link-video-detail-fullsize > div:nth-of-type(1) > div:nth-of-type(1) {
 
-  font-size: 14.5px;
-  color:rgb(163, 163, 163);
+  font-size: 12.5px;
+  color:rgb(167, 167, 167);
 
 }
 
@@ -96,7 +97,7 @@
   line-height: 1.6em;
 
   font-size: 14.5px;
-  color:rgb(63, 63, 63);
+  color:rgb(113, 113, 113);
 
 }
 

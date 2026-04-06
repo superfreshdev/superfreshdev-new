@@ -87,12 +87,17 @@
 
 .tech-stack-category-detail-fullsize > header {
 
-  /* width: 100%; */
+  height: 2em;
+  padding: 0 .6em;
 
   display: flex;
   align-items: center;
-  column-gap: .3em;
+  column-gap: .4em;
 
+  border-radius: .4em;
+
+  background-color: rgb(224, 224, 224);
+  border: 1px solid rgb(203, 203, 203);
 
 }
 
@@ -100,18 +105,9 @@
 /* Img Icon | Header
 /* ------------------------------------------------------- */
 
-.tech-stack-category-detail-fullsize > header > div:nth-of-type(1) {
+.tech-stack-category-detail-fullsize > header > img:nth-of-type(1) {
 
-  min-height: 2.3em;
-  min-width: 2.3em;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border-radius: .4em;
-
-  /* background-color: rgb(224, 224, 224); */
+  opacity: .8;
 
 }
 
@@ -119,10 +115,10 @@
 /* Category Title | Header
 /* ------------------------------------------------------- */
 
-.tech-stack-category-detail-fullsize > header > div:nth-of-type(2) > div {
+.tech-stack-category-detail-fullsize > header > div:nth-of-type(1)  {
 
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14.5px;
   /* color:blue; */
 
 }
@@ -160,13 +156,13 @@
   border-radius: .4em;
 
   background-color: rgb(252, 252, 252);
-  border: 1px solid rgb(206, 206, 206);
+  border: 1px solid rgb(231, 231, 231);
 
 }
 
 .tech-stack-category-detail-fullsize > main > div > div {
 
   font-size: 14.5px;
-  color:grey;
+  color:rgb(145, 145, 145);
 
 }
