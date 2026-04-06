@@ -114,6 +114,23 @@
 /* Min Width >= 1400px
 /* ------------------------------------------------------- */
 
+@media (min-width: 1200px) {
+
+  /* big ( img fullsize gallery ) */
+  .resp-row-content-big {
+
+    /* width: 90%; */
+
+  }
+
+
+}
+
+/* ------------------------------------------------------- */
+/* 🟩 Medium, Big
+/* Min Width >= 1400px
+/* ------------------------------------------------------- */
+
 @media (min-width: 1400px) {
 
 
@@ -124,10 +141,96 @@
 
   }
 
-  /* big */
+  /* big ( img fullsize gallery ) */
   .resp-row-content-big {
 
-    width: 85em;
+    /* width: 95%; */
+
+  }
+
+}
+
+
+/* ------------------------------------------------------- */
+/* 🟩 Big
+/* Min Width >= 1600px
+/* ------------------------------------------------------- */
+
+@media (min-width: 1600px) {
+
+
+  /* big ( img fullsize gallery ) */
+  .resp-row-content-big {
+
+    width: 95%;
+
+  }
+
+}
+
+/* ------------------------------------------------------- */
+/* 🟩 Big
+/* Min Width >= 1800px
+/* ------------------------------------------------------- */
+
+@media (min-width: 1800px) {
+
+
+  /* big ( img fullsize gallery ) */
+  .resp-row-content-big {
+
+    width: 90%;
+
+  }
+
+}
+
+/* ------------------------------------------------------- */
+/* 🟩 Big
+/* Min Width >= 2000px
+/* ------------------------------------------------------- */
+
+@media (min-width: 2000px) {
+
+
+  /* big ( img fullsize gallery ) */
+  .resp-row-content-big {
+
+    width: 85%;
+
+  }
+
+}
+
+/* ------------------------------------------------------- */
+/* 🟩 Big
+/* Min Width >= 2100px
+/* ------------------------------------------------------- */
+
+@media (min-width: 2100px) {
+
+
+  /* big ( img fullsize gallery ) */
+  .resp-row-content-big {
+
+    width: 110em;
+
+  }
+
+}
+
+/* ------------------------------------------------------- */
+/* 🟩 Big
+/* Min Width >= 2300px
+/* ------------------------------------------------------- */
+
+@media (min-width: 2300px) {
+
+
+  /* big ( img fullsize gallery ) */
+  .resp-row-content-big {
+
+    width: 125em;
 
   }
 

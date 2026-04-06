@@ -195,6 +195,8 @@
 
           <link rel="stylesheet" href="css/default/css-framework/img-slider/img-slider.css">
           <link rel="stylesheet" href="css/default/css-framework/img-slider/img-fullsize-slider.css">
+          <link rel="stylesheet" href="css/default/css-framework/img-slider/fixed-header-img-fullsize-slider.css">
+          <link rel="stylesheet" href="css/default/css-framework/img-slider/resp-img-gallery-fullsize-slider.css">
 
 
       <!-- ------------------------------------------------------------------------------- -->
@@ -750,7 +752,7 @@
   <!-- 🟨 Fixed Header | Detail Fullsize | Top IT Project | JS  -->
   <!-- ----------------------------------------------------------------------------------- -->
 
-    <header id="fixed-header-detail-fullsize">
+    <header id="fixed-header-detail-fullsize" style="display: none;">
 
       <!-- -------------------------------------------------------------- -->
       <!-- 🟥📐 About Page Container (Row Container)                     -->
@@ -818,6 +820,78 @@
     </header>
 
 
+  <!-- ----------------------------------------------------------------------------------- -->
+  <!-- 🟨 Fixed Header | Img Gallery Fullsize | Top IT Project | JS  -->
+  <!-- ----------------------------------------------------------------------------------- -->
+
+    <header id="fixed-header-img-fullsize-slider">
+
+      <!-- -------------------------------------------------------------- -->
+      <!-- 🟥📐 About Page Container (Row Container)                     -->
+      <!-- -------------------------------------------------------------- -->
+      <div class="row-container">
+
+        <!-- -------------------------------------------------------------- -->
+        <!-- 🟥📐 About Page Container (Medium)   -->
+        <!-- -------------------------------------------------------------- -->
+        <div class="resp-row-content-medium">
+
+          <!-- -------------------------------------------------------------- -->
+          <!-- 🟩 Fixed header Content | Img Fullsize Slider   -->
+          <!-- -------------------------------------------------------------- -->
+          <div id="fixed-header-content-img-fullsize-slider">
+
+            <!-- ------------------------------------------------------------- -->
+            <!-- 🟩 [1/2] | Header                                             -->
+            <!-- ------------------------------------------------------------- -->
+            <header>
+
+              <!-- -------------------------------------- -->
+              <!-- [1/2] | Img Header -->
+              <!-- -------------------------------------- -->
+              <img src="media/imgs/icons/02-icon-colors/05-light-brown/light-brown-img-gallery.png"
+                  class="img-h-1-6"
+                  alt="img">
+
+              <!-- -------------------------------------- -->
+              <!-- [2/2] | Title Header -->
+              <!-- -------------------------------------- -->
+              <div id="title-container-fixed-header-detail-fullsize">
+
+                <!-- superfreshdev info -->
+                <div>
+                  <div>Top IT Project</div>
+                </div>
+
+                <!-- category -->
+                <div>
+                  <div>IMG Gallery</div>
+                </div>
+
+              </div>
+
+            </header>
+
+            <!-- ------------------------------------------------- -->
+            <!-- 🟩 [2/2] | Close Button -->
+            <!-- ------------------------------------------------- -->
+            <button id="close-img-gallery-top-it-project" class="close-button-detail-fullsize" >
+
+              <img src="media/imgs/icons/02-icon-colors/01-black/black-x.png"
+                  class="img-h-1-1"
+                  alt="img">
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </header>
+
+
   <!-- ---------------------------------------------------------------------------------- -->
   <!-- 🟥 Main Body (parent layout) -->
   <!-- ---------------------------------------------------------------------------------- -->
@@ -850,17 +924,88 @@
               <div class="row-container" style="background-color: rgba(39, 39, 39, .8);">
 
                 <!-- -------------------------------------------------------------- -->
-                <!-- 🟥📐 About Page Container (Medium)   -->
+                <!-- 🟥📐 About Page Container (Medium/Big)   -->
                 <!-- -------------------------------------------------------------- -->
                 <div class="resp-row-content-medium">
 
-                  <!-- 🟥 -->
-                  <!-- + IMG Gallery -->
+                  <!-- Reminder: Only one Layout can be shown -->
 
                   <!-- -------------------------------------------------------------------- -->
-                  <!-- ➡️🟥 [1/2] | Detail Fullsize | Top IT Project  -->
+                  <!-- ➡️🟥 Img Gallery Container ( ) -->
                   <!-- -------------------------------------------------------------------- -->
-                  <div class="detail-fullsize-top-it-project">
+                  <div class="img-gallery-fullsize-slider" style="display: none;">
+
+                    <!-- ---------------------------------------------------------------------- -->
+                    <!-- 🟥 [1/2] | Main ( Big Img View ) -->
+                    <!-- ---------------------------------------------------------------------- -->
+                    <main>
+
+                      <img src="media/imgs/content/img-gallery/large/1.jpg"
+                           alt="img">
+
+                    </main>
+
+                    <!-- ---------------------------------------------------------------------- -->
+                    <!-- 🟥 [2/2] | Mini Img Miniature Container -->
+                    <!-- ---------------------------------------------------------------------- -->
+                    <div class="mini-img-miniature-link-container">
+
+                      <!-- click img 1 -->
+                      <img src="media/imgs/content/img-gallery/mini/mini-1.png"
+                           alt="img">
+
+                      <!-- click img 2 -->
+                      <img src="media/imgs/content/img-gallery/mini/mini-2.png"
+                           alt="img">
+
+                      <!-- click img 3 -->
+                      <img src="media/imgs/content/img-gallery/mini/mini-3.png"
+                           alt="img">
+
+                      <!-- click img 4 -->
+                      <img src="media/imgs/content/img-gallery/mini/mini-4.png"
+                           alt="img">
+
+                      <!-- click img 5 -->
+                      <img src="media/imgs/content/img-gallery/mini/mini-5.png"
+                           alt="img">
+
+                      <!-- click img 6 -->
+                      <img src="media/imgs/content/img-gallery/mini/mini-6.png"
+                           alt="img">
+
+                       <!-- click img 1 -->
+                      <img src="media/imgs/content/img-gallery/mini/mini-1.png"
+                           alt="img">
+
+                      <!-- click img 2 -->
+                      <img src="media/imgs/content/img-gallery/mini/mini-2.png"
+                           alt="img">
+
+                      <!-- click img 3 -->
+                      <img src="media/imgs/content/img-gallery/mini/mini-3.png"
+                           alt="img">
+
+                      <!-- click img 4 -->
+                      <img src="media/imgs/content/img-gallery/mini/mini-4.png"
+                           alt="img">
+
+                      <!-- click img 5 -->
+                      <img src="media/imgs/content/img-gallery/mini/mini-5.png"
+                           alt="img">
+
+                      <!-- click img 6 -->
+                      <img src="media/imgs/content/img-gallery/mini/mini-6.png"
+                           alt="img">
+
+                    </div>
+
+                  </div>
+
+                  <!-- -------------------------------------------------------------------- -->
+                  <!-- 🟩 [1/2] | Detail Fullsize | Top IT Project  -->
+                  <!-- -------------------------------------------------------------------- -->
+                  <div class="detail-fullsize-top-it-project" >
 
                     <!-- ----------------------------------------------------------- -->
                     <!-- 🟩 [1/3] | Header -->
@@ -885,22 +1030,44 @@
                         <header>
 
                           <!-- ------------------------------------------------ -->
-                          <!-- Category Title -->
+                          <!-- Time Info  -->
                           <!-- ------------------------------------------------ -->
-                          <div>
-                            <div>Top IT Project</div>
-                          </div>
-
-                          <!-- ------------------------------------------------ -->
-                          <!-- Time Info 01-black/black-hour-glass.png -->
-                          <!-- ------------------------------------------------ -->
-                          <div>
+                          <div class="sub-info-project-time">
 
                             <img src="media/imgs/icons/02-icon-colors/02-white/white-hour-glass.png"
                               alt="img" class="img-h-0-7">
                             <div>4-12h</div>
 
                           </div>
+
+
+                          <!-- ------------------------------------------------ -->
+                          <!-- Author 1 -->
+                          <!-- ------------------------------------------------ -->
+                          <div class="sub-info-project-author">
+                             <img src="media/imgs/icons/02-icon-colors/01-black/black-user-2.png"
+                              alt="img" class="img-h-0-7">
+                             <div>SuperfreshDEV</div>
+                          </div>
+
+                          <!-- ------------------------------------------------ -->
+                          <!-- Author 2 -->
+                          <!-- ------------------------------------------------ -->
+                          <div class="sub-info-project-author">
+                             <img src="media/imgs/icons/02-icon-colors/01-black/black-user-2.png"
+                              alt="img" class="img-h-0-7">
+                             <div>Amigocode</div>
+                          </div>
+
+                          <!-- ------------------------------------------------ -->
+                          <!-- Java Guides -->
+                          <!-- ------------------------------------------------ -->
+                          <div class="sub-info-project-author">
+                             <img src="media/imgs/icons/02-icon-colors/01-black/black-user-2.png"
+                              alt="img" class="img-h-0-7">
+                             <div>Java Guides</div>
+                          </div>
+
 
                         </header>
 
@@ -921,7 +1088,7 @@
                     <div id="img-view-detail-fullsize">
 
                       <!-- 1 -->
-                      <div>
+                      <div id="js-img-click">
 
                         <!-- img  -->
                         <img src="media/imgs/content/04-it-projects/01-top-3-3-projects/03-java/project-2/project-2-java.png"
@@ -1006,7 +1173,7 @@
                     </div>
 
                     <!-- ----------------------------------------------------------- -->
-                    <!-- ➡️🟥 [3/3] | Clap Content -->
+                    <!-- 🟩 [3/3] | Clap Content -->
                     <!-- ----------------------------------------------------------- -->
                     <div id="clap-content-top-it-project">
 
@@ -1015,7 +1182,7 @@
                       <!-- -------------------------------------------------------------------- -->
                       <input type="checkbox" id="chk-detail-fullsize-top-it-project-benefits" name="name-chk-detail-fullsize-top-it-project">
                       <input type="checkbox" id="chk-detail-fullsize-top-it-project-install" name="name-chk-detail-fullsize-top-it-project">
-                      <input checked type="checkbox" id="chk-detail-fullsize-top-it-project-more-details" name="name-chk-detail-fullsize-top-it-project">
+                      <input type="checkbox" id="chk-detail-fullsize-top-it-project-more-details" name="name-chk-detail-fullsize-top-it-project">
 
                       <!-- ----------------------------------------------------------- -->
                       <!-- 🟩 [1/3] | Clap Item Content | Benefits -->
@@ -2838,7 +3005,7 @@
                               <input type="radio" id="radio-fullsize-more-details-motivation" name="name-radio-fullsize-more-details">
                               <input  type="radio" id="radio-fullsize-details-tech-stacks" name="name-radio-fullsize-more-details">
                               <input  type="radio" id="radio-fullsize-install-details-architecture" name="name-radio-fullsize-more-details">
-                              <input checked type="radio" id="radio-fullsize-install-details-video-tutorials" name="name-radio-fullsize-more-details">
+                              <input  type="radio" id="radio-fullsize-install-details-video-tutorials" name="name-radio-fullsize-more-details">
 
                               <!-- ------------------------------------------------------ -->
                               <!-- 🟩 [1/5] | Nav -->
@@ -16439,6 +16606,14 @@
       <!-- -------------------------------------------- -->
 
         <script src="js/web-page/content/about/mindset/video-mindset-1-countdown-timer.js"></script>
+
+        <!-- ---------------------------------------------- -->
+        <!-- Top IT Project | About  -->
+        <!-- ---------------------------------------------- -->
+
+        <!-- open img fullsize gallery -->
+        <script src="js/web-page/content/about/open-img-slider-top-it-project.js"></script>
+
 
 
     <!-- -------------------------------------------- -->

@@ -1,15 +1,99 @@
 /* --------------------------------------------------------------- */
 /* > img-fullsize-slider.css
 /*
-/* : styles img fullsize slider
+/* : styles img gallery fullsize slider
 /* --------------------------------------------------------------- */
 
 
 /* ---------------------------------------------------------------- */
-/* Img Fullsize Slider
+/* Img Gallery Fullsize Slider
 /* ---------------------------------------------------------------- */
 
-.img-fullsize-slider {
+.img-gallery-fullsize-slider {
 
+  box-sizing: border-box;
+
+  width: 100%;
+  padding: 1em 0;
+
+  display: grid;
+  grid: auto 1fr / 1fr;
+  align-items: flex-start;
+  justify-items: center;
+
+  row-gap: 1em;
+
+  border: 1px solid black;
+
+  background-color: red;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Main | Img Fullsize Slider
+/* ---------------------------------------------------------------- */
+
+.img-gallery-fullsize-slider > main {
+
+  width: 100%;
+  display: grid;
+  justify-items: center;
+
+  background-color: blue;
+
+}
+
+/* big img */
+.img-gallery-fullsize-slider > main > img {
+
+  width: 100%;
+  border-radius: .4em;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Mini Img Miniatur Link Container
+/* ---------------------------------------------------------------- */
+
+.mini-img-miniature-link-container {
+
+  /* mobile */
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+
+  /* desktop */
+  display: grid;
+  grid: auto / 1fr 1fr;
+
+  gap: .3em;
+
+  background-color: green;
+
+}
+
+/* img */
+.mini-img-miniature-link-container > img {
+
+  /* mobile */
+  width: 100%;
+
+  /* desktop */
+  /* min-width: 8em;
+  height: 7em; */
+
+  border-radius: .4em;
+
+  opacity: .6;
+
+  cursor: pointer;
+  transition: all .4s;
+
+}
+
+/* hover */
+.mini-img-miniature-link-container > img:hover {
+
+  opacity: 1;
 
 }
