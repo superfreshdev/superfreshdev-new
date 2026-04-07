@@ -52,6 +52,13 @@ img_topItProject.addEventListener("click", async () => {
 
   window.alert("🖼️ open img fullsize slider")
 
+  // json dyn. way
+  var strJsonFile = "../../../../media/data/about/top-it-projects/top-it-project-1/img-data-top-it-project-1.json";
+  await async_show_imgFullsizeSlider_with( strJsonFile, 0 )
+
+
+  // hard coded way
+
   /* ------------------------------------------------------ */
   /* Step 1:
   /* > Change fixed Header
