@@ -35,6 +35,8 @@
 
 .img-gallery-fullsize-slider > main {
 
+  position: relative;
+
   width: 100%;
   display: grid;
   justify-items: center;
@@ -43,11 +45,24 @@
 
 }
 
+.img-big-placeholder {
+
+  background-color: white;
+  width: 100%;
+  /* trick, with padding-top we can calc correct img pixel sizes without js
+    with height it doesnt work */
+  /* this pixel sizes are my fixed big img sizes */
+  padding-top: calc( 100% * ( 1731px / 3730px)  );
+
+}
+
 /* big img */
 .img-gallery-fullsize-slider > main > img {
 
+  position: absolute;
+
   width: 100%;
-  border-radius: .4em;
+  border-radius: 0em;
 
 }
 

@@ -25,5 +25,26 @@
 
 /* ---------------------------------------------------------------- */
 /* Async Function
+/* > Update Src
+/* ---------------------------------------------------------------- */
+
+ async function async_update_src_from_element( idElement, strSrc ) {
+
+     // console.log("🟪 async_update_src_from_element()")
+     // console.log("➡️ strSrc = " +  strSrc);
+
+     // update src to element
+     idElement.src = strSrc;
+
+   return new Promise(resolve => {
+        resolve();
+      })
+
+ }
+
+/* ---------------------------------------------------------------- */
+/* Async Function
 /* > Update ID
 /* ---------------------------------------------------------------- */
+
+// ⚠️ actually we dont need - maybe in future

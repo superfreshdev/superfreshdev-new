@@ -934,41 +934,21 @@
                     <!-- ---------------------------------------------------------------------- -->
                     <main>
 
+                      <!-- reminder: if img load longer, than we see placeholder and
+                       we dont get layout jumping effects  -->
+                      <div class="img-big-placeholder"></div>
+
                       <img src="media/imgs/content/img-gallery/large/1.jpg"
-                           alt="img">
+                           alt="img" id="js-big-img-fullsize-slider">
 
                     </main>
 
                     <!-- ---------------------------------------------------------------------- -->
                     <!-- 🟥 [2/2] | Mini Img Miniature Container -->
                     <!-- ---------------------------------------------------------------------- -->
-                    <div class="mini-img-miniature-link-container">
+                    <div class="mini-img-miniature-link-container" id="js-mini-img-list-of-img-fullsize-slider">
 
                       <!-- click img 1 -->
-                      <img src="media/imgs/content/img-gallery/mini/mini-1.png"
-                           alt="img">
-
-                      <!-- click img 2 -->
-                      <img src="media/imgs/content/img-gallery/mini/mini-2.png"
-                           alt="img">
-
-                      <!-- click img 3 -->
-                      <img src="media/imgs/content/img-gallery/mini/mini-3.png"
-                           alt="img">
-
-                      <!-- click img 4 -->
-                      <img src="media/imgs/content/img-gallery/mini/mini-4.png"
-                           alt="img">
-
-                      <!-- click img 5 -->
-                      <img src="media/imgs/content/img-gallery/mini/mini-5.png"
-                           alt="img">
-
-                      <!-- click img 6 -->
-                      <img src="media/imgs/content/img-gallery/mini/mini-6.png"
-                           alt="img">
-
-                       <!-- click img 1 -->
                       <img src="media/imgs/content/img-gallery/mini/mini-1.png"
                            alt="img">
 
@@ -16602,6 +16582,9 @@
 
         <!-- detail fullsize view -->
         <script src="js/js-framework/layout-elements/detail-fullsize-view/detail-fullsize-view.js"></script>
+
+        <!-- img fullsize slider -->
+        <script src="js/js-framework/layout-elements/img-fullsize-slider/img-fullsize-slider.js"></script>
 
 
     <!-- --------------------------------------------------- -->
