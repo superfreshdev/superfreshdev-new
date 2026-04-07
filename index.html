@@ -373,8 +373,7 @@
                     <link rel="stylesheet" href="css/webpage/about/top-it-projects/top-it-project-card/detail-fullsize/content/install/content/tutorial-style-elements/chapter-tutorial-containers/sub-chapter-tutorial-container.css">
 
 
-                    <!-- 🟨 tutorial container -->
-                    <link rel="stylesheet" href="css/webpage/about/top-it-projects/top-it-project-card/detail-fullsize/content/install/content/tutorial-style-elements/text-container-tutorial-styles.css">
+
 
                     <!-- 🟨 nr plain, header list container -->
                     <link rel="stylesheet" href="css/webpage/about/top-it-projects/top-it-project-card/detail-fullsize/content/install/content/tutorial-style-elements/nr-list-container.css">
@@ -636,7 +635,6 @@
   <!-- ---------------------------------------------------------------------------------- -->
   <!-- 🟨 Header Fixed Body  -->
   <!-- ---------------------------------------------------------------------------------- -->
-
     <header id="header-fixed-body" style="display: none;">
 
       <!-- -------------------------------------------------------------- -->
@@ -751,8 +749,7 @@
   <!-- ----------------------------------------------------------------------------------- -->
   <!-- 🟨 Fixed Header | Detail Fullsize | Top IT Project | JS  -->
   <!-- ----------------------------------------------------------------------------------- -->
-
-    <header id="fixed-header-detail-fullsize" style="display: none;">
+    <header id="fixed-header-detail-fullsize" >
 
       <!-- -------------------------------------------------------------- -->
       <!-- 🟥📐 About Page Container (Row Container)                     -->
@@ -819,11 +816,9 @@
 
     </header>
 
-
   <!-- ----------------------------------------------------------------------------------- -->
   <!-- 🟨 Fixed Header | Img Gallery Fullsize | Top IT Project | JS  -->
   <!-- ----------------------------------------------------------------------------------- -->
-
     <header id="fixed-header-img-fullsize-slider">
 
       <!-- -------------------------------------------------------------- -->
@@ -875,7 +870,7 @@
             <!-- ------------------------------------------------- -->
             <!-- 🟩 [2/2] | Close Button -->
             <!-- ------------------------------------------------- -->
-            <button id="close-img-gallery-top-it-project" class="close-button-detail-fullsize" >
+            <button id="close-img-fullsize-slider" class="close-button-detail-fullsize" >
 
               <img src="media/imgs/icons/02-icon-colors/01-black/black-x.png"
                   class="img-h-1-1"
@@ -895,7 +890,6 @@
   <!-- ---------------------------------------------------------------------------------- -->
   <!-- 🟥 Main Body (parent layout) -->
   <!-- ---------------------------------------------------------------------------------- -->
-
     <main id="main-body">
 
       <!-- --------------------------------------------------------------- -->
@@ -926,14 +920,14 @@
                 <!-- -------------------------------------------------------------- -->
                 <!-- 🟥📐 About Page Container (Medium/Big)   -->
                 <!-- -------------------------------------------------------------- -->
-                <div class="resp-row-content-medium">
+                <div id="js-about-page-content-container" class="resp-row-content-medium">
 
                   <!-- Reminder: Only one Layout can be shown -->
 
                   <!-- -------------------------------------------------------------------- -->
                   <!-- ➡️🟥 Img Gallery Container ( ) -->
                   <!-- -------------------------------------------------------------------- -->
-                  <div class="img-gallery-fullsize-slider" style="display: none;">
+                  <div id="js-img-fullsize-slider-about-top-it-project" class="img-gallery-fullsize-slider" >
 
                     <!-- ---------------------------------------------------------------------- -->
                     <!-- 🟥 [1/2] | Main ( Big Img View ) -->
@@ -1005,7 +999,7 @@
                   <!-- -------------------------------------------------------------------- -->
                   <!-- 🟩 [1/2] | Detail Fullsize | Top IT Project  -->
                   <!-- -------------------------------------------------------------------- -->
-                  <div class="detail-fullsize-top-it-project" >
+                  <div id="js-detail-fullsize-about-top-it-project" class="detail-fullsize-top-it-project">
 
                     <!-- ----------------------------------------------------------- -->
                     <!-- 🟩 [1/3] | Header -->
@@ -16536,7 +16530,6 @@
   <!-- ---------------------------------------------------------------------------------- -->
   <!-- 🟨 Footer Body  -->
   <!-- ---------------------------------------------------------------------------------- -->
-
     <footer id="footer-body">
 
       <!-- ----------------------------------------------------------------- -->
@@ -16570,17 +16563,38 @@
     <!-- --------------------------------------------------- -->
 
       <!-- ------------------------------------------------------ -->
-      <!-- Help Functions -->
+      <!-- [1/2] | Help Functions -->
       <!-- ------------------------------------------------------ -->
 
-        <!-- inputs -->
-        <script src="js/js-framework/help-functions/inputs/radio-index-operations.js"></script>
+        <!-- --------------------------------------->
+        <!-- Update -->
+        <!-- --------------------------------------->
 
-        <!-- css -->
-        <script src="js/js-framework/help-functions/css-operations/css-operations.js"></script>
+          <script src="js/js-framework/help-functions/update/update-css-attributes.js"></script>
+          <!-- ⚠️ not implemented - do u need this ? -->
+          <script src="js/js-framework/help-functions/update/update-css-data-elements.js"></script>
+
+        <!-- --------------------------------------->
+        <!-- Get -->
+        <!-- --------------------------------------->
+
+          <script src="js/js-framework/help-functions/get/get-radios-infos.js"></script>
+
+        <!-- --------------------------------------->
+        <!-- Set -->
+        <!-- --------------------------------------->
+
+           <script src="js/js-framework/help-functions/set/set-css-attributes.js"></script>
+
+        <!-- --------------------------------------->
+        <!-- Delete -->
+        <!-- --------------------------------------->
+
+           <!-- <script src="js/js-framework/help-functions/delete/"></script> -->
+
 
       <!-- ------------------------------------------------------ -->
-      <!-- Layout Elements -->
+      <!-- [2/2] | Layout Elements -->
       <!-- ------------------------------------------------------ -->
 
         <!-- push slider  -->
@@ -16595,24 +16609,36 @@
     <!-- --------------------------------------------------- -->
 
       <!-- -------------------------------------------- -->
-      <!-- Default -->
+      <!-- [1/4] | Default -->
       <!-- -------------------------------------------- -->
 
         <!-- header (nav push slider) -->
         <script src="js/web-page/default/header/header-body.js"></script>
 
       <!-- -------------------------------------------- -->
-      <!-- About -->
+      <!-- [2/4] | About -->
       <!-- -------------------------------------------- -->
 
-        <script src="js/web-page/content/about/mindset/video-mindset-1-countdown-timer.js"></script>
+        <!-- ---------------------------------------------- -->
+        <!-- Mindset | About  -->
+        <!-- ---------------------------------------------- -->
+        <script src="js/web-page/about/mindset/video-mindset-1-countdown-timer.js"></script>
 
         <!-- ---------------------------------------------- -->
         <!-- Top IT Project | About  -->
         <!-- ---------------------------------------------- -->
 
-        <!-- open img fullsize gallery -->
-        <script src="js/web-page/content/about/open-img-slider-top-it-project.js"></script>
+          <!-- open img fullsize gallery -->
+          <script src="js/web-page/about/top-it-projects/open-img-fullsize-slider-top-it-project.js"></script>
+
+      <!-- -------------------------------------------- -->
+      <!-- [3/4] | More IT -->
+      <!-- -------------------------------------------- -->
+
+
+      <!-- -------------------------------------------- -->
+      <!-- [4/4] | Private -->
+      <!-- -------------------------------------------- -->
 
 
 

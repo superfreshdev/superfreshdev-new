@@ -30,6 +30,9 @@
 
   /* background-color: magenta; */
 
+  /* default unshown only by click img to fullsize */
+  display: none;
+
 }
 
 /* ------------------------------------------------------- */

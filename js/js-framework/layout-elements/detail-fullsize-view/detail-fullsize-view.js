@@ -14,22 +14,11 @@ var header_fixed_body = document.getElementById("header-fixed-body");
 var detail_fullsize_container = document.getElementById("defail-fullsize-top-it-project-1");
 
 // Close Detal View
-var btn_close_fullsize = document.getElementById("close-detail-view");
+// var btn_close_fullsize = document.getElementById("close-detail-view");
 
 // Test
 var str_cssStyle_update = "";
 
-/*
-
-  1. Click
-
-
-  2. Close
-
-
-
-
-*/
 
 /* ---------------------------------------------------------------------- */
 /* Add Dom Element to Click Event
@@ -49,15 +38,15 @@ linkDetails_itProject_1.addEventListener("click", async () => {
 })
 
 // close full size view
-btn_close_fullsize.addEventListener("click", async () => {
+// btn_close_fullsize.addEventListener("click", async () => {
 
-  /* Update CSS Style */
-  str_cssStyle_update = "display:none;"
+//   /* Update CSS Style */
+//   str_cssStyle_update = "display:none;"
 
-  await async_update_cssStyle( detail_fullsize_container, str_cssStyle_update )
+//   await async_update_cssStyle( detail_fullsize_container, str_cssStyle_update )
 
 
-})
+// })
 
 
 /* ---------------------------------------------------------------------- */

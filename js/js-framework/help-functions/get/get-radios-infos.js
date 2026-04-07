@@ -1,4 +1,4 @@
-// console.log("🟨 radio-index-operations.js")
+// console.log("🟨 get-radio-infos.js")
 
 
 /* ---------------------------------------------------------------- */
