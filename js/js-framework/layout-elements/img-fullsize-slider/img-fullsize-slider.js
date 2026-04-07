@@ -15,6 +15,28 @@ console.log("🟨 img-fullsize-slider.js")
 
 
 
+/* ---------------------------------------------------------------------- */
+/* Async | Update | Img Fullsize Slider
+/* ---------------------------------------------------------------------- */
+
+// async_update_imgFullsizeSlider( strJsonFile, optClickedIndex )
+
+/*
+    Overview:
+
+    1. Try to get json file
+    2. Try to read json file
+
+    3. Test Prints from json file
+
+    4. Prepare Data from json file
+
+    5. Update Big Img
+
+    6. Create mini img-tags from json file
+    7. Add Click Events on mini img-tags
+
+*/
 
 async function async_show_imgFullsizeSlider_with( strJsonFile, optionalClickIndex ) {
 
@@ -110,7 +132,7 @@ async function async_show_imgFullsizeSlider_with( strJsonFile, optionalClickInde
       console.log("small=" + mini_img_names.length )
 
    /* ---------------------------------------------------------- */
-  /* Step 6
+  /* Step 5
   /* > Create Big Img Src
   /* ---------------------------------------------------------- */
 
@@ -123,7 +145,7 @@ async function async_show_imgFullsizeSlider_with( strJsonFile, optionalClickInde
 
 
   /* ---------------------------------------------------------- */
-  /* Step 7
+  /* Step 6
   /* > Create img Elements of "mini imgs"
   /* > Create ClickEvents to "mini imgs"
   /* ---------------------------------------------------------- */
@@ -175,38 +197,3 @@ async function async_show_imgFullsizeSlider_with( strJsonFile, optionalClickInde
 
 
 }
-
-  /* --------------------------------------------- */
-  /* Step 1
-  /* > Prepare Data from Json File to Vars
-  /* --------------------------------------------- */
-
-    // // img big
-    // var imgBig_path = "";
-
-    // // mini imgs
-    // var miniImg_paths = [];
-    // var miniClick_imgs = [];
-
-
-  /* --------------------------------------------- */
-  /* Step 2
-  /* > Create "img-tag" for img Big
-  /* --------------------------------------------- */
-
-    // Update Big Img Src
-    // Use Default Index 0 or "optionalClickedIndex"
-    // await async_update_src_from_element( imgBigFullsizeSlider, img_big_list[i] )
-
-
-
-  /* --------------------------------------------- */
-  /* Step 3
-  /* > Create "img-tags" for mini imgs
-  /* --------------------------------------------- */
-
-
-  /* --------------------------------------------- */
-  /* Step 4
-  /* > Create click events to mini imgs
-  /* --------------------------------------------- */
