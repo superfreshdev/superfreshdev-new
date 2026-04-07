@@ -53,13 +53,13 @@ async function async_show_imgFullsizeSlider_with( strJsonFile, optionalClickInde
     /* > Try to Get Json File
     /* ---------------------------------------------------------- */
 
-      // try to get json file, if dont work -> catch block
-      const response = await fetch( strJsonFile );
+      // try to get json file, if dont work -> catch block , {mode: "no-cors"}
+      const response = await fetch( strJsonFile, {mode: "no-cors"} );
 
       // if not ok
       if( !response.ok ) {
           console.log("🔴: Can't get JSON-File | " + response.status )
-          return false;
+          // return false;
       } else {
         console.log("💚: Json File found | " + response.status )
       }
@@ -139,6 +139,8 @@ async function async_show_imgFullsizeSlider_with( strJsonFile, optionalClickInde
     // ⚠️ check if optionalClickedIndex a postive number 0 -> ...
 
     var big_img_srcPath = default_imgPath_big + big_img_names[0];
+
+    console.log("XXXX = " +  big_img_srcPath )
     // Use Default Index 0 or "optionalClickedIndex"
 
     await async_update_src_from_element( imgBigFullsizeSlider, big_img_srcPath )
