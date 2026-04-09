@@ -54,16 +54,16 @@
 
   .mini-img-miniature-link-container {
 
-    /* grid: auto / 1fr 1fr 1fr 1fr 1fr; */
+    grid: auto / 1fr 1fr 1fr 1fr;
 
   }
 
 }
 
 /* ------------------------------------------------------- */
-/* Min Width >= 800px
+/* Min Width >= 650px
 /* ------------------------------------------------------- */
-@media (min-width: 800px) {
+@media (min-width: 650px) {
 
 
   /* ---------------------------------------------------------------- */
@@ -72,8 +72,62 @@
 
   .mini-img-miniature-link-container {
 
-    /* width: 90%;
-    grid: auto / 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid: auto / 1fr 1fr 1fr 1fr 1fr;
+
+  }
+
+}
+
+/* ------------------------------------------------------- */
+/* Min Width >= 700px
+/* ------------------------------------------------------- */
+@media (min-width: 700px) {
+
+
+  /* ---------------------------------------------------------------- */
+  /* Mini Img Miniatur Link Container
+  /* ---------------------------------------------------------------- */
+
+  .mini-img-miniature-link-container {
+
+    grid: auto / 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  }
+
+}
+
+/* ------------------------------------------------------- */
+/* Min Width >= 800px
+/* ------------------------------------------------------- */
+@media (min-width: 850px) {
+
+
+   /* ---------------------------------------------------------------- */
+  /* Mini Img Miniatur Link Container
+  /* ---------------------------------------------------------------- */
+
+  .mini-img-miniature-link-container {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    column-gap: .3em;
+
+  }
+
+
+
+  /* ---------------------------------------------------------------- */
+  /* Mini Img Miniatur | img
+  /* ---------------------------------------------------------------- */
+  .mini-img-miniature-link-container > img {
+
+    /* desktop */
+    /* width: auto; */
+    width: 6em;
+    height: 6em;
 
   }
 
