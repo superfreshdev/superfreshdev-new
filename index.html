@@ -190,13 +190,13 @@
           <link rel="stylesheet" href="css/default/css-framework/page-slider/page-slider.css">
 
         <!-- -------------------------------------------- -->
-        <!-- [4/?] | Img Slider -->
+        <!-- [4/?] | Img Gallery Fullsize Slider -->
         <!-- -------------------------------------------- -->
 
-          <link rel="stylesheet" href="css/default/css-framework/img-slider/img-slider.css">
-          <link rel="stylesheet" href="css/default/css-framework/img-slider/img-fullsize-slider.css">
-          <link rel="stylesheet" href="css/default/css-framework/img-slider/fixed-header-img-fullsize-slider.css">
-          <link rel="stylesheet" href="css/default/css-framework/img-slider/resp-img-gallery-fullsize-slider.css">
+          <link rel="stylesheet" href="css/default/css-framework/img-gallery-fullsize-slider/fixed-header-img-gallery-fullsize-slider.css">
+          <link rel="stylesheet" href="css/default/css-framework/img-gallery-fullsize-slider/img-gallery-fullsize-slider.css">
+          <link rel="stylesheet" href="css/default/css-framework/img-gallery-fullsize-slider/resp-img-gallery-fullsize-slider.css">
+
 
 
       <!-- ------------------------------------------------------------------------------- -->
@@ -817,9 +817,9 @@
     </header>
 
   <!-- ----------------------------------------------------------------------------------- -->
-  <!-- 🟨 Fixed Header | Img Gallery Fullsize | Top IT Project | JS  -->
+  <!-- 🟨 Fixed Header | Img Gallery Fullsize Slider | Top IT Project | JS  -->
   <!-- ----------------------------------------------------------------------------------- -->
-    <header id="fixed-header-img-fullsize-slider">
+    <header id="fixed-header-img-gallery-fullsize-slider">
 
       <!-- -------------------------------------------------------------- -->
       <!-- 🟥📐 About Page Container (Row Container)                     -->
@@ -925,53 +925,64 @@
                   <!-- Reminder: Only one Layout can be shown -->
 
                   <!-- -------------------------------------------------------------------- -->
-                  <!-- ➡️🟥 Img Gallery Container ( ) -->
+                  <!-- ➡️🟥 Img Gallery Fullsize Slider -->
                   <!-- -------------------------------------------------------------------- -->
                   <div id="js-img-fullsize-slider-about-top-it-project" class="img-gallery-fullsize-slider" >
 
                     <!-- ---------------------------------------------------------------------- -->
-                    <!-- 🟥 [1/2] | Main ( Big Img View ) -->
+                    <!-- 🟥 Content | Img Gallery Fullsize Slider -->
                     <!-- ---------------------------------------------------------------------- -->
-                    <main>
+                    <div class="content-img-gallery-fullsize-slider">
 
-                      <!-- reminder: if img load longer, than we see placeholder and
-                       we dont get layout jumping effects  -->
-                      <div class="img-big-placeholder"></div>
+                      <!-- ---------------------------------------------------------------------- -->
+                      <!-- 🟥 [1/2] | Main ( Big Img ) -->
+                      <!-- ---------------------------------------------------------------------- -->
+                      <main>
 
-                      <!-- media/imgs/content/img-gallery/big/big-1.jpg -->
-                      <img src="media/imgs/content/img-gallery/big/quadrat-2k-2k.png"
-                           alt="img" id="js-big-img-fullsize-slider">
+                        <!-- ---------------------------------------------------- -->
+                        <!-- Big Img Placeholder -->
+                        <!-- > Stop layout jumping effects by loading img         -->
+                        <!-- ---------------------------------------------------- -->
+                        <div class="img-big-placeholder"></div>
 
-                    </main>
+                        <!-- ---------------------------------------------------- -->
+                        <!-- Big Img  -->
+                        <!-- ---------------------------------------------------- -->
+                        <img src="media/imgs/content/img-gallery/big/quadrat-2k-2k.png"
+                            alt="img" id="js-big-img-fullsize-slider">
 
-                    <!-- ---------------------------------------------------------------------- -->
-                    <!-- 🟥 [2/2] | Mini Img Miniature Container -->
-                    <!-- ---------------------------------------------------------------------- -->
-                    <div class="mini-img-miniature-link-container" id="js-mini-img-list-of-img-fullsize-slider" style="display: none;">
+                      </main>
 
-                      <!-- click img 1 -->
-                      <img src="media/imgs/content/img-gallery/small/small-1.png"
-                           alt="img">
+                      <!-- ---------------------------------------------------------------------- -->
+                      <!-- 🟥 [2/2] | Mini Img Miniature Container -->
+                      <!-- ---------------------------------------------------------------------- -->
+                      <div class="mini-img-miniature-link-container" id="js-mini-img-list-of-img-fullsize-slider" >
 
-                      <!-- click img 2 -->
-                      <img src="media/imgs/content/img-gallery/small/small-2.png"
-                           alt="img">
+                        <!-- click img 1 -->
+                        <img src="media/imgs/content/img-gallery/small/small-1.png"
+                            alt="img">
 
-                      <!-- click img 3 -->
-                      <img src="media/imgs/content/img-gallery/small/small-3.png"
-                           alt="img">
+                        <!-- click img 2 -->
+                        <img src="media/imgs/content/img-gallery/small/small-2.png"
+                            alt="img">
 
-                      <!-- click img 4 -->
-                      <img src="media/imgs/content/img-gallery/small/small-4.png"
-                           alt="img">
+                        <!-- click img 3 -->
+                        <img src="media/imgs/content/img-gallery/small/small-3.png"
+                            alt="img">
 
-                      <!-- click img 5 -->
-                      <img src="media/imgs/content/img-gallery/small/small-5.png"
-                           alt="img">
+                        <!-- click img 4 -->
+                        <img src="media/imgs/content/img-gallery/small/small-4.png"
+                            alt="img">
 
-                      <!-- click img 6 -->
-                      <img src="media/imgs/content/img-gallery/small/small-6.png"
-                           alt="img">
+                        <!-- click img 5 -->
+                        <img src="media/imgs/content/img-gallery/small/small-5.png"
+                            alt="img">
+
+                        <!-- click img 6 -->
+                        <img src="media/imgs/content/img-gallery/small/small-6.png"
+                            alt="img">
+
+                      </div>
 
                     </div>
 

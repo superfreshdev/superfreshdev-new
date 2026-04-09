@@ -1,5 +1,5 @@
 /* --------------------------------------------------------------- */
-/* > img-fullsize-slider.css
+/* > img-gallery-fullsize-slider.css
 /*
 /* : styles img gallery fullsize slider
 /* --------------------------------------------------------------- */
@@ -14,40 +14,66 @@
   box-sizing: border-box;
 
   width: 100%;
-  /* height: 100%; */
   padding: 1em 0;
 
   display: grid;
-  grid: 1fr / 1fr;
+  align-items: center;
+
+  /* background-color: red; */
+  background-color: white;
+
+}
+
+/* ---------------------------------------------------------------- */
+/* Content Img Gallery Fullsize Slider
+/* ---------------------------------------------------------------- */
+
+.content-img-gallery-fullsize-slider {
+
+  box-sizing: border-box;
+
+  width: 100%;
+
+  display: grid;
+  grid: auto 1fr / 1fr;
+
   align-items: flex-start;
-  /* justify-items: center; */
+  justify-items: flex-start;
 
   row-gap: 1em;
 
   border: 1px solid black;
 
+  /* background-color: red; */
+  background-color: white;
+
   background-color: red;
+
 
 }
 
 /* ---------------------------------------------------------------- */
-/* Main | Img Fullsize Slider
+/* Main | Content Img Gallery Fullsize Slider
 /* ---------------------------------------------------------------- */
 
-.img-gallery-fullsize-slider > main {
+.content-img-gallery-fullsize-slider > main {
 
   position: relative;
 
   width: 100%;
-  /* height: 20em; */
-  /* object-fit: contain; */
-
   display: grid;
   /* justify-items: center; */
 
   background-color: blue;
 
 }
+
+/* ---------------------------------------------------------------- */
+/* Img Big Placeholder | Main
+/* ⚠️ Acutally dont use - only if we get problems by
+/* loading big img on slow internet connection and than
+/* we see layout jumping effects
+/* ---------------------------------------------------------------- */
 
 .img-big-placeholder {
 
@@ -58,17 +84,20 @@
   /* this pixel sizes are my fixed big img sizes */
   padding-top: calc( 100% * ( 1731px / 3730px)  );
 
+  display:none
+
 }
 
-/* big img */
-.img-gallery-fullsize-slider > main > img {
+/* ---------------------------------------------------------------- */
+/* Big Img | Content Img Gallery Fullsize Slider
+/* ---------------------------------------------------------------- */
 
-  position: absolute;
+.content-img-gallery-fullsize-slider > main > img {
+
+  /* lay over img big placeholder */
+  /* position: absolute; */
 
   width: 100%;
-  /* height: 100%; */
-
-
 
   border-radius: 0em;
 
@@ -80,14 +109,9 @@
 
 .mini-img-miniature-link-container {
 
-  /* mobile */
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center; */
-
   /* desktop */
   display: grid;
-  grid: auto / 1fr 1fr;
+  grid: auto / 1fr 1fr 1fr;
 
   gap: .3em;
 
