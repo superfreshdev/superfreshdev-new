@@ -14,7 +14,9 @@
   box-sizing: border-box;
 
   width: 100%;
+
   padding: 1em 0;
+
 
   display: grid;
   align-items: center;
@@ -33,6 +35,7 @@
   box-sizing: border-box;
 
   width: 100%;
+
 
   display: grid;
   grid: auto 1fr / 1fr;
@@ -61,6 +64,7 @@
   position: relative;
 
   width: 100%;
+
   display: grid;
   /* justify-items: center; */
 
@@ -96,7 +100,6 @@
 
   /* lay over img big placeholder */
   /* position: absolute; */
-
   width: 100%;
 
   border-radius: 0em;
